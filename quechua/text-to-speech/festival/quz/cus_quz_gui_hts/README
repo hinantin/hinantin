@@ -1,0 +1,168 @@
+
+===================================================
+FestCat: Speech Synthesis in Quechua using Festival
+
+  www.unsaac.edu.pe
+  www.iisunsaac.com
+  John Edgar Vargas Muñoz jonv147@hotmail.com
+  Juan Antonio Cruz Tello j.socco@gmail.com
+  Richard Alexander Castro Mamani richardtk_1@hotmail.com
+  Cusco - Peru, November 2012
+
+===================================================
+
+1. WHAT? 
+2. WHO?
+3. TERMS AND CONDITIONS
+4. REQUERIMENTS
+5. INSTALLATION
+6. EXECUTION
+7. THANKS
+
+===================================================
+
+
+1. WHAT?  
+"Let's Speak Quechua: The Implementation of a Text-to-Speech System for the Incas' Language"
+
+The cus_quz_gui_hts package consists of a library providing
+analysis of Southern Quechua text, and the data to extend  
+Festival so that it can speak Southern Quechua.
+
+      UNIVERSIDAD NACIONAL DE SAN ANTONIO ABAD DEL CUSCO               
+      FACULTAD DE CIENCIAS QUIMICAS, FISICAS Y MATEMATICAS             
+      CARRERA PROFESIONAL DE INGENIERIA INFORMATICA Y DE SISTEMAS      
+                                                                       
+THE MATERIAL PRESENTED HERE BELONGS TO THE THESIS PROJECT SUSCRIBED   
+ACCORDING TO THE REQUIREMENTS AT UNSAAC BY THE AUTHORS, WITH THE      
+RESOLUTION NUMBER D-1134-2011-FCQFM ON THE 21TH OF DECEMBER 2011      
+
+www.unsaac.edu.pe
+
+Basically, there are two components:
+
+(1) Linguistic data and code to extend Festival for Quechua.
+    Tokenizer, lts rules, POStagger data, etc.
+
+    This includes one folder:
+    cus_quz_gui_hts (basically code)
+
+(2) Voices: speaker dependent data. 
+    There is one folder for each voice
+    voices/quz/cus_quz_'speaker-name'
+
+2. WHO?
+
+Most of the code and data has been specifically developed for the thesis
+project suscribed  according to the requirements at UNSAAC by the authors,
+with the resolution number D-1134-2011-FCQFM on the 21st of Dedember
+
+www.unsaac.edu.pe
+
+The lexicon has been enriched in the following way:
+ - Phonetic transcriptions have been manually generated using PRAAT
+
+3. TERMS AND CONDITIONS
+   All the code and linguistic resources are provided under the 
+   LGPL license (see the COPYING file).
+
+
+4. REQUERIMENTS
+   You need a working Festival system.
+   Check in your Linux distribution or in the Festival home page
+   http://www.cstr.ed.ac.uk/projects/festival/
+
+   We have been working with version 2.1, November 2010
+   (Execute $ festival --version )
+
+5. INSTALLATION
+
+   We have developed two quechuan voices.
+   All of them share a common library, which is language
+   related. Therefore, you need the 'base' package plus
+   the specific voices you are interested in.
+
+   You just need to copy several folder in the datadir of Festival.
+   To find this directory, you can execute
+   $ festival -b '(print datadir)'
+
+   * COMMON PACKAGE *
+   Move the provided files to the festival 'datadir':
+
+   a) Catalan tokenizer, tagger, etc. 
+      Copy the folder lib/upc_catalan in 'datadir'/upc_catalan
+
+   b) If you want that Festival understand the --language 
+      option and exports the catalan speakers to other applications, 
+      you need to update the languages.scm file to add Quechua. 
+      We provide this file:
+         lib/languages.scm => 'datadir'/languages.scm
+
+   * VOICE SPECIFIC PACKAGES *
+
+   c) Copy each quechuan voice, ex: cus_quz_gui_hts, in the voices
+      directory. Example:
+      lib/voices/quz/cus_quz_gui_hts => 'datadir'/voices/quz/cus_quz_gui_hts
+
+6. EXECUTION
+
+   There are several front-ends to be used with Festival, as 
+   gnopernicus, or emacs-speak ... Here we only mention the direct use of
+   Festival.
+
+   WARNING WARNING WARNING !!!
+     Festival expects latin-1 encoding. Be sure that you use
+     this encoding in your terminal or files. If your system uses UFT8 (as
+     do many distributions today) you need to convert the file before reading.
+     Some front-ends, as gnopernicus, do the conversions for you.
+
+     You can use the "save as" options in gedit; or use programs to convert the 
+     format, as iconv:
+     $ iconv -f utf8 -t latin1 myfile_utf8.text > myfile_latin1.text
+
+   !!!
+
+
+   * A quick test:
+     $ echo "Imaynalla, Wayqeypanaykuna!" | festival --tts --language cuscoquechua
+
+   * You can also execute Festival in interactive way:
+     $festival
+     (cus_quz_gui_hts)
+     (SayText "Imaynalla, Wayqeypanaykuna!")
+     (quit)
+
+   * Use the text2wave script to create a .wav file:
+     $ text2wave -o imaynalla.wav   -eval '(language_cusco_quechua)' imaynalla.txt 
+
+     If you want to specify the speaker:
+     $ text2wave -o imaynalla.wav   -eval '(voice_cus_quz_gui_hts)' imaynalla.txt 
+
+
+7. THANKS
+   The project "HTS version of quechuan voice" has been supported in part by the project AP/044561/11 with the name "Primera aproximación 
+   al procesamiento automático del Quechua. Corpus, morfologia y léxico. Bases para un corrector ortogáfico" financed by 
+   "Ministerio de Asuntos exteriores y Cooperación (AECIP)"
+   http://www.maec.es/
+
+   The project was promoted by the department of "Languages and Information Systems" from the Basque Country University
+    - IXA Group - Natural Language Processing
+      http://ixa.si.ehu.es/Ixa
+
+      AHOLAB Signal Processing Laboratory 
+      aholab.ehu.es
+
+   from the Universidad Nacional de San Antonio Abab del Cusco (UNSAAC)
+   www.unsaac.edu.pe
+    - Carrera Profesional de Ingeniería Informática y De Sistema
+
+   from the Institute of Computational Linguistics of the University of Zurich
+   http://www.cl.uzh.ch/
+   
+   This research was made as part of the graduate degree at the faculty of Computer Science of UNSAAC 
+   (Universidad Nacional de San Antonio Abad del Cusco), Peru.
+   We would like to thank to Annette Rios for her invaluable insights with the Quechua language, 
+   to Magdalena Plamada, Iñaki Sainz, Antonio Bonafonte for their advice on technical issues regarding 
+   speech synthesis and the use of the Festival Speech Synthesis System. and to Guillermo Vargas Ochochoque 
+   who put the voice for this TTS System.
+
