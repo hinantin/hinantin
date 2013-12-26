@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="V2NnTILDEa">
+<entry>
+	<lex left="v">ña</lex>
+	<comment> HVY:240 268 161 190 193-4</comment>
+	<comment> can take lots of noun suffixes </comment>
+	<comment> can reverbalize with : and ka</comment>
+	<comment> pta explicitly excluded </comment>
+	<glosses>
+		<english>
+			<gloss>V2N infinitive</gloss>
+		</english>
+		<spanish>
+			<glosa>V2N infinitivo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> previous N2V can ALLOW or BLOCK subsequent renominalizations </comment>
+		<feature>@D.V2NnTILDEa.BLOCK@</feature>
+
+		<comment> reverbalization then possible via length
+			or ka, but not with pta </comment>
+		<feature>@C.N2Vlength@</feature>
+		<feature>@C.N2Vka@</feature>
+
+		<feature>@P.N2Vpta.BLOCK@</feature>
+	</features>
+</entry>
+</suffdict>

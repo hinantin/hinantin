@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="nImpi">
+<entry>
+	<lex left="v">mpi</lex>
+	<comment> see HVY:231, 76 242 incompatible with CERO?  </comment>
+	<glosses>
+		<english>
+			<gloss>conjunction</gloss>
+		</english>
+		<spanish>
+			<glosa>conjuntor</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@P.nImpi.PRESENT@</feature>
+		<comment> allow block of following case-ending mpi; the
+			two are mutually incompatible </comment>
+	</features>
+</entry>
+</suffdict>

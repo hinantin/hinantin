@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="nIIzero">
+<entry>
+	<lex left="c"></lex>
+	<surf left="c">^Z</surf>
+	<comment> HVY:231</comment>
+	<comment> leave the lexical side empty as shown; the lexical side tag
+		is created from the gloss below; on the surface of the lexicon
+		fst, the ^Z marks the presence of the zero complement--I use this
+                as a way to study what can come just before the comp. cero--then
+                probably just get rid of it by trivial initial rule
+	</comment>
+
+	<comment> incompatible with case endings HVY:70 86</comment>
+
+	<comment> can come before indeps? see HVY:79 suspect; check this out first </comment>
+
+	<glosses>
+		<english>
+			<gloss>zero</gloss>
+		</english>
+		<spanish>
+			<glosa>cero</glosa>
+		</spanish>
+	</glosses>
+
+	<features>
+		<feature>@D.nIIcase@</feature>
+		<comment> mutually incompatible with case endings</comment>
+	</features>
+</entry>
+</suffdict>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vI8">
+
+<comment> HVY:106 these two are mutually exclusive </comment>
+<entry>
+	<lex left="c">t'a</lex>
+	<glosses>
+		<english>
+			<gloss>momentary</gloss>
+			<gloss>courtesy</gloss>
+		</english>
+		<spanish>
+			<glosa>momentáneo</glosa>
+			<glosa>cortesía</glosa>
+		</spanish>
+	</glosses>
+</entry>
+<entry>
+	<lex left="c">ch'uki</lex>
+	<glosses>
+		<english>
+			<gloss>directed</gloss>
+			<gloss>on purpose</gloss>
+		</english>
+		<spanish>
+			<glosa>directa</glosa>
+			<glosa>a propósito</glosa>
+			<comment> detentivo </comment>
+		</spanish>
+	</glosses>
+</entry>
+
+</suffdict>

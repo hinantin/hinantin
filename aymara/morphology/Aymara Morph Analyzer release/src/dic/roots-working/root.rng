@@ -1,0 +1,133 @@
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+
+  <start>
+    <element name="rootdict">
+      <ref name="optcomments"/>  <!-- allow some comments before the entries start -->
+      <ref name="entries"/>      <!-- no comments in general outside entries -->
+      <ref name="optcomments"/>  <!-- but allow comments after all the entries -->
+    </element>
+  </start>
+
+  <define name="optcomments">
+    <zeroOrMore>
+      <element name="comment">
+        <text/>
+      </element>
+    </zeroOrMore>
+  </define>
+
+  <define name="entries">
+    <zeroOrMore>
+      <ref name="entry"/>
+    </zeroOrMore>
+  </define>
+
+  <define name="entry">
+    <element name="entry">
+      <ref name="optcomments"/>
+      <element name="form">
+        <element name="lexical">
+          <text/>
+        </element>
+        <ref name="optcomments"/>
+        <optional>
+          <element name="surface">
+            <text/>
+          </element>
+          <ref name="optcomments"/>
+        </optional>
+      </element>
+      <ref name="optcomments"/>
+      <ref name="subentries"/>
+      <ref name="optcomments"/>
+    </element>
+  </define>
+
+  <define name="subentries">
+    <oneOrMore>
+      <ref name="subentry"/>
+    </oneOrMore>
+  </define>
+
+  <define name="subentry">
+    <element name="subentry">
+      <attribute name="cat">
+        <choice>
+          <value>ncommon</value>
+          <value>nproper</value> 
+          <value>positional</value> 
+          <value>positionaldefective</value> 
+          <value>digit</value>      
+          <value>multiplier</value> 
+          <value>negative</value>   
+          <value>ntemporal</value>  
+          <value>dayname</value>    
+          <value>monthname</value>  
+          <value>pronounpersonal</value>      
+          <value>pronoundemonstrative</value> 
+          <value>interrogative</value>     
+          <value>adjective</value>  
+          <value>verb</value>
+        </choice>
+      </attribute>
+  
+      <ref name="optcomments"/>
+      <ref name="glosses"/>
+      <ref name="optcomments"/>
+      <optional>
+        <ref name="features"/>
+        <ref name="optcomments"/>
+      </optional>
+    </element>
+  </define>
+
+  <define name="glosses">
+    <element name="glosses">
+      <ref name="optcomments"/>
+      <ref name="english"/>
+      <ref name="optcomments"/>
+      <ref name="spanish"/>
+      <ref name="optcomments"/>
+    </element>
+  </define>
+
+  <define name="english">   <!-- wrapper for a set of english glosses -->
+    <element name="english">
+      <ref name="optcomments"/>
+      <oneOrMore>
+        <element name="gloss">
+          <text/>
+        </element>
+        <ref name="optcomments"/>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="spanish">    <!-- wrapper for a set of spanish glosas -->
+    <element name="spanish">
+      <ref name="optcomments"/>
+      <oneOrMore>
+        <element name="glosa">
+          <text/>
+        </element>
+        <ref name="optcomments"/>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="features">   <!-- always optional -->
+    <element name="features">
+      <ref name="optcomments"/>
+      <oneOrMore>
+        <element name="feature">
+          <text/>
+        </element>
+        <ref name="optcomments"/>
+      </oneOrMore>
+    </element>
+  </define>
+
+</grammar>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="nIxa">
+<entry>
+	<lex left="c">xa</lex>
+	<comment> can precede or follow mpi; can precede or follow
+		pacha, can even separate mpi and pacha
+		HVY:76 202
+	</comment>
+
+	<glosses>
+		<english>
+			<gloss>beside</gloss>
+		</english>
+		<spanish>
+			<glosa>al lado de</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@D.nIxa@</feature>
+		<feature>@P.nIxa.PRESENT@</feature>
+		<comment> block more than one appearing </comment>
+	</features>
+</entry>
+</suffdict>

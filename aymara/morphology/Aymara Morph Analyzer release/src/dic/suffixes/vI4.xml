@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vI4">
+<comment> HVY:99-100 </comment>
+<entry>
+	<lex left="c">thapi</lex>
+	<glosses>
+		<english>
+			<gloss>collect</gloss>
+			<gloss>gather</gloss>
+		</english>
+		<spanish>
+			<glosa>juntador</glosa>
+			<glosa>recogedora</glosa>
+		</spanish>
+	</glosses>
+</entry>
+
+<entry>
+	<lex left="v">ra</lex>
+	<glosses>
+		<comment> HVY:99 </comment>
+		<english>
+			<gloss>in series</gloss>
+			<gloss>one by one</gloss>
+			<gloss>inverse</gloss>
+		</english>
+		<spanish>
+			<glosa>en serie</glosa>
+			<glosa>uno por uno</glosa>
+			<glosa>inversa</glosa>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vI7">
+
+  <comment> HVY:103  all precede t'a  vI8 </comment>
+
+  <entry>
+    <lex left="c">kata</lex>
+    <glosses>
+      <english>
+	<gloss>up to</gloss>
+	<gloss>against</gloss>
+	<comment>was "movement through/up"</comment>
+      </english>
+      <spanish>
+	<glosa>al, contra</glosa>
+	<comment>previously "acción a través/arriba" from England 1988</comment>
+      <comment>Katharina Haude, Leiden Workshop 2000, suggested "towards, against
+				getting in contact (with a vertical entity), across" </comment>
+    </spanish>
+    </glosses>
+  </entry>
+
+  <comment> moved kipa from vI7 (as in HVY) to vI5 to allow kipta </comment>
+  <comment> added (brute force) +kipsta archaic variant here to vI7 </comment>
+
+  <entry>
+    <lex left="v">kipsta</lex>
+    <comment> variant of +kipa-ta => +kipta </comment>
+    <comment> probably involves the vI6 -ta, but with interpolation of
+		an s--just do by brute force here </comment>
+    <glosses>
+      <english>
+	<gloss>completely</gloss>
+      </english>
+      <spanish>
+	<glosa>completamente</glosa>
+      </spanish>
+    </glosses>
+  </entry>
+
+  <entry>
+    <lex left="c">naqa</lex>
+    <glosses>
+      <comment> HVY:104 </comment>
+      <english>
+	<gloss>meandering</gloss>
+	<gloss>aimless</gloss>
+      </english>
+      <spanish>
+	<glosa>acción difusa</glosa>
+	<glosa>sin propósito</glosa>
+      </spanish>
+    </glosses>
+  </entry>
+
+  <entry>
+    <lex left="v">nta</lex>
+    <glosses>
+      <english>
+	<gloss>inward movement</gloss>
+	<gloss>inceptive</gloss>
+	<comment> or inchoative? </comment>
+      </english>
+      <spanish>
+	<glosa>movimento hacia adentro</glosa>
+	<glosa>inceptivo</glosa>
+      </spanish>
+    </glosses>
+  </entry>
+  <entry>
+    <lex left="v">nuku</lex>
+    <comment> has appeared after -ja vI2 </comment>
+    <glosses>
+      <english>
+	<gloss>movement away</gloss>
+      </english>
+      <spanish>
+	<glosa>acción alejador</glosa>
+	<glosa>desviativo</glosa>
+      </spanish>
+    </glosses>
+  </entry>
+
+  <entry>
+    <lex left="v">tata</lex>
+    <glosses>
+      <english>
+	<gloss>scattering</gloss>
+	<gloss>spreading</gloss>
+      </english>
+      <spanish>
+	<glosa>desparramador</glosa>
+	<glosa>dispersador</glosa>
+	<comment> hacia afuera desde un punto central </comment>
+      </spanish>
+    </glosses>
+  </entry>
+
+  <entry>
+    <lex left="c">xaru</lex>
+    <glosses>
+      <english>
+	<gloss>preparative</gloss>
+      </english>
+      <spanish>
+	<glosa>preparativo</glosa>
+      </spanish>
+    </glosses>
+  </entry>
+
+  <entry>
+    <lex left="c">xäsi</lex>
+    <glosses>
+      <english>
+	<gloss>held</gloss>
+      </english>
+      <spanish>
+	<glosa>sostenido</glosa>
+      </spanish>
+    </glosses>
+  </entry>
+
+  <entry>
+    <lex left="c">xaya</lex>
+    <comment> N.B. was neut (v-type) in old system; prob. an error </comment>
+    <comment> see HVY:106, seen with just four roots; need to limit
+		with a flag diacritic that requires a previous root? 
+		@R.TAKEXAYA@  leave it open for now </comment>
+    <glosses>
+      <english>
+	<gloss>with/for someone</gloss>
+      </english>
+      <spanish>
+	<glosa>con/para alguien</glosa>
+	<comment>atentativo</comment>
+      </spanish>
+    </glosses>
+    <comment> very limited. see HVY:106 </comment>
+  </entry>
+
+</suffdict>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+<suffdict name="vII10">
+<entry>
+	<lex left="c">ka</lex>
+	<glosses>
+		<english>
+			<gloss>imperfective</gloss>
+		</english>
+		<spanish>
+			<glosa>incompletivo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@C.NeedKa@</feature>
+		<comment> satisfies the "need" set up by a
+			previously occuring vII6 +si </comment>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c">xa</lex>
+	<glosses>
+		<english>
+			<gloss>perfective</gloss>
+		</english>
+		<spanish>
+			<glosa>completivo</glosa>
+		</spanish>
+	</glosses>
+	<comment> once thought incompatible with a preceding
+		si continuative, but see HVY:121 footnote </comment>
+</entry>
+</suffdict>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="or2">
+<entry>
+	<lex left="v">ya</lex>
+	<comment> these usually follow an or1, but can appear 
+		without a preceding or1 </comment>
+	<comment> continue to end of word </comment>
+        <comment> appears to figure in sarxamaya (well, go then), with the +ma
+            2>3 imperative ending, which usually gets reduced to "m" on the
+            surface but here ya needs a preceding vowel </comment>
+	<glosses>
+		<english>
+			<gloss>courtesy</gloss>
+			<gloss>vocative</gloss>
+			<gloss>attenuator</gloss>
+		</english>
+		<spanish>
+			<glosa>cortesía</glosa>
+			<glosa>vocativo</glosa>
+			<glosa>atenuador</glosa>
+		</spanish>
+	</glosses>
+</entry>
+<entry>
+	<lex left="l"></lex>
+	<comment> these usually follow an or1, but can appear 
+		without a preceding or1 </comment>
+	<comment> continue to end of word </comment>
+	<glosses>
+		<english>
+			<gloss>exclamative</gloss>
+		</english>
+		<spanish>
+			<glosa>exclamatorio</glosa>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>

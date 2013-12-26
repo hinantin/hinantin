@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="nImpi-lxa">
+<entry>
+	<lex left="l">xa</lex>
+	<comment> only for the :xa that can follow mpi, but not
+		if it turns out to separate mpi and pacha;
+		so
+		mpi :xa pacha is a bad sequence </comment>
+	<glosses>
+		<english>
+			<gloss>beside</gloss>
+		</english>
+		<spanish>
+			<glosa>al lado de</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> guess that multiple :xa are impossible </comment>
+		<feature>@D.nIlxa@</feature>
+
+		<feature>@P.nIlxa.PRESENT@</feature>
+
+		<feature>@P.nIpacha.BLOCK@</feature>
+		<comment> block following pacha because :xa cannot separate
+			mpi and pacha </comment>
+	</features>
+</entry>
+</suffdict>

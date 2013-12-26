@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vII7">
+<entry>
+	<lex left="c">ka</lex>
+	<comment> HVY:111 </comment>
+	<glosses>
+		<english>
+			<gloss>imperfective</gloss>
+			<gloss>before</gloss>
+		</english>
+		<spanish>
+			<glosa>incompletivo</glosa>
+			<glosa>adelantador</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@C.NeedKa@</feature>
+		<comment> satisfies need for ka signalled by
+			any previous continuative si; N.B. that
+		this ka doesn't necessarily need preceding
+		continuative si </comment>
+	</features>
+</entry>
+</suffdict>

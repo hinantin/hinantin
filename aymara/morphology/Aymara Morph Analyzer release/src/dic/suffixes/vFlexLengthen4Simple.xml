@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vFlexLengthen4Simple">
+
+<comment> a lengthening, for pacha, that seems to occur before
+	continuing to take the Simple endings </comment>
+
+<entry>
+	<lex left="l"></lex>
+	<glosses>
+		<english>
+			<gloss>length</gloss>
+		</english>
+		<spanish>
+			<glosa>length</glosa>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vFlexRemCerc">
+
+<comment> this is a tense of conocimiento personal;
+the remoto lejano is non-personal, see HVY:145</comment>
+
+<comment> there seems to be considerable variation in the forms
+cited in the grammars--see the notes </comment>
+
+<entry>
+	<lex left="v" right="v">yäsma</lex>
+	<comment> Yapita Curso:34 has yäsma too </comment>
+	<comment> Briggs:218 has yäsma and :sma, which could be a collapse
+		of the former </comment>
+	<comment> Ross indicates lengthening for this suffix, i.e. :yäsma,
+		probably wrong </comment>
+	<glosses>
+		<english>
+			<gloss>1-2 RemCerc</gloss>
+		</english>
+		<spanish>
+			<glosa>1-2 RemCerc</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.1@</comment>
+		<feature>@U.VOBJ.2@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="v">istästa</lex>
+	<comment> see HVY:147 about this form, which is kind of
+		borrowed from the Remote Lejano; slightly suspect; see HVY:164
+		for whole paradigm, including 2-1 istästa and 2-1 ista
+		(see below); both would appear to be borrowings or confusions
+		from other paradigms </comment>
+	<comment> HVY:158 has 2-1 chi+yästa , i.e. suggests that the ending
+		for RemCerc 2-1 after chi is just yästa </comment>
+	<comment> Yapita Curso:34 also shows just yästa, even w/o chi </comment>
+	<glosses>
+		<english>
+			<gloss>2-1 RemCerc</gloss>
+		</english>
+		<spanish>
+			<glosa>2-1 RemCerc</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.2@</comment>
+		<feature>@U.VOBJ.1@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="v">ista</lex>
+	<comment> see HVY:147 about this form, which appears to be
+		borrowed from the Simple--this is also what we had
+		at ALPS; i.e. this is what Ross shows for 2-1 </comment>
+	<comment> HVY:156 has 2-1 pacha+RemCerc coming out as pachïsta,
+		with a long vowel, which is suspect </comment>
+	<glosses>
+		<english>
+			<gloss>2-1 RemCerc</gloss>
+		</english>
+		<spanish>
+			<glosa>2-1 RemCerc</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.2@</comment>
+		<feature>@U.VOBJ.1@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v" right="v">yästa</lex>
+	<comment> this is the general form in Yapita Curso:34 for 2-1;
+		in HVY:158 it is the form shown after chi, but
+		not mentioned in any paradigm without chi; see
+		HVY:147 and HVY:164 </comment>
+	<comment> this might appear to be the expected or regular
+		form, but may not actually be used? </comment>
+	<glosses>
+		<english>
+			<gloss>2-1 RemCerc</gloss>
+		</english>
+		<spanish>
+			<glosa>2-1 RemCerc</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.2@</comment>
+		<feature>@U.VOBJ.1@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="l" right="c">na</lex>
+	<comment> lengthens: clear both in Ross and HVY </comment>
+	<comment> Yapita Curso:34 agrees </comment>
+	<glosses>
+		<english>
+			<gloss>3-3 RemCerc</gloss>
+		</english>
+		<spanish>
+			<glosa>3-3 RemCerc</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v" right="c">yäta</lex>
+	<comment> Ross indicates lengthening for this suffix, so :yäta,
+		suspect.  Yapita agrees with yäta </comment>
+	<glosses>
+		<english>
+			<gloss>1-3 RemCerc</gloss>
+		</english>
+		<spanish>
+			<glosa>1-3 RemCerc</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.1@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v">yätan</lex>
+	<comment> Ross indicates lengthening for this suffix, i.e. :yätan,
+		but this is suspect;  Yapita Curso:34 agrees with yätan </comment>
+	<glosses>
+		<english>
+			<gloss>4-3 RemCerc</gloss>
+		</english>
+		<spanish>
+			<glosa>4-3 RemCerc</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.4@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="c">itäna</lex>
+	<comment> see HVY:147 for itana (c ?) with short vowel,
+		which appears dead wrong; check it </comment>
+	<comment> Ross clearly shows (c c) -itäna and -itänti neg </comment>
+	<comment> HVY:158 suggests long ä as above and (c c) </comment>
+	<comment> HVY:164 has itana and (c v); very suspect </comment>
+	<comment> Yapita Curso:34 has -itäna </comment>
+	<glosses>
+		<english>
+			<gloss>3-1 RemCerc</gloss>
+		</english>
+		<spanish>
+			<glosa>3-1 RemCerc</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.1@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="c">istäna</lex>
+	<comment> see HVY:147 for istana (c ?) which appears wrong; check it </comment>
+	<comment> Ross clearly shows (c c) -istäna and -istänti neg </comment>
+	<comment> HVY:158 suggests long ä as above and (c c) </comment>
+	<comment> HVY:164 has istana and (c v); very suspect </comment>
+	<comment> Yapita Curso:34 has -istäna </comment>
+	<glosses>
+		<english>
+			<gloss>3-4 RemCerc</gloss>
+		</english>
+		<spanish>
+			<glosa>3-4 RemCerc</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.4@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v" right="v">yäta</lex>
+	<comment> Ross indicates lengthening for this suffix, i.e. :yäta,
+		but this is unlikely </comment>
+	<comment> Yapita Curso:34 agrees with yäta </comment>
+	<glosses>
+		<english>
+			<gloss>2-3 RemCerc</gloss>
+		</english>
+		<spanish>
+			<glosa>2-3 RemCerc</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.2@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v">yätam</lex>
+	<comment> Ross indicates lengthening for this suffix, i.e. :yätam,
+		which is unlikely </comment>
+	<comment> Yapita Curso:34 agrees with yätam </comment>
+	<glosses>
+		<english>
+			<gloss>3-2 RemCerc</gloss>
+		</english>
+		<spanish>
+			<glosa>3-2 RemCerc</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.2@</feature>
+	</features>
+</entry>
+
+</suffdict>

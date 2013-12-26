@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="V2Nta">
+<entry>
+	<lex left="v" right="v">ta</lex>
+	<comment> HVY:195 214 239 </comment>
+	<comment> can take lots of noun suffixes </comment>
+	<comment> can reverbalize only with : ??</comment>
+	<glosses>
+		<english>
+			<gloss>V2N result</gloss>
+		</english>
+		<spanish>
+			<glosa>V2N resultado</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> previous N2V can ALLOW or BLOCK subsequent renominalizations </comment>
+		<feature>@D.V2Nta.BLOCK@</feature>
+
+	  	<comment> can apparently reverbalize with length,
+			but not with pta or ka HVY:239 267</comment>
+
+		<feature>@C.N2Vlength@</feature>
+
+		<feature>@P.N2Vpta.BLOCK@</feature>
+		<feature>@P.N2Vka.BLOCK@</feature>
+	</features>
+</entry>
+</suffdict>

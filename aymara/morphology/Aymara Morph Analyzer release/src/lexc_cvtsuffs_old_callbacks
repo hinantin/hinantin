@@ -1,0 +1,298 @@
+# Copyright (c) 1999, 2000, 2005 Xerox Corporation.  All Rights Reserved.
+
+# subs for callbacks from parsefile
+
+# called when the <suffdict> start tag is found (the beginning of the
+#    whole file)
+
+sub suffdict_start {
+  if ($filename ne $ATTR{"name"}) {
+    print STDERR "\n\nError in name of $filename xml file\n" ;
+    $nameinxml = $ATTR{"name"} ;
+    print STDERR "Value of name is $nameinxml\n" ;
+  }
+
+  # print out the LEXICON header to the lexc file
+  print LEXCOUT "\n\nLEXICON $lexiconname\n" ;
+}
+
+# called when the </suffdict> tag is found
+
+sub suffdict_end {
+  if ($req eq "opt" || $req eq "starred") {
+    # then add an empty entry leading to the continuation class
+    print LEXCOUT "\t\t$cc ;\n" ;
+  }
+}
+
+
+# each file consists of one or more <entry> elements
+
+sub entry_start {
+  $glosses = "" ;
+  $features = "" ;
+
+  $upperside = "" ;    # upperside of a lexc entry (line)
+  $lowerside = "" ;    # lowerside of a lexc entry (line)
+
+  $lextext = "" ;      # holds the (morpho)phonological material
+  $surftext = "" ;
+}
+
+# the <lex>...</lex> string specifies the lexical side of the
+#   lexc entry (and, usually the surf as well)
+
+sub lex_start {
+
+  # morphophonological markings
+
+  # pick up the attributes on the <lex> start tag, e.g. <lex left="l">
+
+  $left = $ATTR{"left"} ;   # l, v, c , layku or n
+                            # marks the effect of the suffix on the final vowel
+                            # of the preceding suffix
+
+  $right = $ATTR{"right"} ; # v, c or n
+                            # marks the behavior of the final vowel of the
+                            # current suffix
+
+  if ($left eq "l") {
+    $sepupper = "^L" ;           # this suffix lengthens the previous vowel
+  } elsif ($left eq "v") {
+    $sepupper = "^V" ;           # this suffix "requires a preceding vowel"
+  } elsif ($left eq "c") {
+    $sepupper = "^C" ;           # this suffix "requires a preceding consonant" SO
+                            #    deletes the preceding vowel (or optionally
+                            #    shortens a preceding lengthened vowel)
+  } elsif ($left eq "layku") {
+    $sepupper = "^LAYKU" ;       # more complicated morphophonology for this one
+  } elsif ($left eq "n") {
+    $sepupper = "^N" ;           # neutral--no effect on previous vowel
+                            #    most "oracional" suffixes are marked this way
+  } else {
+    print STDERR "Error in left attr encoding in entry for file: $filename\n" ;
+  }
+
+  if ($right eq "c") {
+    $finalvowelupper = "^W" ;    # weak final vowel, disappears if ANY suffix
+                            #   follows, like 1P Simple  ^Cta^W
+  } elsif ($right eq "v") {
+    $finalvowelupper = "^S" ;    # strong final vowel, like 2P Simple  ^Cta^S
+  } elsif ($right eq "n") {
+    $finalvowelupper = "" ;      # neutral--stays or deletes depending mostly on
+                            #     whether the next suffix is weak or strong
+                            #     or responding to sentence-level influences;
+                            # no marking (empty string)
+  } else {
+    print STDERR "Error in right attr encoding in entry for file: $filename\n" ;
+  }
+
+}
+
+# save the text between <lex> and </lex>
+
+sub lex_text { 
+  $lextext = utf8($_) ;
+  $lextext = $lextext->latin1 ;
+  # input file is iso-8859-1, but gets read in as utf8 by default
+  # so store that utf8 as real Unicode in $lex
+  # (the problem char was ñ)
+
+  # strip any surrounding whitespace
+  $lextext =~ s/^\s+// ;
+  $lextext =~ s/\s+$// ;
+}
+
+
+sub lex_end {
+  $upperside .= $sepupper ;     # the morpheme separator, e.g. ^C or ^V
+
+  $upperside .= $lextext ;	# typically phonological material
+
+  $upperside .= $finalvowelupper ; # i.e. weak or strong final vowel
+}
+
+
+
+sub surf_start {
+
+  # morphophonological markings
+
+  # pick up the attributes on the <surf> start tag, e.g. <surf left="l">
+
+  # other possibilities now for surf left="z" (for zero complement) and
+  # left="fvd" for final vowel dropping
+
+  $left = $ATTR{"left"} ;   # l, v, c , layku, n, z, fvd
+                            # marks the effect of the suffix on the final vowel
+                            # of the preceding suffix
+
+  $right = $ATTR{"right"} ; # v, c or n
+                            # marks the behavior of the final vowel of the
+                            # current suffix
+
+  if ($left eq "l") {
+    $seplower = "^L" ;           # this suffix lengthens the previous vowel
+  } elsif ($left eq "v") {
+    $seplower = "^V" ;           # this suffix "requires a preceding vowel"
+  } elsif ($left eq "c") {
+    $seplower = "^C" ;           # this suffix "requires a preceding consonant" SO
+                            #    deletes the preceding vowel (or optionally
+                            #    shortens a preceding lengthened vowel)
+  } elsif ($left eq "layku") {
+    $seplower = "^LAYKU" ;       # more complicated morphophonology for this one
+  } elsif ($left eq "n") {
+    $seplower = "^N" ;           # neutral--no effect on previous vowel
+                            #    most "oracional" suffixes are marked this way
+  } elsif ($left eq "z") {
+    $seplower = "^Z" ;
+  } elsif ($left eq "fvd") {
+    $seplower = "^FVD" ;
+  } else {
+    print STDERR "Error in left attr encoding for surf element in file $filename\n" ;
+  }
+
+  if ($right eq "c") {
+    $finalvowellower = "^W" ;    # weak final vowel, disappears if ANY suffix
+                            #   follows, like 1P Simple  ^Cta^W
+  } elsif ($right eq "v") {
+    $finalvowellower = "^S" ;    # strong final vowel, like 2P Simple  ^Cta^S
+  } elsif ($right eq "n") {
+    $finalvowellower = "" ;      # neutral--stays or deletes depending mostly on
+                            #     whether the next suffix is weak or strong
+                            #     or responding to sentence-level influences;
+                            # no marking (empty string)
+  } else {
+    print STDERR "Error in right attr encoding for surf element in file $filename\n" ;
+  }
+
+}
+
+sub surf_text { 
+  $surftext = utf8($_) ;
+  $surftext = $surftext->latin1 ;
+  # input file is iso-8859-1, but gets read in as utf8 by default
+  # so store that utf8 as real Unicode in $lex
+  # (the problem char was ñ)
+
+  # zap any surrounding whitespace
+  $surftext =~ s/^\s+// ;
+  $surftext =~ s/\s+$// ;
+}
+
+sub surf_end {
+
+  $lowerside .= $seplower ;     # can now be "none", resulting in $seplower eq ""
+  
+  $lowerside .= $surftext ;	# typically phonological material
+  
+  if ($finalvowellower eq "") {	# then inherit from upperside
+    $lowerside .= $finalvowelupper ; # i.e. weak or strong final vowel
+  } else {
+    $lowerside .= $finalvowellower ;
+  }
+}
+
+
+
+# using English glosses for now as the suffix tags
+# (to use the Spanish glosses in the future, use glosa_text { }; see below
+
+sub gloss_text {
+  $gloss = utf8($_) ;
+  $gloss = $gloss->latin1 ;   # the problem char was ñ
+  $gloss =~ s/^\s+// ;        # kill any surrounding whitespace
+  $gloss =~ s/\s+$// ;
+  $gloss =~ s/ /_/g ;         # replace spaces with underscores
+
+  if ($glosses ne "") {       # put slashes between multiple glosses
+    $glosses .= "/" ;
+  }
+
+  $glosses .= $gloss ;
+
+}
+
+# if one wanted to use the Spanish glosas
+
+# sub glosa_text {
+#   $gloss = utf8($_) ;
+#   $gloss = $gloss->latin1 ;
+#   $gloss =~ s/^\s+// ;
+#   $gloss =~ s/\s+$// ;
+#   $gloss =~ s/ /_/g ;
+# 
+#   if ($glosses ne "") {
+#     $glosses .= "/" ;
+#   }
+# 
+#   $glosses .= $gloss ;
+# 
+# }
+
+
+
+# for Flag Diacritics
+
+sub feature_text {
+  # a feature, in this context, is a flag diacritic
+  my $feat = utf8($_) ;
+  $feat = $feat->latin1 ;
+
+  $feat =~ s/^\s+// ;
+  $feat =~ s/\s+$// ;
+
+  # literalize any chars special for lexc Multichar_Symbols declaration
+  # (none for now?)
+  my $declaredfeat = $feat ;
+  print MCOUT "$declaredfeat\n" ;
+
+  # N.B. that $features is just a concatenation of all the Flag
+  # diacritics, without literalizers
+  $features .= $feat ;   # $features is initialized in entry_start
+}
+
+# here's where the information is printed out in the lexc file
+
+sub entry_end {
+  my $mcs = "" ;               # used to hold the glosses (with square brackets, 
+                               #     used as a lexical tag)
+  my $declaredmcs = "" ;       # same (for now)
+
+  # the gloss of a suffix is here made into a Multichar_Symbol,
+  # surrounded by square brackets; multiple glosses are separated by a slash
+  $mcs = "[$glosses]" ;
+
+  # literalize any lexc special characters (none for now?)
+  $declaredmcs = $mcs ;
+  print MCOUT "$declaredmcs\n" ;
+
+  # N.B. <lex> and <surf> elements can be different; <surf> is optional
+
+  # $upperside and $lowerside already partially set by lex_end and surf_end
+  
+  # here append the list of features collected (i.e. Flag Diacritics) to the
+  # upper side
+  $upperside .= $features ;
+  
+  if ($lowerside eq "") {
+    $lowerside = $upperside ;
+  } else {
+    # entry had an overt <surf> element, but still append the features (Flag
+    #   Diacritics) to the lower side
+    $lowerside .= $features ;
+  }
+
+  # the "mcs" (lexical tag) goes only on the upperside
+
+  $upperside = "$upperside$mcs" ; # concat common and multi-char symbols
+  print LEXCOUT "$upperside:$lowerside" ; # print out with separating colon
+
+  if ($req eq "starred") {
+    # then needs to point back to itself, i.e. the cont. class is the same LEXICON
+    print LEXCOUT "\t $lexiconname ;\n" ;
+  } else {
+    # else point to the indicated continuation lexicon
+    print LEXCOUT "\t $cc ;\n" ;
+  }
+}

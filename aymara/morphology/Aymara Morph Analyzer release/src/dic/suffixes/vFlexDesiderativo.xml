@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vFlexDesiderativo">
+
+<comment> In old ALPS system, called Potencial (Present) </comment>
+<comment> see (contrast) HVY:154 and HVY:166 </comment>
+<comment> reviewed 29 Feb 2000 </comment>
+
+<entry>
+	<lex left="c" right="v">irisma</lex>
+	<glosses>
+		<english>
+			<gloss>1-2 Desiderative</gloss>
+		</english>
+		<spanish>
+			<glosa>1-2 Desiderativo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.1@</comment>
+		<feature>@U.VOBJ.2@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="v">itasma</lex>
+	<glosses>
+		<english>
+			<gloss>2-1 Desiderative</gloss>
+		</english>
+		<spanish>
+			<glosa>2-1 Desiderativo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.2@</comment>
+		<feature>@U.VOBJ.1@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v" right="v">spa</lex>
+	<comment> error HVY:154 calls it left=c (strong); it's weak </comment>
+	<comment> HVY:166 shows it correctly </comment>
+	<glosses>
+		<english>
+			<gloss>3-3 Desiderative</gloss>
+		</english>
+		<spanish>
+			<glosa>3-3 Desiderativo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="c">irista</lex>
+	<glosses>
+		<english>
+			<gloss>1-3 Desiderative</gloss>
+		</english>
+		<spanish>
+			<glosa>1-3 Desiderativo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.1@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="v">sna</lex>
+	<glosses>
+		<english>
+			<gloss>4-3 Desiderative</gloss>
+		</english>
+		<spanish>
+			<glosa>4-3 Desiderativo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.4@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="v">itaspa</lex>
+	<comment> HVY:154 shows itaspa(n) with v or c on the end </comment>
+	<glosses>
+		<english>
+			<gloss>3-1 Desiderative</gloss>
+		</english>
+		<spanish>
+			<glosa>3-1 Desiderativo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.1@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c">itaspan</lex>
+	<comment> HVY:154 shows itaspa(n) with v or c on the end </comment>
+	<glosses>
+		<english>
+			<gloss>3-1 Desiderative</gloss>
+		</english>
+		<spanish>
+			<glosa>3-1 Desiderativo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.1@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="v">istaspa</lex>
+	<comment> compare and contrast HVY:154, 166; the latter shows
+		a variant (i)tuspa for here and below </comment>
+	<glosses>
+		<english>
+			<gloss>3-4 Desiderative</gloss>
+		</english>
+		<spanish>
+			<glosa>3-4 Desiderativo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.4@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="v">staspa</lex>
+	<comment> HVY:154 would appear to indicate this as a variant of istaspa;
+	   but does it really stay left=c??? </comment>
+	<glosses>
+		<english>
+			<gloss>3-4 Desiderative</gloss>
+		</english>
+		<spanish>
+			<glosa>3-4 Desiderativo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.4@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c">istaspan</lex>
+	<comment> compare and contrast HVY:154, 166; the latter shows
+		a variant (i)tuspa for here and below </comment>
+	<glosses>
+		<english>
+			<gloss>3-4 Desiderative</gloss>
+		</english>
+		<spanish>
+			<glosa>3-4 Desiderativo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.4@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c">staspan</lex>
+	<comment> HVY:154 would appear to indicate this as a variant of istaspa;
+	   but does it really stay left=c??? </comment>
+	<glosses>
+		<english>
+			<gloss>3-4 Desiderative</gloss>
+		</english>
+		<spanish>
+			<glosa>3-4 Desiderativo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.4@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v" right="v">sma</lex>
+	<comment> HVY:154 shows right attr of c, but I think that's wrong </comment>
+	<glosses>
+		<english>
+			<gloss>2-3 Desiderative</gloss>
+		</english>
+		<spanish>
+			<glosa>2-3 Desiderativo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.2@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c">iristam</lex>
+	<glosses>
+		<english>
+			<gloss>3-2 Desiderative</gloss>
+		</english>
+		<spanish>
+			<glosa>3-2 Desiderativo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.2@</feature>
+	</features>
+</entry>
+
+</suffdict>

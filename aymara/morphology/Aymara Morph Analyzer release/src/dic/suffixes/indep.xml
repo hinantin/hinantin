@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+<suffdict name="indep">
+<comment> all can occur together, in any order; HVY:271+  76, 88
+   but each probably only once; star it to allow free order,
+   and optionality, then use Flag Diacritics to prevent
+   multiple occurrences; continue to a lexicon that clears
+   the features </comment>
+
+<entry>
+	<lex left="v">puni</lex>
+	<comment> variant pini HVY:273 </comment>
+	<glosses>
+		<english>
+			<gloss>emphatic</gloss>
+		</english>
+		<spanish>
+			<glosa>enfático</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@D.INDEPpuni@</feature>
+		<feature>@P.INDEPpuni.PRESENT@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v">pini</lex>
+	<comment> variant puni </comment>
+	<glosses>
+		<english>
+			<gloss>emphatic</gloss>
+		</english>
+		<spanish>
+			<glosa>enfático</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@D.INDEPpuni@</feature>
+		<feature>@P.INDEPpuni.PRESENT@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v">ki</lex>
+	<comment> waliki = bién no más </comment>
+	<glosses>
+		<english>
+			<gloss>limited</gloss>
+			<gloss>only</gloss>
+		</english>
+		<spanish>
+			<glosa>no más</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@D.INDEPki@</feature>
+		<feature>@P.INDEPki.PRESENT@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v">raki</lex>
+	<comment> may be left=layku HVY:200, 271, 76; for now raki (v  ) seems right </comment>
+	<glosses>
+		<english>
+			<gloss>also</gloss>
+		</english>
+		<spanish>
+			<glosa>también</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@D.INDEPraki@</feature>
+		<feature>@P.INDEPraki.PRESENT@</feature>
+	</features>
+</entry>
+</suffdict>

@@ -1,0 +1,1 @@
+sggrep -q ".*/entry" -s "./form/lexical" -t "^$1\$" dic/roots/roots.xml

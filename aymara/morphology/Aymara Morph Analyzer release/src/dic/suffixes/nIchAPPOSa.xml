@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="nIchAPPOSa">
+<entry>
+	<lex left="c">ch'a</lex>
+	<comment> limited productivity--perhaps redo with
+		brute-force dictionary entries? </comment>
+	<glosses>
+		<english>
+			<gloss>size</gloss>
+			<gloss>extension</gloss>
+		</english>
+		<spanish>
+			<glosa>tamaño</glosa>
+			<glosa>extensión</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@R.nIchAPPOSa.ALLOW@</feature>
+	</features>
+</entry>
+</suffdict>

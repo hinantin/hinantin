@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="nIIcaseNa">
+<entry>
+	<lex left="v" right="c">na</lex>
+
+	<comment> changes idiosyncratically from (v c) to (v  ) when followed
+		immediately by ki, probably to avoid confusion with the common
+		sequence +na-ka, which comes out as +nka; the sequence +na+ki
+		should therefore come out as nak  (see rules--done there )
+	</comment>
+
+	<comment> this can continue to kama or pacha, like other case endings,
+		or it can continue to -ka, which verbalizes the result </comment>
+	<comment> HVY:224, 74, 241</comment>
+	<glosses>
+		<english>
+			<gloss>possessive</gloss>
+			<comment> poss for hum, localizer for non-hum </comment>
+			<gloss>localizer</gloss>
+		</english>
+		<spanish>
+			<glosa>posesivo</glosa>
+			<glosa>localizador</glosa>
+		</spanish>
+	</glosses>
+	<features>
+
+		<feature>@P.nIIcase.PRESENT@</feature>
+		<comment> allows blocking of subsequent comp. zero </comment>
+
+		<comment> na obviously verbalizes with -ka, but not
+			with length or pta---check this </comment>
+		<comment>@C.N2Vka@</comment>
+
+		<feature>@P.N2Vlength.BLOCK@</feature>
+		<feature>@P.N2Vpta.BLOCK@</feature>
+
+	</features>
+</entry>
+</suffdict>

@@ -1,0 +1,10 @@
+
+2005-03-30  Redid dic/roots/ to make roots.xml with Unicode and roots.rnc
+            See Makefile in that dir for validation
+
+            Redid dic/suffixes/ to make .xml files with Unicode and
+            suffdict.rnc
+	    See Makefile in that dir for validation
+
+	    Redid lexc_cvtroots.pl to use XML::Twig
+	    only lightly tested

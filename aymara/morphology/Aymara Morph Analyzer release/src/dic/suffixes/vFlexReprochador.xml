@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vFlexReprochador">
+
+<comment> was ALPS past potential </comment>
+
+<entry>
+	<lex left="c" right="c">iriskasamäna</lex>
+	<glosses>
+		<english>
+			<gloss>1-2 Reproaching</gloss>
+		</english>
+		<spanish>
+			<glosa>1-2 Reprochador</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.1@</comment>
+		<feature>@U.VOBJ.2@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="c">itasamäna</lex>
+	<glosses>
+		<english>
+			<gloss>2-1 Reproaching</gloss>
+		</english>
+		<spanish>
+			<glosa>2-1 Reprochador</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.2@</comment>
+		<feature>@U.VOBJ.1@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v" right="c">sapäna</lex>
+	<glosses>
+		<english>
+			<gloss>3-3 Reproaching</gloss>
+		</english>
+		<spanish>
+			<glosa>3-3 Reprochador</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="c">iriskäta</lex>
+	<comment> N.B. Ross here has -iriskäyät(a), which seems
+		reasonable, with phonetic/orthographical 
+		collapse to what HVY shows </comment>
+	<glosses>
+		<english>
+			<gloss>1-3 Reproaching</gloss>
+		</english>
+		<spanish>
+			<glosa>1-3 Reprochador</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.1@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v" right="c">sana</lex>
+	<comment> may be long säna; this is what Ross shows </comment>
+	<comment> HVY:155 leaves off the marking for the final vowel;
+		on HVY:166 it shows c, which is probably right, looking at
+		all the others here; the Ross listing for the negatives doesn't
+		show +ti, so you really can't say if the final vowel stays
+		or goes </comment>
+	<glosses>
+		<english>
+			<gloss>4-3 Reproaching</gloss>
+		</english>
+		<spanish>
+			<glosa>4-3 Reprochador</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.4@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="c">itasapäna</lex>
+	<glosses>
+		<english>
+			<gloss>3-1 Reproaching</gloss>
+		</english>
+		<spanish>
+			<glosa>3-1 Reprochador</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.1@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="c">istusapäna</lex>
+	<glosses>
+		<english>
+			<gloss>3-4 Reproaching</gloss>
+		</english>
+		<spanish>
+			<glosa>3-4 Reprochador</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.4@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="c">stusapäna</lex>
+	<comment> variant of above without initial i;
+		still left=c??? </comment>
+	<comment> Ross and HVY:166 show long penultimate a;
+		HVY:155 (prob typo) shows short </comment>
+	<glosses>
+		<english>
+			<gloss>3-4 Reproaching</gloss>
+		</english>
+		<spanish>
+			<glosa>3-4 Reprochador</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.4@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="c">istasapäna</lex>
+	<comment> variant of above </comment>
+	<comment> Ross and HVY:166 show long penultimate a;
+		HVY:155 (prob typo) shows short </comment>
+	<glosses>
+		<english>
+			<gloss>3-4 Reproaching</gloss>
+		</english>
+		<spanish>
+			<glosa>3-4 Reprochador</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.4@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="c">stasapäna</lex>
+	<comment> variant of above without initial i;
+		still left=c??? </comment>
+	<comment> Ross and HVY:166 show long penultimate a;
+		HVY:155 (prob typo) shows short </comment>
+	<glosses>
+		<english>
+			<gloss>3-4 Reproaching</gloss>
+		</english>
+		<spanish>
+			<glosa>3-4 Reprochador</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.4@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v" right="c">samäna</lex>
+	<glosses>
+		<english>
+			<gloss>2-3 Reproaching</gloss>
+		</english>
+		<spanish>
+			<glosa>2-3 Reprochador</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.2@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="c">iriskatamäna</lex>
+	<comment> new form from HVY:156;  Ross shows +sapän, which
+		looks like it's the same as the 3-3 past potential;
+		it could have been "borrowed" for this paradigm as well;
+		check it out
+	</comment>
+	<glosses>
+		<english>
+			<gloss>3-2 Reproaching</gloss>
+		</english>
+		<spanish>
+			<glosa>3-2 Reprochador</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+</suffdict>

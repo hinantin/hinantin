@@ -1,0 +1,46 @@
+grammar {
+  start = element roots { Comment*, Entry+ }
+
+  Entry = element entry { Comment*, Form, Comment*, Subentry+,
+  Comment* }
+
+  Form = element form { Lexical, Comment*, Surface? }
+
+  Lexical = element lexical { LexicalString }
+  LexicalString = xsd:string {
+  pattern="[AJMPRU]?['aächiïjklmnñpqrstuüwxy^CVdgo]+" }
+  # d and g and o just for suspicious borrowings?
+  Surface = element surface { text }
+
+  Subentry = element subentry { 
+    attribute cat { "ncommon" |
+                        "nproper" |
+                        "positional" |
+                        "positionaldefective" |
+                        "digit"      |
+                        "multiplier" |
+                        "negative"   |
+                        "ntemporal"  |
+                        "dayname"    |
+                        "monthname"  |
+                        "pronounpersonal"      |
+                        "pronoundemonstrative" |
+                        "interrogative"     |
+                        "adjective"  |
+                        "verb" },
+    Comment*, Glosses, Comment*, Features? }
+
+
+  Glosses = element glosses { Comment*, English, Comment*, Spanish,
+  Comment* }
+ 
+  English = element english { Comment*, (Gloss, Comment*)+ }
+  Gloss = element gloss { text } 
+
+  Spanish = element spanish { Comment*, (Glosa, Comment*)+ }
+  Glosa = element glosa { text }
+
+  Features = element features { Comment*, (Feature, Comment*)+ }
+  Feature = element feature { text }
+  Comment = element comment { text }
+}

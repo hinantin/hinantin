@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vI3">
+<entry>
+	<lex left="c">su</lex>
+	<comment> HVY:99 </comment>
+	<glosses>
+		<english>
+			<gloss>completive</gloss>
+			<gloss>outward</gloss>
+			<gloss>upward</gloss>
+		</english>
+		<spanish>
+			<glosa>completivo</glosa>
+			<glosa>hacia afuera</glosa>
+			<glosa>hacia arriba</glosa>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>

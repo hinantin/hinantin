@@ -1,0 +1,12 @@
+node: {
+
+title:"<>"
+label:"<>"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+shape:ellipse
+shape:triangle
+
+}

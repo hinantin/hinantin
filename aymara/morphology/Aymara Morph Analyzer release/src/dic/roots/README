@@ -1,0 +1,7 @@
+e and entry are soft links to entry.t
+s and se and subentry are soft links to subentry.t
+Use for easy includes during editing of roots.xml
+
+roots.xml is now UTF-8
+
+Enter 'make' to validate against roots.rnc (Relax NG Compact Syntax)

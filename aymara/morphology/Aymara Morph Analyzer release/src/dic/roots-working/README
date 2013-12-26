@@ -1,0 +1,11 @@
+7 Aug 2003
+Today wrote root.rng for RELAX NG validation of root.xml, e.g.
+
+rngv root.rng root.xml
+
+now works.
+
+Didn't have time to test or to build this into the Makefile.
+
+Also look at using -ña endings on verbs and stripping them off
+during downloading.

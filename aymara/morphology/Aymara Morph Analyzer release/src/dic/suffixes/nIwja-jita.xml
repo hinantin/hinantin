@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="nIwja-jita">
+<comment> +wja and -jita can appear separately; if they both appear,
+	they cannot be separated HVY:76 201</comment>
+<entry>
+	<lex left="v">wja^C^Jita</lex>
+	<surf left="v">wjita</surf>
+	<glosses>
+	<comment> do this way for now?? has exceptional morphotactics </comment>
+		<english>
+			<gloss>place (exact)</gloss>
+		</english>
+		<spanish>
+			<glosa>lugar (exacto)</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> prevent duplication </comment>
+		<feature>@D.nIwjajita@</feature>
+		<feature>@P.nIwjajita.PRESENT@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v">wja</lex>
+	<comment> +wja without following ^Jita is possible </comment>
+	<glosses>
+		<english>
+			<gloss>place</gloss>
+		</english>
+		<spanish>
+			<glosa>lugar</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@D.nIwjajita@</feature>
+		<feature>@P.nIwjajita.PRESENT@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c">jita</lex>
+	<surf left="c">^Jita</surf>
+	<glosses>
+	<comment> ^Jita can appear without +wja</comment>
+		<english>
+			<gloss>exact place</gloss>
+		</english>
+		<spanish>
+			<glosa>lugar exacto</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@D.nIwjajita@</feature>
+		<feature>@U.nIwjajita.PRESENT@</feature>
+	</features>
+</entry>
+
+</suffdict>

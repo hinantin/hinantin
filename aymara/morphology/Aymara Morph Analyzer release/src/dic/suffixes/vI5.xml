@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vI5">
+
+<comment> HVY:101 all these precede -ta vI6 </comment>
+
+
+<comment> kipa moved here from HVY vI7 class to allow +kipa-ta => kipta ;
+	which the HVY chart wouldn't seem to allow </comment>
+<comment> also added here in vI5 brute-force +kipsta 
+	(archaic) variant to vI7 </comment>
+
+<entry>
+	<lex left="v">kipa</lex>
+	<comment> HVY:103 </comment>
+	<glosses>
+		<english>
+			<gloss>side to side</gloss>
+			<comment>also 'back and forth'? e.g. parlakipaña = communicate</comment>
+		</english>
+		<spanish>
+			<glosa>un lado a otro</glosa>
+		</spanish>
+	</glosses>
+</entry>
+
+<entry>
+	<lex left="c">nuqa</lex>
+	<glosses>
+	<comment> HVY:101 </comment>
+		<english>
+			<gloss>setting down</gloss>
+		</english>
+		<spanish>
+			<glosa>colocador</glosa>
+		</spanish>		
+	</glosses>
+</entry>
+<entry>
+	<lex left="v">qa</lex>
+	<comment> has occurred after -ja vI2 </comment>
+	<glosses>
+		<english>
+			<gloss>downward</gloss>
+		</english>
+		<spanish>
+			<glosa>hacia abajo</glosa>
+		</spanish>		
+	</glosses>
+</entry>
+
+<entry>
+	<lex left="c">xata</lex>
+	<glosses>
+		<english>
+			<gloss>onto</gloss>
+			<comment> can metaphorically mean "in addition to" or "about"</comment>
+			<comment>previously "above"; changed after hearing Katharina Haude's
+				paper at Leiden 2000, Workshop on Bolivian and Rondonian
+				languages</comment>
+		</english>
+		<spanish>
+			<glosa>encima</glosa>
+			<comment> can be "además" or "además de"</comment>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>

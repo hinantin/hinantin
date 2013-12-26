@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vII4">
+<entry>
+	<lex left="v">waya</lex>
+	<surf left="v">wa^YA</surf>
+	<comment> HVY:109 when followed by weak +suff (or a lengthener,
+		probably), then +waya
+		is in free variation with +wa; else waya </comment>
+	<glosses>
+		<english>
+			<gloss>distanciator (people)</gloss>
+		</english>
+		<spanish>
+			<glosa>distanciador (people)</glosa>
+			<comment> acción en la cual las personas
+				están lejos o se alejan </comment>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>
+

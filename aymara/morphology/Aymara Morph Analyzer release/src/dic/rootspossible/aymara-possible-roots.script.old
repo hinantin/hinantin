@@ -1,0 +1,53 @@
+
+echo "*** Defining C ***"
+
+define C	p   | p h   | p %'   |
+		t   | t h   | t %'   |
+		c h | c h h | c h %' |
+		k   | k h   | k %'   |
+		q   | q h   | q %'   |
+		s   | j     | x      |
+		m   | n     | ñ      |
+		l   | l l   |
+		w   | r     | y      ;
+
+echo "*** Defining V ***"
+
+define V	i   | ï     |
+		a   | ä     |
+		u   | ü     ;
+
+! most Aymara roots are  CVCV(CV)
+! many also              CVCCV		(even a sig. num. of  
+!                                       C1 V1 C2 C1 V1 like t'ant'a)
+! some also		 VC(C)V
+
+echo "*** Compiling description of Phonologically Possible Roots ***"
+echo "*** Leave it on The Stack ***"
+
+read regex
+ [ C V C V ( C V )  
+ |
+   C V C C V        
+ |
+   V C ( C ) V        
+ ] & ~$[ l l l l | ñ ñ ] ;      ! I think these doubled consonants, 
+                                ! at least, are impossible in roots (?)
+
+echo "*** There Should be only One Network on the stack ***"
+print stack
+undefine C
+undefine V
+
+
+
+
+
+
+
+
+
+
+
+
+

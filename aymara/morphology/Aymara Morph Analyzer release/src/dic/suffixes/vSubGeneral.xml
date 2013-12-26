@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+<suffdict name="vSubGeneral">
+
+<comment> three general subordinators; Ross shows them in v15 after xa;
+	HVY:161 also shows an example after xa; then all appear to continue
+	on to oracional endings ; HVY 167</comment>
+
+<entry>
+	<lex left="v" right="v">sa</lex>
+	<comment> HVY:160 appear to continue to oracionales </comment>
+
+	<glosses>
+		<english>
+			<gloss>subordenator</gloss>
+		</english>
+		<spanish>
+			<glosa>subordenador</glosa>
+		</spanish>
+	</glosses>
+</entry>
+<entry>
+	<lex left="v" right="c">sina</lex>
+	<comment> HVY:160 appear to continue to oracionales </comment>
+
+	<glosses>
+		<english>
+			<gloss>subordenator</gloss>
+		</english>
+		<spanish>
+			<glosa>subordenador</glosa>
+		</spanish>
+	</glosses>
+</entry>
+<entry>
+	<lex left="c" right="c">ipana</lex>
+	<comment> HVY:160 appear to continue to oracionales </comment>
+	<comment> this one is not very common </comment>
+	<glosses>
+		<english>
+			<gloss>subordenator</gloss>
+		</english>
+		<spanish>
+			<glosa>subordenador</glosa>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>

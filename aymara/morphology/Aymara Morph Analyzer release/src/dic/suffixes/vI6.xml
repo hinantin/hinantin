@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vI6">
+<entry>
+	<lex left="c">ta</lex>
+	<comment> HVY:102 </comment>
+	<glosses>
+		<english>
+			<gloss>upward</gloss>
+			<gloss>commencement</gloss>
+		</english>
+		<spanish>
+			<glosa>hacia arriba</glosa>
+			<glosa>inceptivo</glosa>
+		</spanish>		
+	</glosses>
+</entry>
+</suffdict>

@@ -1,0 +1,6 @@
+roots/		the real directory of roots
+roots-working/  a working directory, for the next version of roots.xml
+
+roots-possible	for describing phonologically possible roots, for the
+		guesser
+

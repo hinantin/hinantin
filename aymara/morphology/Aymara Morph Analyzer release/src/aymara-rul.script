@@ -1,0 +1,336 @@
+!  Aymara Alternation Rules
+!  Copyright (c) 2000 Xerox Corporation.  All Rights Reserved.
+
+!  This file is a script for the Xerox xfst interface.
+
+
+!  Kenneth R. BEESLEY
+!  Xerox Research Centre Europe
+
+!  Work in Progress
+!  Permission is granted to use and modify these rules provided that
+!	the source is cited.
+
+!  modified 22 Oct 2000, Kenneth R. Beesley
+
+
+clear stack
+
+echo << defining Vow >>
+define Vow [a|i|u] ;
+
+echo << defining Cons >>
+define Cons [ c h | c h h | c h %' |
+	        p |   p h |   p %' |
+                t |   t h |   t %' |
+                k |   k h |   k %' |
+                q |   q h |   q %' |
+                m | w |
+		s | n | l | l l | r |
+	        Ã± | y |
+	 	j | x ] ;
+
+
+
+	! First some cleanup (maybe change dict someday, avoid this)		
+
+echo << defining R0 >>
+
+define R0  %^Z -> 0 ;			! for testing only, marks comp. cero
+					! currently ^C^Z on lower side
+
+	!  Handle some phonologically conditioned allophonic variants
+
+echo << defining R1 >>
+
+define R1 %^YA -> [0 | y a] || _ [%^V | %^L]	
+
+					! vII4 free variation between +waya
+					! and +wa when following suffix
+					! "requires a vowel"; what about ^LAYKU?
+.o.
+%^YA -> y a				! always underlying waya elsewhere
+					! e.g. ^YA^C ; appears (22 Oct 2000)
+					! to be the only other symbol after ^YA
+
+.o.
+%^L  -> %^V y a || _  %^LENGTHVSYA %^L	
+
+			! For the exception:  normal N2V by lengthening (:)
+			! changes to +ya when the following suffix consists
+			! of or starts with lengthening: e.g. warmi = woman;
+			! warmi: normally is "be a woman", but 1-3_Future is
+			! also just :, leading to  *warmi:: (double lengthening)
+			! for "I will be a woman";  in such a case you in fact get
+			!  warmi ya :  =>  warmiyÃ¤   with "ya" used for N2V rather
+			! than the usual lengthening; or speakers avoid it by 
+			! using pta, e.g. warmiptÃ¤ (I will become a woman)
+
+.o.
+%^LENGTHVSYA -> 0	! else just delete ^LENGTHVSYA, leaving normal ^L   ;
+			! lower side originally has ^L^LENGTHVSYA
+
+.o.
+%^IN -> 0 || _ %^N t i 		! indirect imperative, look at this again
+				! see vFlexImperative.xml
+				! this n disappears before the +ti oracional ending??
+.o.
+%^IN -> n			! only on -pa^N imperative ending, usually n
+;
+
+	! Handle phonological restrictions
+
+echo << defining R2 >>
+
+define R2       %^L %^C i %^S -> %^S || %^C p a c h a  _ 	
+
+					! for odd inferential 3->3 -pacha
+					!   ending (rather than pachi from
+					! -pacha-i; I think both the final a
+					! of pacha and the i of -i are strong
+					! here, which may be the key)
+
+.o.
+c h i %^C -> s || _ [t|s]		! for chi-t.. -> st endings of dubitativo 
+					! presente
+
+! commented out:
+! before s and t, chi seems to reduce to s (not 0), leaving ssna and ssma
+! Ross had these reducing to sna and sma, but the new orthography seems
+! to keep the double ss; check Yapita, reduction to s may be optional
+
+! what is this following rule?  check it out more carefully in HVY --was
+! originally inspired by Ross
+
+!.o.
+!%^C c h i -> 0 || _ %^C  i r i s t     ! for 1P dubitativo potencial 
+					! (see if this causes trouble)
+			                ! for we incl dubitative potencial
+					 ! e.g. katu-chi-irist
+					 !      katu    -irist
+ 					 !      katu    -urist
+				         !      kar      urist (Stuart 17 Jan 2000)
+
+					 ! sara-chi-irist
+					 ! sar      irist
+
+.o.
+%^W -> 0 || %^V n a  _  %^V k i		
+
+					! HVY p. 224, noun case ending +na (w/ weak 
+					! final vowel) keeps the final vowel 
+					! exceptionally just when followed
+					! by +ki  (this might be an adjustment
+					! to distinguish this sequence from
+					! the common +na-ka N>V sequence that
+					! comes out as +nka)  Normally such a
+					! weak final vowel would be lost when
+					! there is ANY following suffix.
+! 22 Oct 2000.  HVY treats this as an exception, but morpheme-final vowel 'weakness' 
+! and 'strength' may apply only before oracional suffixes like +wa,
+! which would mean something like %^W -> 0 || _ ~[%^N ?*] .#.
+! and perhaps also  %^S -> 0 || _ ~[%^N ?*] .#.
+! i.e. they just become normal vowels except before the usual oracionals (perhaps
+! excepting the ones that require a prev vowel)
+
+! 22 Oct 2000, sent email to Start asking about such 'weak' vowels being
+! followed by the other indep suffixes (puni, pini, raki, which like ki
+! leave the previous vowel along)--ki may not be an exception at all.
+
+.o.
+%^W -> 0 || _ [ %^C | %^FVD | %^LAYKU ]	! a good guess; weakness would seem 	
+					! redundant here; the vowel is going
+					! anyway ;
+				! as of 22 Oct 2000, no
+				! examples of %^W %^C %^L being generated
+
+.o.
+%^W -> 0 || _ [ %^L | %^V ]		! more of a guess; assumes that
+					! weakness of a morpheme-final vowel
+					! is meaningful only just before the
+					! common oracional suffixes; check this
+
+.o.
+[ a | i | u ] -> 0 || _ %^W %^N		! should handle the relevant cases; a guess
+
+.o.
+%^W -> 0
+
+.o.
+%^S -> 0 || _ [ %^L | %^V ]		! a good guess; strong vowels just revert
+					! to neutral before suffixes that need
+					! a previous vowel
+
+.o.
+%^S -> 0 || _ [ %^C | %^FVD | %^LAYKU ]	! more of a guess; assumes that strength
+					! of a morpheme-final vowel is meaningful
+					! only just before common oracional suffixes;
+					! see Stuart's response 21-22 Oct about
+					! strong +ta! (N2V resultado) followed by
+					! comp cero
+
+.o.
+%^S -> 0				! maybe all that is needed for %^S
+
+.o.
+%^LAYKU -> %^C || $[Vow ?* Vow ?* Vow]  _	
+
+					! I think that layku-like suffixes act
+					! strong (delete the previous vowel) when
+					! the root/stem/tema they follow has at
+					! least three vowels; not completely clear
+					! from the texts
+
+.o.
+%^LAYKU -> %^V				! otherwise, layku-like suffixes act weak
+
+	! Three-vowel root rule--needs to be ordered before ^V -> 0
+
+.o.
+[a|i|u] %^V (->) 0 ||   .#. Cons* Vow (%^L) Cons+ Vow (%^L) Cons+  _
+
+	! see HVY:113-114  for ROOTS with three vowels, the final vowel
+	! can disappear even before suffixes that "need" a preceding vowel
+	! (though probably not before ^L)???
+	! watch the ordering on this rule
+	! does this apply only to verbs?
+	! see also p. 68, 71
+
+.o.
+%^V -> 0		! but usually ^V has no effect
+
+.o.
+$[%^L %^L] -> ~[?*] 	! map any strings still having double lengthening
+			! to the empty language (i.e. kill them); 25 July 2000
+			! all examples involved the [exclamative] suffix
+.o.
+[ Ã¤ | Ã¯ | Ã¼ ] %^L -> ~[?*] 	! another rare kind of double lengthening
+
+.o.
+%^C %^FVD ->  ~[?*] 		! would result in a double deletion; seems reasonable,
+				! but check it again sometime
+
+.o.
+Cons [ %^L | %^FVD ] -> ~[?*] 	! can't lengthen or vowel-delete a previous consonant
+;
+
+
+
+
+echo << defining R3 >>
+
+define R3        %^C c h i %^C i r i s k a -> %^C i r i s k c h i   
+
+			! methathesis in chi + Reprochador
+
+.o.
+%^C c h i %^C i r i s k Ã¤ -> %^C i r i s k c h Ã¯   ! see HVY:158
+
+
+! insert si or ji (free variation) on front of sa(Ã±a) [saÃ±a] where a strong suffix
+! would leave a phonologically impossible form: e.g.
+!
+! 	sa-ta
+!	s  ta    illegal consonant cluster at beg of word
+!     sis  ta  needed  (or jista)  see HVY:141
+
+.o.
+[..] -> [ s | j ] i || .#. _ s a %^C \[a|i|u]
+
+
+.o.
+u %^C i -> u		! this is one that needs to be handled specially
+			! "u is stronger than i in the following suffix"
+			! but I think that an exception has to be made for
+			! the borrowed diminutive ita/u (check this)
+
+.o.
+u %^L %^C i -> Ã¼	! see HVY:184 186 192 260  u is 'stronger' than a and i (below)
+			
+! .o.   poss alternate
+! u %^L %^C i -> [ Ã¼ | u ]
+
+.o.
+[ a | i ] %^L %^C i -> Ã¯   ! see HVY:184 186 192 260
+
+! .o. poss alternate
+! [ a | i ] %^L %^C i -> [ Ã¯ | i ]
+
+! do the lengthening of vowels here; with optional reshortening below;
+! check this phenomenon in general
+.o.
+a -> Ã¤ , i -> Ã¯ , u -> Ã¼ || _ %^L       ! for suffixes that cause
+                                        ! lengthening of the previous vowel
+
+.o.
+%^L -> 0
+
+
+.o.
+[a | i | u] -> 0 || _ [ %^C | %^FVD ] ! for suffixes that cause deletion of the
+                                     !  prev vowel, incl comp. cero
+
+.o.
+Ã¤ (->) a , Ã¯ (->) i , Ã¼ (->) u || _ %^C 	! optional cancelation of lengthening
+						! (verbalization) by following strong
+						! suffix (see HVY:71, 238)
+
+! what about adding ^FVD to the right context of previous rule?????
+
+! now handled in the lexicon; probably better
+! .o.
+!%^J -> 0 || w j %^C _ 			! rare combination +wja-^Jita => +wjita
+					! ^J occurs only on this ^Jita suffix
+
+! review this one at some stage
+.o.
+%^J -> h || .#. [a|u] k %^C _ 	! ^J turns to aspiration on aka and uka
+
+.o.
+%^J -> j
+
+.o.
+[ %^FVD | %^C ]  -> 0
+
+;
+
+	! Need something special for oracional suffixes?
+
+echo << defining R4 >>
+
+define R4 %^N -> 0  		! neutral behavior of most oracional suffixes
+;
+
+
+echo << defining R5 >>
+
+! reorder these?
+define R5 s t Ã¼ (->) t Ã¼ s || k i _ t u	   ! for metathesis in past perf pronombres
+                                                           ! neg plural
+.o.
+s t Ã¤ (->) t Ã¤ s || k i _ t a
+
+;
+
+echo << defining Accidental Capitalization >>
+define AccCap  a (->) A, b (->) B, c (->) C, d (->) D, e (->) E, f (->) F, 
+g (->) G, h (->) H, i (->) I, j (->) J, k (->) K, l (->) L, m (->) M, 
+n (->) N, o (->) O, p (->) P, q (->) Q, r (->) R, s (->) S, t (->) T, 
+u (->) U, v (->) V, w (->) W, x (->) X, y (->) Y, z (->) Z, Ã± (->) Ã || .#. _  
+;
+
+
+echo << composing various parts >>
+read regex R0 .o. R1 .o. R2 .o. R3 .o. R4 .o. R5 .o. AccCap ;
+echo << there should be only one result on the stack >>
+stack
+
+
+! commented out; keep around in case this form of the possessive comes
+! up again
+! %^L %^NeedA => a _    ! alt 1P personal possessive suffix; lengthens
+                        ! prev vowel but only for /a/ vowel; somewhat
+			! suspicious, probably dialectal (or phonetic 
+			! but not orthographical)
+! .o.
+! %^NeedA -> 0

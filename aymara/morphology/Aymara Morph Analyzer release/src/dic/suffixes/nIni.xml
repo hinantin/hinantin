@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="nIni">
+<entry>
+	<lex left="v">ni</lex>
+	<comment> HVY:76 203 </comment>
+	<glosses>
+		<english>
+			<gloss>possessor</gloss>
+			<gloss>enumerator</gloss>
+		</english>
+		<spanish>
+			<glosa>posesor</glosa>
+			<glosa>enumerador</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> all personal pronouns are marked P.nIni.BLOCK </comment>
+		<feature>@D.nIni@</feature>
+
+		<feature>@P.nIwjajita.BLOCK@</feature>
+		<comment> ni doesn't co-occur with +wja or -jita </comment>
+	</features>
+</entry>
+</suffdict>

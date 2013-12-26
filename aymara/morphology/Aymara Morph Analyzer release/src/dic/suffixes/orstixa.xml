@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="orstixa">
+
+
+<comment> used to make both or1stixa (continues to or2) and
+	or2stixa (continues to EOW) </comment>
+
+<entry>
+	<lex left="n">xa</lex>
+	<glosses>
+		<english>
+			<gloss>topic</gloss>
+			<gloss>attenuator</gloss>
+		</english>
+		<spanish>
+			<glosa>tópico</glosa>
+			<glosa>atenuador</glosa>
+		</spanish>
+	</glosses>
+</entry>
+<entry>
+	<lex left="n">sti</lex>
+	<comment> HVY:283 refers to previous sentence </comment>
+	<glosses>
+		<english>
+			<gloss>reference</gloss>
+		</english>
+		<spanish>
+			<glosa>referencia</glosa>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>
