@@ -1,0 +1,7 @@
+QS Num-Syls_in_Utterance<=22 { "*/J:?+*","*/J:1?+*","*/J:20+*","*/J:21+*","*/J:22+*" }
+
+{*}[2]
+{
+   0 Num-Syls_in_Utterance<=22                           "gv_lf0_2"       "gv_lf0_1" 
+}
+
