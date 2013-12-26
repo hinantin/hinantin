@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="nIIcase">
+
+<comment> the six case endings that continue on just to kama or pacha2 </comment>
+<comment> see also nIIcaseNa and nIIcaseNama </comment>
+
+<entry>
+	<lex left="v">ru</lex>
+	<comment> HVY:210 242  7s shows (v v) but suspicious </comment>
+	<glosses>
+		<english>
+			<gloss>to</gloss>
+			<gloss>towards</gloss>
+		</english>
+		<spanish>
+			<glosa>a</glosa>
+			<glosa>hacia</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> case endings are incompatible with the "complement cero",
+			which is marked D.nIIcase (maybe not in some dialects,
+see HVY:235)
+		</comment>
+		<feature>@P.nIIcase.PRESENT@</feature>
+
+		<comment> the morphotactics can lead through indeps to
+			verbalization by length or pta; but such
+			verbalization needs to be blocked (WHY? 2 Apr 2001
+I can't find anything in HVY to support this.  Look again.  See HVY:79 on
+comp cero, but other case endings may be different)
+		</comment>
+		<feature>@P.N2Vlength.BLOCK@</feature>
+		<feature>@P.N2Vpta.BLOCK@</feature>
+
+	</features>
+</entry>
+
+<entry>
+	<lex left="v" right="c">ta</lex>
+	<comment> HVY:214, 241, 74 </comment>
+	<glosses>
+		<english>
+			<gloss>from</gloss>
+			<gloss>since</gloss>
+		</english>
+		<spanish>
+			<glosa>de</glosa>
+			<glosa>desde</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> case endings are incompatible with the "complement cero",
+			which is marked D.nIIcase
+		</comment>
+		<feature>@P.nIIcase.PRESENT@</feature>
+
+		<comment> the morphotactics can lead through indeps to
+			verbalization by length or pta; but such
+			verbalization needs to be blocked (WHY? 2 Apr 2001
+I can't find anything in HVY to support this.  Look again.  See HVY:79 on
+comp cero, but other case endings may be different)
+		</comment>
+		<feature>@P.N2Vlength.BLOCK@</feature>
+		<feature>@P.N2Vpta.BLOCK@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v">taki</lex>
+	<comment> HVY:218 ; HVY:74 might indicate (v v) but this is suspicious </comment>
+	<glosses>
+		<english>
+			<gloss>for</gloss>
+			<gloss>in behalf of</gloss>
+		</english>
+		<spanish>
+			<glosa>para</glosa>
+			<glosa>a beneficio de</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> case endings are incompatible with the "complement cero",
+			which is marked D.nIIcase
+		</comment>
+		<feature>@P.nIIcase.PRESENT@</feature>
+
+		<comment> the morphotactics can lead through indeps to
+			verbalization by length or pta; but such
+			verbalization needs to be blocked (WHY? 2 Apr 2001
+I can't find anything in HVY to support this.  Look again.  See HVY:79 on
+comp cero, but other case endings may be different)
+		</comment>
+		<feature>@P.N2Vlength.BLOCK@</feature>
+		<feature>@P.N2Vpta.BLOCK@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v">mpi</lex>
+	<comment> HVY:76 , 231</comment>
+	<glosses>
+		<english>
+			<gloss>with</gloss>
+			<gloss>agent/instrument</gloss>
+		</english>
+		<spanish>
+			<glosa>con</glosa>
+			<glosa>actor/instrumento</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@D.MPI@</feature>
+		<comment> incompatible with previous mpi </comment>
+
+		<comment> case endings are incompatible with the "complement cero",
+			which is marked D.nIIcase
+		</comment>
+		<feature>@P.nIIcase.PRESENT@</feature>
+
+		<comment> the morphotactics can lead through indeps to
+			verbalization by length or pta; but such
+			verbalization needs to be blocked (WHY? 2 Apr 2001
+I can't find anything in HVY to support this.  Look again.  See HVY:79 on
+comp cero, but other case endings may be different)
+		</comment>
+		<feature>@P.N2Vlength.BLOCK@</feature>
+		<feature>@P.N2Vpta.BLOCK@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="layku">layku</lex>
+	<comment> HVY:199 </comment>
+	<comment> layku-type suffixes are generally weak (no deletion of previous
+		vowel, but DO cause deletion if the previous root/stem/tema
+		has at least 3 vowels </comment>
+	<glosses>
+		<english>
+			<gloss>because</gloss>
+			<gloss>in exchange for</gloss>
+		</english>
+		<spanish>
+			<glosa>por</glosa>
+			<glosa>a causo de</glosa>
+			<glosa>a cambio de</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> case endings are incompatible with the "complement cero",
+			which is marked D.nIIcase
+		</comment>
+		<feature>@P.nIIcase.PRESENT@</feature>
+
+		<comment> the morphotactics can lead through indeps to
+			verbalization by length or pta; but such
+			verbalization needs to be blocked (WHY? 2 Apr 2001
+I can't find anything in HVY to support this.  Look again.  See HVY:79 on
+comp cero, but other case endings may be different)
+		</comment>
+		<feature>@P.N2Vlength.BLOCK@</feature>
+		<feature>@P.N2Vpta.BLOCK@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="layku">pura</lex>
+
+	<comment>  I (Beesley) think that this looks like a case ending </comment>
+
+	<comment> HVY:199 problem here;  199 says layku-like, but
+		see HVY:76, 242 for different encoding (c  ) </comment>
+	<glosses>
+		<english>
+			<gloss>among</gloss>
+		</english>
+		<spanish>
+			<glosa>entre</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> case endings are incompatible with the "complement cero",
+			which is marked D.nIIcase
+		</comment>
+		<feature>@P.nIIcase.PRESENT@</feature>
+
+		<comment> the morphotactics can lead through indeps to
+			verbalization by length or pta; but such
+			verbalization needs to be blocked (WHY? 2 Apr 2001
+I can't find anything in HVY to support this.  Look again.  See HVY:79 on
+comp cero, but other case endings may be different)
+		</comment>
+		<feature>@P.N2Vlength.BLOCK@</feature>
+		<feature>@P.N2Vpta.BLOCK@</feature>
+	</features>
+</entry>
+
+</suffdict>

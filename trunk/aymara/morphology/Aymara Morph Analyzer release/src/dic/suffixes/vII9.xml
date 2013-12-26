@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+<suffdict name="vII9">
+<entry>
+	<lex left="v">p</lex>
+
+	<comment> must be followed by either xa or ka from vII10 </comment>
+	<comment> HVY:112 </comment>
+
+	<glosses>
+		<english>
+			<gloss>plural</gloss>
+		</english>
+		<spanish>
+			<glosa>plural</glosa>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>

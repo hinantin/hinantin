@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="nIsa">
+<entry>
+	<lex left="c">sa</lex>
+	<comment> HVY:173 201 very limited, roots needs to be marked
+		overtly to take this suffix </comment>
+
+	<glosses>
+		<english>
+			<gloss>side</gloss>
+		</english>
+		<spanish>
+			<glosa>lado</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@R.nIsa.ALLOW@</feature>
+		<comment> only roots marked nIsa = ALLOW can take sa </comment>
+	</features>
+</entry>
+</suffdict>

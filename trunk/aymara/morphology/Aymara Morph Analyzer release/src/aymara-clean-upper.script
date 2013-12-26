@@ -1,0 +1,57 @@
+! Copyright (c) 1999, 2000, 2005 Xerox Corporation.  All Rights Reserved.
+
+define onlyalph [a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|ñ|
+		A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|Ñ]+ ;
+
+regex  %  <- %^ER         ! ^ER not used yet? marks end of root
+.o.
+%  %: <- %^L		! marks suffixes that lengthen the prev vowel
+.o.
+%  %+ <- %^V		! marks suffixes that require a prev vowel
+.o.
+%  %- <- %^C		! marks suffixes that require a prev consonant (so
+			! delete the prev vowel or (optionally) shorten
+			! a preceding lengthened vowel
+.o.
+%  %# <- %^N		! marks most oracional suffixes (don't themselves
+			! effect the prev vowel, which may stay or delete
+			! depending on other factors
+
+.o.
+%: <- %^L || .#. onlyalph _
+
+			! marks fossilized suffixes in the root 
+                        ! that lengthen the prev vowel (don't space them)
+.o.
+%+ <- %^V || .#. onlyalph _
+	
+			! marks fossilized suffixes in the root
+			! that require a prev vowel (don't space them)
+.o.
+%- <- %^C || .#. onlyalph _		
+			
+			! marks fossilized suffixes in the root 
+			! that require a prev consonant (so
+			! delete the prev vowel or (optionally) shorten
+			! a preceding lengthened vowel
+
+.o.
+%! <- %^S		! marks strong final vowels on suffixes
+
+.o.
+%( a %) <- a %^W	! weak final vowels on a suffix
+.o.
+%( i %) <- i %^W
+.o.
+%( u %) <- u %^W
+
+.o.
+%( n %) <- %^IN		! review this
+
+! incorporate these someday? leave on lexical side or now
+! .o.
+! 0 <- %^YA
+
+.o.
+0 <- %^LENGTHVSYA
+;

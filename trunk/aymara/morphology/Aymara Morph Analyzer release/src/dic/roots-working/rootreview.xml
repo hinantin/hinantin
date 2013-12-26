@@ -1,0 +1,55 @@
+<?xml version='1.0'  encoding="iso-8859-1"?>
+
+<!DOCTYPE rootdict SYSTEM "rootdict.dtd" >
+
+<rootdict>
+
+<comment> entries awaiting confirmation </comment>
+
+<entry>
+	<lex>jich''a</lex>
+	<cat>adv</cat>
+	<glosses>
+		<english>
+			<gloss>now</gloss>
+		</english>
+		<spanish>
+			<glosa>ahora</glosa>
+		</spanish>
+	</glosses>
+</entry>
+
+<entry>
+	<lex>k''epa</lex>
+	<cat>p</cat>
+	<glosses>
+		<english>
+			<gloss>behind</gloss>
+			<gloss>after</gloss>
+		</english>
+		<spanish>
+			<glosa>atrás</glosa>
+			<glosa>despues</glosa>
+		</spanish>
+	</glosses>
+</entry>
+
+
+<entry>
+	<lex>nayra</lex>
+	<cat>p</cat>
+	<glosses>
+		<english>
+			<gloss>before</gloss>
+			<gloss>earlier</gloss>
+		</english>
+		<spanish>
+			<glosa>antes</glosa>
+		</spanish>
+	</glosses>
+</entry>
+
+
+
+
+</rootdict>

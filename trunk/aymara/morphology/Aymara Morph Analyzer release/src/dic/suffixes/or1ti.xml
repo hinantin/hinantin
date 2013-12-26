@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="or1ti">
+<entry>
+	<lex left="n">ti</lex>
+	<comment> continue on to or2stixa or or2 (: and ya) lexicon </comment>
+	<comment> HVY:281-3</comment>
+	<glosses>
+		<english>
+			<gloss>yes/no</gloss>
+			<gloss>negative</gloss>
+		</english>
+		<spanish>
+			<glosa>sí/no</glosa>
+			<glosa>negativo</glosa>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="or2mxa">
+<entry>
+	<lex left="v">m</lex>
+	<comment> one of these must follow oracional chi </comment>
+	<comment> HVY:287 292 </comment>
+	<glosses>
+		<english>
+			<gloss>???</gloss>
+		</english>
+		<spanish>
+			<glosa>???</glosa>
+		</spanish>
+	</glosses>
+</entry>
+<entry>
+	<lex left="v">xa</lex>
+	<comment> one of these must follow oracional chi </comment>
+	<glosses>
+		<english>
+			<gloss>topic</gloss>
+			<gloss>attenuator</gloss>
+		</english>
+		<spanish>
+			<glosa>tópico</glosa>
+			<glosa>atenuador</glosa>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>

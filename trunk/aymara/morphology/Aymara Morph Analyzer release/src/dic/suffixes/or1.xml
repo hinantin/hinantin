@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="or1">
+<entry>
+	<lex left="n">wa</lex>
+	<comment> continue on to or2, consisting of +ya or : </comment>
+	<comment> according to HVY:287, : and ya can come after
+		all oracionals except chi; but then on same page
+		it seems that wa: is not verified; allow it for now
+	</comment>
+	<glosses>
+		<english>
+			<gloss>affirmative</gloss>
+			<gloss>absolute</gloss>
+		</english>
+		<spanish>
+			<glosa>afirmativo</glosa>
+			<glosa>absoluto</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@U.CHI.ABSENT@</feature>
+		<comment> does not co-occur with chi no-involucrador HVY:281</comment>
+		<feature>@U.IMPTV.ABSENT@</feature>
+		<comment> does not cooccur with imperative</comment>
+	</features>
+</entry>
+<entry>
+	<lex left="n">sa</lex>
+	<comment> continue on to or2, consisting of +ya or : </comment>
+	<comment> this is the sa(sub 1) of HVY </comment>
+	<comment> HVY:289 does not show an example of this sa1 followed
+		by ya, but allow it for now </comment>
+	<glosses>
+		<english>
+			<gloss>general question</gloss>
+		</english>
+		<spanish>
+			<glosa>cuestión general</glosa>
+		</spanish>
+	</glosses>
+</entry>
+<entry>
+	<lex left="n">sa</lex>
+	<comment> continue on to or2, consisting of +ya or : </comment>
+	<comment> this is the sa(sub 2) of HVY </comment>
+	<glosses>
+		<english>
+			<gloss>cataloguer</gloss>
+			<gloss>grouper</gloss>
+		</english>
+		<spanish>
+			<glosa>catalogador</glosa>
+			<glosa>agregador</glosa>
+		</spanish>
+	</glosses>
+</entry>
+<entry>
+	<lex left="n">cha</lex>
+	<comment> continue on to or2, consisting of +ya or : </comment>
+	<comment> HVY:288 implies that chaya is not verified; allow
+		it for now </comment>
+	<glosses>
+		<english>
+			<gloss>choice interrogative</gloss>
+		</english>
+		<spanish>
+			<glosa>interrogativo alternativo</glosa>
+		</spanish>
+	</glosses>
+</entry>
+<entry>
+	<lex left="n">pi</lex>
+	<comment> continue on to or2, consisting of +ya or : </comment>
+	<glosses>
+		<english>
+			<gloss>exclamatory</gloss>
+			<gloss>of course</gloss>
+		</english>
+		<spanish>
+			<glosa>exclamatorio</glosa>
+			<glosa>por supuesto</glosa>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>

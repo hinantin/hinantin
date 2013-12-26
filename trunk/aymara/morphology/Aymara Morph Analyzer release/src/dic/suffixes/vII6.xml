@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vII6">
+<entry>
+	<comment> If this +si is present in a word, then it
+must be followed (perhaps at a slight distance) by a "ka adelantador"
+see HVY:111 (having the progressive reading) </comment>
+
+<comment> HVY says in text that this si cannot co-occur with following xa,
+but in a footnote p. 121 this is contradicted by later work by Briggs;
+for now, keep the analysis such that this si requires a subsequent
+ka, but don't rule out a following xa;  eventually get clarification
+when the Briggs book arrives </comment>
+
+	<lex left="v">si</lex>
+	<glosses>
+		<english>
+			<gloss>continuative</gloss>
+		</english>
+		<spanish>
+			<glosa>continuativo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@P.SIcont.PRESENT@</feature>
+
+		<comment> remember that the continuative +si is here--this
+		might be used to select the right -ka reading in v13 if 
+		this ka is split into multiple readings </comment>
+
+		<comment> check this against HVY:111 carefully </comment>
+
+		<feature>@P.NeedKa.ON@</feature>
+
+		<comment> after this +si morpheme, you need a
+		following -ka with the progressive reading;
+		possibly with slight separation; N.B. the -ka does
+		not necessarily need a preceding si </comment>
+	</features>
+</entry>
+</suffdict>

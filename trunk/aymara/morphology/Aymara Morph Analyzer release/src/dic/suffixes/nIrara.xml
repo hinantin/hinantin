@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="nIrara">
+<comment> suspected (by me) N>ADJ
+  incompatible with naka and with personal possessives
+</comment>
+
+<entry>
+	<lex left="v">rara</lex>
+	<comment> HVY:200 </comment>
+	<comment> essentially N>ADJ ; perhaps cannot occur here, before ni </comment>
+	<glosses>
+		<english>
+			<gloss>-y</gloss>
+			<gloss>full of</gloss>
+		</english>
+		<spanish>
+			<glosa>-oso</glosa>
+			<glosa>lleno de</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@R.nIrara.ALLOW@</feature>
+
+		<comment> cannot co-occur with naka; so naka
+			will be marked D.nIrara </comment>
+		<feature>@P.nIrara.PRESENT@</feature>
+		<feature>@P.nIPersPoss.BLOCK@</feature>
+	</features>
+</entry>
+</suffdict>

@@ -1,0 +1,2230 @@
+/* Copyright (c) 1999, 2000, 2005 Xerox Corporation.  All Rights Reserved. */
+
+graph:{
+
+title:"aymara"
+label:"Xerox VCG Graph of Aymara Morphotactics 17 March 2000"
+info1:"Kenneth Beesley"
+info2:"Xerox Research Centre Europe"
+info3:"6, chemin de Maupertuis, 38240 MEYLAN, France"
+orientation:left_to_right
+xspace:60
+manhattan_edges:yes
+
+/* some defaults for nodes and edges */
+node.borderwidth:3
+edge.thickness:3
+
+
+node: {
+title:"start"
+label:"start"
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"start"
+targetname:"<verb root>"
+label:""
+}
+
+edge: {
+
+sourcename:"start"
+targetname:"<noun root>"
+label:""
+}
+
+
+node: {
+
+title:"<noun root>"
+label:"<noun root>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<noun root>"
+targetname:"<ncommon_branch>"
+label:""
+}
+
+node: {
+
+title:"<ncommon_branch>"
+label:"<ncommon_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+
+edge: {
+
+sourcename:"<ncommon_branch>"
+targetname:"<N2Vcha>"
+label:""
+}
+
+edge: {
+
+sourcename:"<ncommon_branch>"
+targetname:"<nIrara>"
+label:""
+}
+
+edge: {
+
+sourcename:"<ncommon_branch>"
+targetname:"<nIchAPPOSa>"
+label:""
+}
+
+edge: {
+
+sourcename:"<ncommon_branch>"
+targetname:"<nIitu>"
+label:""
+}
+
+edge: {
+
+sourcename:"<ncommon_branch>"
+targetname:"<nIsa>"
+label:""
+}
+
+
+node: {
+
+title:"<N2Vcha>"
+label:"<N2Vcha>\ncha"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<N2Vcha>"
+targetname:"<vI2>"
+linestyle:dashed
+}
+
+node: {
+
+title:"<nIrara>"
+label:"<nIrara>\nrara"
+info1:""
+info2:""
+info3:"probably has adj-like restrictions"
+shape:box
+}
+
+edge: {
+
+sourcename:"<nIrara>"
+targetname:"<n_branch>"
+label:""
+}
+
+node: {
+
+title:"<nIchAPPOSa>"
+label:"<nIchAPPOSa>\n(c)ch'a"
+info1:"HVY:198"
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<nIchAPPOSa>"
+targetname:"<n_branch>"
+label:""
+}
+
+node: {
+
+title:"<nIitu>"
+label:"<nIitu>\n(c)itu"
+info1:"HVY:198, 74"
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<nIitu>"
+targetname:"<n_branch>"
+label:""
+}
+
+node: {
+
+title:"<nIsa>"
+label:"<nIsa>\n(c)sa"
+info1:"HVY:76, 201"
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<nIsa>"
+targetname:"<n_branch>"
+label:""
+}
+
+
+node: {
+
+title:"<n_branch>"
+label:"<n_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"<n_branch>"
+targetname:"<nInaka>"
+label:""
+}
+
+edge: {
+
+sourcename:"<n_branch>"
+targetname:"<nIkata>"
+label:""
+}
+
+node: {
+
+title:"<nInaka>"
+label:"<nInaka>\n(v)naka"
+info1:""
+info2:""
+info3:"naka can appear before ni"
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<nInaka>"
+targetname:"<nIni>"
+label:""
+}
+
+node: {
+
+title:"<nIni>"
+label:"<nIni>\n(v)ni"
+info1:"HVY:76, 203"
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<nIni>"
+targetname:"<star_branch>"
+label:""
+}
+
+
+node: {
+
+title:"<nIkata>"
+label:"<nIkata>\n(c)kata\n(c)kati"
+info1:"HVY:76"
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<nIkata>"
+targetname:"<star_branch>"
+label:""
+}
+
+
+node: {
+
+title:"<star_branch>"
+label:"<star_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"<star_branch>"
+targetname:"<pre_mpi_branch>"
+label:""
+}
+
+edge: {
+
+sourcename:"<star_branch>"
+targetname:"<nIlxa>"
+label:""
+}
+
+edge: {
+
+sourcename:"<star_branch>"
+targetname:"<nIxa>"
+label:""
+}
+
+edge: {
+
+sourcename:"<star_branch>"
+targetname:"<nIwja-jita>"
+label:""
+}
+
+edge: {
+
+sourcename:"<star_branch>"
+targetname:"<nIPersPoss>"
+label:""
+}
+
+edge: {
+
+sourcename:"<star_branch>"
+targetname:"<nInaka-bis>"
+label:""
+}
+
+
+node: {
+
+title:"<nIlxa>"
+label:"<nIlxa>\n:xa"
+info1:"HVY:76"
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<nIlxa>"
+targetname:"<star_branch>"
+linestyle:dashed
+}
+
+node: {
+
+title:"<nIxa>"
+label:"<nIxa>\n(c)xa"
+info1:"HVY:76, 202?"
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<nIxa>"
+targetname:"<star_branch>"
+linestyle:dashed
+}
+
+node: {
+
+title:"<nIwja-jita>"
+label:"<nIwja-jita>"
+info1:"HVY:76, 201"
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<nIwja-jita>"
+targetname:"<star_branch>"
+linestyle:dashed
+}
+
+node: {
+
+title:"<nIPersPoss>"
+label:"<nIPersPoss>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<nIPersPoss>"
+targetname:"<star_branch>"
+linestyle:dashed
+}
+
+node: {
+
+title:"<nInaka-bis>"
+label:"<nInaka-bis>"
+info1:"HVY:76, 206"
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<nInaka-bis>"
+targetname:"<star_branch>"
+linestyle:dashed
+}
+
+node: {
+
+title:"<pre_mpi_branch>"
+label:"<pre_mpi_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"<pre_mpi_branch>"
+targetname:"<nIpacha>"
+label:""
+}
+
+edge: {
+
+sourcename:"<pre_mpi_branch>"
+targetname:"<nImpi>"
+label:""
+}
+
+edge: {
+
+sourcename:"<pre_mpi_branch>"
+targetname:"<case_branch>"
+label:""
+}
+
+
+node: {
+
+title:"<nIpacha>"
+label:"<nIpacha>"
+info1:"HVY:76"
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<nIpacha>"
+targetname:"<post_pacha_branch>"
+label:""
+}
+
+node: {
+
+title:"<post_pacha_branch>"
+label:"<post_pacha_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"<post_pacha_branch>"
+targetname:"<case_branch>"
+label:""
+}
+
+edge: {
+
+sourcename:"<post_pacha_branch>"
+targetname:"<nIpacha-xa>"
+label:""
+}
+
+edge: {
+
+sourcename:"<post_pacha_branch>"
+targetname:"<nIpacha-lxa>"
+label:""
+}
+
+node: {
+
+title:"<nIpacha-xa>"
+label:"<nIpacha-xa>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<nIpacha-xa>"
+targetname:"<post_pacha_branch>"
+linestyle:dashed
+}
+
+node: {
+
+title:"<nIpacha-lxa>"
+label:"<nIpacha-lxa>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<nIpacha-lxa>"
+targetname:"<post_pacha_branch>"
+linestyle:dashed
+}
+
+node: {
+
+title:"<nImpi>"
+label:"<nImpi>"
+info1:"HVY:76, 242"
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<nImpi>"
+targetname:"<post_mpi_branch>"
+label:""
+}
+
+
+node: {
+
+title:"<post_mpi_branch>"
+label:"<post_mpi_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"<post_mpi_branch>"
+targetname:"<pre_pacha_branch>"
+label:""
+}
+
+edge: {
+
+sourcename:"<post_mpi_branch>"
+targetname:"<nImpi-xa>"
+label:""
+}
+
+edge: {
+
+sourcename:"<post_mpi_branch>"
+targetname:"<nImpi-lxa>"
+label:""
+}
+
+node: {
+
+title:"<nImpi-xa>"
+label:"<nImpi-xa>\n(c)xa"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<nImpi-xa>"
+targetname:"<post_mpi_branch>"
+linestyle:dashed
+}
+
+node: {
+
+title:"<nImpi-lxa>"
+label:"<nImpi-lxa>\n:xa"
+info1:"HVY:"
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<nImpi-lxa>"
+targetname:"<post_mpi_branch>"
+linestyle:dashed
+}
+
+
+node: {
+
+title:"<pre_pacha_branch>"
+label:"<pre_pacha_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"<pre_pacha_branch>"
+targetname:"<nIpacha>"
+label:""
+}
+
+edge: {
+
+sourcename:"<pre_pacha_branch>"
+targetname:"<case_branch>"
+label:""
+}
+
+node: {
+
+title:"<case_branch>"
+label:"<case_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"<case_branch>"
+targetname:"<nIIcaseNama>"
+label:""
+}
+
+edge: {
+
+sourcename:"<case_branch>"
+targetname:"<nIIcaseNa>"
+label:""
+}
+
+edge: {
+
+sourcename:"<case_branch>"
+targetname:"<nIIcase>"
+label:""
+}
+
+node: {
+
+title:"<nIIcaseNama>"
+label:"<nIIcaseNama>\n(c)nama"
+info1:"HVY:230"
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<nIIcaseNama>"
+targetname:"<indep_n>"
+label:""
+}
+
+node: {
+
+title:"<nIIcaseNa>"
+label:"<nIIcaseNa>"
+info1:"HVY:74, 224, 241"
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<nIIcaseNa>"
+targetname:"<nIIcaseNa_branch>"
+label:""
+}
+
+node: {
+
+title:"<nIIcaseNa_branch>"
+label:"<nIIcaseNa_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"<nIIcaseNa_branch>"
+targetname:"<N2Vka>"
+label:""
+}
+
+edge: {
+
+sourcename:"<nIIcaseNa_branch>"
+targetname:"<post_case_branch>"
+label:""
+}
+
+node: {
+
+title:"<N2Vka>"
+label:"<N2Vka>\n(c)ka"
+info1:"HVY:162, 235-8"
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<N2Vka>"
+targetname:"<vI8>"
+linestyle:dashed
+}
+
+node: {
+
+title:"<nIIcase>"
+label:"<nIIcase>\n(v)ru\n(v)ta(c)\n(v)taki\n(v)mpi\nlayku\npura"
+info1:"HVY:74, 76, 210, 242, 199"
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<nIIcase>"
+targetname:"<post_case_branch>"
+label:""
+}
+
+node: {
+
+title:"<post_case_branch>"
+label:"<post_case_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"<post_case_branch>"
+targetname:"<nIIpacha>"
+label:""
+}
+
+edge: {
+
+sourcename:"<post_case_branch>"
+targetname:"<nIIkama>"
+label:""
+}
+
+node: {
+
+title:"<nIIpacha>"
+label:"<nIIpacha>\npacha"
+info1:"HVY:76, 209, 242, 228"
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<nIIpacha>"
+targetname:"<zero_branch>"
+label:""
+}
+
+node: {
+
+title:"<nIIkama>"
+label:"<nIIkama>\nkama"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<nIIkama>"
+targetname:"<nIIjama>"
+label:""
+}
+
+node: {
+
+title:"<nIIjama>"
+label:"<nIIjama>\n(c)jama"
+info1:"HVY:76, 276, 230"
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<nIIjama>"
+targetname:"<zero_branch>"
+label:""
+}
+
+node: {
+
+title:"<zero_branch>"
+label:"<zero_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"<zero_branch>"
+targetname:"<indep_n>"
+label:""
+}
+
+edge: {
+
+sourcename:"<zero_branch>"
+targetname:"<nIIzero>"
+label:""
+}
+
+node: {
+
+title:"<nIIzero>"
+label:"<nIIzero>"
+info1:"HVY:72"
+info2:""
+info3:"the zero complement"
+shape:box
+}
+
+edge: {
+
+sourcename:"<nIIzero>"
+targetname:"<oracional>"
+label:""
+}
+
+
+node: {
+
+title:"<indep_n>"
+label:"<indep_n>\n(v)ki\n(v)puni/(v)pini\n(v)raki"
+info1:"HVY:76, 276, 273"
+info2:""
+info3:""
+shape:rhomb
+}
+
+backedge: {
+sourcename:"<indep_n>"
+targetname:"<indep_n>"
+linestyle:dashed
+}
+
+edge: {
+
+sourcename:"<indep_n>"
+targetname:"<indep_n_clear>"
+label:""
+}
+
+node: {
+
+title:"<indep_n_clear>"
+label:"<indep_n_clear>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<indep_n_clear>"
+targetname:"<pre_verbalizer_branch>"
+label:""
+}
+
+node: {
+
+title:"<pre_verbalizer_branch>"
+label:"<pre_verbalizer_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"<pre_verbalizer_branch>"
+targetname:"<N2Vpta>"
+label:""
+}
+
+edge: {
+
+sourcename:"<pre_verbalizer_branch>"
+targetname:"<N2Vlength>"
+label:""
+}
+
+edge: {
+
+sourcename:"<pre_verbalizer_branch>"
+targetname:"<oracional>"
+label:""
+}
+
+node: {
+
+title:"<N2Vpta>"
+label:"<N2Vpta>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<N2Vpta>"
+targetname:"<vI8>"
+linestyle:dashed
+}
+
+node: {
+
+title:"<N2Vlength>"
+label:"<N2Vlength>"
+info1:"HVY:238"
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<N2Vlength>"
+targetname:"<vI8>"
+linestyle:dashed
+}
+
+
+/* start of verb graph */
+
+
+node: {
+
+title:"<verb root>"
+label:"<verb root>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<verb root>"
+targetname:"<vI1>"
+}
+
+
+node: {
+
+title:"<vI1>"
+label:"<vI1>\n(v)cha"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vI1>"
+targetname:"<vI2>"
+}
+
+
+node: {
+
+title:"<vI2>"
+label:"<vI2>\n(c)ja"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vI2>"
+targetname:"<vI2_branch>"
+label:""
+}
+
+node: {
+
+title:"<vI2_branch>"
+label:"<vI2_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+
+edge: {
+
+sourcename:"<vI2_branch>"
+targetname:"<vI9>"
+label:""
+}
+
+edge: {
+
+sourcename:"<vI2_branch>"
+targetname:"<vI7>"
+label:""
+}
+
+edge: {
+
+sourcename:"<vI2_branch>"
+targetname:"<vI5>"
+label:""
+}
+
+edge: {
+
+sourcename:"<vI2_branch>"
+targetname:"<vI3>"
+}
+
+
+
+
+node: {
+
+title:"<vI3>"
+label:"<vI3>\n(c)su"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vI3>"
+targetname:"<vI4>"
+}
+
+
+node: {
+
+title:"<vI5>"
+label:"<vI5>\n(c)nuqa\n(v)qa\n(c)xata\n(v)kipa"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vI5>"
+targetname:"<vI6>"
+label:""
+}
+
+
+node: {
+
+title:"<vI7>"
+label:"<vI7>\n(c)kata\n(c)naqa\n(v)nta\n(v)nuku\n(v)tata\n(c)xaru\n(c)xäsi\n(c)xaya\n(v)kipsta"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vI7>"
+targetname:"<vI8>"
+label:""
+}
+
+
+node: {
+
+title:"<vI9>"
+label:"<vI9>\n(v)rpaya"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vI9>"
+targetname:"<vII0>"
+label:""
+}
+
+
+node: {
+
+title:"<vI4>"
+label:"<vI4>\n(c)t''api\n(v)ra"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vI4>"
+targetname:"<vI6>"
+}
+
+
+node: {
+
+title:"<vI6>"
+label:"<vI6>\n(c)ta"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vI6>"
+targetname:"<vI8>"
+}
+
+
+node: {
+
+title:"<vI8>"
+label:"<vI8>\n(c)t'a\n(c)ch'uki"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vI8>"
+targetname:"<vII0>"
+}
+
+
+node: {
+
+title:"<vII0>"
+label:"<vII0>\n(v)si\nreflexive"
+info1:""
+info2:""
+info3:"can come before +ya"
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vII0>"
+targetname:"<vII1>"
+label:""
+}
+
+
+
+node: {
+
+title:"<vII1>"
+label:"<vII1>\n(v)ya"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vII1>"
+targetname:"<vII1bis>"
+label:""
+}
+
+
+node: {
+
+title:"<vII1bis>"
+label:"<vII1bis>\n(v)ya"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vII1bis>"
+targetname:"<vII2>"
+label:""
+}
+
+
+node: {
+
+title:"<vII2>"
+label:"<vII2>\n(v)si\nreflexive"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vII2>"
+targetname:"<vII3>"
+label:""
+}
+
+
+node: {
+
+title:"<vII3>"
+label:"<vII3>\n(v)ni"
+info1:"HVY:109"
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vII3>"
+targetname:"<vII4>"
+label:""
+}
+
+
+node: {
+
+title:"<vII4>"
+label:"<vII4>\n(v)waya"
+info1:"HVY:240, 266-8, 231"
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vII4>"
+targetname:"<vII5>"
+label:""
+}
+
+
+node: {
+
+title:"<vII5>"
+label:"<vII5>\n(v)rapi (ben.)\n(v)raqa (vic.)"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vII5>"
+targetname:"<vII6>"
+label:""
+}
+
+
+node: {
+
+title:"<vII6>"
+label:"<vII6>\n(v)si\ncontinuative"
+info1:"HVY:111, 121"
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vII6>"
+targetname:"<vII7>"
+label:""
+}
+
+
+node: {
+
+title:"<vII7>"
+label:"<vII7>\n(c)ka\nperfective"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vII7>"
+targetname:"<vII8>"
+label:""
+}
+
+
+node: {
+
+title:"<vII8>"
+label:"<vII8>\n(c)xa\nimperfective"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<vII8>"
+targetname:"<vII8_branch>"
+label:""
+}
+
+node: {
+
+title:"<vII8_branch>"
+label:"<vII8_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"<vII8_branch>"
+targetname:"<vSubGeneral>"
+label:""
+}
+
+edge: {
+
+sourcename:"<vII8_branch>"
+targetname:"<vII9>"
+label:""
+}
+
+edge: {
+
+sourcename:"<vII8_branch>"
+targetname:"<indep_v>"
+label:""
+}
+
+node: {
+
+title:"<vII9>"
+label:"<vII9>\n(v)p\nplural"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<vII9>"
+targetname:"<vII10>"
+label:""
+}
+
+
+node: {
+
+title:"<vII10>"
+label:"<vII10>\n(c)ka\n(c)xa"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<vII10>"
+targetname:"<vII10_branch>"
+label:""
+}
+
+node: {
+
+title:"<vII10_branch>"
+label:"<vII10_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+
+edge: {
+
+sourcename:"<vII10_branch>"
+targetname:"<indep_v>"
+label:""
+}
+
+edge: {
+
+sourcename:"<vII10_branch>"
+targetname:"<vSubGeneral>"
+label:""
+}
+
+
+node: {
+
+title:"<vSubGeneral>"
+label:"<vSubGeneral>\n(v)sa(v)\n(v)sina(c)\n(c)ipana(c)"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+
+edge: {
+
+sourcename:"<vSubGeneral>"
+targetname:"<oracional>"
+label:""
+}
+
+
+node: {
+
+title:"<indep_v>"
+label:"<indep_v>\nki\npuni/pini\nraki"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+backedge: {
+
+sourcename:"<indep_v>"
+targetname:"<indep_v>"
+linestyle:dashed
+}
+
+
+edge: {
+
+sourcename:"<indep_v>"
+targetname:"<indep_v_clear>"
+label:""
+}
+
+node: {
+
+title:"<indep_v_clear>"
+label:"<indep_v_clear>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<indep_v_clear>"
+targetname:"<indep_v_branch>"
+label:""
+}
+
+node: {
+
+title:"<indep_v_branch>"
+label:"<indep_v_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+
+edge: {
+
+sourcename:"<indep_v_branch>"
+targetname:"<nominalizers>"
+label:""
+}
+
+edge: {
+
+sourcename:"<indep_v_branch>"
+targetname:"<flexions>"
+label:""
+}
+
+node: {
+
+title:"<nominalizers>"
+label:"<nominalizers>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+
+edge: {
+
+sourcename:"<nominalizers>"
+targetname:"<V2Niri2>"
+label:""
+}
+
+edge: {
+
+sourcename:"<nominalizers>"
+targetname:"<V2Nwi>"
+label:""
+}
+
+edge: {
+
+sourcename:"<nominalizers>"
+targetname:"<V2Niri1>"
+label:""
+}
+
+edge: {
+
+sourcename:"<nominalizers>"
+targetname:"<V2Nta>"
+label:""
+}
+
+edge: {
+
+sourcename:"<nominalizers>"
+targetname:"<V2NnTILDEa>"
+label:""
+}
+
+node: {
+
+title:"<V2Niri2>"
+label:"<V2Niri2>\n(c)iri\nin order to"
+info1:"HVY:161, 192"
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<V2Niri2>"
+targetname:"<indep_n>"
+linestyle:dashed
+}
+
+
+node: {
+
+title:"<V2Nwi>"
+label:"<V2Nwi>\n(v)wi\nplace/occasion"
+info1:"HVY:267,-8, 195"
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<V2Nwi>"
+targetname:"<n_branch>"
+linestyle:dashed
+}
+
+node: {
+
+title:"<V2Niri1>"
+label:"<V2Niri1>\n(c)iri\none who"
+info1:"HVY:191"
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<V2Niri1>"
+targetname:"<n_branch>"
+linestyle:dashed
+}
+
+
+node: {
+
+title:"<V2Nta>"
+label:"<V2Nta>\n(v)ta(v)\nresult"
+info1:"HVY:195, 239"
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<V2Nta>"
+targetname:"<n_branch>"
+linestyle:dashed
+}
+
+
+node: {
+
+title:"<V2NnTILDEa>"
+label:"<V2NnTILDEa>\n(v)ña\ninfinitive"
+info1:"HVY:240"
+info2:""
+info3:""
+shape:box
+}
+
+backedge: {
+
+sourcename:"<V2NnTILDEa>"
+targetname:"<n_branch>"
+linestyle:dashed
+}
+
+node: {
+
+title:"<flexions>"
+label:"<flexions>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"<flexions>"
+targetname:"<vFlexPacha>"
+label:""
+}
+
+edge: {
+
+sourcename:"<flexions>"
+targetname:"<vFlexChi>"
+label:""
+}
+
+edge: {
+
+sourcename:"<flexions>"
+targetname:"<vFlexSimple>"
+label:""
+}
+
+edge: {
+
+sourcename:"<flexions>"
+targetname:"<vFlexFuturo>"
+label:""
+}
+
+edge: {
+
+sourcename:"<flexions>"
+targetname:"<vFlexRemCerc>"
+label:""
+}
+
+edge: {
+
+sourcename:"<flexions>"
+targetname:"<vFlexRemLej>"
+label:""
+}
+
+edge: {
+
+sourcename:"<flexions>"
+targetname:"<vFlexReprochador>"
+label:""
+}
+
+edge: {
+
+sourcename:"<flexions>"
+targetname:"<vFlexImperative>"
+label:""
+}
+
+edge: {
+
+sourcename:"<flexions>"
+targetname:"<vFlexDesiderativo>"
+label:""
+}
+
+
+node: {
+
+title:"<vFlexPacha>"
+label:"<vFlexPacha>\n(c)pacha"
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<vFlexPacha>"
+targetname:"<vFlexPacha_branch>"
+label:""
+}
+
+node: {
+
+title:"<vFlexPacha_branch>"
+label:"<vFlexPacha_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"<vFlexPacha_branch>"
+targetname:"<vFlexLengthen4Simple>"
+label:""
+}
+
+edge: {
+
+sourcename:"<vFlexPacha_branch>"
+targetname:"<vFlexFuturo>"
+label:""
+}
+
+edge: {
+
+sourcename:"<vFlexPacha_branch>"
+targetname:"<vFlexRemCerc>"
+label:""
+}
+
+node: {
+
+title:"<vFlexLengthen4Simple>"
+label:"<vFlexLengthen4Simple>\n:"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<vFlexLengthen4Simple>"
+targetname:"<vFlexSimple>"
+label:""
+}
+
+
+node: {
+
+title:"<vFlexChi>"
+label:"<vFlexChi>\nchi"
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<vFlexChi>"
+targetname:"<vFlexChi_branch>"
+label:""
+}
+
+node: {
+
+title:"<vFlexChi_branch>"
+label:"<vFlexChi_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"<vFlexChi_branch>"
+targetname:"<vFlexSimple>"
+label:""
+}
+
+edge: {
+
+sourcename:"<vFlexChi_branch>"
+targetname:"<vFlexFuturo>"
+label:""
+}
+
+edge: {
+
+sourcename:"<vFlexChi_branch>"
+targetname:"<vFlexRemCerc>"
+label:""
+}
+
+edge: {
+
+sourcename:"<vFlexChi_branch>"
+targetname:"<vFlexRemLej>"
+label:""
+}
+
+edge: {
+
+sourcename:"<vFlexChi_branch>"
+targetname:"<vFlexChiDesiderativo>"
+label:""
+}
+
+edge: {
+
+sourcename:"<vFlexChi_branch>"
+targetname:"<vFlexReprochador>"
+label:""
+}
+
+
+
+
+
+node: {
+
+title:"<vFlexSimple>"
+label:"<vFlexSimple>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<vFlexSimple>"
+targetname:"<oracional>"
+label:""
+}
+
+
+node: {
+
+title:"<vFlexFuturo>"
+label:"<vFlexFuturo>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<vFlexFuturo>"
+targetname:"<oracional>"
+label:""
+}
+
+
+node: {
+
+title:"<vFlexRemCerc>"
+label:"<vFlexRemCerc>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<vFlexRemCerc>"
+targetname:"<oracional>"
+label:""
+}
+
+
+node: {
+
+title:"<vFlexRemLej>"
+label:"<vFlexRemLej>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<vFlexRemLej>"
+targetname:"<oracional>"
+label:""
+}
+
+
+node: {
+
+title:"<vFlexChiDesiderativo>"
+label:"<vFlexChiDesiderativo>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<vFlexChiDesiderativo>"
+targetname:"<oracional>"
+label:""
+}
+
+
+node: {
+
+title:"<vFlexReprochador>"
+label:"<vFlexReprochador>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<vFlexReprochador>"
+targetname:"<oracional>"
+label:""
+}
+
+
+node: {
+
+title:"<vFlexImperative>"
+label:"<vFlexImperative>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<vFlexImperative>"
+targetname:"<oracional>"
+label:""
+}
+
+
+node: {
+
+title:"<vFlexDesiderativo>"
+label:"<vFlexDesiderativo>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<vFlexDesiderativo>"
+targetname:"<oracional>"
+label:""
+}
+
+
+node: {
+
+title:"<oracional>"
+label:"<oracional>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"<oracional>"
+targetname:"<or1chi>"
+label:""
+}
+
+edge: {
+
+sourcename:"<oracional>"
+targetname:"<or1ti>"
+label:""
+}
+
+edge: {
+
+sourcename:"<oracional>"
+targetname:"<or1stixa>"
+label:""
+}
+
+edge: {
+
+sourcename:"<oracional>"
+targetname:"<or1>"
+label:""
+}
+
+node: {
+
+title:"<or1chi>"
+label:"<or1chi>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<or1chi>"
+targetname:"<or2xma>"
+label:""
+}
+
+node: {
+
+title:"<or2xma>"
+label:"<or2xma>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<or2xma>"
+targetname:"<end>"
+label:""
+}
+
+node: {
+
+title:"<or1ti>"
+label:"<or1ti>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<or1ti>"
+targetname:"<or1ti_branch>"
+label:""
+}
+
+node: {
+
+title:"<or1ti_branch>"
+label:"<or1ti_branch>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+edge: {
+
+sourcename:"<or1ti_branch>"
+targetname:"<or2stixa>"
+label:""
+}
+
+edge: {
+
+sourcename:"<or1ti_branch>"
+targetname:"<or2>"
+label:""
+}
+
+node: {
+
+title:"<or2stixa>"
+label:"<or2stixa>"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<or2stixa>"
+targetname:"<end>"
+label:""
+}
+
+node: {
+
+title:"<or1stixa>"
+label:"<or1stixa>"
+info1:""
+info2:""
+info3:""
+shape:box
+}
+
+edge: {
+
+sourcename:"<or1stixa>"
+targetname:"<or2>"
+label:""
+}
+
+node: {
+
+title:"<or1>"
+label:"<or1>"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<or1>"
+targetname:"<or2>"
+label:""
+}
+
+node: {
+
+title:"<or2>"
+label:"<or2>"
+info1:""
+info2:""
+info3:""
+shape:rhomb
+}
+
+edge: {
+
+sourcename:"<or2>"
+targetname:"<end>"
+label:""
+}
+
+node: {
+
+title:"<end>"
+label:"<end>"
+info1:""
+info2:""
+info3:""
+shape:ellipse
+}
+
+}
+
+

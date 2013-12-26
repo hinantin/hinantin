@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vI2">
+<entry>
+	<lex left="c">ja</lex>
+	<comment> HVY:98 </comment>
+	<glosses>
+		<english>
+			<gloss>divisive/around</gloss>
+		</english>
+		<spanish>
+			<glosa>divisivo/alrededor</glosa>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>

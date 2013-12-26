@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="V2Niri2">
+<entry>
+	<lex left="c">iri</lex>
+	<comment> called iri(sub 2) subordination of purpose HVY:161 192 </comment>
+	<comment> no more noun suffixes are possible </comment>
+	<comment> following indeps and oracionales are possible </comment>
+	<comment> can reverbalize only with : </comment>
+	<comment> comp. zero is possible! </comment>
+	<comment> seems sufficient to make it continue to zero_branch</comment>
+	<glosses>
+		<english>
+			<gloss>V2N in order to</gloss>
+		</english>
+		<spanish>
+			<glosa>V2N para</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> a previous N2V can ALLOW or BLOCK certain renominalizations </comment>
+		<feature>@D.V2Niri2.BLOCK@</feature>
+
+		<comment> clear N2Vlength to allow reverbalization
+			by length (only) HVY:69 71, 192</comment>
+
+		<feature>@C.N2Vlength@</feature>
+
+		<feature>@P.N2Vpta.BLOCK@</feature>
+		<feature>@P.N2Vka.BLOCK@</feature>
+	</features>
+</entry>
+</suffdict>

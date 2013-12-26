@@ -1,0 +1,8871 @@
+<?xml version='1.0'  encoding="utf-8"?>
+
+<!-- Aymara Root Lexicon -->
+
+<!-- Xerox Corporation -->
+<!-- Xerox Research Centre Europe -->
+<!-- 6, chemin de Maupertuis -->
+<!-- 38240 MEYLAN, France -->
+
+<!-- 13 April 2000 -->
+<!-- 30 March 2005, started resurrection of Aymara morphological analyzer;
+     this dictionary converted to Unicode UTF-8;
+     and the old DTD validation converted to Relax NG (see roots.rnc)
+  -->
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+<!-- Please cite Xerox Corporation and the Xerox Research Centre Europe  -->
+<!-- http://www.xrce.xerox.com/research/mltt -->
+<!-- if you use this dictionary.  -->
+
+<roots>
+
+  <entry>
+
+    <form>
+      <lexical>achachila</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+        <english>
+	  <gloss>grandfather</gloss>
+        </english>
+        <spanish>
+	  <glosa>abuelo</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>achaku</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> is this "rodent"? see achja=bite </comment>
+      <glosses>
+	<english>
+	  <gloss>mouse</gloss>
+	</english>
+	<spanish>
+	  <glosa>ratón</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>achja</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>ch like charla</comment>
+      <glosses>
+	<english>
+	  <gloss>bite</gloss>
+	</english>
+	<spanish>
+	  <glosa>morder</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>achu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>fruit</gloss>
+	</english>
+	<spanish>
+	  <glosa>fruto</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> see NVY:19, needs non-human subject </comment>
+      <glosses>
+	<english>
+	  <gloss>produce</gloss>
+	  <gloss>ripen</gloss>
+	</english>
+	<spanish>
+	  <glosa>producir(se)</glosa>
+	  <glosa>madurar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ajanu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>face</gloss>
+	</english>
+	<spanish>
+	  <glosa>cara</glosa>
+	  <glosa>rostro</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ajayu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>soul</gloss>
+	</english>
+	<spanish>
+	  <glosa>alma</glosa>
+	  <glosa>espíritu</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ajlli</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> orig list showed axlli(ña), but Jorge
+		answered my request, saying it should be
+		ajlli(ña); Stuart agrees </comment>
+      <glosses>
+	<english>
+	  <gloss>choose</gloss>
+	</english>
+	<spanish>
+	  <glosa>escoger</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>aka</lexical>
+    </form>
+
+    <subentry cat="pronoundemonstrative">
+      <glosses>
+	<english>
+          <comment>Huanca 2003, p. 17 gives "this" for aka, and "that" for uka</comment>
+	  <gloss>this</gloss>
+	  <gloss>that</gloss>
+	  <gloss>here</gloss>
+	</english>
+	<spanish>
+	  <glosa>este</glosa>
+	  <glosa>esta</glosa>
+	  <glosa>aquí</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.nIsa.ALLOW@</feature>
+	<feature>@P.nIkata.ALLOW@</feature>
+	<feature>@P.nIchAPPOSa.ALLOW@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>akhulli</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>chew coca</gloss>
+	</english>
+	<spanish>
+	  <glosa>mascar coca</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ala</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>buy</gloss>
+	</english>
+	<spanish>
+	  <glosa>comprar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>alaqa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>barter</gloss>
+	</english>
+	<spanish>
+	  <glosa>trueque</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ala^Cja</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> CC of vI2branch?? </comment>
+      <comment> just intensive of alaña = buy ? </comment>
+      <glosses>
+	<english>
+	  <gloss>sell</gloss>
+	</english>
+	<spanish>
+	  <glosa>vender</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ala^Cja^Ckata</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> CC of vI6 ?? </comment>
+      <comment> just intensive of alaña = buy ? </comment>
+      <glosses>
+	<english>
+	  <gloss>sell it all</gloss>
+	</english>
+	<spanish>
+	  <glosa>venderlo todo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ala^Vni^Vwaya</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> CC of vII5 ?? </comment>
+      <glosses>
+	<english>
+	  <gloss>by something in passing and return</gloss>
+	</english>
+	<spanish>
+	  <glosa>comprar algo de paso y regresar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ala^Csu</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> CC of vI4 ?? </comment>
+      <glosses>
+	<english>
+	  <gloss>buy up</gloss>
+	  <gloss>buy in quantity</gloss>
+	</english>
+	<spanish>
+	  <glosa>comprar en cantidad</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>alwa</lexical>
+    </form>
+
+    <subentry cat="ntemporal">
+      <comment> see HVY:178 temporal </comment>
+      <glosses>
+	<english>
+	  <gloss>dawn</gloss>
+	</english>
+	<spanish>
+	  <glosa>alba</glosa>
+	  <glosa>madrugada</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>alli</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>dig</gloss>
+	</english>
+	<spanish>
+	  <glosa>cavar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>alli^Cta</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>disinter</gloss>
+	</english>
+	<spanish>
+	  <glosa>desenterrar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>allpachu</lexical>
+    </form>
+
+    <comment> from JPA, 30 May 2000 </comment>
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>alpaca</gloss>
+	</english>
+	<spanish>
+	  <glosa>alpaca</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>alpaqa</lexical>
+    </form>
+
+    <comment> from JPA, 30 May 2000 </comment>
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>alpaca</gloss>
+	</english>
+	<spanish>
+	  <glosa>alpaca</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>amaya</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>cadaver</gloss>
+	</english>
+	<spanish>
+	  <glosa>cadáver</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ampara</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>hand</gloss>
+	</english>
+	<spanish>
+	  <glosa>mano</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>amsta</lexical>
+      <comment>unusual root, suspected fossilized suffix; see HVY:45</comment>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+        <english>
+          <gloss>hill</gloss>
+	  <gloss>slope</gloss>
+        </english>
+        <spanish>
+          <glosa>cuesta</glosa>
+	  <glosa>pendiente</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>amta</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>remember</gloss>
+	  <gloss>remind</gloss>
+	</english>
+	<spanish>
+	  <glosa>recordar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>amuya</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>think</gloss>
+	  <gloss>remember</gloss>
+	</english>
+	<spanish>
+	  <glosa>pensar</glosa>
+	  <glosa>recordar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>ana</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> where did this come from?  HVY:96 would seem to
+	indicate that it cannot occur alone and means roughly
+	'arrear animales' ; see HVY:107 also </comment>
+      <glosses>
+	<english>
+	  <gloss>herd</gloss>
+	</english>
+	<spanish>
+	  <glosa>acorralar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ana^Vki</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> HVY:96 based on root ana- which can't stand alone? </comment>
+      <glosses>
+	<english>
+	  <gloss>raise animals</gloss>
+	</english>
+	<spanish>
+	  <glosa>arrear animales</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ana^Vnuku</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> HVY:96 based on root ana- which can't stand alone? </comment>
+      <glosses>
+	<english>
+	  <gloss>scatter the herd</gloss>
+	</english>
+	<spanish>
+	  <glosa>dispersar el rebaño</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+
+  <entry>
+
+    <form>
+      <lexical>anata</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>carnival</gloss>
+	</english>
+	<spanish>
+	  <glosa>carnaval</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>play</gloss>
+	</english>
+	<spanish>
+	  <glosa>jugar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>anchanchu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>evil underworld spirit</gloss>
+	  <gloss>echo</gloss>
+	</english>
+	<spanish>
+	  <glosa>espiritu maligno subterraneo</glosa>
+	  <glosa>eco</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>anqa</lexical>
+    </form>
+
+    <subentry cat="positional">
+      <comment> see HVY:174 normal positional?? </comment>
+      <glosses>
+	<english>
+	  <gloss>outside</gloss>
+	</english>
+	<spanish>
+	  <glosa>afuera</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<comment> block verbalization via lengthening </comment>
+	<feature>@P.N2Vlength.BLOCK@</feature>
+	<comment> can verbalize with +na-ka </comment>
+	<feature>@C.N2Vka@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+
+
+  <entry>
+
+    <form>
+      <lexical>anu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>Huanca 2003, p. 17</comment>
+      <glosses>
+	<english>
+	  <gloss>dog</gloss>
+	</english>
+	<spanish>
+	  <glosa>perro</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>apa</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi originally</comment>
+
+      <comment> apa-ta+ña:aptaña is levantar 
+		(the picking-up or initiation of the carrying) </comment>
+      <glosses>
+	<english>
+	  <gloss>carry</gloss>
+	</english>
+	<spanish>
+	  <glosa>llevar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>apa^Cja</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>help to carry</gloss>
+	</english>
+	<spanish>
+	  <glosa>ayudar a llevar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>apa^Cnaqa</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>handle</gloss>
+	  <gloss>manipulate</gloss>
+	</english>
+	<spanish>
+	  <glosa>manejar</glosa>
+	  <glosa>manipular</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>apa^Vnta</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>introduce</gloss>
+	  <gloss>insert</gloss>
+	</english>
+	<spanish>
+	  <glosa>meter</glosa>
+	  <glosa>introducir</glosa>
+	  <glosa>insertar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>apa^Vnuku</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>throw out</gloss>
+	  <gloss>discard</gloss>
+	</english>
+	<spanish>
+	  <glosa>botar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>apa^Vnuku^Vwaya</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>throw out</gloss>
+	  <gloss>abandon</gloss>
+	</english>
+	<spanish>
+	  <glosa>botar</glosa>
+	  <glosa>abandonar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>apa^Vra</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>take away</gloss>
+	  <gloss>confiscate</gloss>
+	</english>
+	<spanish>
+	  <glosa>quitar</glosa>
+	  <glosa>decomisar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+
+  <entry>
+
+    <form>
+      <lexical>apilla</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi; confirmed by Stuart, "like a sweet
+		potato in flavor, but smaller and segmented, more like
+		a carrot" , "delicious, unless dried" </comment>
+      <glosses>
+	<english>
+	  <gloss>oca, sweet tuber (Oxalis tuberosa)</gloss>
+	</english>
+	<spanish>
+	  <glosa>oca, tubérculo dulce (Oxalis tuberosa)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>arka</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>follow</gloss>
+	</english>
+	<spanish>
+	  <glosa>seguir</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>arku</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> HVY:107 </comment>
+      <glosses>
+	<english>
+	  <gloss>stack objects</gloss>
+	</english>
+	<spanish>
+	  <glosa>apilar objetos</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>aru</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi, see also EIA:109</comment>
+      <glosses>
+	<english>
+	  <gloss>word</gloss>
+          <gloss>language</gloss>
+	</english>
+	<spanish>
+	  <glosa>palabra</glosa>
+	  <glosa>idioma</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <comment> this subentry, first added to handle Hardman's heroic example
+		Aruskipasipxañanakasakipunirakïspawa
+                is now modified; Hardman's example would appear to be based
+		on the root arusi-, with a fossilized si.  see EIA:170
+		Juan de Dios Yapita, 27 Apr 2000, indicates that aru(ña) is
+		possible, but isn't used for people, but for "el cantar del gallo'
+	</comment>
+      <glosses>
+	<english>
+	  <gloss>crow (of a cock)</gloss>
+	</english>
+	<spanish>
+	  <glosa>cantar (del gallo)</glosa>
+	</spanish>
+        <comment>EIA:109 lists 'hablar' as a gloss, but Yapita would seem to disagree</comment>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>aru^Vsi</lexical>
+      <surface>arusi</surface>
+    </form>
+
+    <comment> fossilized si, so acts like a normal 3-vowel root;
+		in such cases, need to show surface plain like this
+	</comment>
+    <comment> the si would appear to be a fossilized reflexive -si,
+	but the result now acts as a three-vowel stem, see EIA:170
+	KRB 27 April 2000
+    </comment>
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>speak</gloss>
+	  <gloss>reprimand</gloss>
+	  <gloss>quarrel</gloss>
+	  <gloss>scold the children</gloss>
+	</english>
+	<spanish>
+	  <glosa>hablar</glosa>
+	  <glosa>regañar</glosa>
+	  <glosa>reñir</glosa>
+	  <glosa>reprender a los hijos</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>aruma</lexical>
+    </form>
+
+    <subentry cat="ntemporal">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> see HVY:178 temporal </comment>
+      <glosses>
+	<english>
+	  <gloss>night</gloss>
+	</english>
+	<spanish>
+	  <glosa>noche</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>arumanthi</lexical>
+    </form>
+
+    <subentry cat="ntemporal">
+      <comment> see HVY:178 temporal </comment>
+      <glosses>
+	<english>
+	  <gloss>morning</gloss>
+	</english>
+	<spanish>
+	  <glosa>mañana</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>arumarji</lexical>
+    </form>
+
+    <subentry cat="ntemporal">
+      <comment> see HVY:178 temporal </comment>
+      <glosses>
+	<english>
+	  <gloss>morning</gloss>
+	</english>
+	<spanish>
+	  <glosa>mañana</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>arumirja</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment> see HVY:178 temporal </comment>
+      <glosses>
+	<english>
+	  <gloss>morning</gloss>
+	</english>
+	<spanish>
+	  <glosa>mañana</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>asa</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> the recipent (vasa) may have to have a handle </comment>
+      <glosses>
+	<english>
+	  <gloss>carry (a recipient)</gloss>
+	</english>
+	<spanish>
+	  <glosa>llevar (recipiente)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>asu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>newborn baby</gloss>
+	</english>
+	<spanish>
+	  <glosa>criatura</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>Asuntita</lexical>
+    </form>
+
+    <subentry cat="nproper">
+      <glosses>
+	<english>
+	  <gloss>Asuntita</gloss>
+	</english>
+	<spanish>
+	  <glosa>Asuntita</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>atipa</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>win a game or dare</gloss>
+	</english>
+	<spanish>
+	  <glosa>ganar un juego o desafio</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>awati</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>pasture (animals)</gloss>
+          <gloss>herd</gloss>
+	</english>
+	<spanish>
+	  <glosa>pastear</glosa>
+	  <glosa>pastorear</glosa>
+          <glosa>arrear</glosa>
+          <glosa>arrear</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="ncommon">
+      <comment>see EIA:109</comment>
+      <glosses>
+	<english>
+	  <gloss>pasture</gloss>
+	</english>
+	<spanish>
+	  <glosa>pastoreo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>awayu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>typical Andean cloth</gloss>
+	</english>
+	<spanish>
+	  <glosa>tejido típico andino</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>awisa</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>inform</gloss>
+	  <gloss>advise</gloss>
+	</english>
+	<spanish>
+	  <glosa>informar</glosa>
+	  <glosa>avisar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>awki</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>father</gloss>
+	  <comment> hum ; see tayka = mother</comment>
+	</english>
+	<spanish>
+	  <glosa>padre</glosa>
+	  <glosa>papá</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>awrila</lexical>
+    </form>
+
+    <subentry cat="monthname">
+      <glosses>
+	<english>
+	  <gloss>April</gloss>
+	</english>
+	<spanish>
+	  <glosa>abril</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>awtu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>car</gloss>
+	</english>
+	<spanish>
+	  <glosa>coche</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>awustu</lexical>
+    </form>
+
+    <subentry cat="monthname">
+      <glosses>
+	<english>
+	  <gloss>August</gloss>
+	</english>
+	<spanish>
+	  <glosa>agosto</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>aya</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> HVY:20 takes large? or cylindrical? objects </comment>
+      <glosses>
+	<english>
+	  <gloss>carry (objects: large, cylindrical)</gloss>
+	</english>
+	<spanish>
+	  <glosa>llevar (objetos: largos, cilíndrico)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>aymara</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>Aymara</gloss>
+	</english>
+	<spanish>
+	  <glosa>Aymara</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>ayti</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> HVY:96 </comment>
+      <glosses>
+	<english>
+	  <gloss>move water or grains in a circular motion</gloss>
+	</english>
+	<spanish>
+	  <glosa>mover aqua o granos con un movimiento circular</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ayti^Vli</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> HVY:96 fossilized li suffix? </comment>
+      <glosses>
+	<english>
+	  <gloss>tremble from fatigue or nausea</gloss>
+	</english>
+	<spanish>
+	  <glosa>temblar de debilidad or por mareo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ayti^Vnki</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> HVY:96 fossilized nki suffix? </comment>
+      <glosses>
+	<english>
+	  <gloss>sway in the air like a skirt</gloss>
+	  <gloss>winnow barley in the wind</gloss>
+	</english>
+	<spanish>
+	  <glosa>tambalearse en el aire como una pollera</glosa>
+	  <glosa>peinarse de la cebada por el viento</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>chacha</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>man</gloss>
+	  <gloss>husband</gloss>
+	</english>
+	<spanish>
+	  <glosa>varón</glosa>
+	  <glosa>marido</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>chaka</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>well</gloss>
+	</english>
+	<spanish>
+	  <glosa>puente</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>chäka</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>dry stalk of quinua</gloss>
+	</english>
+	<spanish>
+	  <glosa>tronco seco de quinua</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>challwa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment> variant chawlla, see HVY:50 </comment>
+      <glosses>
+	<english>
+	  <gloss>fish</gloss>
+	</english>
+	<spanish>
+	  <glosa>pez</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>chara</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> bodypart </comment>
+      <glosses>
+	<english>
+	  <gloss>leg</gloss>
+	</english>
+	<spanish>
+	  <glosa>pierna</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>chawlla</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment> variant challwa, see HVY:50 </comment>
+      <glosses>
+	<english>
+	  <gloss>fish</gloss>
+	</english>
+	<spanish>
+	  <glosa>pez</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>chinu</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>tie</gloss>
+	</english>
+	<spanish>
+	  <glosa>atar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>chiqa</lexical>
+    </form>
+
+    <subentry cat="positional">
+      <comment> see HVY:174 this can can (also?) nominalize with pta </comment>
+      <glosses>
+	<english>
+	  <gloss>straight</gloss>
+	  <gloss>truth</gloss>
+	</english>
+	<spanish>
+	  <glosa>recto</glosa>
+	  <glosa>verdad</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.N2Vlength.BLOCK@</feature>
+	<comment> can verbalize with +na-ka </comment>
+	<feature>@C.N2Vka@</feature>
+	<comment> can verbalize (also?) with +pta </comment>
+	<feature>@C.N2Vpta@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>chuxu</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <comment> usually used of animals </comment>
+      <glosses>
+	<english>
+	  <gloss>skinny</gloss>
+	</english>
+	<spanish>
+	  <glosa>flaco</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>chuyma</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>lungs</gloss>
+	  <gloss>diaphram</gloss>
+	  <gloss>good will</gloss>
+	  <gloss>heart (figurative)</gloss>
+	</english>
+	<spanish>
+	  <glosa>pulmones</glosa>
+	  <glosa>diafragma</glosa>
+	  <glosa>buena voluntad</glosa>
+	  <glosa>corazón (figurativo)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>chhama</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>half milled</gloss>
+	  <gloss>rough ground</gloss>
+	</english>
+	<spanish>
+	  <glosa>mal molido</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>chhaqa</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>get lost</gloss>
+	  <gloss>disappear</gloss>
+	  <comment>EIA:109 has 'perder', check this</comment>
+	</english>
+	<spanish>
+	  <glosa>perderse</glosa>
+	  <glosa>desaparecer</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="ncommon">
+      <comment>from EIA:109</comment>
+      <glosses>
+	<english>
+	  <gloss>lost (object)</gloss>
+	</english>
+	<spanish>
+	  <glosa>perdido</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ch'alla</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>libation to diverse Andean divinities</gloss>
+	</english>
+	<spanish>
+	  <glosa>libación (con alcohol, vino, etc.) a diversas divinidades andinas</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ch'ama</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>strength</gloss>
+	  <gloss>difficulty</gloss>
+	</english>
+	<spanish>
+	  <glosa>fuerza</glosa>
+	  <glosa>dificultad</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ch'amaka</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>darkness</gloss>
+	  <gloss>dark</gloss>
+	  <gloss>trilight?</gloss>
+	  <gloss>bottomless lake</gloss>
+	</english>
+	<spanish>
+	  <glosa>oscuridad</glosa>
+	  <glosa>oscuro</glosa>
+	  <glosa>luz liminal</glosa>
+	  <glosa>lago sin suelo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ch'axwa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>fight</gloss>
+	  <gloss>disturbance</gloss>
+	</english>
+	<spanish>
+	  <glosa>bulla</glosa>
+	  <glosa>alboroto</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ch'iyara</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>black</gloss>
+	</english>
+	<spanish>
+	  <glosa>negro</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ch'ullu</lexical>
+      <comment> see variant lluch'u </comment>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>cap</gloss>
+	</english>
+	<spanish>
+	  <glosa>gorro</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>ch'uñu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>potato dehydrated by alternate exposure to the sun and ice</gloss>
+	</english>
+	<spanish>
+	  <glosa>papa deshidratada por exposición alterna al sol y a la helada</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>freeze</gloss>
+	</english>
+	<spanish>
+	  <glosa>helar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ch'uqi</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>potato</gloss>
+	</english>
+	<spanish>
+	  <glosa>papa</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ch'uwa</lexical>
+      <comment>see EIA:109</comment>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+        <english>
+          <gloss>transparent</gloss>
+	  <gloss>crystalline</gloss>
+        </english>
+        <spanish>
+          <glosa>transparente</glosa>
+	  <glosa>cristalino</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <glosses>
+        <english>
+          <gloss>be transparent</gloss>
+        </english>
+        <spanish>
+          <glosa>ser transparente</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>ch'uxña</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>green</gloss>
+	</english>
+	<spanish>
+	  <glosa>verde</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ichu</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+        <english>
+          <gloss>pick up with both hands</gloss>
+        </english>
+        <spanish>
+         <glosa>llevar con las dos manos, ej. un bebé</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>iki</lexical>
+    </form>
+
+<comment> probably also a noun </comment>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>sleep</gloss>
+	</english>
+	<spanish>
+	  <glosa>dormir</glosa>
+	</spanish>
+      </glosses>
+        <comment>Nayax ikisktwa 'I am sleeping' k''ä anux ikiskiwa 'that dog is sleeping' anu - dog k''a(y)a - deictic 'that/there'</comment>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ima</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>keep</gloss>
+	</english>
+	<spanish>
+	  <glosa>guardar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ima^Vya</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>bury</gloss>
+	</english>
+	<spanish>
+	  <glosa>enterrar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>iniru</lexical>
+    </form>
+
+    <subentry cat="monthname">
+      <glosses>
+	<english>
+	  <gloss>January</gloss>
+	</english>
+	<spanish>
+	  <glosa>enero</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>inti</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>sun</gloss>
+	</english>
+	<spanish>
+	  <glosa>sol</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ira</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> HVY:96 </comment>
+      <glosses>
+	<english>
+	  <gloss>carry a small object(s) in the fingers</gloss>
+	</english>
+	<spanish>
+	  <glosa>llevar objeto(s) pequeño(s) con los dedos</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>ira^Cpa</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> HVY:19 irpa human subject HVY:96 proposes ira-pa with 
+		fossilized pa suffix</comment>
+      <glosses>
+	<english>
+	  <gloss>carry (people or animals)</gloss>
+	</english>
+	<spanish>
+	  <glosa>llevar (personas o animales)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>ira^Cta</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> HVY:96 proposes ira-ta </comment>
+      <glosses>
+	<english>
+	  <gloss>raise</gloss>
+	  <gloss>detach from the surface</gloss>
+	</english>
+	<spanish>
+	  <glosa>levantar</glosa>
+	  <glosa>despegar de la superficie</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>jacha</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>like charla</comment>
+      <glosses>
+	<english>
+	  <gloss>cry</gloss>
+	</english>
+	<spanish>
+	  <glosa>llorar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="ncommon">
+      <glosses>
+        <english>
+          <gloss>tear</gloss>
+        </english>
+        <spanish>
+          <glosa>lágrima</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jach'a</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>big</gloss>
+	</english>
+	<spanish>
+	  <glosa>grande</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jach'i</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>measure of volume for barter</gloss>
+	  <gloss>handful of grain</gloss>
+	</english>
+	<spanish>
+	  <glosa>medida de volumen para trueques</glosa>
+	  <glosa>puñado de granos</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> HVY:20 needs a granular object </comment>
+      <glosses>
+	<english>
+	  <gloss>carry grain</gloss>
+	</english>
+	<spanish>
+	  <glosa>llevar granos</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jaka</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>live</gloss>
+	</english>
+	<spanish>
+	  <glosa>vivir</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>jakhu</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>count</gloss>
+	</english>
+	<spanish>
+	  <glosa>contar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jala</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> see also HVY:107 </comment>
+      <glosses>
+	<english>
+	  <gloss>run</gloss>
+	</english>
+	<spanish>
+	  <glosa>correr</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jallu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>rain</gloss>
+	</english>
+	<spanish>
+	  <glosa>lluvia</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jama</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>excrement</gloss>
+	</english>
+	<spanish>
+	  <glosa>excremento</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jani</lexical>
+    </form>
+
+    <subentry cat="negative">
+      <comment> HVY:189 </comment>
+      <glosses>
+	<english>
+	  <gloss>no</gloss>
+	</english>
+	<spanish>
+	  <glosa>no</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>janq'u</lexical>
+    </form>
+
+    <comment> Jorge 19 april 2000 gives 
+	janq'itujaru uñtañma = dá uma olhada na minha (ovelhinha/cachorrinho, etc) branco
+
+	I expected janq'utujaru and asked him again.
+    </comment>
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>white</gloss>
+	</english>
+	<spanish>
+	  <glosa>blanco</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jaqi</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>person</gloss>
+	  <gloss>man</gloss>
+	  <gloss>one who has achieved the fullness of his communal rights and obligations, probably via marriage</gloss>
+	</english>
+	<spanish>
+	  <glosa>persona</glosa>
+	  <glosa>hombre</glosa>
+	  <glosa>el/la que ha llegado a la plenitud de sus derechos y obligaciones comunales, probablemente al casarse</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jark'a</lexical>
+    </form>
+
+    <comment> from JPA, 29 May 2000, confirm </comment>
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>obstruct</gloss>
+	  <gloss>protect</gloss>
+	  <gloss>hinder</gloss>
+	</english>
+	<spanish>
+	  <glosa>atajar</glosa>
+	  <glosa>proteger</glosa>
+	  <glosa>impedir</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jatha</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>seed</gloss>
+	  <gloss>semen</gloss>
+	  <gloss>clan</gloss>
+	</english>
+	<spanish>
+	  <glosa>semilla</glosa>
+	  <glosa>semen</glosa>
+	  <glosa>grupo de personas emparentadas que forman una unidad social con acceso común a determinados terrenos, bienes y obligaciones</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jawira</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>river</gloss>
+	  <gloss>Milky Way</gloss>
+	</english>
+	<spanish>
+	  <glosa>río</glosa>
+	  <glosa>vía láctea</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jaxsara</lexical>
+    </form>
+
+    <comment> from JPA, 29 May 2000, confirm; probably complex </comment>
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>be afraid</gloss>
+	</english>
+	<spanish>
+	  <glosa>sentir miedo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>jayp'u</lexical>
+    </form>
+
+    <subentry cat="ntemporal">
+      <comment> see HVY:178 temporal </comment>
+      <glosses>
+	<english>
+	  <gloss>afternoon</gloss>
+	</english>
+	<spanish>
+	  <glosa>tarde</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jaysi</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>obey</gloss>
+	</english>
+	<spanish>
+	  <glosa>obedecer</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jayu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>salt</gloss>
+	</english>
+	<spanish>
+	  <glosa>sal</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jayu^Vwisa</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>insipid</gloss>
+	</english>
+	<spanish>
+	  <glosa>insípido</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jayu^Vwisu</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>insipid</gloss>
+	</english>
+	<spanish>
+	  <glosa>insípido</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jichhu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>straw</gloss>
+	</english>
+	<spanish>
+	  <glosa>paja</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.nIrara.ALLOW@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>jiki</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>meet</gloss>
+	</english>
+	<spanish>
+	  <glosa>encontrar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jila</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>grow</gloss>
+	</english>
+	<spanish>
+	  <glosa>crecer</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jilata</lexical>
+    </form>
+
+    <comment>from JPA, confirmed in Ayala; but could it
+be morphotactically complex?</comment>
+
+    <subentry cat="ncommon">
+      <glosses>
+        <english>
+          <gloss>brother</gloss>
+          <gloss>friend</gloss>
+        </english>
+        <spanish>
+          <glosa>hermano</glosa>
+          <glosa>amigo</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jinchu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> bodypart </comment>
+      <glosses>
+	<english>
+	  <gloss>ear</gloss>
+	</english>
+	<spanish>
+	  <glosa>oreja</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jinchu^Vwisa</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>deaf</gloss>
+	</english>
+	<spanish>
+	  <glosa>sordo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jinchu^Vwisu</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>deaf</gloss>
+	</english>
+	<spanish>
+	  <glosa>sordo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jiskhi</lexical>
+    </form>
+
+    <comment> from JPA 24 Aug 2000 </comment>
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>ask</gloss>
+	</english>
+	<spanish>
+	  <glosa>perguntar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jiwa</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>die</gloss>
+	</english>
+	<spanish>
+	  <glosa>morir</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jiwa^Vya</lexical>
+    </form>
+
+    <comment>obvious causative of jiwa</comment>
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>kill</gloss>
+	</english>
+	<spanish>
+	  <glosa>matar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jiwasa</lexical>
+    </form>
+
+    <subentry cat="pronounpersonal">
+      <glosses>
+	<english>
+	  <gloss>4P pronoun</gloss>
+	</english>
+	<spanish>
+	  <glosa>4P pronombre</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.NIposs.BLOCK@</feature>
+	<feature>@P.PersPoss.BLOCK@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jiwq'i</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment> may have varient jiq'i </comment>
+      <glosses>
+	<english>
+	  <gloss>smoke</gloss>
+	</english>
+	<spanish>
+	  <glosa>humo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jullu</lexical>
+    </form>
+
+    <subentry cat="monthname">
+      <glosses>
+	<english>
+	  <gloss>July</gloss>
+	</english>
+	<spanish>
+	  <glosa>julio</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>juñu</lexical>
+    </form>
+
+    <subentry cat="monthname">
+      <glosses>
+	<english>
+	  <gloss>June</gloss>
+	</english>
+	<spanish>
+	  <glosa>junio</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>Jusiya</lexical>
+    </form>
+
+    <subentry cat="nproper">
+      <glosses>
+	<english>
+	  <gloss>José</gloss>
+	</english>
+	<spanish>
+	  <glosa>José</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>jusk'a</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>small</gloss>
+	</english>
+	<spanish>
+	  <glosa>pequeño</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>Juwanti</lexical>
+    </form>
+
+    <subentry cat="nproper">
+      <glosses>
+	<english>
+	  <gloss>Juan</gloss>
+	</english>
+	<spanish>
+	  <glosa>Juan</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+
+  <entry>
+
+    <form>
+      <lexical>jucha</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>blame</gloss>
+	  <gloss>sin</gloss>
+	  <gloss>burden of communal responsibility</gloss>
+	</english>
+	<spanish>
+	  <glosa>culpa</glosa>
+	  <glosa>pecado</glosa>
+	  <glosa>cargo de responsabilidad comunal</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>juchha</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>quinua soup</gloss>
+	</english>
+	<spanish>
+	  <glosa>sopa de quinua</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>juma</lexical>
+    </form>
+
+    <subentry cat="pronounpersonal">
+      <comment> jumanaka (juma+naka) is the plural </comment>
+      <glosses>
+	<english>
+	  <gloss>2P pronoun</gloss>
+	</english>
+	<spanish>
+	  <glosa>2P pronombre</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.NIposs.BLOCK@</feature>
+	<feature>@P.PersPoss.BLOCK@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>junt'u</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <comment> junt'ucha(ña) = to cause to be warm </comment>
+      <glosses>
+	<english>
+	  <gloss>warm</gloss>
+	</english>
+	<spanish>
+	  <glosa>caliente</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+  <entry>
+
+    <form>
+      <lexical>jupa</lexical>
+    </form>
+
+    <subentry cat="pronounpersonal">
+      <glosses>
+	<english>
+	  <gloss>3P pronoun</gloss>
+	</english>
+	<spanish>
+	  <glosa>3P pronombre</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.NIposs.BLOCK@</feature>
+	<feature>@P.PersPoss.BLOCK@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jupha</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>quinua</gloss>
+	</english>
+	<spanish>
+	  <glosa>quínua, gramínea de alto poder nutritivo, propia del Altiplano</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>juri</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <comment> juricha(ña) is mojar; causative +cha suffix </comment>
+      <glosses>
+	<english>
+	  <gloss>wet</gloss>
+	</english>
+	<spanish>
+	  <glosa>mojado</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>jüri</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>steam</gloss>
+	</english>
+	<spanish>
+	  <glosa>vapor</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>juta</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>come</gloss>
+	</english>
+	<spanish>
+	  <glosa>venir</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>juyra</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>victuals</gloss>
+	  <gloss>provisions</gloss>
+	</english>
+	<spanish>
+	  <glosa>víveres</glosa>
+	  <glosa>provisiones</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>juywisa</lexical>
+    </form>
+
+    <subentry cat="dayname">
+      <glosses>
+	<english>
+	  <gloss>Thursday</gloss>
+	</english>
+	<spanish>
+	  <glosa>jueves</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>kamisa</lexical>
+    </form>
+
+    <subentry cat="interrogative">
+      <comment> nominal interrogative </comment>
+      <glosses>
+	<english>
+	  <gloss>how</gloss>
+	</english>
+	<spanish>
+	  <glosa>cómo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>kamyu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment> check this one </comment>
+      <glosses>
+	<english>
+	  <gloss>exchange</gloss>
+	</english>
+	<spanish>
+	  <glosa>cambio</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+
+  <entry>
+
+    <form>
+      <lexical>kanka</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>roast meat?</gloss>
+	</english>
+	<spanish>
+	  <glosa>asado</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>roast</gloss>
+	</english>
+	<spanish>
+	  <glosa>asar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>katu</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>grab</gloss>
+	  <gloss>grasp</gloss>
+	  <gloss>catch</gloss>
+	</english>
+	<spanish>
+	  <glosa>agarrar</glosa>
+	  <glosa>coger</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>kawki</lexical>
+    </form>
+
+    <subentry cat="interrogative">
+      <comment> nominal interrogative </comment>
+      <glosses>
+	<english>
+	  <gloss>where</gloss>
+	</english>
+	<spanish>
+	  <glosa>dónde</glosa>
+	  <glosa>donde</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.nIsa.ALLOW@</feature>
+	<feature>@P.nIkata.ALLOW@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+  <entry>
+
+    <form>
+      <lexical>kaya</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> like a sweet potato </comment>
+      <glosses>
+	<english>
+	  <gloss>dried oca (see apilla)</gloss>
+	</english>
+	<spanish>
+	  <glosa>oca seca (v. apilla)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>kayu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>foot</gloss>
+	  <gloss>paw</gloss>
+	</english>
+	<spanish>
+	  <glosa>pie</glosa>
+	  <glosa>pata</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>kimsa</lexical>
+    </form>
+
+    <subentry cat="digit">
+      <comment> number </comment>
+      <glosses>
+	<english>
+	  <gloss>three</gloss>
+	</english>
+	<spanish>
+	  <glosa>tres</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>kimsaqallqu</lexical>
+    </form>
+
+    <subentry cat="digit">
+      <comment> number </comment>
+      <glosses>
+	<english>
+	  <gloss>eight</gloss>
+	</english>
+	<spanish>
+	  <glosa>ocho</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>kuka</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>coca</gloss>
+	</english>
+	<spanish>
+	  <glosa>coca</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>kukuli</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment> from Stuart </comment>
+      <glosses>
+	<english>
+	  <gloss>ghost</gloss>
+	</english>
+	<spanish>
+	  <glosa>espíritu</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>kullaka</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>sister</gloss>
+	</english>
+	<spanish>
+	  <glosa>hermana</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>kumputadura</lexical>
+    </form>
+
+    <comment> from Jorge Arpasi 19 April 2000 ; is the d kosher?</comment>
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>computer</gloss>
+	</english>
+	<spanish>
+	  <glosa>computador</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>kuna</lexical>
+    </form>
+
+    <subentry cat="interrogative">
+      <comment> nominal interrogative </comment>
+      <glosses>
+	<english>
+	  <gloss>what</gloss>
+	  <gloss>that</gloss>
+	</english>
+	<spanish>
+	  <glosa>qué</glosa>
+	  <glosa>lo que</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>kuntura</lexical>
+    </form>
+
+    <comment> from JPA, 29 May 2000, borrowing from quechua</comment>
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>condor</gloss>
+	</english>
+	<spanish>
+	  <glosa>condor</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+
+  <entry>
+
+    <form>
+      <lexical>kusa</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>good</gloss>
+	  <gloss>well</gloss>
+	</english>
+	<spanish>
+	  <glosa>bueno</glosa>
+	  <glosa>bien</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>kusi</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>happiness</gloss>
+	</english>
+	<spanish>
+	  <glosa>alegría</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>make happy</gloss>
+	</english>
+	<spanish>
+	  <glosa>alegrar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>kuti</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>time</gloss>
+	</english>
+	<spanish>
+	  <glosa>vez</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>return</gloss>
+	</english>
+	<spanish>
+	  <glosa>regresar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>k'ari</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>liar</gloss>
+	</english>
+	<spanish>
+	  <glosa>mentiroso</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>k'usa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>chicha (grain drink)</gloss>
+	</english>
+	<spanish>
+	  <glosa>chicha (bebida de granos)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>khakha</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>stammer</gloss>
+	  <gloss>stutter</gloss>
+	</english>
+	<spanish>
+	  <glosa>tartamudear</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>khari</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>cut</gloss>
+	  <gloss>cut the throat (slaughter)</gloss>
+	  <gloss>female alpaca delivered in payment to the herder</gloss>
+	</english>
+	<spanish>
+	  <glosa>cortar</glosa>
+	  <glosa>degollar</glosa>
+	  <glosa>alpaca hembra entregada en pago al pastor</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>kharikhari</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>sacamantecas</gloss>
+	  <gloss>bogey man who cuts out your fat</gloss>
+	</english>
+	<spanish>
+	  <glosa>sacamantecas</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>khaya</lexical>
+    </form>
+
+    <subentry cat="pronoundemonstrative">
+      <comment> may have orthographical form khä when attributive:
+		khä uta    aquella casa </comment>
+      <comment>Huanca 2003, p. 17</comment>
+      <glosses>
+	<english>
+	  <gloss>that (over) there</gloss>
+	  <gloss>over there</gloss>
+	</english>
+	<spanish>
+	  <glosa>aquello</glosa>
+	  <glosa>aquel</glosa>
+	  <glosa>aquella</glosa>
+	  <glosa>allá</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.nIsa.ALLOW@</feature>
+	<feature>@P.nIkata.ALLOW@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>khita</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+        <english>
+          <gloss>messenger</gloss>
+        </english>
+        <spanish>
+          <glosa>mensajero</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <glosses>
+        <english>
+          <gloss>send a messenger</gloss>
+        </english>
+        <spanish>
+          <glosa>enviar un mensajero</glosa>
+	  <glosa>comisionar a alguien</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>khiti</lexical>
+    </form>
+
+    <subentry cat="interrogative">
+      <comment> nominal interrogative </comment>
+      <glosses>
+	<english>
+	  <gloss>who</gloss>
+	</english>
+	<spanish>
+	  <glosa>quién</glosa>
+	  <glosa>quien</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>khuchhu</lexical>
+    </form>
+
+    <comment>confirmed 24 Aug 2000</comment>
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>cut</gloss>
+	</english>
+	<spanish>
+	  <glosa>cortar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+<entry>
+
+    <form>
+      <lexical>khuchi</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Huanca 2003, p. 17</comment>
+      <glosses>
+	<english>
+	  <gloss>pig</gloss>
+	</english>
+	<spanish>
+	  <glosa>puerco</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>khunu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>snow</gloss>
+	</english>
+	<spanish>
+	  <glosa>nieve</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>khuri</lexical>
+    </form>
+
+    <subentry cat="pronoundemonstrative">
+      <glosses>
+	<english>
+	  <gloss>that (way over) there</gloss>
+	  <gloss>way over there</gloss>
+	</english>
+	<spanish>
+	  <glosa>aquello</glosa>
+	  <glosa>aquel</glosa>
+	  <glosa>aquella</glosa>
+	  <glosa>acullá</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.nIsa.ALLOW@</feature>
+	<feature>@P.nIkata.ALLOW@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+
+
+  <entry>
+
+    <form>
+      <lexical>laka</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>mouth</gloss>
+	  <gloss>entrance</gloss>
+	</english>
+	<spanish>
+	  <glosa>boca</glosa>
+	  <glosa>entrada</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>laki</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>redistribution</gloss>
+	  <gloss>sharing</gloss>
+	</english>
+	<spanish>
+	  <glosa>distribuición</glosa>
+	  <glosa>reparto</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>redistribute</gloss>
+	</english>
+	<spanish>
+	  <glosa>repartir</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>lapaka</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment> HVY:29 </comment>
+      <glosses>
+	<english>
+	  <gloss>season before the rainy season</gloss>
+	  <gloss>november</gloss>
+	</english>
+	<spanish>
+	  <glosa>estación antes de la estación de lluvia</glosa>
+	  <glosa>noviembre</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>lapisa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>pencil</gloss>
+	</english>
+	<spanish>
+	  <glosa>lápis</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>lap'a</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>louse</gloss>
+	</english>
+	<spanish>
+	  <glosa>piojo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>laqa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>haste</gloss>
+	</english>
+	<spanish>
+	  <glosa>prisa</glosa>
+	  <glosa>apuro</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>laqha</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>darkness</gloss>
+	  <gloss>dark</gloss>
+	</english>
+	<spanish>
+	  <glosa>oscuridad</glosa>
+	  <glosa>oscuro</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>laq'a</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>dust</gloss>
+	  <gloss>dirt</gloss>
+	</english>
+	<spanish>
+	  <glosa>polvo</glosa>
+	  <glosa>tierra (la sustancia)</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.nIrara.ALLOW@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>laru</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>laugh</gloss>
+	</english>
+	<spanish>
+	  <glosa>reír</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>laxra</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> bodypart </comment>
+      <glosses>
+	<english>
+	  <gloss>tongue</gloss>
+	</english>
+	<spanish>
+	  <glosa>lengua (parte del cuerpo)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>layqa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>witch</gloss>
+	</english>
+	<spanish>
+	  <glosa>brujo/a</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>liwa</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>feed (animals)</gloss>
+	</english>
+	<spanish>
+	  <glosa>alimentar (animales)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>liwi</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>draw</gloss>
+	  <gloss>throw</gloss>
+	  <gloss>fall</gloss>
+	</english>
+	<spanish>
+	  <glosa>tirar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>liyi</lexical>
+    </form>
+
+    <comment> this is the root, obviously borrowed from Spanish leer,
+	used in Puno, Peru.  See ulla for what is perhaps still the
+	Bolivian root</comment>
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>read</gloss>
+	</english>
+	<spanish>
+	  <glosa>leer</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>luk'ana</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> also toe?? </comment>
+      <glosses>
+	<english>
+	  <gloss>finger</gloss>
+	</english>
+	<spanish>
+	  <glosa>dedo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>lunisa</lexical>
+    </form>
+
+    <subentry cat="dayname">
+      <glosses>
+	<english>
+	  <gloss>Monday</gloss>
+	</english>
+	<spanish>
+	  <glosa>lunes</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>lunthata</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>thief</gloss>
+	</english>
+	<spanish>
+	  <glosa>ladrón</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>steal</gloss>
+	</english>
+	<spanish>
+	  <glosa>robar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>lupi</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>heat</gloss>
+	  <gloss>solar rays</gloss>
+	  <gloss>sunlight</gloss>
+	</english>
+	<spanish>
+	  <glosa>calor</glosa>
+	  <glosa>rayos solares</glosa>
+	  <glosa>sol (opuesto a sombra)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>heat (up)</gloss>
+	</english>
+	<spanish>
+	  <glosa>hacer calor</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>lura</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>do</gloss>
+	  <gloss>make</gloss>
+	</english>
+	<spanish>
+	  <glosa>hacer</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>llamayuña</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>harvest (by digging) (potato, oca, etc.)</gloss>
+	</english>
+	<spanish>
+	  <glosa>cosecha escarbando (papa, oca, etc.)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>harvest (by digging) (potato, oca, etc.)</gloss>
+	  <gloss>scrape (the earth)</gloss>
+	</english>
+	<spanish>
+	  <glosa>cosechar (papa, oca, etc.)</glosa>
+	  <glosa>escarbar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>llapa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>dry pasture</gloss>
+	</english>
+	<spanish>
+	  <glosa>pasto seco</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>llatunka</lexical>
+    </form>
+
+    <subentry cat="digit">
+      <comment> number </comment>
+      <glosses>
+	<english>
+	  <gloss>nine</gloss>
+	</english>
+	<spanish>
+	  <glosa>nueve</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>lluch'u</lexical>
+      <comment> see variant ch'ullu </comment>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>cap</gloss>
+	</english>
+	<spanish>
+	  <glosa>gorro</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>mä</lexical>
+      <comment> see allomorphs maya, may HVY:175 </comment>
+    </form>
+
+    <subentry cat="digit">
+      <glosses>
+	<english>
+	  <gloss>one</gloss>
+	</english>
+	<spanish>
+	  <glosa>uno</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="pronoundemonstrative">
+      <comment> see HVY:173 can take sa </comment>
+      <glosses>
+	<english>
+	  <gloss>one</gloss>
+	</english>
+	<spanish>
+	  <glosa>uno</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.nIsa.ALLOW@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>mago</lexical>
+    </form>
+
+    <comment> looks like a borrowing straight from Spanish, used in
+	the Bible.   Mä jaqinakaw inti jalsu tuqit purinipxäna, jupanakasti magonakäpxänwa.
+	From Jorge Arpasi, 14 May 2000, with the quote apparently from Saturnino Gallego's
+	grammar.  The 'g' is suspicious.
+    </comment>
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>Wise Man</gloss>
+	  <gloss>Magus</gloss>
+	</english>
+	<spanish>
+	  <glosa>mago</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>mallku</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>condor</gloss>
+	  <gloss>Aymara leader</gloss>
+	  <gloss>ceremonial title</gloss>
+	</english>
+	<spanish>
+	  <glosa>condor</glosa>
+	  <glosa>autoridade Aymara</glosa>
+	  <glosa>título ceremonial</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>mama</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>Mrs.</gloss>
+	  <comment> title </comment>
+	</english>
+	<spanish>
+	  <glosa>Señora</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>manqha</lexical>
+    </form>
+
+    <subentry cat="positional">
+      <comment> see HVY:174 normal positional?? </comment>
+      <glosses>
+	<english>
+	  <gloss>inside</gloss>
+	  <gloss>valley</gloss>
+	</english>
+	<spanish>
+	  <glosa>dentro</glosa>
+	  <glosa>valle</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.N2Vlength.BLOCK@</feature>
+	<comment> can verbalize with +na-ka </comment>
+	<feature>@C.N2Vka@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>chura</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>like charla</comment>
+      <glosses>
+	<english>
+	  <gloss>give</gloss>
+	</english>
+	<spanish>
+	  <glosa>dar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>manq'a</lexical>
+      <comment>see maq'a variant EIA:109</comment>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>eat</gloss>
+	</english>
+	<spanish>
+	  <glosa>comer</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>food</gloss>
+	</english>
+	<spanish>
+	  <glosa>comida</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+
+  <entry>
+
+    <form>
+      <lexical>manta</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>enter</gloss>
+	</english>
+	<spanish>
+	  <glosa>entrar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>maq'a</lexical>
+      <comment>see (more common?) manq'a variant EIA:109</comment>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>eat</gloss>
+	</english>
+	<spanish>
+	  <glosa>comer</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>food</gloss>
+	</english>
+	<spanish>
+	  <glosa>comida</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+
+  <entry>
+
+    <form>
+      <lexical>mara</lexical>
+    </form>
+
+    <subentry cat="ntemporal">
+      <comment> see HVY:178 temporal </comment>
+      <glosses>
+	<english>
+	  <gloss>year</gloss>
+	</english>
+	<spanish>
+	  <glosa>año</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>Mariya</lexical>
+    </form>
+
+    <subentry cat="nproper">
+      <glosses>
+	<english>
+	  <gloss>Mary</gloss>
+	</english>
+	<spanish>
+	  <glosa>María</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>marka</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>town</gloss>
+	  <gloss>city</gloss>
+	</english>
+	<spanish>
+	  <glosa>pueblo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>marsu</lexical>
+    </form>
+
+    <subentry cat="monthname">
+      <glosses>
+	<english>
+	  <gloss>March</gloss>
+	</english>
+	<spanish>
+	  <glosa>marzo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>martisa</lexical>
+    </form>
+
+    <subentry cat="dayname">
+      <glosses>
+	<english>
+	  <gloss>Tuesday</gloss>
+	</english>
+	<spanish>
+	  <glosa>martes</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>mat'aqja</lexical>
+    </form>
+
+    <comment> from JPA, 29 May 2000, confirm; probably complex </comment>
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>kick (e.g. like a horse)</gloss>
+	</english>
+	<spanish>
+	  <glosa>cozar (e.g. como caballo)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>may</lexical>
+      <comment> see allomorphs mä, maya HVY:175 </comment>
+    </form>
+
+    <subentry cat="digit">
+      <glosses>
+	<english>
+	  <gloss>one</gloss>
+	</english>
+	<spanish>
+	  <glosa>uno</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="pronoundemonstrative">
+      <comment> see HVY:173 can take sa </comment>
+      <glosses>
+	<english>
+	  <gloss>one</gloss>
+	</english>
+	<spanish>
+	  <glosa>uno</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.nIsa.ALLOW@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+
+
+  <entry>
+
+    <form>
+      <lexical>maya</lexical>
+      <comment> see allomorphs mä, may HVY:175 </comment>
+    </form>
+
+    <subentry cat="digit">
+      <glosses>
+	<english>
+	  <gloss>one</gloss>
+	</english>
+	<spanish>
+	  <glosa>uno</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="pronoundemonstrative">
+      <comment> see HVY:173 can take sa </comment>
+      <glosses>
+	<english>
+	  <gloss>one</gloss>
+	</english>
+	<spanish>
+	  <glosa>uno</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.nIsa.ALLOW@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>mayi</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>ask</gloss>
+	</english>
+	<spanish>
+	  <glosa>pedir</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>mayu</lexical>
+    </form>
+
+    <subentry cat="monthname">
+      <glosses>
+	<english>
+	  <gloss>May</gloss>
+	</english>
+	<spanish>
+	  <glosa>mayo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>milluna</lexical>
+    </form>
+
+    <subentry cat="multiplier">
+      <glosses>
+	<english>
+	  <gloss>million</gloss>
+	</english>
+	<spanish>
+	  <glosa>millón</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>mink'a</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>worker paid in food, products or money</gloss>
+	  <gloss>help</gloss>
+	  <comment>from Jorge P. Arpasi</comment>
+	  <comment>see EIA:109</comment>
+	</english>
+	<spanish>
+	  <glosa>el que trabaja para (o por) otro a cambio e pago en comida, producto o dinero</glosa>
+	  <comment>from Jorge P. Arpasi</comment>
+	  <comment>see EIA:109</comment>
+	  <glosa>ajuda</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <glosses>
+        <english>
+          <gloss>help</gloss>
+	  <comment>see EIA:109</comment>
+        </english>
+        <spanish>
+          <glosa>ajudar</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>mira</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>procreate</gloss>
+	  <gloss>reproduce</gloss>
+	</english>
+	<spanish>
+	  <glosa>procrear</glosa>
+	  <glosa>multiplicarse</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>mirkulisa</lexical>
+    </form>
+
+    <subentry cat="dayname">
+      <glosses>
+	<english>
+	  <gloss>Wednesday</gloss>
+	</english>
+	<spanish>
+	  <glosa>miércoles</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>misa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>table</gloss>
+	</english>
+	<spanish>
+	  <glosa>mesa</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>mistu</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>leave</gloss>
+	  <gloss>depart</gloss>
+	</english>
+	<spanish>
+	  <glosa>salir</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>muna</lexical>
+    </form>
+
+    <comment> munata = querido/amado ; muniri = 'quem ama/quer' </comment>
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>want</gloss>
+	</english>
+	<spanish>
+	  <glosa>querer</glosa>
+	  <glosa>desear</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+ <entry>
+
+    <form>
+      <lexical>musi</lexical>
+    </form>
+
+    <comment> check this one </comment>
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>care</gloss>
+	</english>
+	<spanish>
+	  <glosa>cuidar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>nakha</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>burn</gloss>
+	</english>
+	<spanish>
+	  <glosa>quemar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>nanaka</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>we (excl.)</gloss>
+	</english>
+	<spanish>
+	  <glosa>nosotros (excl.)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>nasa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> bodypart </comment>
+      <glosses>
+	<english>
+	  <gloss>nose</gloss>
+	</english>
+	<spanish>
+	  <glosa>nariz</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>naya</lexical>
+    </form>
+
+    <subentry cat="pronounpersonal">
+      <glosses>
+	<english>
+	  <gloss>1P pronoun</gloss>
+	</english>
+	<spanish>
+	  <glosa>1P pronombre</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.NIposs.BLOCK@</feature>
+	<feature>@P.PersPoss.BLOCK@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>nayra</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>eye</gloss>
+	</english>
+	<spanish>
+	  <glosa>ojo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>nayra^Vwisa</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>blind</gloss>
+	</english>
+	<spanish>
+	  <glosa>ciego</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>nayra^Vwisu</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>blind</gloss>
+	</english>
+	<spanish>
+	  <glosa>ciego</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>nina</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>fire</gloss>
+	  <gloss>live coal</gloss>
+	</english>
+	<spanish>
+	  <glosa>fuego</glosa>
+	  <glosa>brasa</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>nuwa</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>slap</gloss>
+	</english>
+	<spanish>
+	  <glosa>abofetear</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>nuwimri</lexical>
+    </form>
+
+    <subentry cat="monthname">
+      <glosses>
+	<english>
+	  <gloss>November</gloss>
+	</english>
+	<spanish>
+	  <glosa>noviembre</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ña</lexical>
+    </form>
+
+    <subentry cat="ntemporal">
+      <comment> suspicious:  adverb aspectual </comment>
+      <glosses>
+	<english>
+	  <gloss>already</gloss>
+	</english>
+	<spanish>
+	  <glosa>ya</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+<entry>
+
+    <form>
+      <lexical>ñatu</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> check this one </comment>
+      <glosses>
+	<english>
+	  <gloss>collect</gloss>
+	</english>
+	<spanish>
+	  <glosa>amasar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+  <entry>
+
+    <form>
+      <lexical>ñiq'i</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>mud</gloss>
+	  <gloss>clay</gloss>
+	</english>
+	<spanish>
+	  <glosa>barro</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ñuñu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>breast</gloss>
+	</english>
+	<spanish>
+	  <glosa>teta</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>nurse</gloss>
+	</english>
+	<spanish>
+	  <glosa>mamar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ñut'u</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>well ground</gloss>
+	</english>
+	<spanish>
+	  <glosa>bien molido</glosa>
+	  <glosa>pulverizado</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>pä</lexical>
+      <comment> see allomorphs pay, paya, pani HVY:175 </comment>
+    </form>
+
+    <subentry cat="digit">
+      <comment> number </comment>
+      <glosses>
+	<english>
+	  <gloss>two</gloss>
+	</english>
+	<spanish>
+	  <glosa>dos</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>parla^Ct'a</lexical>
+      <surface>palt'a</surface>
+    </form>
+
+    <comment>just briefly??? check the glosses</comment>
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>chat</gloss>
+	  <gloss>speak briefly</gloss>
+	</english>
+	<spanish>
+	  <glosa>hablar brevemente</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>parla^Csu</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>pronounce</gloss>
+	  <comment>literally 'speak out'</comment>
+	</english>
+	<spanish>
+	  <glosa>pronunciar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>pampa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>plain</gloss>
+	</english>
+	<spanish>
+	  <glosa>pampa</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>pani</lexical>
+      <comment> see allomorphs pay, pä, paya HVY:175 </comment>
+    </form>
+
+    <subentry cat="digit">
+      <comment> number </comment>
+      <glosses>
+	<english>
+	  <gloss>two</gloss>
+	</english>
+	<spanish>
+	  <glosa>dos</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>panqara</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>flower</gloss>
+	</english>
+	<spanish>
+	  <glosa>flor</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>flower</gloss>
+	</english>
+	<spanish>
+	  <glosa>florecer</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+
+  <entry>
+
+    <form>
+      <lexical>paqallqu</lexical>
+    </form>
+
+    <subentry cat="digit">
+      <comment> number </comment>
+      <glosses>
+	<english>
+	  <gloss>seven</gloss>
+	</english>
+	<spanish>
+	  <glosa>siete</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>para</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>front</gloss>
+	</english>
+	<spanish>
+	  <glosa>frente</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>parinu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>godfather</gloss>
+	</english>
+	<spanish>
+	  <glosa>padrino</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+
+  <entry>
+
+    <form>
+      <lexical>parla</lexical>
+      <comment> see palt'a(ña) which was historically based on
+		parla </comment>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>speak</gloss>
+	</english>
+	<spanish>
+	  <glosa>hablar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>pata</lexical>
+    </form>
+
+    <subentry cat="positional">
+      <comment> see HVY:174 normal positional?? </comment>
+      <glosses>
+	<english>
+	  <gloss>above</gloss>
+	  <gloss>altiplano</gloss>
+	</english>
+	<spanish>
+	  <glosa>encima</glosa>
+	  <glosa>altiplano</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.N2Vlength.BLOCK@</feature>
+	<comment> can verbalize with +na-ka </comment>
+	<feature>@C.N2Vka@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>pataka</lexical>
+    </form>
+
+    <subentry cat="multiplier">
+      <glosses>
+	<english>
+	  <gloss>one hundred</gloss>
+	</english>
+	<spanish>
+	  <glosa>cien</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>pay</lexical>
+      <comment> see allomorphs paya, pä, pani HVY:175 </comment>
+    </form>
+
+    <subentry cat="digit">
+      <comment> number </comment>
+      <glosses>
+	<english>
+	  <gloss>two</gloss>
+	</english>
+	<spanish>
+	  <glosa>dos</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>paya</lexical>
+      <comment> see allomorphs pay, pä, pani HVY:175 </comment>
+    </form>
+
+    <subentry cat="digit">
+      <comment> number </comment>
+      <glosses>
+	<english>
+	  <gloss>two</gloss>
+	</english>
+	<spanish>
+	  <glosa>dos</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>pinkillu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>a kind of cane flute</gloss>
+	</english>
+	<spanish>
+	  <glosa>una clase de flauta de caña</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>pirqa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>wall</gloss>
+	  <gloss>valley of stones</gloss>
+	</english>
+	<spanish>
+	  <glosa>pared</glosa>
+	  <glosa>valle de piedras</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <comment></comment>
+      <glosses>
+	<english>
+	  <gloss>build a wall</gloss>
+	</english>
+	<spanish>
+	  <glosa>construir una pared</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>Piruti</lexical>
+    </form>
+
+    <subentry cat="nproper">
+      <glosses>
+	<english>
+	  <gloss>Pedro</gloss>
+	</english>
+	<spanish>
+	  <glosa>Pedro</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>pisa</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>check this one</comment>
+      <glosses>
+	<english>
+	  <gloss>weigh</gloss>
+	</english>
+	<spanish>
+	  <glosa>pesar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>pisi</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <comment> HVY:29 </comment>
+      <glosses>
+	<english>
+	  <gloss>less</gloss>
+	  <gloss>little</gloss>
+	  <gloss>what is lacking</gloss>
+	</english>
+	<spanish>
+	  <glosa>menos</glosa>
+	  <glosa>poco</glosa>
+	  <glosa>lo que falta</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>punku</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>door</gloss>
+	  <gloss>gate</gloss>
+	  <gloss>entrance</gloss>
+	</english>
+	<spanish>
+	  <glosa>puerta</glosa>
+	  <glosa>entrada</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>puqha</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+        <english>
+          <gloss>complete</gloss>
+	  <gloss>full</gloss>
+        </english>
+        <spanish>
+          <glosa>completo</glosa>
+	  <glosa>lleno</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <glosses>
+        <english>
+          <gloss>pay a bill</gloss>
+        </english>
+        <spanish>
+          <glosa>pagar una cuenta</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+
+</entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>puri</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>arrive</gloss>
+	</english>
+	<spanish>
+	  <glosa>llegar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>pusi</lexical>
+    </form>
+
+    <subentry cat="digit">
+      <comment> number </comment>
+      <glosses>
+	<english>
+	  <gloss>four</gloss>
+	</english>
+	<spanish>
+	  <glosa>cuatro</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>pututu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>horn to call the people together</gloss>
+	</english>
+	<spanish>
+	  <glosa>cuerno para convocar a la gente (antes era de caracol marino; desde la colonia es de asta de res)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>phalla</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>burst</gloss>
+	  <gloss>explode</gloss>
+	</english>
+	<spanish>
+	  <glosa>reventar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>phara</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>dry</gloss>
+	</english>
+	<spanish>
+	  <glosa>seco</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>phaxsi</lexical>
+    </form>
+
+    <subentry cat="ntemporal">
+      <comment> see HVY:178 temporal </comment>
+      <glosses>
+	<english>
+	  <gloss>month</gloss>
+	</english>
+	<spanish>
+	  <glosa>mes</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>phaya</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>cook</gloss>
+	</english>
+	<spanish>
+	  <glosa>cocinar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>phina</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>pile of potatoes or other tubers, covered with straw or bushes and earth</gloss>
+	</english>
+	<spanish>
+	  <glosa>montón de papa u otros tubérculos, cubiertos con paja o matas y tierra</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>phirya</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>fair</gloss>
+	  <gloss>market</gloss>
+	</english>
+	<spanish>
+	  <glosa>feria</glosa>
+	  <glosa>mercado</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>phisi</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>cat</gloss>
+	</english>
+	<spanish>
+	  <glosa>gato</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>phisqa</lexical>
+    </form>
+
+    <subentry cat="digit">
+      <comment> number </comment>
+      <glosses>
+	<english>
+	  <gloss>five</gloss>
+	</english>
+	<spanish>
+	  <glosa>cinco</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>phiwriru</lexical>
+    </form>
+
+    <subentry cat="monthname">
+      <glosses>
+	<english>
+	  <gloss>February</gloss>
+	</english>
+	<spanish>
+	  <glosa>febrero</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>phucha</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>adult daughter</gloss>
+	</english>
+	<spanish>
+	  <glosa>hija adulta</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>phullu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>woman's shawl</gloss>
+	</english>
+	<spanish>
+	  <glosa>manta de uso femenino</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>phusa</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>blow</gloss>
+	</english>
+	<spanish>
+	  <glosa>soplar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>p'aki</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>break</gloss>
+	</english>
+	<spanish>
+	  <glosa>romper</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>p'iqi</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> bodypart </comment>
+      <glosses>
+	<english>
+	  <gloss>head</gloss>
+	</english>
+	<spanish>
+	  <glosa>cabeza</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>p'iya</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>hole</gloss>
+	  <gloss>gap</gloss>
+	  <gloss>cave</gloss>
+	  <gloss>burrow</gloss>
+	</english>
+	<spanish>
+	  <glosa>agujero</glosa>
+	  <glosa>hueco</glosa>
+	  <glosa>socavón</glosa>
+	  <glosa>madriguera</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qachu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>female animal</gloss>
+	</english>
+	<spanish>
+	  <glosa>animal hembra</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qala</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>stone</gloss>
+	</english>
+	<spanish>
+	  <glosa>piedra</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.nIrara.ALLOW@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qalla</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>start</gloss>
+	</english>
+	<spanish>
+	  <glosa>comenzar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>qallu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>young (of animal)</gloss>
+	</english>
+	<spanish>
+	  <glosa>cría (de animal)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qama</lexical>
+    </form>
+
+    <comment> qama-iri => qamiri = 'rico' (one who stays at home) </comment>
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>stay at home</gloss>
+	</english>
+	<spanish>
+	  <glosa>quedarse en casa</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>qamaqi</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>fox</gloss>
+	  <gloss>vixen</gloss>
+	</english>
+	<spanish>
+	  <glosa>zorro</glosa>
+	  <glosa>raposa</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qamiri</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>rich man</gloss>
+	  <gloss>landowner</gloss>
+	</english>
+	<spanish>
+	  <glosa>rico</glosa>
+	  <glosa>hacendado</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qäna</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>fish net</gloss>
+	  <gloss>pile of potatoes at harvest</gloss>
+	  <gloss>an obscure constellation</gloss>
+	</english>
+	<spanish>
+	  <glosa>red de pescar</glosa>
+	  <glosa>montón de papas al cosechar</glosa>
+	  <glosa>una constelación oscura</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>qari</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+        <english>
+          <gloss>tire</gloss>
+        </english>
+        <spanish>
+          <glosa>cansar</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qaqa</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>bleached</gloss>
+	  <gloss>discolored</gloss>
+	</english>
+	<spanish>
+	  <glosa>descolorido</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>qawi</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> see suwachaña </comment>
+      <glosses>
+	<english>
+	  <gloss>oca sweetened by intense exposure to sunlight</gloss>
+	</english>
+	<spanish>
+	  <glosa>oca endulzada por intensa exposición al sol</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qawqha</lexical>
+    </form>
+
+    <subentry cat="interrogative">
+      <comment> nominal interrogative </comment>
+      <comment> thought to have fosilized -ja suffix HVY:188 </comment>
+      <glosses>
+	<english>
+	  <gloss>how many</gloss>
+	  <gloss>how much</gloss>
+	</english>
+	<spanish>
+	  <glosa>cuánto</glosa>
+	  <glosa>cuanto</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.nIchAPPOSa.ALLOW@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qawra</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment> seems the normal form--may have variant qarwa </comment>
+      <comment> on variant, see HVY:50 </comment>
+      <glosses>
+	<english>
+	  <gloss>llama</gloss>
+	  <comment>anim</comment>
+	</english>
+	<spanish>
+	  <glosa>llama</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qillqa</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>write</gloss>
+	</english>
+	<spanish>
+	  <glosa>escribir</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qulla</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>medicine</gloss>
+	</english>
+	<spanish>
+	  <glosa>medicina</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>cure with drugs</gloss>
+	</english>
+	<spanish>
+	  <glosa>curar con medicina</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qillqa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+        <english>
+          <gloss>letter</gloss>
+        </english>
+        <spanish>
+          <glosa>carta</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <glosses>
+        <english>
+          <gloss>write</gloss>
+        </english>
+        <spanish>
+          <glosa>escribir</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qinaya</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+        <english>
+          <gloss>cloud</gloss>
+        </english>
+        <spanish>
+          <glosa>nube</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <glosses>
+        <english>
+          <gloss>get cloudy</gloss>
+        </english>
+        <spanish>
+          <glosa>nublarse</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qullqi</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>silver</gloss>
+	  <gloss>money</gloss>
+	</english>
+	<spanish>
+	  <glosa>plata</glosa>
+	  <glosa>dinero</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qullu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>hill</gloss>
+	  <gloss>ridge</gloss>
+	</english>
+	<spanish>
+	  <glosa>cerro</glosa>
+	  <glosa>monte</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qunquri</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> bodypart </comment>
+      <glosses>
+	<english>
+	  <gloss>knee</gloss>
+	</english>
+	<spanish>
+	  <glosa>rodilla</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qunu</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>sit down</gloss>
+	</english>
+	<spanish>
+	  <glosa>sentarse</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>quqa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> HVY:32 </comment>
+      <glosses>
+	<english>
+	  <gloss>tree</gloss>
+	</english>
+	<spanish>
+	  <glosa>arbol</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qura</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>weed</gloss>
+	</english>
+	<spanish>
+	  <glosa>mala hierba</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>weed</gloss>
+	</english>
+	<spanish>
+	  <glosa>deshierbar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>quta</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>lake</gloss>
+	  <gloss>pond</gloss>
+	  <gloss>various obscure constellations</gloss>
+	</english>
+	<spanish>
+	  <glosa>lago</glosa>
+	  <glosa>laguna</glosa>
+	  <glosa>varias constelaciones oscuras</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qhana</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>light</gloss>
+	  <gloss>clarity</gloss>
+	</english>
+	<spanish>
+	  <glosa>luz</glosa>
+	  <glosa>claridad</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qhantati</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> derived ??? </comment>
+      <glosses>
+	<english>
+	  <gloss>dawn</gloss>
+	</english>
+	<spanish>
+	  <glosa>amanecer</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>qhaqha</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>twist</gloss>
+	  <gloss>dislocate</gloss>
+	</english>
+	<spanish>
+	  <glosa>torcer</glosa>
+	  <glosa>dislocar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qhipa</lexical>
+    </form>
+
+    <subentry cat="positional">
+      <comment> see HVY:174 normal positional?? </comment>
+      <glosses>
+	<english>
+	  <gloss>behind</gloss>
+	  <gloss>after</gloss>
+	  <gloss>future</gloss>
+	</english>
+	<spanish>
+	  <glosa>atrás</glosa>
+	  <glosa>después</glosa>
+	  <glosa>futuro</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.N2Vlength.BLOCK@</feature>
+	<comment> can verbalize with +na-ka </comment>
+	<feature>@C.N2Vka@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>qhuna</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+        <english>
+          <gloss>grindstone for corn</gloss>
+        </english>
+        <spanish>
+          <glosa>piedra para moler maíz</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <glosses>
+        <english>
+          <gloss>grind corn</gloss>
+        </english>
+        <spanish>
+          <glosa>moler maíz</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>q'apha</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> should this be q'apha ?? asked Stuart; YES;
+		Jorge had q'apa </comment>
+      <glosses>
+	<english>
+	  <gloss>diligent</gloss>
+	  <gloss>hard-working</gloss>
+	</english>
+	<spanish>
+	  <glosa>diligente</glosa>
+	  <glosa>trabajador</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>q'ari</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>lie</gloss>
+	  <gloss>falsehood</gloss>
+	</english>
+	<spanish>
+	  <glosa>mentira</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>q'illu</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>yellow</gloss>
+	</english>
+	<spanish>
+	  <glosa>amarillo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>q'ipi</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>bundle carried on the back</gloss>
+	</english>
+	<spanish>
+	  <glosa>bulto que se carga a la espalda</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <comment>see EIA:109</comment>
+      <glosses>
+        <english>
+          <gloss>carry a bundle on the back</gloss>
+        </english>
+        <spanish>
+          <glosa>llevar un atado en la espalda</glosa>
+        </spanish>
+      </glosses>
+    </subentry>
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>q'arisi</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>lie</gloss>
+	  <gloss>tell a falsehoood</gloss>
+	</english>
+	<spanish>
+	  <glosa>mentir</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ratu</lexical>
+    </form>
+
+    <subentry cat="ntemporal">
+      <comment> see HVY:178 temporal </comment>
+      <glosses>
+	<english>
+	  <gloss>a while</gloss>
+	</english>
+	<spanish>
+	  <glosa>ratu</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>risimri</lexical>
+    </form>
+
+    <subentry cat="monthname">
+      <glosses>
+	<english>
+	  <gloss>December</gloss>
+	</english>
+	<spanish>
+	  <glosa>diciembre</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>Ruwirtu</lexical>
+    </form>
+
+    <subentry cat="nproper">
+      <glosses>
+	<english>
+	  <gloss>Robert</gloss>
+	</english>
+	<spanish>
+	  <glosa>Roberto</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>sa</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> säwi = a saying (with &amp;wi suffix that can also mean place-of) </comment>
+      <glosses>
+	<english>
+	  <gloss>say</gloss>
+	</english>
+	<spanish>
+	  <glosa>decir</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>sama</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Stuart</comment>
+      <comment> samsu(ña) is just sama with -su suffix (outward motion) </comment>
+      <glosses>
+	<english>
+	  <gloss>breathe</gloss>
+	</english>
+	<spanish>
+	  <glosa>respirar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>samart'a</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge, probably a derivation from sama(ña)</comment>
+      <comment> compare "take a breather" = to rest in English </comment>
+      <comment> 18 April 2000 </comment>
+      <glosses>
+	<english>
+	  <gloss>rest</gloss>
+	</english>
+	<spanish>
+	  <glosa>descansar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>sara</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>go</gloss>
+	</english>
+	<spanish>
+	  <glosa>ir</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>step</gloss>
+	</english>
+	<spanish>
+	  <glosa>paso</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+
+  <entry>
+
+    <form>
+      <lexical>sata</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>sowing</gloss>
+	</english>
+	<spanish>
+	  <glosa>siembra</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>sow</gloss>
+	</english>
+	<spanish>
+	  <glosa>sembrar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>sawaru</lexical>
+    </form>
+
+    <subentry cat="dayname">
+      <glosses>
+	<english>
+	  <gloss>Saturday</gloss>
+	</english>
+	<spanish>
+	  <glosa>sábado</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>saxra</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>devil</gloss>
+	  <gloss>the evil one??</gloss>
+	</english>
+	<spanish>
+	  <glosa>diablo</glosa>
+	  <glosa>malvado</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>saya</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>get up</gloss>
+	</english>
+	<spanish>
+	  <glosa>ponerse de pie</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>siku</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>zampoña (pan flute)</gloss>
+	</english>
+	<spanish>
+	  <glosa>zampoña</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <comment> tentative entry; to support siku(ña) = one who plays the flute </comment>
+      <glosses>
+	<english>
+	  <gloss>play (a flute)</gloss>
+	</english>
+	<spanish>
+	  <glosa>tocar (una flauta)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>silla</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>chair</gloss>
+	</english>
+	<spanish>
+	  <glosa>silla</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>simana</lexical>
+    </form>
+
+    <subentry cat="ntemporal">
+      <comment> see HVY:178 temporal </comment>
+      <glosses>
+	<english>
+	  <gloss>week</gloss>
+	</english>
+	<spanish>
+	  <glosa>semana</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>sitimri</lexical>
+    </form>
+
+    <subentry cat="monthname">
+      <glosses>
+	<english>
+	  <gloss>September</gloss>
+	</english>
+	<spanish>
+	  <glosa>septiembre</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>suma</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>good</gloss>
+	</english>
+	<spanish>
+	  <glosa>bueno</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>suti</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>name</gloss>
+	</english>
+	<spanish>
+	  <glosa>nombre</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>suti^Vya</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>baptize</gloss>
+	</english>
+	<spanish>
+	  <glosa>bautizar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>suxta</lexical>
+    </form>
+
+    <subentry cat="digit">
+      <comment> number </comment>
+      <glosses>
+	<english>
+	  <gloss>six</gloss>
+	</english>
+	<spanish>
+	  <glosa>seis</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+    <form>
+        <lexical>suyt'a</lexical>
+    </form>
+    <subentry cat="verb">
+        <comment>Mon Jun 30 04:47:33 MEST 2003</comment>
+        <glosses>
+            <english>
+                <gloss>to wait</gloss>
+            </english>
+            <spanish>
+                <glosa>esperar</glosa>
+            </spanish>
+        </glosses>
+        <comment>Kullakajjar suyt'añasawa</comment>
+        <comment>came from the Web! may be "wait a minute"</comment>
+    </subentry>
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>taki</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>trample</gloss>
+	  <gloss>stamp</gloss>
+	</english>
+	<spanish>
+	  <glosa>pisar</glosa>
+	  <glosa>patear</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>tama</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>collection of people or animals</gloss>
+	</english>
+	<spanish>
+	  <glosa>conjunto de personas o animales</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>tanta</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>meeting</gloss>
+	  <gloss>grouping</gloss>
+	</english>
+	<spanish>
+	  <glosa>reunión</glosa>
+	  <glosa>agrupación</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>get together</gloss>
+	</english>
+	<spanish>
+	  <glosa>reunir</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>tapa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>birdnest</gloss>
+	</english>
+	<spanish>
+	  <glosa>nido de aves</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>tarti</lexical>
+    </form>
+
+    <subentry cat="ntemporal">
+      <comment> see HVY:178 temporal equiv to jayp'u </comment>
+      <glosses>
+	<english>
+	  <gloss>afternoon</gloss>
+	</english>
+	<spanish>
+	  <glosa>tarde</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>tata</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>father</gloss>
+	  <gloss>Mr.</gloss>
+	</english>
+	<spanish>
+	  <glosa>padre</glosa>
+	  <glosa>señor</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>tayka</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>mother</gloss>
+	  <comment> hum </comment>
+	</english>
+	<spanish>
+	  <glosa>madre</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>taypi</lexical>
+    </form>
+
+    <subentry cat="positional">
+      <comment> see HVY:174 </comment>
+      <glosses>
+	<english>
+	  <gloss>center</gloss>
+	  <gloss>middle</gloss>
+	</english>
+	<spanish>
+	  <glosa>centro</glosa>
+	  <glosa>medio</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.N2Vlength.BLOCK@</feature>
+	<comment> can verbalize with +na-ka </comment>
+	<feature>@C.N2Vka@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+
+
+  <entry>
+
+    <form>
+      <lexical>tinku</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> also tinkusi (with +si reflexive) </comment>
+      <glosses>
+	<english>
+	  <gloss>fall</gloss>
+	</english>
+	<spanish>
+	  <glosa>caer</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>tinta</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>shop</gloss>
+	</english>
+	<spanish>
+	  <glosa>tienda</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>tuka</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> from Spanish tocar </comment>
+      <glosses>
+	<english>
+	  <gloss>play (an instrument)</gloss>
+	</english>
+	<spanish>
+	  <glosa>tocar (un instrumento)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>tuku</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> subject is a thing </comment>
+      <glosses>
+	<english>
+	  <gloss>terminate</gloss>
+	  <gloss>become</gloss>
+	</english>
+	<spanish>
+	  <glosa>terminar</glosa>
+	  <glosa>volverse</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+
+  <entry>
+
+    <form>
+      <lexical>tullqa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>son-in-law, especially if he has gone to establish himself in the house and lands of his in-laws</gloss>
+	</english>
+	<spanish>
+	  <glosa>yerno, especialmente si ha ido a establecerce a la casa y terrenos de sus suegros</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>tuminku</lexical>
+    </form>
+
+    <subentry cat="dayname">
+      <glosses>
+	<english>
+	  <gloss>Sunday</gloss>
+	</english>
+	<spanish>
+	  <glosa>domingo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>tunka</lexical>
+    </form>
+
+    <subentry cat="multiplier">
+      <glosses>
+	<english>
+	  <gloss>ten</gloss>
+	</english>
+	<spanish>
+	  <glosa>diez</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>tuqi</lexical>
+    </form>
+
+    <subentry cat="positionaldefective">
+      <comment> see HVY:174 this one is supposedly a defective
+		positional, but that may be just a syntactic feature; </comment>
+      <glosses>
+	<english>
+	  <gloss>around</gloss>
+	  <gloss>beside</gloss>
+	</english>
+	<spanish>
+	  <glosa>alrededor de</glosa>
+	  <glosa>del lado de</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.N2Vlength.BLOCK@</feature>
+	<comment> can verbalize with +na-ka </comment>
+	<feature>@C.N2Vka@</feature>
+      </features>
+    </subentry>
+
+    <subentry cat="verb">
+      <comment> recheck this one</comment>
+      <glosses>
+	<english>
+	  <gloss>get (someone's) attention</gloss>
+	</english>
+	<spanish>
+	  <glosa>tomar la atención a alguien</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.N2Vlength.BLOCK@</feature>
+	<comment> can verbalize with +na-ka </comment>
+	<feature>@C.N2Vka@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+<entry>
+
+    <form>
+      <lexical>tuyu</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>check this one</comment>
+      <glosses>
+	<english>
+	  <gloss>swim</gloss>
+	</english>
+	<spanish>
+	  <glosa>nadar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>thaki</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment> also from Jorge P. Arpasi--he confirms the form thaki,
+		whereas MDA p 204 shows thakhi; Stuart agrees thaki</comment>
+      <comment> Jorge, 21 April 2000, gave example thakicha(ña) = hacer camino
+        </comment>
+      <glosses>
+	<english>
+	  <gloss>street</gloss>
+	</english>
+	<spanish>
+	  <glosa>camino</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>thala</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> cf with thalara(ña) </comment>
+      <glosses>
+	<english>
+	  <gloss>shake</gloss>
+	</english>
+	<spanish>
+	  <glosa>sacudir</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>thantha</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>old</gloss>
+	  <gloss>used (clothes)</gloss>
+	</english>
+	<spanish>
+	  <glosa>viejo</glosa>
+	  <glosa>usado (ropas)</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>thaya</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>cold</gloss>
+	  <gloss>wind</gloss>
+	</english>
+	<spanish>
+	  <glosa>frío</glosa>
+	  <glosa>wind</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>thuqu</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment>  thuqüwi = place of dancing </comment>
+      <glosses>
+	<english>
+	  <gloss>dance</gloss>
+	</english>
+	<spanish>
+	  <glosa>bailar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>t'ant'a</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>bread</gloss>
+	</english>
+	<spanish>
+	  <glosa>pan</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>t'awra</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>wool</gloss>
+	</english>
+	<spanish>
+	  <glosa>lana</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>t'una</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>piece</gloss>
+	  <gloss>bit</gloss>
+	  <gloss>crumb</gloss>
+	</english>
+	<spanish>
+	  <glosa>pedazo</glosa>
+	  <glosa>añico</glosa>
+	  <glosa>miga</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>t'uru</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>grind one's teeth</gloss>
+	</english>
+	<spanish>
+	  <glosa>triturar los dientes</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>uka</lexical>
+    </form>
+
+    <subentry cat="pronoundemonstrative">
+      <glosses>
+	<english>
+	  <gloss>that</gloss>
+	  <gloss>there</gloss>
+	</english>
+	<spanish>
+	  <glosa>eso</glosa>
+	  <glosa>ese</glosa>
+	  <glosa>esa</glosa>
+	  <glosa>allí</glosa>
+	</spanish>
+      </glosses>
+      <features>
+	<feature>@P.nIsa.ALLOW@</feature>
+	<feature>@P.nIkata.ALLOW@</feature>
+	<feature>@P.nIchAPPOSa.ALLOW@</feature>
+      </features>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>uktuwri</lexical>
+    </form>
+
+    <subentry cat="monthname">
+      <glosses>
+	<english>
+	  <gloss>October</gloss>
+	</english>
+	<spanish>
+	  <glosa>octubre</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>Uliwya</lexical>
+    </form>
+
+    <subentry cat="nproper">
+      <glosses>
+	<english>
+	  <gloss>Olivia</gloss>
+	</english>
+	<spanish>
+	  <glosa>Olivia</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>ulla</lexical>
+    </form>
+
+    <comment> from Jorge 21 April 2000</comment>
+    <comment> perhaps used only in Bolivia--it was new to
+	Jorge as well--he says that the borrowing liyi(ña)
+	is used in his native Puno</comment>
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>read</gloss>
+	</english>
+	<spanish>
+	  <glosa>leer</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+
+  <entry>
+
+    <form>
+      <lexical>uma</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>water</gloss>
+	</english>
+	<spanish>
+	  <glosa>aqua</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <comment> umäwi = place of drinking </comment>
+      <glosses>
+	<english>
+	  <gloss>drink</gloss>
+	</english>
+	<spanish>
+	  <glosa>beber</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>uña</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> uñja(ña) also exists, probably uña with -ja suffix </comment>
+      <glosses>
+	<english>
+	  <gloss>see</gloss>
+	</english>
+	<spanish>
+	  <glosa>ver</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>uñisi</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>hate</gloss>
+	</english>
+	<spanish>
+	  <glosa>odiar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>uqi</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>gray</gloss>
+	</english>
+	<spanish>
+	  <glosa>gris</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>uqu</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>swallow</gloss>
+	</english>
+	<spanish>
+	  <glosa>tragar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>uraqi</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>land</gloss>
+	  <gloss>earth</gloss>
+	</english>
+	<spanish>
+	  <glosa>terreno</glosa>
+	  <glosa>tierra</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>urasa</lexical>
+    </form>
+
+    <subentry cat="ntemporal">
+      <comment> see HVY:178 temporal </comment>
+      <glosses>
+	<english>
+	  <gloss>hour</gloss>
+	</english>
+	<spanish>
+	  <glosa>hora</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>uru</lexical>
+    </form>
+
+    <subentry cat="ntemporal">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>day</gloss>
+	  <gloss>an ethnic group</gloss>
+	</english>
+	<spanish>
+	  <glosa>día</glosa>
+	  <glosa>un grupo étnico</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>usu</lexical>
+    </form>
+
+    <comment> might be a verb "be sick"; Jorge has given me examples
+		usuña
+		usuri   'somebody seriously (essence?) sick"
+                usuta   'somebody sick' state? (pequeno/local, inclusive dor)
+		puraka usuta = 'com dores de estomago'
+		which look verb-like and
+		usuchjayistawa 'you're hurting me'
+			which has a cha that attaches to verbs or verbalizes
+			other things, e.g. utacha(ña)
+    		I asked for more info 20 April 2000
+		Answer 21 April 2000--I THINK that his examples indicate
+		that "usu" is like "uma", both verb and noun
+    </comment>
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>illness</gloss>
+	  <gloss>pain</gloss>
+	</english>
+	<spanish>
+	  <glosa>enfermidade</glosa>
+	  <glosa>dolor</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>be ill</gloss>
+	</english>
+	<spanish>
+	  <glosa>ser/estar enfermo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>uta</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>house</gloss>
+	</english>
+	<spanish>
+	  <glosa>casa</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>uta^Cja</lexical>
+      <comment> this fossilized(?) -ja is vI2 </comment>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>exist</gloss>
+	  <gloss>be</gloss>
+	</english>
+	<spanish>
+	  <glosa>haber</glosa>
+	  <glosa>estar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>uywa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>domestic animal</gloss>
+	</english>
+	<spanish>
+	  <glosa>animal doméstico</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> see HVY:41 raise animals or children </comment>
+      <glosses>
+	<english>
+	  <gloss>raise</gloss>
+	  <gloss>create</gloss>
+	</english>
+	<spanish>
+	  <glosa>criar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>wajcha</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>orphan</gloss>
+	  <gloss>poor person</gloss>
+	  <gloss>begger</gloss>
+	</english>
+	<spanish>
+	  <glosa>huérfano</glosa>
+	  <glosa>pobre</glosa>
+	  <glosa>mendigo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>waka</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment> perhaps any cow/bull/res </comment>
+      <glosses>
+	<english>
+	  <gloss>cow</gloss>
+	</english>
+	<spanish>
+	  <glosa>vaca</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>wali</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>well</gloss>
+	</english>
+	<spanish>
+	  <glosa>bien</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>waqi</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>part</gloss>
+	  <gloss>portion</gloss>
+	  <gloss>share</gloss>
+	</english>
+	<spanish>
+	  <glosa>parte</glosa>
+	  <glosa>porción</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+<entry>
+
+    <form>
+      <lexical>wara</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>pour liquid on the ground</gloss>
+	</english>
+	<spanish>
+	  <glosa>echar líquido al suelo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>waranqa</lexical>
+    </form>
+
+    <subentry cat="multiplier">
+      <glosses>
+	<english>
+	  <gloss>one thousand</gloss>
+	</english>
+	<spanish>
+	  <glosa>mil</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>warmi</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>woman</gloss>
+	  <gloss>wife</gloss>
+	</english>
+	<spanish>
+	  <glosa>mujer</glosa>
+	  <glosa>esposa</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>warya</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment> HVY:50 for variant wayra </comment>
+      <glosses>
+	<english>
+	  <gloss>wind</gloss>
+	</english>
+	<spanish>
+	  <glosa>viento</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>wawa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>baby</gloss>
+	  <gloss>son</gloss>
+	</english>
+	<spanish>
+	  <glosa>nene</glosa>
+	  <glosa>hijo</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>wayra</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment> HVY:50 for variant warya </comment>
+      <glosses>
+	<english>
+	  <gloss>wind</gloss>
+	</english>
+	<spanish>
+	  <glosa>viento</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>wila</lexical>
+    </form>
+
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>red</gloss>
+	</english>
+	<spanish>
+	  <glosa>roja</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>wiñaya</lexical>
+    </form>
+
+    <comment> from JPA, 29 May 2000, confirm </comment>
+    <subentry cat="adjective">
+      <glosses>
+	<english>
+	  <gloss>eternal</gloss>
+	</english>
+	<spanish>
+	  <glosa>eterna</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>wiphala</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>flag</gloss>
+	</english>
+	<spanish>
+	  <glosa>bandera</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>wirnisa</lexical>
+    </form>
+
+    <subentry cat="dayname">
+      <glosses>
+	<english>
+	  <gloss>Friday</gloss>
+	</english>
+	<spanish>
+	  <glosa>viernes</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>wiru</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> see </comment>
+      <glosses>
+	<english>
+	  <gloss>float</gloss>
+	</english>
+	<spanish>
+	  <glosa>flotar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+  <entry>
+
+    <form>
+      <lexical>yana</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> see HVY:96 </comment>
+      <glosses>
+	<english>
+	  <gloss>try to</gloss>
+	</english>
+	<spanish>
+	  <glosa>tratar de</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>yana^Vpa</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi (as yanapa)</comment>
+      <comment> see also HVY:96 </comment>
+      <glosses>
+	<english>
+	  <gloss>help</gloss>
+	</english>
+	<spanish>
+	  <glosa>ayudar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>yapu</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <glosses>
+	<english>
+	  <gloss>cultivated field</gloss>
+	</english>
+	<spanish>
+	  <glosa>chacra</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>yati</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> yatiri = teacher is just yati-(i/u)ri do'er suffix </comment>
+      <comment> compare to yatiqa(ña) ; Stuart doesn't think that this qa is
+		a suffix </comment>
+      <comment> jaticha(ña) is just the +cha causative suffix = to teach </comment>
+      <glosses>
+	<english>
+	  <gloss>know</gloss>
+	</english>
+	<spanish>
+	  <glosa>saber</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>yati^Vcha</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment> probably +cha causative suffix on yati, but
+			perhaps historically frozen here </comment>
+      <glosses>
+	<english>
+	  <gloss>teach</gloss>
+	</english>
+	<spanish>
+	  <glosa>enseñar</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+
+  <entry>
+
+    <form>
+      <lexical>yati^Vqa</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <comment>from Jorge P. Arpasi</comment>
+      <comment> suffix +qa on yati??? Stuart doesn't think so </comment>
+      <glosses>
+	<english>
+	  <gloss>learn</gloss>
+	</english>
+	<spanish>
+	  <glosa>aprender</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>yawri</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>copper</gloss>
+	  <gloss>needle</gloss>
+	  <gloss>pin</gloss>
+	</english>
+	<spanish>
+	  <glosa>cobre</glosa>
+	  <glosa>aguja</glosa>
+	  <glosa>prendedor</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>yuqa</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>adult son</gloss>
+	</english>
+	<spanish>
+	  <glosa>hijo adulto</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>yuri</lexical>
+    </form>
+
+    <subentry cat="verb">
+      <glosses>
+	<english>
+	  <gloss>be born</gloss>
+	</english>
+	<spanish>
+	  <glosa>nacer</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+  <entry>
+
+    <form>
+      <lexical>yuqalla</lexical>
+    </form>
+
+    <subentry cat="ncommon">
+      <comment>from Jorge P. Arpasi</comment>
+      <glosses>
+	<english>
+	  <gloss>boy</gloss>
+	  <gloss>young man</gloss>
+	</english>
+	<spanish>
+	  <glosa>niño</glosa>
+	  <glosa>muchacho varón</glosa>
+	</spanish>
+      </glosses>
+    </subentry>
+
+  </entry>
+
+</roots>

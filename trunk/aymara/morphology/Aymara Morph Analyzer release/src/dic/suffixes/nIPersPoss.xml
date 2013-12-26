@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="nIPersPoss">
+
+<comment> see HVY:205 </comment>
+
+<entry>
+	<lex left="v">xa</lex>
+	<comment> can't occur on demonstratives (perhaps not on 
+		"adjectives", if this class has reality ; can't
+		co-occur with rara, which makes an adjective-like
+		word </comment>
+	<glosses>
+		<english>
+			<gloss>1P possessive</gloss>
+		</english>
+		<spanish>
+			<glosa>1P posesivo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> all pronouns are marked @P.nIPersPoss.BLOCK@ </comment>
+
+		<feature>@D.nIPersPoss@</feature>
+		<feature>@P.nIPersPoss.PRESENT@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v">ja</lex>
+	<comment> variant of xa above </comment>
+	<comment> can't occur on demonstratives (perhaps not on 
+		"adjectives", if this class has reality ; can't
+		co-occur with rara, which makes an adjective-like
+		word </comment>
+	<glosses>
+		<english>
+			<gloss>1P possessive</gloss>
+		</english>
+		<spanish>
+			<glosa>1P posesivo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> all pronouns are marked @P.nIPersPoss.BLOCK@ </comment>
+
+		<feature>@D.nIPersPoss@</feature>
+		<feature>@P.nIPersPoss.PRESENT@</feature>
+	</features>
+</entry>
+
+<comment>
+
+The following entry is very suspicious and is commented out.  It
+is quite likely that it represents a reduced phonetic realization
+that is not reflected in the orthography, i.e.  roota+xa => roota+ja
+=>  rootä
+
+LANGLEentryRANGLE
+	LANGLElex left="l"RANGLE^NeedALANGLE/lexRANGLE
+	LANGLEcommentRANGLE variant possessive for 1P, but only if the previous
+		vowel is /a/ LANGLE/commentRANGLE
+	LANGLEcommentRANGLE can't occur on demonstratives (perhaps not on 
+		"adjectives", if this class has reality ; can't
+		co-occur with rara, which makes an adjective-like
+		word LANGLE/commentRANGLE
+	LANGLEglossesRANGLE
+		LANGLEenglishRANGLE
+			LANGLEglossRANGLE1P possessiveLANGLE/glossRANGLE
+		LANGLE/englishRANGLE
+		LANGLEspanishRANGLE
+			LANGLEglosaRANGLE1P posesivoLANGLE/glosaRANGLE
+		LANGLE/spanishRANGLE
+	LANGLE/glossesRANGLE
+	LANGLEfeaturesRANGLE
+		LANGLEcommentRANGLE all pronouns are marked @P.nIPersPoss.BLOCK@ LANGLE/commentRANGLE
+
+		LANGLEfeatureRANGLE@D.nIPersPoss@LANGLE/featureRANGLE
+		LANGLEfeatureRANGLE@P.nIPersPoss.PRESENT@LANGLE/featureRANGLE
+	LANGLE/featuresRANGLE
+LANGLE/entryRANGLE
+
+</comment>
+
+<entry>
+	<lex left="v">ma</lex>
+	<comment> can't occur on demonstratives (perhaps not on 
+		"adjectives", if this class has reality ; can't
+		co-occur with rara, which makes an adjective-like
+		word </comment>
+	<glosses>
+		<english>
+			<gloss>2P possessive</gloss>
+		</english>
+		<spanish>
+			<glosa>2P posesivo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> all pronouns are marked @P.nIPersPoss.BLOCK@ </comment>
+
+		<feature>@D.nIPersPoss@</feature>
+		<feature>@P.nIPersPoss.PRESENT@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v">pa</lex>
+	<comment> can't occur on demonstratives (perhaps not on 
+		"adjectives", if this class has reality ; can't
+		co-occur with rara, which makes an adjective-like
+		word </comment>
+	<glosses>
+		<english>
+			<gloss>3P possessive</gloss>
+		</english>
+		<spanish>
+			<glosa>3P posesivo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> all pronouns are marked @P.nIPersPoss.BLOCK@ </comment>
+
+		<feature>@D.nIPersPoss@</feature>
+		<feature>@P.nIPersPoss.PRESENT@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v">sa</lex>
+	<comment> can't occur on demonstratives (perhaps not on 
+		"adjectives", if this class has reality ; can't
+		co-occur with rara, which makes an adjective-like
+		word </comment>
+	<glosses>
+		<english>
+			<gloss>4P possessive</gloss>
+		</english>
+		<spanish>
+			<glosa>4P posesivo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> all pronouns are marked @P.nIPersPoss.BLOCK@ </comment>
+
+		<feature>@D.nIPersPoss@</feature>
+		<feature>@P.nIPersPoss.PRESENT@</feature>
+	</features>
+</entry>
+
+</suffdict>

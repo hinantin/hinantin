@@ -1,0 +1,24 @@
+directory Aymara
+
+The program files in this directory contain prototype source files for
+developing a Morphological Analyzer for the Aymara language. The original
+source files were written by Ken Beesley at Xerox Research Centre Europe.
+
+The program files are subject to the copyright notice that follows:
+
+Copyright (c) 1999, 2000, 2005 Xerox Corporation.  All Rights Reserved.
+
+src/	all source code, including Makefile and dictionaries
+obj/	intermediate files, created by the Makefile
+bin/	binary (fst) files, and .txt files creates by the Makefile
+
+cor/    corpus, examples
+doc/	documentation			
+
+
+Makefile is in src/Makefile
+
+gmake clean clears out obj/ bin/ and dat/
+
+Copyright (c) 1999, 2000, 2005 Xerox Corporation.  All Rights Reserved.
+

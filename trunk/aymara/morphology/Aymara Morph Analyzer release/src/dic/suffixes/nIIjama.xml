@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="nIIjama">
+
+	<comment> qaljama = stonelike; jaqjama = human-like </comment>
+
+<entry>
+	<lex left="c">jama</lex>
+	<comment> NVY:276</comment>
+	<glosses>
+		<english>
+			<gloss>like</gloss>
+			<gloss>as</gloss>
+		</english>
+		<spanish>
+			<glosa>como</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@C.N2Vlength@</feature>
+		<comment> see HVY:230 </comment>
+		<feature>@P.N2Vpta.BLOCK@</feature>
+	</features>
+</entry>
+<entry>
+	<lex left="c">ja</lex>
+	<comment> NVY:276</comment>
+	<comment> allomorph of jama </comment>
+	<glosses>
+		<english>
+			<gloss>like</gloss>
+			<gloss>as</gloss>
+		</english>
+		<spanish>
+			<glosa>como</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@C.N2Vlength@</feature>
+		<comment> see HVY:230 </comment>
+		<feature>@P.N2Vpta.BLOCK@</feature>
+	</features>
+</entry>
+</suffdict>

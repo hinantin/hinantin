@@ -1,0 +1,34 @@
+#!/usr/bin/env perl
+
+# Copyright (c) 1999, 2000, 2005 Xerox Corporation.  All Rights Reserved.
+
+# See 'findroot' for easier solution using xml_grep
+
+use strict ;
+use XML::Twig ;
+
+binmode(STDOUT, ":utf8") ;
+
+my $key = $ARGV[0] ;
+
+my $parser = new XML::Twig ( ) ;
+
+eval { $parser->parsefile("dic/roots/roots.xml") ; } ;
+
+if ($@) {
+  print STDERR "Parse error: $@\n" ;
+} else {
+  print STDERR "Normal termination of root-lookup.pl.\n" ;
+}
+
+my @entries = $parser->root->children('entry') ;
+
+foreach my $entry (@entries) {
+    if ($entry->first_child('form')->first_child('lexical')->trimmed_text eq $key) {
+	$entry->print('indented') ;
+    }
+}
+
+  
+print "\n" ;
+

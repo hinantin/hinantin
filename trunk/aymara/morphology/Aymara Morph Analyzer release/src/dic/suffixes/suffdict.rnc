@@ -1,0 +1,40 @@
+# Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.
+
+grammar {
+  start = element suffdict { 
+    attribute name { text },
+    Comment*, (Entry, Comment*)+ }
+
+  Entry = element entry { Comment*, Lex, Comment*, Surf?, Comment*,
+  Glosses, Comment*, Features? }
+
+  Lex = element lex { 
+    attribute left  { "c" | "v" | "l" | "n" | "layku" },
+    attribute right { "c" | "v" |       "n" }?,  
+
+# N.B. old default value of n in the DTD, handle in downtrans?
+# or force it to be explicit in the XML? -->
+    text }
+
+  Surf = element surf {
+    attribute left  { "c" | "v" | "l" | "n" | "layku" | "fvd" },
+    attribute right { "c" | "v" |       "n" }?,
+
+# N.B. old default value of "n" in the DTD, handle in downtrans?
+# or force it to be explicit in the XML? -->
+    text }
+
+  Glosses = element glosses { Comment*, English, Comment*, Spanish,
+  Comment* }
+
+  English = element english { Comment*, (Gloss, Comment*)+ }
+  Gloss = element gloss { text }
+
+  Spanish = element spanish { Comment*, (Glosa, Comment*)+ }
+  Glosa = element glosa { text }
+
+  Features = element features { Comment*, (Feature, Comment*)+ }
+  Feature = element feature { text }
+
+  Comment = element comment { text }
+}

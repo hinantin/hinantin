@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vII8">
+<entry>
+	<lex left="c">xa</lex>
+	<comment> HVY:111,121  once thought incompatible with a
+		preceding continuative si, but this is contradicted by later
+		work mentioned in a footnote p. 121 </comment>
+	<comment> xa is not absolutely incompatible with ka (adelantador) </comment>
+	<glosses>
+		<english>
+			<gloss>perfective</gloss>
+		</english>
+		<spanish>
+			<glosa>completivo</glosa>
+			<comment> completivo, respecto a personas </comment>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>

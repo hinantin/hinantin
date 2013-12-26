@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="V2Nwi">
+<entry>
+	<lex left="v">wi</lex>
+	<comment> HVY:195 267-8 </comment>
+	<comment> can reverbalize only with : HVY:195 240
+		and ka HVY:267-8, 195</comment>
+	<glosses>
+		<english>
+			<gloss>V2N place</gloss>
+			<gloss>V2N occasion</gloss>
+		</english>
+		<spanish>
+			<glosa>V2N lugar</glosa>
+			<glosa>V2N ocasión</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> previous N2V can ALLOW or BLOCK subsequent renominalizations </comment>
+		<feature>@D.V2Nwi.BLOCK@</feature>
+
+		<comment> can reverbalize two ways; clear the
+			corresponding feature </comment>
+		<feature>@C.N2Vlength@</feature>
+		<feature>@C.N2Vka@</feature>
+
+		<comment> cannot reverbalize with pta, so block it </comment>
+		<feature>@P.N2Vpta.BLOCK@</feature>
+	</features>
+</entry>
+</suffdict>

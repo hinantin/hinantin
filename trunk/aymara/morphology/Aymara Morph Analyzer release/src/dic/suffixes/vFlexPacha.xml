@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vFlexPacha">
+<entry>
+	<lex left="c">pacha</lex>
+	<comment> must be followed by vFlexSimple, vFlexFuture,
+		or vFlexRemCerc; is it right=v??? seems unlikely </comment>
+	<comment> HVY:87 </comment>
+	<glosses>
+		<english>
+			<gloss>???</gloss>
+		</english>
+		<spanish>
+			<glosa>???</glosa>
+		</spanish>
+	</glosses>
+</entry>
+
+<comment>
+trouble comes with pacha+Simple endings
+it looks to me like pacha may get lengthened before taking the simple
+endings, which being "strong", then optionally reduce the lengthened
+vowel back down to a short one
+
+so assume  pacha : Simple and see how that works
+
+	HVY:149		YapitaCurso:34
+
+1->2	-pacha:-sma	
+	 pacha  sma	pachäsma [see also HVY:165 for this form, with long v]
+
+2->1	-pacha:-ista
+	 pachi   sta	pachista [perhaps pachïsta is also possible?]
+
+3->3	-pacha:-i
+	 pacha		pacha
+
+1->3	-pacha:-t(a)
+	 pacha  ta	pachäta
+
+4->3	-pacha:-tan
+	 pacha  tan	pachätan
+
+3->1	-pacha:-itu
+	 pachi   tu	pachïtu
+
+3->4	-pacha:-istu
+	 pachi   stu	pachistu [perhaps pachïstu is also possible?]
+ 
+2->3	-pacha:-ta
+	 pacha  ta	pachäta
+
+3->2	-pacha:-tam
+	 pacha  tam	pachätam
+
+</comment>
+
+
+</suffdict>

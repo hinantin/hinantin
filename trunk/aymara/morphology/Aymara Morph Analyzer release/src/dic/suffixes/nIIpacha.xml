@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="nIIpacha">
+<entry>
+	<lex left="c">pacha</lex>
+	<comment> this is the so-called pacha(sub 2) HVY:209, 228, 242, 76</comment>
+	<comment> continue to comp CERO?? </comment>
+	<glosses>
+		<english>
+			<gloss>indeed</gloss>
+		</english>
+		<spanish>
+			<glosa>mismo</glosa>
+			<glosa>sí mismo</glosa>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>

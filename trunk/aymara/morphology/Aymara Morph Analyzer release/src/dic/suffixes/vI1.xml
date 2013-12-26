@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vI1">
+<entry>
+	<lex left="v">cha</lex>
+	<comment> HVY:98 rarely attaches to verb roots, see yati </comment>
+
+	<glosses>
+		<english>
+			<gloss>causative</gloss>
+			<gloss>make</gloss>
+		</english>
+		<spanish>
+			<glosa>causativo</glosa>
+			<glosa>hacer</glosa>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>

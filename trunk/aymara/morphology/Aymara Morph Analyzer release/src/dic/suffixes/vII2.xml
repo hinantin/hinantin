@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vII2">
+<entry>
+	<lex left="v">si</lex>
+	<comment> HVY:108-9 see also HVY:121; this si can apparently
+		come before or after ya vII1, so this xml source is
+		used to create both LEXICON vII0 and LEXICON vII2 </comment>
+	<glosses>
+		<english>
+			<gloss>reflexive</gloss>
+		</english>
+		<spanish>
+			<glosa>reflexivo</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@D.SIrefl@</feature>
+		<comment> prevent getting si twice </comment>
+		<feature>@P.SIrefl.PRESENT@</feature>
+		<comment> incompatible with vII5 rapi and raqa </comment>
+	</features>
+</entry>
+</suffdict>
+
+

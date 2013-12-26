@@ -1,0 +1,14 @@
+
+CHART OF AYMARA MORPHOTACTICS
+
+source (VCG) file is aymara.vcg
+
+The Makefile takes it and makes aymara.ps
+
+'edge' contains a template for edges
+'node' contains a template for nodes
+include these when editing the .vcg file
+
+
+
+

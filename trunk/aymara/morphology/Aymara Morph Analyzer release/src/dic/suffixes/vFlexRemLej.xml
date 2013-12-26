@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vFlexRemLej">
+
+<comment> conocimiento indirecto HVY:147, 148, 158 164</comment>
+
+<entry>
+	<lex left="v" right="v">täsma</lex>
+	<glosses>
+		<english>
+			<gloss>1-2 RemLej</gloss>
+		</english>
+		<spanish>
+			<glosa>1-2 RemLej</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.1@</comment>
+		<feature>@U.VOBJ.2@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="v">istästa</lex>
+	<comment> this is from HVY:148 164 </comment>
+	<comment> see variants below, perhaps suspect </comment>
+	<glosses>
+		<english>
+			<gloss>2-1 RemLej</gloss>
+		</english>
+		<spanish>
+			<glosa>2-1 RemLej</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.2@</comment>
+		<feature>@U.VOBJ.1@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="v">istäta</lex>
+	<comment> variant from Ross; compare to above HVY:148 </comment>
+	<glosses>
+		<english>
+			<gloss>2-1 RemLej</gloss>
+		</english>
+		<spanish>
+			<glosa>2-1 RemLej</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.2@</comment>
+		<feature>@U.VOBJ.1@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="v">itästa</lex>
+	<comment> variant from Yapita:34 compare to HVY:148 </comment>
+
+	<glosses>
+		<english>
+			<gloss>2-1 RemLej</gloss>
+		</english>
+		<spanish>
+			<glosa>2-1 RemLej</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.2@</comment>
+		<feature>@U.VOBJ.1@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v" right="v">tayna</lex>
+	<comment> this is the form in Yapita Curso:34, and
+		would appear to be the most common or standard form </comment>
+	<glosses>
+		<english>
+			<gloss>3-3 RemLej</gloss>
+		</english>
+		<spanish>
+			<glosa>3-3 RemLej</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v" right="v">täna</lex>
+	<comment> dialectal version of tayna, see HVY:147 </comment>
+	<glosses>
+		<english>
+			<gloss>3-3 RemLej</gloss>
+		</english>
+		<spanish>
+			<glosa>3-3 RemLej</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v" right="v">täña</lex>
+	<comment> dialectal version of tayna, see HVY:147 </comment>
+	<glosses>
+		<english>
+			<gloss>3-3 RemLej</gloss>
+		</english>
+		<spanish>
+			<glosa>3-3 RemLej</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v" right="v">taña</lex>
+	<comment> dialectal version of tayna, see HVY:147 </comment>
+	<glosses>
+		<english>
+			<gloss>3-3 RemLej</gloss>
+		</english>
+		<spanish>
+			<glosa>3-3 RemLej</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v" right="c">täta</lex>
+	<comment> I think this should be v--c; see HVY:148, which
+		doesn't indicate the final vowel (this is obviously
+		a typo) and p 164, which lists v--v, which I think is
+		wrong.  These 1-3 things usually end c, contrasting
+		with the 2-3 things ending v. </comment>
+	<comment> Ross shows v--c </comment>
+	<glosses>
+		<english>
+			<gloss>1-3 RemLej</gloss>
+		</english>
+		<spanish>
+			<glosa>1-3 RemLej</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.1@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v">tätan</lex>
+	<glosses>
+		<english>
+			<gloss>4-3 RemLej</gloss>
+		</english>
+		<spanish>
+			<glosa>4-3 RemLej</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.4@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="v">itütu</lex>
+	<glosses>
+		<english>
+			<gloss>3-1 RemLej</gloss>
+		</english>
+		<spanish>
+			<glosa>3-1 RemLej</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.1@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="v">istüstu</lex>
+	<comment> left=c from HVY:148; chart on HVY:164 is wrong
+		with left=v </comment>
+	<glosses>
+		<english>
+			<gloss>3-4 RemLej</gloss>
+		</english>
+		<spanish>
+			<glosa>3-4 RemLej</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.4@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v" right="v">täta</lex>
+	<glosses>
+		<english>
+			<gloss>2-3 RemLej</gloss>
+		</english>
+		<spanish>
+			<glosa>2-3 RemLej</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.2@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="v">tätam</lex>
+	<glosses>
+		<english>
+			<gloss>3-2 RemLej</gloss>
+		</english>
+		<spanish>
+			<glosa>3-2 RemLej</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.2@</feature>
+	</features>
+</entry>
+
+</suffdict>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vII5">
+
+<comment> these two are mutually exclusive HVY:109 </comment>
+
+<entry>
+	<lex left="v">rapi</lex>
+	<glosses>
+		<english>
+			<gloss>benefactive</gloss>
+		</english>
+		<spanish>
+			<glosa>beneficiario</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@U.SIrefl.ABSENT@</feature>
+		<comment> incompatible with si reflexive </comment>
+	</features>
+</entry>
+<entry>
+	<lex left="v">raqa</lex>
+	<glosses>
+		<english>
+			<gloss>victimitive</gloss>
+		</english>
+		<spanish>
+			<glosa>victimario</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@U.SIrefl.ABSENT@</feature>
+		<comment> incompatible with si reflexive </comment>
+	</features>
+</entry>
+</suffdict>

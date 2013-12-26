@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="nIkata">
+<entry>
+	<lex left="c">kata</lex>
+	<comment> HVY:182 76 </comment>
+	<glosses>
+		<english>
+			<gloss>in front</gloss>
+		</english>
+		<spanish>
+			<glosa>al frente</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@R.nIkata.ALLOW@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c">kati</lex>
+	<comment> HVY:182 201 variant of kata </comment>
+	<glosses>
+		<english>
+			<gloss>in front</gloss>
+		</english>
+		<spanish>
+			<glosa>al frente</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@R.nIkata.ALLOW@</feature>
+	</features>
+</entry></suffdict>

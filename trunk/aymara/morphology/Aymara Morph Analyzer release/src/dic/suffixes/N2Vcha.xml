@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="N2Vcha">
+
+	<comment> HVY:98 rarely attaches to verb roots, see yati </comment>
+	<comment> see vI1.xml </comment>
+	<comment> a noun root that takes this cha should continue on
+		to an optional vI2 etc. </comment>
+
+<comment> +cha seems to attach to nouns and adjectives
+	to verbalize them (causative)
+
+uta+cha(ña) = make a house
+junt'u+cha(ña) = to heat (to make warm)
+yati+cha(ña) = to teach (cause to know)
+waña+cha(ña) = to dry
+llamp'u+cha = moler, pulverizar
+waqi+cha = repartir
+
+llamp'u		= sebo de llama, blando, fino, pulverizado, bien molido
+llamp'u+cha	= moler, pulverizar
+
+waqi		= parte/porción
+waqi+cha	= repartir
+
+	All in CALA orthography:
+
+yupaychaNa	= honrar
+wawa	= baby
+wawachaNa	= parir (give birth of animals)
+wawachasiNa	= dar a luz    (give birth of people)
+
+waña	= seco		(dry)
+wañachaña = secar		(to dry)
+wañachasiña = secarse
+
+juri = mojado
+juricha(ña) = mojar
+
+	alternative to Jorje
+
+waquichaNa = to prepare
+waquichaTa = prepared
+
+uywa	= domesticated animal
+uywachaña = adoptar, criar
+
+uta = house
+utachaña = build a house
+
+</comment>
+
+
+
+<entry>
+	<lex left="v">cha</lex>
+	<comment> fairly productive?  or limit with feature? </comment>
+	<glosses>
+		<english>
+			<gloss>make</gloss>
+			<gloss>cause to exist</gloss>
+		</english>
+		<spanish>
+			<glosa>hacer</glosa>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>

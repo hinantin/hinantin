@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vFlexChi">
+<entry>
+	<lex left="c">chi</lex>
+	<comment> must be followed by vFlexSimple, vFlexFuture,
+		vFlexRemCerc, vFlexRemLej, vFlexChiDesiderativo
+		(NOT the normal vFlexDesiderativo), vFlexReprochador </comment>
+	<comment> HVY:287 oracional chi doesn't co-occur with this chi </comment>
+	<glosses>
+		<english>
+			<gloss>dubitative</gloss>
+		</english>
+		<spanish>
+			<glosa>no-involucrador</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@P.CHI.PRESENT@</feature>
+		<comment> block oracional chi </comment>
+	</features>
+</entry>
+</suffdict>

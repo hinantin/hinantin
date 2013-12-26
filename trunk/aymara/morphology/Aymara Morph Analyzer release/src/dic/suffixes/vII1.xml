@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vII1">
+<entry>
+	<lex left="v">ya</lex>
+	<comment> HVY:108 can occur twice in the same word, need
+		vII1 and vII1bis </comment>
+	<glosses>
+		<english>
+			<gloss>causative</gloss>
+		</english>
+		<spanish>
+			<glosa>causativo</glosa>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>
+

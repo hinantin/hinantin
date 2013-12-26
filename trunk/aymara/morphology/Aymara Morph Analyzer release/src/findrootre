@@ -1,0 +1,2 @@
+xml_grep --root 'entry' --cond "lexical[string()=~/$1/]" \
+--pretty_print indented --wrap '' dic/roots/roots.xml

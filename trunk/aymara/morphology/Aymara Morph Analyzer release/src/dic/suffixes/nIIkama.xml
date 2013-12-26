@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="nIIkama">
+
+<comment> Ross has a -kucha suffix "instead of" that is parallel to 
+	kama; check this out;  also, Ross lists them both with strong
+	and weak variants, which is probably the layku phenomenon </comment>
+
+<entry>
+	<lex left="layku">kama</lex>
+	<comment> continue to nIIjama ??? HVY:228 </comment>
+	<glosses>
+		<english>
+			<gloss>until</gloss>
+		</english>
+		<spanish>
+			<glosa>hasta</glosa>
+		</spanish>
+	</glosses>
+</entry>
+</suffdict>

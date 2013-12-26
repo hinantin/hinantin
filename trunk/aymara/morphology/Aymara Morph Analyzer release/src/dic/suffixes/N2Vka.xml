@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="N2Vka">
+<entry>
+	<lex left="c">ka</lex>
+	<comment> comes only after case ending +na, verbalizes
+		the result; continues to vI8 (t'a)???  ncpsls150
+</comment>
+	<glosses>
+		<english>
+			<gloss>N2V</gloss>
+		</english>
+		<spanish>
+			<glosa>N2V</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@U.N2Vka.ALLOW@</feature>
+		<comment> I think that ka can verbalize most noun roots
+			than can end in +na = "in"; but a previous V2N
+			may have set limits on re-nominalization
+		</comment>
+
+		<comment> clear any restrictions on N2V verbalizations </comment>
+		<feature>@C.N2Vlength@</feature>
+		<feature>@C.N2Vka@</feature>
+		<feature>@C.N2Vpta@</feature>
+
+		<comment> set limits on renominalization HVY:236, 238</comment>
+		<comment> for now, the various V2N are marked e.g. 
+			@D.V2Niri1.BLOCK@
+		</comment>
+
+		<comment> can renominalize with iri HVY:187, 267 271 and
+			with ka HVY:173 </comment>
+
+		<feature>@P.V2Niri1.ALLOW@</feature>
+		<feature>@P.V2Niri2.BLOCK@</feature>
+		<feature>@P.V2NnTILDEa.ALLOW@</feature>
+		<feature>@P.V2Nta.BLOCK@</feature>
+		<feature>@P.V2Nwi.BLOCK@</feature>
+
+		<comment> verbs created with +na-ka can take verb endings,
+			but only with 3rd person objects; HVY:162 235
+		</comment>
+		<feature>@P.VOBJ.3@</feature>
+
+		<comment> after +na-ka, the word can conceivably turn around
+			and take another case ending, or complement cero, 
+			so clear the feature set by the +na
+		</comment>
+
+		<feature>@C.nIIcase@</feature>
+
+	</features>
+</entry>
+</suffdict>

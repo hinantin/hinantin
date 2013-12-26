@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="V2Niri1">
+<entry>
+	<lex left="c">iri</lex>
+	<comment> called iri(sub 1) HVY:191 </comment>
+	<comment> can reverbalize with :  HVY:90, 191, 239, 267, 
+		ka  HVY:191,
+		even pta HVY:191</comment>
+	<glosses>
+		<english>
+			<gloss>V2N one who</gloss>
+		</english>
+		<spanish>
+			<glosa>V2N actor</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment> previous N2V may ALLOW or BLOCK certain renominalizations </comment>
+		<feature>@D.V2Niri1.BLOCK@</feature>
+		<feature>@C.V2Niri1@</feature>
+
+		<comment> reverbalization possible via length,
+			+na-ka or even pta ; so clear the
+			features that could block </comment>
+
+		<feature>@C.N2Vlength@</feature>
+		<feature>@C.N2Vka@</feature>
+		<feature>@C.N2Vpta@</feature>
+	</features>
+</entry>
+</suffdict>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="N2Vpta">
+<entry>
+	<lex left="v">pta</lex>
+	<comment> makes a "full" verb HVY:231, 235, 240, 266</comment>
+	<comment> Ross has parallel +pta and +rta that both mean
+		become, but one is sudden and one is gradual 
+		pta  become all of a sudden
+		rta  become gradually
+	</comment>
+
+	<glosses>
+		<english>
+			<gloss>N2V become</gloss>
+		</english>
+		<spanish>
+			<glosa>N2V llegar a ser</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@U.N2Vpta.ALLOW@</feature>
+
+		<comment> clear any restrictions on N2V verbalizations </comment>
+		<feature>@C.N2Vlength@</feature>
+		<feature>@C.N2Vka@</feature>
+		<feature>@C.N2Vpta@</feature>
+
+		<comment> set limits on renominalization, 
+			if any </comment>
+		<feature>@P.V2Niri1.ALLOW@</feature>
+		<feature>@P.V2Niri2.ALLOW@</feature>
+		<feature>@P.V2NnTILDEa.ALLOW@</feature>
+		<feature>@P.V2Nta.ALLOW@</feature>
+		<feature>@P.V2Nwi.ALLOW@</feature>
+
+	</features>
+</entry>
+</suffdict>

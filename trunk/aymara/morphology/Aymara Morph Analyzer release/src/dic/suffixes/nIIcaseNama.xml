@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="nIIcaseNama">
+<entry>
+	<lex left="c">nama</lex>
+	<comment> fossilized variant of +na-jama, N.B. the different
+		morphotactics, requring a c</comment>
+	<comment> continue to complement Cero? </comment>
+	<glosses>
+		<english>
+			<gloss>through</gloss>
+		</english>
+		<spanish>
+			<glosa>a través de</glosa>
+		</spanish>
+	</glosses>
+
+	<features>
+		<feature>@P.nIIcase.PRESENT@</feature>
+		<comment> allows blocking of subsequent comp. zero </comment>
+
+		<comment> the morphotactics can lead through indeps to
+			nominalization by length or pta; but such
+			nominalization needs to be blocked 
+		</comment>
+		<feature>@P.N2Vlength.BLOCK@</feature>
+		<feature>@P.N2Vpta.BLOCK@</feature>
+	</features>
+</entry>
+</suffdict>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="vFlexSimple">
+
+<comment> HVY:143+ tiempo simple is a tiempo of conocimiento personal </comment>
+<comment> HVY:164 chart </comment>
+
+<comment> has been called aorista, presente/pasado, no-futuro </comment>
+
+<entry>
+	<lex left="c" right="v">sma</lex>
+	<glosses>
+		<english>
+			<gloss>1-2 Simple</gloss>
+		</english>
+		<spanish>
+			<glosa>1-2 Simple</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.1@</comment>
+		<feature>@U.VOBJ.2@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="v">ista</lex>
+	<glosses>
+		<english>
+			<gloss>2-1 Simple</gloss>
+		</english>
+		<spanish>
+			<glosa>2-1 Simple</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.2@</comment>
+		<feature>@U.VOBJ.1@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="v">i</lex>
+	<glosses>
+		<english>
+			<gloss>3-3 Simple</gloss>
+		</english>
+		<spanish>
+			<glosa>3-3 Simple</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="c">ta</lex>
+	<glosses>
+		<english>
+			<gloss>1-3 Simple</gloss>
+		</english>
+		<spanish>
+			<glosa>1-3 Simple</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.1@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c">tan</lex>
+	<glosses>
+		<english>
+			<gloss>4-3 Simple</gloss>
+		</english>
+		<spanish>
+			<glosa>4-3 Simple</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.4@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="v">itu</lex>
+	<glosses>
+		<english>
+			<gloss>3-1 Simple</gloss>
+		</english>
+		<spanish>
+			<glosa>3-1 Simple</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.1@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="v">istu</lex>
+	<glosses>
+		<english>
+			<gloss>3-4 Simple</gloss>
+		</english>
+		<spanish>
+			<glosa>3-4 Simple</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.4@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c" right="v">ta</lex>
+	<glosses>
+		<english>
+			<gloss>2-3 Simple</gloss>
+		</english>
+		<spanish>
+			<glosa>2-3 Simple</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.2@</comment>
+		<feature>@U.VOBJ.3@</feature>
+	</features>
+</entry>
+
+<entry>
+	<lex left="c">tam</lex>
+	<glosses>
+		<english>
+			<gloss>3-2 Simple</gloss>
+		</english>
+		<spanish>
+			<glosa>3-2 Simple</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<comment>@U.VSUBJ.3@</comment>
+		<feature>@U.VOBJ.2@</feature>
+	</features>
+</entry>
+
+</suffdict>

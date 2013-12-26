@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="or1chi">
+<entry>
+	<lex left="n">chi</lex>
+	<comment> must be followed by m or xa </comment>
+	<comment> doesn't co-occur with no-involucrador HVY:287 </comment>
+	<glosses>
+		<english>
+			<gloss>suppositional</gloss>
+		</english>
+		<spanish>
+			<glosa>suposicional</glosa>
+		</spanish>
+	</glosses>
+	<features>
+		<feature>@U.CHI.ABSENT@</feature>
+	</features>
+</entry>
+</suffdict>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2000, 2005 Xerox Corporation.  All Rights Reserved.  -->
+
+
+<suffdict name="end">
+  <entry>
+    <lex left="c"></lex>
+    <surf left="fvd"></surf>
+    <comment> control optional deletion of final vowel </comment>
+    <comment> this dictionary is built as opt, with an epsilon path </comment>
+    <comment> the lexical tag is is created from the gloss below</comment>
+    <comment> on the surface, the ^VD marks the presence of the vowel deletion </comment>
+    <glosses>
+      <english>
+	<gloss>voweldrop</gloss>
+      </english>
+      <spanish>
+	<glosa>voweldrop</glosa>
+      </spanish>
+    </glosses>
+  </entry>
+</suffdict>
