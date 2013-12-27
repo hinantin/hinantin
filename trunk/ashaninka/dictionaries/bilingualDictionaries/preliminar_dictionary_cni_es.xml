@@ -1,0 +1,8474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- editado con XMLSpy v2013 sp1 (http://www.altova.com) por Richard Castro (HINANTIN) -->
+<dictionary
+title="\~{N}AATSIPETA ASH\'{A}IKAKI BIRAKOCHAKI (DICCIONARIO ASH\'{A}NINKA – CASTELLANO (parcial))" 
+author="Cushimariano Romano, Rub\'{e}n and Sebasti\'{a}n Q., Richer C." 
+editorial="lengamer.org" 
+year="2009" 
+>
+	<alphabet n="Asháninka" standard="complying" letters="aeiobchjmnñprsty">
+		<letter non_capital="a" example="ana" translation="huito"/>	
+		<letter non_capital="b" example="batsatsi" translation="carne"/>	
+		<letter non_capital="ch" example="chebiro" translation="macana (pez)"/>	
+		<letter non_capital="e" example="eroti" translation="aurora (loro)"/>	
+		<letter non_capital="i" example="inchato" translation="árbol"/>	
+		<letter non_capital="j" example="jetari" translation="carachama"/>	
+		<letter non_capital="k" example="kaniri" translation="yuca"/>	
+		<letter non_capital="m" example="maniro" translation="venado"/>	
+		<letter non_capital="n" example="noonki" translation="boa"/>	
+		<letter non_capital="ñ" example="ñaarontsi" translation="espejo"/>	
+		<letter non_capital="o" example="otsiti" translation="perro"/>	
+		<letter non_capital="p" example="pantyo" translation="pato"/>	
+		<letter non_capital="r" example="roki" translation="su ojo"/>	
+		<letter non_capital="s" example="sabiri" translation="machete"/>	
+		<letter non_capital="sh" example="shima" translation="boquichico"/>	
+		<letter non_capital="t" example="tibana" translation="piña"/>	
+		<letter non_capital="ts" example="tsompari" translation="garza"/>	
+		<letter non_capital="ty" example="tyaapa" translation="gallina"/>	
+		<!-- <letter non_capital="t" example="tibana" translation="piña"/>	-->
+		<letter non_capital="y" example="yentsiri" translation="patiquina"/>	
+	</alphabet>	
+	<sdefs>
+		<sdef n="adj." c="adjetivo"/>
+		<sdef n="adv." c="adverbio"/>
+		<sdef n="conj." c="conjunción"/>
+		<sdef n="fem." c="femenimo"/>
+		<sdef n="interj." c="interjección"/>
+		<sdef n="lit." c="literalmente"/>
+		<sdef n="pos." c="posesivo"/>
+		<sdef n="pron." c="ponombre"/>
+		<sdef n="s." c="sustantivo"/>
+		<sdef n="sinón." c="sinónimo"/>
+		<sdef n="suf." c="sufijo"/>
+		<sdef n="v. i." c="verbo intransitivo"/>
+		<sdef n="v. r." c="verbo reflexivo"/>
+		<sdef n="v. recip." c="verbo recíproco"/>
+		<sdef n="v. t." c="verbo transitivo"/>
+		<sdef n="inf." c="infinitivo"/>
+		<!-- Dialectos -->
+		<sdef n="Tambo"/>
+		<sdef n="Urubamba"/>
+		<sdef n="Gran Pajonal"/>
+		<sdef n="Pichis"/>
+		<sdef n="Yurúa"/>
+		<sdef n="Ucayali"/>
+		<sdef n="Ene"/>
+		<sdef n="Perené"/>
+		<sdef n="Junin"/>
+		<sdef n="Pasco"/>
+		<sdef n="Shesheya"/>
+	</sdefs>
+	<section id="main" type="standard">
+		<!-- cuidarse (de alguien). aamaantsi. -->
+		<e>
+			<p>
+				<l>cuidarse (de alguien)</l>
+				<r>aamaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- celoso. aamaantsi. -->
+		<e>
+			<p>
+				<l>celoso</l>
+				<r>aamaantsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- traer. aamaantsi. -->
+		<e>
+			<p>
+				<l>traer</l>
+				<r>aamaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- huérfano. aanirintsi. -->
+		<e>
+			<p>
+				<l>huérfano</l>
+				<r>aanirintsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- llevar. aantsi. -->
+		<e>
+			<p>
+				<l>llevar</l>
+				<r>aantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- abuelo (habla de mujer). aapi. -->
+		<e>
+			<p>
+				<l>abuelo (habla de mujer)</l>
+				<r>aapi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- hermano (habla de mujer). aari. -->
+		<e>
+			<p>
+				<l>hermano (habla de mujer)</l>
+				<r>aari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- hermano (habla de mujer). jaiji. -->
+		<e>
+			<p>
+				<l>hermano (habla de mujer)</l>
+				<r>jaiji<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- hermano (habla de mujer). jaiji. -->
+		<e>
+			<p>
+				<l>hermano (habla de mujer)</l>
+				<r>jaiji<s n="sustantivo"/>
+					<s n="Urubamba"/>
+				</r>
+			</p>
+		</e>
+		<!-- desnudar. aatonkoriantsi. -->
+		<e>
+			<p>
+				<l>desnudar</l>
+				<r>aatonkoriantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- llorón. abentyari. -->
+		<e>
+			<p>
+				<l>llorón</l>
+				<r>abentyari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- llorón. abentyari. -->
+		<e>
+			<p>
+				<l>llorón</l>
+				<r>abentyari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- llorón. irayinkari. -->
+		<e>
+			<p>
+				<l>llorón</l>
+				<r>irayinkari<s n="adjetivo"/>
+					<s n="Gran Pajonal"/>
+				</r>
+			</p>
+		</e>
+		<!-- llorón. shenkanti. -->
+		<e>
+			<p>
+				<l>llorón</l>
+				<r>shenkanti<s n="adjetivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- llorón. shenkanti. -->
+		<e>
+			<p>
+				<l>llorón</l>
+				<r>shenkanti<s n="adjetivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pasar. abijaantsi. -->
+		<e>
+			<p>
+				<l>pasar</l>
+				<r>abijaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>tatatao (especie de gallinazo)</l>
+				<r>abo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>camino</l>
+				<r>abotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>camino</l>
+				<r>aatsi<s n="sustantivo"/>
+					<s n="Yurúa"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>haber</l>
+				<r>aeniro<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>haber</l>
+				<r>eeniro<s n="verbo transitivo"/>
+					<s n="Ucayali"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>vainilla</l>
+				<r>ajopi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>vainilla</l>
+				<r>asopi<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>vainilla</l>
+				<r>asopi<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>vainilla</l>
+				<r>asopi<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>responder</l>
+				<r>akaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>anzueleado (pez)</l>
+				<r>akachaarentsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>anzuelo</l>
+				<r>akachaarontsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>que pesca con anzuelo</l>
+				<r>akachabaerenti<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>anzuelear</l>
+				<r>akachataantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>pescar con anzuelo</l>
+				<r>akachataantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>anzuelear</l>
+				<r>ompetasataantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>pescar con anzuelo</l>
+				<r>ompetasataantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>asado (de yuca y platano)</l>
+				<r>akishirentsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>asar</l>
+				<r>akishitaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>calentarse</l>
+				<r>akitsitaantsi<s n="verbo reflexivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>mano (derecha)</l>
+				<r>akopero<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>mano (derecha)</l>
+				<r>akosanori<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>mano</l>
+				<r>akotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>creciente (del río)</l>
+				<r>amaani<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>creciente (del río)</l>
+				<r>amara<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- creciente (del río). amara. -->
+		<e>
+			<p>
+				<l>creciente (del río)</l>
+				<r>amara<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- creciente (del río). amara. -->
+		<e>
+			<p>
+				<l>creciente (del río)</l>
+				<r>amara<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- nadar. amaataantsi. -->
+		<e>
+			<p>
+				<l>nadar</l>
+				<r>amaataantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>bajar (por el río)</l>
+				<r>amanaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>orar</l>
+				<r>amanantaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>comprar</l>
+				<r>amatabitaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>engañar</l>
+				<r>amatabitaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>corona</l>
+				<r>amatsaerentsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>abuela (habla de mujer)</l>
+				<r>ameeni<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>buitre</l>
+				<r>amempori<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>mirar</l>
+				<r>amenaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>cuidar (a alguien)</l>
+				<r>amenaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>fijar</l>
+				<r>amenarontaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>identificar (un lugar)</l>
+				<r>amenarontaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>mano (izquierda)</l>
+				<r>ampate<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>algodón</l>
+				<r>ampe<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>intestino</l>
+				<r>amporetsa<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>intestino</l>
+				<r>sheetontsi<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>huito (fruto)</l>
+				<r>ana<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>caminar</l>
+				<r>aniitaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>bajarse</l>
+				<r>aniriaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>nuera (habla de varón)</l>
+				<r>anirio<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>rebalsarse</l>
+				<r>anonkaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>pegar</l>
+				<r>antaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>golpear</l>
+				<r>antaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>trabajador</l>
+				<r>antabaerenti<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>trabajador</l>
+				<r>antabaerento<s n="adjetivo"/>
+					<s n="femenimo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>trabajar</l>
+				<r>antabaetantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>pelearse (unos con otros)</l>
+				<r>antabakaantsi<s n="verbo recíproco"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>monte</l>
+				<r>antami<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>bosque</l>
+				<r>antami<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>monte</l>
+				<r>tomirishi<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>bosque</l>
+				<r>tomirishi<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>monte</l>
+				<r>tomirishi<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>bosque</l>
+				<r>tomirishi<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>vivo</l>
+				<r>añaatsimi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>respirar</l>
+				<r>añeenkaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>vivir</l>
+				<r>añeenkaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>crudo</l>
+				<r>añeenkare<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>papá</l>
+				<r>apa<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>solo</l>
+				<r>apaniroeni<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>ya</l>
+				<r>ari<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>ya basta</l>
+				<r>aritapake<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>mojar</l>
+				<r>ashetaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>resbalarse</l>
+				<r>ashirariantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>puerta</l>
+				<r>ashitabontsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>puerta</l>
+				<r>ashitakorontsi<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>puerta</l>
+				<r>ashitakorontsi<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>encerrar</l>
+				<r>ashitakotaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>chupar (caña)</l>
+				<r>ashiyaatsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>subir</l>
+				<r>ataetaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>persona</l>
+				<r>atiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>toser</l>
+				<r>atojetaantsi<s n="verbo intransitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>morder (sujeto animado)</l>
+				<r>atsikaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>morder (sujeto inanimado)</l>
+				<r>atsikaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>apretar</l>
+				<r>atsinakaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>estornudar</l>
+				<r>atsinkaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>cuñada (habla de mujer)</l>
+				<r>atyo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>suegra (habla de mujer)</l>
+				<r>ayini<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>suegra (habla de mujer)</l>
+				<r>ayo<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>nombre</l>
+				<r>baerontsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>gordo</l>
+				<r>batsanti<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>gordo</l>
+				<r>batsanto<s n="adjetivo"/>
+					<s n="femenimo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>carne</l>
+				<r>batsatsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>alegrarse</l>
+				<r>beshiriantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>desplumar</l>
+				<r>bitiriantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>sacar cerdas</l>
+				<r>bitiriantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>pluma</l>
+				<r>bititsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>cerda</l>
+				<r>bititsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>vello</l>
+				<r>bititsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>pelo del cuerpo</l>
+				<r>bititsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>tigre colorado</l>
+				<r>chaanari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>trompetero (especie de ave)</l>
+				<r>chakami<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>flecha</l>
+				<r>chakopi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>pájaro carpintero</l>
+				<r>chamanto<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>garza (de color cenizo)</l>
+				<r>chanchati<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>gusano</l>
+				<r>chapiti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>súngaro (especie de pez)</l>
+				<r>charaba<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>abuelo (habla de varón)</l>
+				<r>charine<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>macana (especie de pez)</l>
+				<r>chebiro<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>negro</l>
+				<r>cheenkari<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>jergón</l>
+				<r>cheenkari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>jergón</l>
+				<r>cheenkari<s n="sustantivo"/>
+					<s n="femenimo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>carachama (especie de pez)</l>
+				<r>cheenti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>espinoso</l>
+				<r>cheentsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>que tiene puas</l>
+				<r>cheentsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>cortar (con fuerza)</l>
+				<r>chekaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>rana</l>
+				<r>chekito<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>rana</l>
+				<r>chekito<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>sachaponilla (especie de palmera)</l>
+				<r>chenko<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>huasaco (especie de pez)</l>
+				<r>chenkori<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>sacar (pantalón)</l>
+				<r>chenkoriaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>poner (pantalón)</l>
+				<r>chenkotaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>pantalón</l>
+				<r>chenkotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>ponilla (especie de palmera)</l>
+				<r>chentero<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>gritar</l>
+				<r>cheraakotaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>hablar (con enojo)</l>
+				<r>cheraakotaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>que tiene labios gruesos</l>
+				<r>cheranti<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>frito</l>
+				<r>cherenkaantsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>martín pescador (especie de ave)</l>
+				<r>cherepito<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>legañoso</l>
+				<r>chetakintsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>especie de gusano pequeño</l>
+				<r>chobitsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>hermana (habla de varón)</l>
+				<r>choeni<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>perico</l>
+				<r>chokiyo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>pihuicho (especie de loro pequeño)</l>
+				<r>chokiyo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>palometa (especie de pez)</l>
+				<r>chomenta<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>moquichi (especie de plátano)</l>
+				<r>chomiyo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>tinaja (de barro)</l>
+				<r>chomo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>pecho rojo (especie de pájaro)</l>
+				<r>chompi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>hormiga negra</l>
+				<r>chookiro<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>serrano</l>
+				<r>choori<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>especie de palmera</l>
+				<r>chorina<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>especie de loro pequeño</l>
+				<r>chorito<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>joven</l>
+				<r>ebankari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>joven</l>
+				<r>ebankari<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>joven</l>
+				<r>ebankari<s n="adjetivo"/>
+					<s n="femenimo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>nuera (habla de mujer)</l>
+				<r>ebatairo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>adolescente</l>
+				<r>ebonkiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>poco</l>
+				<r>echonkiini<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>poco</l>
+				<r>echonkiini<s n="adjetivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>poco</l>
+				<r>echonkiini<s n="adjetivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>poco</l>
+				<r>echonkiini<s n="adjetivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>y</l>
+				<r>eejati<s n="conjunción"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>también</l>
+				<r>eejati<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>también</l>
+				<r>aisati<s n="adverbio"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>cuñado (habla de mujer)</l>
+				<r>eemeeni<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>niño</l>
+				<r>eentsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>niño</l>
+				<r>jananeki<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- . . -->
+		<e>
+			<p>
+				<l>niño</l>
+				<r>jananeki<s n="sustantivo"/>
+					<s n="Urubamba"/>
+				</r>
+			</p>
+		</e>
+		<!-- niño. iriani. -->
+		<e>
+			<p>
+				<l>niño</l>
+				<r>iriani<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- niño. iriani. -->
+		<e>
+			<p>
+				<l>niño</l>
+				<r>iriani<s n="sustantivo"/>
+					<s n="Urubamba"/>
+				</r>
+			</p>
+		</e>
+		<!-- verde. eereki. -->
+		<e>
+			<p>
+				<l>verde</l>
+				<r>eereki<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- no. eero. -->
+		<e>
+			<p>
+				<l>no</l>
+				<r>eero<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- río. eni. -->
+		<e>
+			<p>
+				<l>río</l>
+				<r>eni<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- hermana (habla de mujer). entyo. -->
+		<e>
+			<p>
+				<l>hermana (habla de mujer)</l>
+				<r>entyo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- hermana (habla de mujer). reentotsi. -->
+		<e>
+			<p>
+				<l>hermana (habla de mujer)</l>
+				<r>reentotsi<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- aurora (especie de loro). eroti. -->
+		<e>
+			<p>
+				<l>aurora (especie de loro)</l>
+				<r>eroti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- caulla (yuca pasada de tiempo). eshiraare. -->
+		<e>
+			<p>
+				<l>caulla (yuca pasada de tiempo)</l>
+				<r>eshiraare<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ir a avisar. etaantsi. -->
+		<e>
+			<p>
+				<l>ir a avisar</l>
+				<r>etaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- empezar. etaantsi. -->
+		<e>
+			<p>
+				<l>empezar</l>
+				<r>etaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- fundador. etakaantabori. -->
+		<e>
+			<p>
+				<l>fundador</l>
+				<r>etakaantabori<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sufrir (de amor). etakotaantsi. -->
+		<e>
+			<p>
+				<l>sufrir (de amor)</l>
+				<r>etakotaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- carachupa (especie de armadillo). eti. -->
+		<e>
+			<p>
+				<l>carachupa (especie de armadillo)</l>
+				<r>eti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- carachupa (especie de armadillo). etini. -->
+		<e>
+			<p>
+				<l>carachupa (especie de armadillo)</l>
+				<r>etini<s n="sustantivo"/>
+					<s n="Junin"/>
+				</r>
+			</p>
+		</e>
+		<!-- caimitillo (especie de fruto silvestre). etiki. -->
+		<e>
+			<p>
+				<l>caimitillo (especie de fruto silvestre)</l>
+				<r>etiki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- golondrina. etso. -->
+		<e>
+			<p>
+				<l>golondrina</l>
+				<r>etso<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- piripiri (especie de planta medicinal). ibenki. -->
+		<e>
+			<p>
+				<l>piripiri (especie de planta medicinal)</l>
+				<r>ibenki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cuñada (habla de varón). iiñeeni. -->
+		<e>
+			<p>
+				<l>cuñada (habla de varón)</l>
+				<r>iiñeeni<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cuñada (habla de varón). nojinatsori. -->
+		<e>
+			<p>
+				<l>cuñada (habla de varón)</l>
+				<r>nojinatsori<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cuñada (habla de varón). nojinatsori. -->
+		<e>
+			<p>
+				<l>cuñada (habla de varón)</l>
+				<r>nojinatsori<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- cuñada (habla de varón). nojinatsori. -->
+		<e>
+			<p>
+				<l>cuñada (habla de varón)</l>
+				<r>nojinatsori<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- cabello. iishintsi. -->
+		<e>
+			<p>
+				<l>cabello</l>
+				<r>iishintsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pie. iitintsi. -->
+		<e>
+			<p>
+				<l>pie</l>
+				<r>iitintsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cabeza. iitontsi. -->
+		<e>
+			<p>
+				<l>cabeza</l>
+				<r>iitontsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- huevo. iitsokintsi. -->
+		<e>
+			<p>
+				<l>huevo</l>
+				<r>iitsokintsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- suri (especie de gusano comestible). imobo. -->
+		<e>
+			<p>
+				<l>suri (especie de gusano comestible)</l>
+				<r>imobo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tela de araña. imooshi. -->
+		<e>
+			<p>
+				<l>tela de araña</l>
+				<r>imooshi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- nido. imooshi. -->
+		<e>
+			<p>
+				<l>nido</l>
+				<r>imooshi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- arena. impaneki. -->
+		<e>
+			<p>
+				<l>arena</l>
+				<r>impaneki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- arenal. impanekiite. -->
+		<e>
+			<p>
+				<l>arenal</l>
+				<r>impanekiite<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- estrella. impokiro. -->
+		<e>
+			<p>
+				<l>estrella</l>
+				<r>impokiro<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- mamá. ina. -->
+		<e>
+			<p>
+				<l>mamá</l>
+				<r>ina<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- mamá. nana. -->
+		<e>
+			<p>
+				<l>mamá</l>
+				<r>nana<s n="sustantivo"/>
+					<s n="Ucayali"/>
+				</r>
+			</p>
+		</e>
+		<!-- mamá. noniro. -->
+		<e>
+			<p>
+				<l>mamá</l>
+				<r>noniro<s n="sustantivo"/>
+					<s n="Ucayali"/>
+				</r>
+			</p>
+		</e>
+		<!-- mamá. nana. -->
+		<e>
+			<p>
+				<l>mamá</l>
+				<r>nana<s n="sustantivo"/>
+					<s n="Pasco"/>
+				</r>
+			</p>
+		</e>
+		<!-- mamá. noniro. -->
+		<e>
+			<p>
+				<l>mamá</l>
+				<r>noniro<s n="sustantivo"/>
+					<s n="Pasco"/>
+				</r>
+			</p>
+		</e>
+		<!-- moena (especie de árbol). inchakitso. -->
+		<e>
+			<p>
+				<l>moena (especie de árbol)</l>
+				<r>inchakitso<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- astilla. inchapataki. -->
+		<e>
+			<p>
+				<l>astilla</l>
+				<r>inchapataki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- corteza. inchapataki. -->
+		<e>
+			<p>
+				<l>corteza</l>
+				<r>inchapataki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- árbol. inchato. -->
+		<e>
+			<p>
+				<l>árbol</l>
+				<r>inchato<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tronco. inchato. -->
+		<e>
+			<p>
+				<l>tronco</l>
+				<r>inchato<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- arbustos. inchatomashi. -->
+		<e>
+			<p>
+				<l>arbustos</l>
+				<r>inchatomashi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- matorral. inchatomashi. -->
+		<e>
+			<p>
+				<l>matorral</l>
+				<r>inchatomashi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cocha. inkaare. -->
+		<e>
+			<p>
+				<l>cocha</l>
+				<r>inkaare<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- laguna. inkaare. -->
+		<e>
+			<p>
+				<l>laguna</l>
+				<r>inkaare<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- (nombre de pueblo). inkaare. -->
+		<e>
+			<p>
+				<l>(nombre de pueblo)</l>
+				<r>inkaare<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lluvia. inkani. -->
+		<e>
+			<p>
+				<l>lluvia</l>
+				<r>inkani<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- firmamento. inkite. -->
+		<e>
+			<p>
+				<l>firmamento</l>
+				<r>inkite<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cielo (morada divina). inkite. -->
+		<e>
+			<p>
+				<l>cielo (morada divina)</l>
+				<r>inkite<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- afuera. inkokiroeni. -->
+		<e>
+			<p>
+				<l>afuera</l>
+				<r>inkokiroeni<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- lejos. intaena. -->
+		<e>
+			<p>
+				<l>lejos</l>
+				<r>intaena<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- rápido. intsipaete. -->
+		<e>
+			<p>
+				<l>rápido</l>
+				<r>intsipaete<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- adentro. intsomoe. -->
+		<e>
+			<p>
+				<l>adentro</l>
+				<r>intsomoe<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- llorar. iraantsi. -->
+		<e>
+			<p>
+				<l>llorar</l>
+				<r>iraantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sangre. iraantsi . -->
+		<e>
+			<p>
+				<l>sangre</l>
+				<r>iraantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sangre de grado (resina de color rojo). iraari. -->
+		<e>
+			<p>
+				<l>sangre de grado (resina de color rojo)</l>
+				<r>iraari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- llorón. iraenkari. -->
+		<e>
+			<p>
+				<l>llorón</l>
+				<r>iraenkari<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- llorón. irainkabo. -->
+		<e>
+			<p>
+				<l>llorón</l>
+				<r>irainkabo<s n="adjetivo"/>
+					<s n="femenimo"/>
+				</r>
+			</p>
+		</e>
+		<!-- maduro (fruto). iraka. -->
+		<e>
+			<p>
+				<l>maduro (fruto)</l>
+				<r>iraka<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- maduro (plátano). iraka. -->
+		<e>
+			<p>
+				<l>maduro (plátano)</l>
+				<r>iraka<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pequeño. iriani. -->
+		<e>
+			<p>
+				<l>pequeño</l>
+				<r>iriani<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pequeño. oriani. -->
+		<e>
+			<p>
+				<l>pequeño</l>
+				<r>oriani<s n="adjetivo"/>
+					<s n="femenimo"/>
+				</r>
+			</p>
+		</e>
+		<!-- abuela (habla de varón). isheeni. -->
+		<e>
+			<p>
+				<l>abuela (habla de varón)</l>
+				<r>isheeni<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- suegra (habla de varón). iyoeni. -->
+		<e>
+			<p>
+				<l>suegra (habla de varón)</l>
+				<r>iyoeni<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- suegra (habla de varón). iyoeni. -->
+		<e>
+			<p>
+				<l>suegra (habla de varón)</l>
+				<r>iyoeni<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- suegra (habla de varón). iyoeni. -->
+		<e>
+			<p>
+				<l>suegra (habla de varón)</l>
+				<r>iyoeni<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- suegra (habla de varón). iyoeni. -->
+		<e>
+			<p>
+				<l>suegra (habla de varón)</l>
+				<r>iyoeni<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- solamente. iyotaka. -->
+		<e>
+			<p>
+				<l>solamente</l>
+				<r>iyotaka<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- calentar. jaabataantsi. -->
+		<e>
+			<p>
+				<l>calentar</l>
+				<r>jaabataantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lleno. jaaka. -->
+		<e>
+			<p>
+				<l>lleno</l>
+				<r>jaaka<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- profundo. jaanaari. -->
+		<e>
+			<p>
+				<l>profundo</l>
+				<r>jaanaari<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- hondo. jaanaari. -->
+		<e>
+			<p>
+				<l>hondo</l>
+				<r>jaanaari<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- guacamayo colorado. jababo. -->
+		<e>
+			<p>
+				<l>guacamayo colorado</l>
+				<r>jababo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- machete. jabiri. -->
+		<e>
+			<p>
+				<l>machete</l>
+				<r>jabiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- asiento. jaekamenotsi. -->
+		<e>
+			<p>
+				<l>asiento</l>
+				<r>jaekamenotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- asiento. saikamentotsi. -->
+		<e>
+			<p>
+				<l>asiento</l>
+				<r>saikamentotsi<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- asiento. saikamentotsi. -->
+		<e>
+			<p>
+				<l>asiento</l>
+				<r>saikamentotsi<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- asiento. saikamentotsi. -->
+		<e>
+			<p>
+				<l>asiento</l>
+				<r>saikamentotsi<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- aquí. jaka. -->
+		<e>
+			<p>
+				<l>aquí</l>
+				<r>jaka<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- palo podrido. jamaka. -->
+		<e>
+			<p>
+				<l>palo podrido</l>
+				<r>jamaka<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ceniza. jamampo. -->
+		<e>
+			<p>
+				<l>ceniza</l>
+				<r>jamampo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- majás (especie de roedor). jamani. -->
+		<e>
+			<p>
+				<l>majás (especie de roedor)</l>
+				<r>jamani<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- majás (especie de roedor). . -->
+		<e>
+			<p>
+				<l>majás (especie de roedor)</l>
+				<r>samani<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- majás (especie de roedor). . -->
+		<e>
+			<p>
+				<l>majás (especie de roedor)</l>
+				<r>samani<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- torcaza (especie de paloma). jamomo. -->
+		<e>
+			<p>
+				<l>torcaza (especie de paloma)</l>
+				<r>jamomo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- preguntar. jampitaantsi. -->
+		<e>
+			<p>
+				<l>preguntar</l>
+				<r>jampitaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- preguntar. sampitantsi. -->
+		<e>
+			<p>
+				<l>preguntar</l>
+				<r>sampitantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- preguntar. sampitantsi. -->
+		<e>
+			<p>
+				<l>preguntar</l>
+				<r>sampitantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- preguntar. sampitantsi. -->
+		<e>
+			<p>
+				<l>preguntar</l>
+				<r>sampitantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- barro. jampobatsa. -->
+		<e>
+			<p>
+				<l>barro</l>
+				<r>jampobatsa<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- barro. sampobatsa. -->
+		<e>
+			<p>
+				<l>barro</l>
+				<r>sampobatsa<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- barro. sampobatsa. -->
+		<e>
+			<p>
+				<l>barro</l>
+				<r>sampobatsa<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- barro. sampobatsa. -->
+		<e>
+			<p>
+				<l>barro</l>
+				<r>sampobatsa<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- avispa. jani. -->
+		<e>
+			<p>
+				<l>avispa</l>
+				<r>jani<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lapicero. jankenamentotsi. -->
+		<e>
+			<p>
+				<l>lapicero</l>
+				<r>jankenamentotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- escrito. jankenarentsi. -->
+		<e>
+			<p>
+				<l>escrito</l>
+				<r>jankenarentsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- escribir. jankinataantsi. -->
+		<e>
+			<p>
+				<l>escribir</l>
+				<r>jankinataantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- escritor. jankinebaerenti. -->
+		<e>
+			<p>
+				<l>escritor</l>
+				<r>jankinebaerenti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- especie de caracol. jankiro. -->
+		<e>
+			<p>
+				<l>especie de caracol</l>
+				<r>jankiro<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- caña de azúcar. janko. -->
+		<e>
+			<p>
+				<l>caña de azúcar</l>
+				<r>janko<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- caña de azúcar. shanko. -->
+		<e>
+			<p>
+				<l>caña de azúcar</l>
+				<r>shanko<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- caña de azúcar. shanko. -->
+		<e>
+			<p>
+				<l>caña de azúcar</l>
+				<r>shanko<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- caña de azúcar. shanko. -->
+		<e>
+			<p>
+				<l>caña de azúcar</l>
+				<r>shanko<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- curuhuinsi (especie de hormiga). jankori. -->
+		<e>
+			<p>
+				<l>curuhuinsi (especie de hormiga)</l>
+				<r>jankori<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- curuhuinsi (especie de hormiga). sankori. -->
+		<e>
+			<p>
+				<l>curuhuinsi (especie de hormiga)</l>
+				<r>sankori<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- curuhuinsi (especie de hormiga). sankori. -->
+		<e>
+			<p>
+				<l>curuhuinsi (especie de hormiga)</l>
+				<r>sankori<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- curuhuinsi (especie de hormiga). sankori. -->
+		<e>
+			<p>
+				<l>curuhuinsi (especie de hormiga)</l>
+				<r>sankori<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- allá. janta. -->
+		<e>
+			<p>
+				<l>allá</l>
+				<r>janta<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- árbol (maderable). jantari. -->
+		<e>
+			<p>
+				<l>árbol (maderable)</l>
+				<r>jantari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cedro (especie de árbol). jantari. -->
+		<e>
+			<p>
+				<l>cedro (especie de árbol)</l>
+				<r>jantari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cedro (especie de árbol). jantari. -->
+		<e>
+			<p>
+				<l>cedro (especie de árbol)</l>
+				<r>jantari<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- cedro (especie de árbol). jantari. -->
+		<e>
+			<p>
+				<l>cedro (especie de árbol)</l>
+				<r>jantari<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cállate. jantikoeni. -->
+		<e>
+			<p>
+				<l>cállate</l>
+				<r>jantikoeni<s n="interjección"/>
+				</r>
+			</p>
+		</e>
+		<!-- cállense. jantikoeni. -->
+		<e>
+			<p>
+				<l>cállense</l>
+				<r>jantikoeni<s n="interjección"/>
+				</r>
+			</p>
+		</e>
+		<!-- brincar. japokaantsi. -->
+		<e>
+			<p>
+				<l>brincar</l>
+				<r>japokaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- brincar. mitantsi. -->
+		<e>
+			<p>
+				<l>brincar</l>
+				<r>japokaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- brincar. mitantsi. -->
+		<e>
+			<p>
+				<l>saltar</l>
+				<r>japokaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- brincar. mitantsi. -->
+		<e>
+			<p>
+				<l>brincar</l>
+				<r>japokaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- saltar. japokaantsi. -->
+		<e>
+			<p>
+				<l>saltar</l>
+				<r>mitantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- saltar. mitantsi. -->
+		<e>
+			<p>
+				<l>saltar</l>
+				<r>mitantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- saltar. mitantsi. -->
+		<e>
+			<p>
+				<l>saltar</l>
+				<r>mitantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- saltar. mitantsi. -->
+		<e>
+			<p>
+				<l>saltar</l>
+				<r>mitantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- toé (especie de árbol). jayapa. -->
+		<e>
+			<p>
+				<l>toé (especie de árbol)</l>
+				<r>jayapa<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- shitaraco (especie de hormiga). jaye. -->
+		<e>
+			<p>
+				<l>shitaraco (especie de hormiga)</l>
+				<r>jaye<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- abanicar. jebankaantsi. -->
+		<e>
+			<p>
+				<l>abanicar</l>
+				<r>jebankaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sí. jee. -->
+		<e>
+			<p>
+				<l>sí</l>
+				<r>jee<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- dónde. jempe. -->
+		<e>
+			<p>
+				<l>dónde</l>
+				<r>jempe<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- arriba. jenoki. -->
+		<e>
+			<p>
+				<l>arriba</l>
+				<r>jenoki<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- cultivar (dejar sin hierba). jerenkaantsi. -->
+		<e>
+			<p>
+				<l>cultivar (dejar sin hierba)</l>
+				<r>jerenkaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ishanga. jerina. -->
+		<e>
+			<p>
+				<l>ishanga</l>
+				<r>jerina<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ortiga (con puas grandes). jerina. -->
+		<e>
+			<p>
+				<l>ortiga (con puas grandes)</l>
+				<r>jerina<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- carachama (especie de pez). jetari. -->
+		<e>
+			<p>
+				<l>carachama (especie de pez)</l>
+				<r>jetari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- araña. jeto. -->
+		<e>
+			<p>
+				<l>araña</l>
+				<r>jeto<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- esposo. jimetsi. -->
+		<e>
+			<p>
+				<l>esposo</l>
+				<r>jimetsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- esposa. jinatsi. -->
+		<e>
+			<p>
+				<l>esposa</l>
+				<r>jinatsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- limón. jiriimaki. -->
+		<e>
+			<p>
+				<l>limón</l>
+				<r>jiriimaki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- limón. iriimaki. -->
+		<e>
+			<p>
+				<l>limón</l>
+				<r>iriimaki<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pájaro madrugador. jiriti. -->
+		<e>
+			<p>
+				<l>pájaro madrugador</l>
+				<r>jiriti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tumor. jompotsi. -->
+		<e>
+			<p>
+				<l>tumor</l>
+				<r>jompotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tumor. sonkare. -->
+		<e>
+			<p>
+				<l>tumor</l>
+				<r>sonkare<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- tumor. sonkare. -->
+		<e>
+			<p>
+				<l>tumor</l>
+				<r>sonkare<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tumor. sonkare. -->
+		<e>
+			<p>
+				<l>tumor</l>
+				<r>sonkare<s n="sustantivo"/>
+					<s n="Urubamba"/>
+				</r>
+			</p>
+		</e>
+		<!-- basura. kaarashi. -->
+		<e>
+			<p>
+				<l>basura</l>
+				<r>kaarashi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bañar. kaboshitaantsi. -->
+		<e>
+			<p>
+				<l>bañar</l>
+				<r>kaboshitaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bañarse. Noyaatapainte. -->
+		<e>
+			<p>
+				<l>bañarse</l>
+				<r>Noyaatapainte<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- humo. kachaari. -->
+		<e>
+			<p>
+				<l>humo</l>
+				<r>kachaari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- gritar. kaemaantsi. -->
+		<e>
+			<p>
+				<l>gritar</l>
+				<r>kaemaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- llamar (para avisar). kaemaantsi. -->
+		<e>
+			<p>
+				<l>llamar (para avisar)</l>
+				<r>kaemaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- comezón. kaenitantsi. -->
+		<e>
+			<p>
+				<l>comezón</l>
+				<r>kaenitantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lo que causa risa. kaenitantsi. -->
+		<e>
+			<p>
+				<l>lo que causa risa</l>
+				<r>kaenitantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- perfume. kajankari. -->
+		<e>
+			<p>
+				<l>perfume</l>
+				<r>kajankari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- perfumado. kajankari. -->
+		<e>
+			<p>
+				<l>perfumado</l>
+				<r>kajankari<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- gripe. kamaantsi. -->
+		<e>
+			<p>
+				<l>gripe</l>
+				<r>kamaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- moco. kamaantsi. -->
+		<e>
+			<p>
+				<l>moco</l>
+				<r>kamaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cascabel. kamaatonki. -->
+		<e>
+			<p>
+				<l>cascabel</l>
+				<r>kamaatonki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- avisar. kamantantsi. -->
+		<e>
+			<p>
+				<l>avisar</l>
+				<r>kamantantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- vomitar. kamarankaantsi. -->
+		<e>
+			<p>
+				<l>vomitar</l>
+				<r>kamarankaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- vómito. kamarankaantsi. -->
+		<e>
+			<p>
+				<l>vómito</l>
+				<r>kamarankaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- Satanás. kamari. -->
+		<e>
+			<p>
+				<l>Satanás</l>
+				<r>kamari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- hermoso. kameetsaanti. -->
+		<e>
+			<p>
+				<l>hermoso</l>
+				<r>kameetsaanti<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bueno. kameetsari. -->
+		<e>
+			<p>
+				<l>bueno</l>
+				<r>kameetsari<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bueno. kameetsabo. -->
+		<e>
+			<p>
+				<l>bueno</l>
+				<r>kameetsabo<s n="adjetivo"/>
+					<s n="femenimo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bien. kametsa. -->
+		<e>
+			<p>
+				<l>bien</l>
+				<r>kametsa<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- pona (especie de palmera). kampona. -->
+		<e>
+			<p>
+				<l>pona (especie de palmera)</l>
+				<r>kampona<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- yuca. kaniri. -->
+		<e>
+			<p>
+				<l>yuca</l>
+				<r>kaniri<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- yuca blanca. kaniri. -->
+		<e>
+			<p>
+				<l>yuca blanca</l>
+				<r>kaniri<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- mal hecho. kantapookitaantsi. -->
+		<e>
+			<p>
+				<l>mal hecho</l>
+				<r>kantapookitaantsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- diferente. kantashiyetachari. -->
+		<e>
+			<p>
+				<l>diferente</l>
+				<r>kantashiyetachari<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pero. kantimaitacha. -->
+		<e>
+			<p>
+				<l>pero</l>
+				<r>kantimaitacha<s n="conjunción"/>
+				</r>
+			</p>
+		</e>
+		<!-- sardina. kapararo. -->
+		<e>
+			<p>
+				<l>sardina</l>
+				<r>kapararo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- iguana. kapashiro. -->
+		<e>
+			<p>
+				<l>iguana</l>
+				<r>kapashiro<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- achuni (mamífero parecido al oso hormiguero). kapeshi. -->
+		<e>
+			<p>
+				<l>achuni (mamífero parecido al oso hormiguero)</l>
+				<r>kapeshi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- poco. kapichoki. -->
+		<e>
+			<p>
+				<l>poco</l>
+				<r>kapichoki<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- paca (especie de bambú). kapiro. -->
+		<e>
+			<p>
+				<l>paca (especie de bambú)</l>
+				<r>kapiro<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- venado cenizo. kapironkari. -->
+		<e>
+			<p>
+				<l>venado cenizo</l>
+				<r>kapironkari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- quebrar. karaantsi. -->
+		<e>
+			<p>
+				<l>quebrar</l>
+				<r>karaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- resbaloso. karentsare. -->
+		<e>
+			<p>
+				<l>resbaloso</l>
+				<r>karentsare<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pedazo. kashetani. -->
+		<e>
+			<p>
+				<l>pedazo</l>
+				<r>kashetani<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- luna. kashiri. -->
+		<e>
+			<p>
+				<l>luna</l>
+				<r>kashiri<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- lamparilla (espíritu del cerro). katsibore. -->
+		<e>
+			<p>
+				<l>lamparilla (espíritu del cerro)</l>
+				<r>katsibore<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- especie de hormiga comestible. . -->
+		<e>
+			<p>
+				<l>especie de hormiga comestible</l>
+				<r>katsikori<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- malo. katsimari. -->
+		<e>
+			<p>
+				<l>malo</l>
+				<r>katsimari<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- frío. katsinkaiteri. -->
+		<e>
+			<p>
+				<l>frío</l>
+				<r>katsinkaiteri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- hormiga. katsitori. -->
+		<e>
+			<p>
+				<l>hormiga</l>
+				<r>katsitori<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- gotera. katsobarentsi. -->
+		<e>
+			<p>
+				<l>gotera</l>
+				<r>katsobarentsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- afasi (que no sabe cazar). kayetsi. -->
+		<e>
+			<p>
+				<l>afasi (que no sabe cazar)</l>
+				<r>kayetsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- afasi (uno que no sabe cazar). kayetsi. -->
+		<e>
+			<p>
+				<l>afasi (uno que no sabe cazar)</l>
+				<r>kayetsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lavar (las manos). kebaakotaantsi. -->
+		<e>
+			<p>
+				<l>lavar (las manos)</l>
+				<r>kebaakotaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lavar. kebaantsi. -->
+		<e>
+			<p>
+				<l>lavar</l>
+				<r>kebaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- hamaca. kebotsi. -->
+		<e>
+			<p>
+				<l>hamaca</l>
+				<r>kebotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- oír. kemaantsi. -->
+		<e>
+			<p>
+				<l>oír</l>
+				<r>kemaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sachavaca. kemari. -->
+		<e>
+			<p>
+				<l>sachavaca</l>
+				<r>kemari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tapir. kemari. -->
+		<e>
+			<p>
+				<l>tapir</l>
+				<r>kemari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- zapallo. kemi. -->
+		<e>
+			<p>
+				<l>zapallo</l>
+				<r>kemi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- adventista. kemijantinkari. -->
+		<e>
+			<p>
+				<l>adventista</l>
+				<r>kemijantinkari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!--  (especie de culebra venenosa). kempiro. -->
+		<e>
+			<p>
+				<l>(especie de culebra venenosa)</l>
+				<r>kempiro<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- carachama (especie de pez). kempiti. -->
+		<e>
+			<p>
+				<l>carachama (especie de pez)</l>
+				<r>kempiti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pique. kenitsi. -->
+		<e>
+			<p>
+				<l>pique</l>
+				<r>kenitsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- nigua. kenitsi. -->
+		<e>
+			<p>
+				<l>nigua</l>
+				<r>kenitsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pensamiento. kenkishiriamento. -->
+		<e>
+			<p>
+				<l>pensamiento</l>
+				<r>kenkishiriamento<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pensar. kenkishiriantsi. -->
+		<e>
+			<p>
+				<l>pensar</l>
+				<r>kenkishiriantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- picar. kentaantsi. -->
+		<e>
+			<p>
+				<l>picar</l>
+				<r>kentaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sentir (dolor punzante). kentaantsi. -->
+		<e>
+			<p>
+				<l>sentir (dolor punzante)</l>
+				<r>kentaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- shushupi (especie de culebra venenosa). kentabo. -->
+		<e>
+			<p>
+				<l>shushupi (especie de culebra venenosa)</l>
+				<r>kentabo<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- especie de loro. kentabo. -->
+		<e>
+			<p>
+				<l>especie de loro</l>
+				<r>kentabo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- guacamayo azul. kentabo. -->
+		<e>
+			<p>
+				<l>guacamayo azul</l>
+				<r>kentabo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cuello. kentsitsi. -->
+		<e>
+			<p>
+				<l>cuello</l>
+				<r>kentsitsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- perdiz. kentsori. -->
+		<e>
+			<p>
+				<l>perdiz</l>
+				<r>kentsori<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- horcón. kepaye. -->
+		<e>
+			<p>
+				<l>horcón</l>
+				<r>kepaye<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- amargo. kepishiri. -->
+		<e>
+			<p>
+				<l>amargo</l>
+				<r>kepishiri<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bombonaje (especie de palmera). kepiyashi. -->
+		<e>
+			<p>
+				<l>bombonaje (especie de palmera)</l>
+				<r>kepiyashi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- en. -ki. -->
+		<e>
+			<p>
+				<l>en</l>
+				<r>-ki<s n="sufijo"/>
+				</r>
+			</p>
+		</e>
+		<!-- en el invierno. kiabontsi. -->
+		<e>
+			<p>
+				<l>en el invierno</l>
+				<r>kiabontsi<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- colérico. kijinkari. -->
+		<e>
+			<p>
+				<l>colérico</l>
+				<r>kijinkari<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- colérico. kijinkabo. -->
+		<e>
+			<p>
+				<l>colérico</l>
+				<r>kijinkabo<s n="adjetivo"/>
+					<s n="femenimo"/>
+				</r>
+			</p>
+		</e>
+		<!-- colérico. kishinkari. -->
+		<e>
+			<p>
+				<l>colérico</l>
+				<r>kishinkari<s n="adjetivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- duro. kijori. -->
+		<e>
+			<p>
+				<l>duro</l>
+				<r>kijori<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- alegrarse. kimoshiretaantsi. -->
+		<e>
+			<p>
+				<l>alegrarse</l>
+				<r>kimoshiretaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- alegre. kimoshiri. -->
+		<e>
+			<p>
+				<l>alegre</l>
+				<r>kimoshiri<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- contento. kimoshiri. -->
+		<e>
+			<p>
+				<l>contento</l>
+				<r>kimoshiri<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- feliz. kimoshiri. -->
+		<e>
+			<p>
+				<l>feliz</l>
+				<r>kimoshiri<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tierra. kipatsi. -->
+		<e>
+			<p>
+				<l>tierra</l>
+				<r>kipatsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- suelo. kipatsi. -->
+		<e>
+			<p>
+				<l>suelo</l>
+				<r>kipatsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- Tierra (el planeta). kipatsi. -->
+		<e>
+			<p>
+				<l>Tierra (el planeta)</l>
+				<r>kipatsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sucio (lit. lleno de tierra). kipatsi. -->
+		<e>
+			<p>
+				<l>sucio (lit. lleno de tierra)</l>
+				<r>kipatsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pijuayo (especie de palmera). kiri. -->
+		<e>
+			<p>
+				<l>pijuayo (especie de palmera)</l>
+				<r>kiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- libro. kiribiro. -->
+		<e>
+			<p>
+				<l>libro</l>
+				<r>kiribiro<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- nariz. kiritsi. -->
+		<e>
+			<p>
+				<l>nariz</l>
+				<r>kiritsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- enroscarse. kirotaantsi. -->
+		<e>
+			<p>
+				<l>enroscarse</l>
+				<r>kirotaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- yuca negra. kishañabo. -->
+		<e>
+			<p>
+				<l>yuca negra</l>
+				<r>kishañabo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- peine. kishiri. -->
+		<e>
+			<p>
+				<l>peine</l>
+				<r>kishiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sajino (especie de pecarí). kitairiki. -->
+		<e>
+			<p>
+				<l>sajino (especie de pecarí)</l>
+				<r>kitairiki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cuaderno. kitamaapetari. -->
+		<e>
+			<p>
+				<l>cuaderno</l>
+				<r>kitamaapetari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- blanco. kitamaari. -->
+		<e>
+			<p>
+				<l>blanco</l>
+				<r>kitamaari<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- blanco. kitamarori. -->
+		<e>
+			<p>
+				<l>blanco</l>
+				<r>kitamarori<s n="adjetivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- limpio. kiteriari. -->
+		<e>
+			<p>
+				<l>limpio</l>
+				<r>kiteriari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- amarillo. kiteriri. -->
+		<e>
+			<p>
+				<l>amarillo</l>
+				<r>kiteriri<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- espina. kitoche. -->
+		<e>
+			<p>
+				<l>espina</l>
+				<r>kitoche<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- camarón. kitocheempe. -->
+		<e>
+			<p>
+				<l>camarón</l>
+				<r>kitocheempe<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- camarón. kito. -->
+		<e>
+			<p>
+				<l>camarón</l>
+				<r>kito<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- camarón. kito. -->
+		<e>
+			<p>
+				<l>camarón</l>
+				<r>kito<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- camarón. kito. -->
+		<e>
+			<p>
+				<l>camarón</l>
+				<r>kito<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- alacrán. kitoniro. -->
+		<e>
+			<p>
+				<l>alacrán</l>
+				<r>kitoniro<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cushma (vestimenta típica del 
+pueblo ashéninka). kitsaarentsi. -->
+		<e>
+			<p>
+				<l>cushma (vestimenta típica del 
+pueblo ashéninka)</l>
+				<r>kitsaarentsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cushma (vestimenta típica del 
+pueblo ashéninka). kitsaarentsi. -->
+		<e>
+			<p>
+				<l>cushma (vestimenta típica del 
+pueblo ashéninka)</l>
+				<r>kitsaarentsi<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cushma (vestimenta típica del 
+pueblo ashéninka). kitsaarentsi. -->
+		<e>
+			<p>
+				<l>cushma (vestimenta típica del 
+pueblo ashéninka)</l>
+				<r>kitsaarentsi<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- aguja. kitsapi. -->
+		<e>
+			<p>
+				<l>aguja</l>
+				<r>kitsapi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- rojo. kityonkari. -->
+		<e>
+			<p>
+				<l>rojo</l>
+				<r>kityonkari<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- rojo. kityonkabo. -->
+		<e>
+			<p>
+				<l>rojo</l>
+				<r>kityonkabo<s n="adjetivo"/>
+					<s n="femenimo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cavar. kiyakotaantsi. -->
+		<e>
+			<p>
+				<l>cavar</l>
+				<r>kiyakotaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- querer. kobaantsi. -->
+		<e>
+			<p>
+				<l>querer</l>
+				<r>kobaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lisa (especie de pez). kobana. -->
+		<e>
+			<p>
+				<l>lisa (especie de pez)</l>
+				<r>kobana<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- desear. kobashiriantsi. -->
+		<e>
+			<p>
+				<l>desear</l>
+				<r>kobashiriantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- feo. kobeenkari. -->
+		<e>
+			<p>
+				<l>feo</l>
+				<r>kobeenkari<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- peligroso (lugar). kobeenkari. -->
+		<e>
+			<p>
+				<l>peligroso (lugar)</l>
+				<r>kobeenkari<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sábalo (especie de pez). kobiri. -->
+		<e>
+			<p>
+				<l>sábalo (especie de pez)</l>
+				<r>kobiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- olla (de barro). kobiti. -->
+		<e>
+			<p>
+				<l>olla (de barro)</l>
+				<r>kobiti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lagarto. kojaniri. -->
+		<e>
+			<p>
+				<l>lagarto</l>
+				<r>kojaniri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lagarto. saniri. -->
+		<e>
+			<p>
+				<l>lagarto</l>
+				<r>saniri<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lagarto. saniri. -->
+		<e>
+			<p>
+				<l>lagarto</l>
+				<r>saniri<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- lagarto. kosaniri. -->
+		<e>
+			<p>
+				<l>lagarto</l>
+				<r>kosaniri<s n="sustantivo"/>
+					<s n="Shesheya"/>
+				</r>
+			</p>
+		</e>
+		<!-- lagarto. kosaniri. -->
+		<e>
+			<p>
+				<l>lagarto</l>
+				<r>kosaniri<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- paco (especie de pez). komairi. -->
+		<e>
+			<p>
+				<l>paco (especie de pez)</l>
+				<r>komairi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- remar. komarentsi. -->
+		<e>
+			<p>
+				<l>remar</l>
+				<r>komarentsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- remo. komarontsi. -->
+		<e>
+			<p>
+				<l>remo</l>
+				<r>komarontsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cazador. komintsare. -->
+		<e>
+			<p>
+				<l>cazador</l>
+				<r>komintsare<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cazador. komintsare. -->
+		<e>
+			<p>
+				<l>cazador</l>
+				<r>komintsare<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- yarina (especie de palmera). kompiroshi. -->
+		<e>
+			<p>
+				<l>yarina (especie de palmera)</l>
+				<r>kompiroshi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- difícil. kompitarentsi. -->
+		<e>
+			<p>
+				<l>difícil</l>
+				<r>kompitarentsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- suegro (habla de varón). konki. -->
+		<e>
+			<p>
+				<l>suegro (habla de varón)</l>
+				<r>konki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- motelo (especie de tortuga). konoya. -->
+		<e>
+			<p>
+				<l>motelo (especie de tortuga)</l>
+				<r>konoya<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- perdiz mediana. kontsabo. -->
+		<e>
+			<p>
+				<l>perdiz mediana</l>
+				<r>kontsabo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- perdiz mediana. shiro. -->
+		<e>
+			<p>
+				<l>perdiz mediana</l>
+				<r>shiro<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- perdiz mediana. shiro. -->
+		<e>
+			<p>
+				<l>perdiz mediana</l>
+				<r>shiro<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- perdiz mediana. shiro. -->
+		<e>
+			<p>
+				<l>perdiz mediana</l>
+				<r>shiro<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- perdiz mediana. shiro. -->
+		<e>
+			<p>
+				<l>perdiz mediana</l>
+				<r>shiro<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- suegro (habla de mujer). kooko. -->
+		<e>
+			<p>
+				<l>suegro (habla de mujer)</l>
+				<r>kooko<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- gusano de yuca. koriato. -->
+		<e>
+			<p>
+				<l>gusano de yuca</l>
+				<r>koriato<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- dinero. koriki. -->
+		<e>
+			<p>
+				<l>dinero</l>
+				<r>koriki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- dinero. kireki. -->
+		<e>
+			<p>
+				<l>dinero</l>
+				<r>kireki<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- elefante (mitológico). korinto. -->
+		<e>
+			<p>
+				<l>elefante (mitológico)</l>
+				<r>korinto<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- teniente gobernador (autoridad comunal). korinto. -->
+		<e>
+			<p>
+				<l>teniente gobernador (autoridad comunal)</l>
+				<r>korinto<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ratero. koshinti. -->
+		<e>
+			<p>
+				<l>ratero</l>
+				<r>koshinti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ladrón. koshinti. -->
+		<e>
+			<p>
+				<l>ladrón</l>
+				<r>koshinti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- mono blanco. koshiri. -->
+		<e>
+			<p>
+				<l>mono blanco</l>
+				<r>koshiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- robar. koshitaantsi. -->
+		<e>
+			<p>
+				<l>robar</l>
+				<r>koshitaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bufeo. koshoshiko. -->
+		<e>
+			<p>
+				<l>bufeo</l>
+				<r>koshoshiko<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cuchillo. kotsiraaniki. -->
+		<e>
+			<p>
+				<l>cuchillo</l>
+				<r>kotsiraaniki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- olla (de metal). kotsironaki. -->
+		<e>
+			<p>
+				<l>olla (de metal)</l>
+				<r>kotsironaki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- especie de gusano. maabo. -->
+		<e>
+			<p>
+				<l>especie de gusano</l>
+				<r>maabo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- todos. maaboeni. -->
+		<e>
+			<p>
+				<l>todos</l>
+				<r>maaboeni<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- panguana (especie de perdiz). maakokaba. -->
+		<e>
+			<p>
+				<l>panguana (especie de perdiz)</l>
+				<r>maakokaba<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cama. maamentotsi. -->
+		<e>
+			<p>
+				<l>cama</l>
+				<r>maamentotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cama. aaniri. -->
+		<e>
+			<p>
+				<l>cama</l>
+				<r>aaniri<s n="sustantivo"/>
+					<s n="Ucayali"/>
+				</r>
+			</p>
+		</e>
+		<!-- canela negra (especie de árbol medicinal). maaniri. -->
+		<e>
+			<p>
+				<l>canela negra (especie de árbol medicinal)</l>
+				<r>maaniri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- culebra. maanki. -->
+		<e>
+			<p>
+				<l>culebra</l>
+				<r>maanki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- culebra. maranki. -->
+		<e>
+			<p>
+				<l>culebra</l>
+				<r>maranki<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- culebra. maranki. -->
+		<e>
+			<p>
+				<l>culebra</l>
+				<r>maranki<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- culebra. maranki. -->
+		<e>
+			<p>
+				<l>culebra</l>
+				<r>maranki<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- mosquitero. maantarentsi. -->
+		<e>
+			<p>
+				<l>mosquitero</l>
+				<r>maantarentsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- zancudo. maaño. -->
+		<e>
+			<p>
+				<l>zancudo</l>
+				<r>maaño<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- verdad. maapero. -->
+		<e>
+			<p>
+				<l>verdad</l>
+				<r>maapero<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- manacaraco (especie de ave). maati. -->
+		<e>
+			<p>
+				<l>manacaraco (especie de ave)</l>
+				<r>maati<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- manacaraco (especie de ave). marati. -->
+		<e>
+			<p>
+				<l>manacaraco (especie de ave)</l>
+				<r>marati<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- manacaraco (especie de ave). marati. -->
+		<e>
+			<p>
+				<l>manacaraco (especie de ave)</l>
+				<r>marati<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- manacaraco (especie de ave). marati. -->
+		<e>
+			<p>
+				<l>manacaraco (especie de ave)</l>
+				<r>marati<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- ropa. maatsaantsi. -->
+		<e>
+			<p>
+				<l>ropa</l>
+				<r>maatsaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tres. maba. -->
+		<e>
+			<p>
+				<l>tres</l>
+				<r>maba<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sachapapa (especie de papa). mabona. -->
+		<e>
+			<p>
+				<l>sachapapa (especie de papa)</l>
+				<r>mabona<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- frejol (rojizo). machaki. -->
+		<e>
+			<p>
+				<l>frejol (rojizo)</l>
+				<r>machaki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- oso. maeni. -->
+		<e>
+			<p>
+				<l>oso</l>
+				<r>maeni<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- dormir. maeyaantsi. -->
+		<e>
+			<p>
+				<l>dormir</l>
+				<r>maeyaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bujurqui grande (especie de pez). mainto. -->
+		<e>
+			<p>
+				<l>bujurqui grande (especie de pez)</l>
+				<r>mainto<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sudar. majabirentsi. -->
+		<e>
+			<p>
+				<l>sudar</l>
+				<r>majabirentsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- renacuajo de sapo. majoki. -->
+		<e>
+			<p>
+				<l>renacuajo de sapo</l>
+				<r>majoki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- renacuajo de sapo. masoki. -->
+		<e>
+			<p>
+				<l>renacuajo de sapo</l>
+				<r>masoki<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- renacuajo de sapo. masoki. -->
+		<e>
+			<p>
+				<l>renacuajo de sapo</l>
+				<r>masoki<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- renacuajo de sapo. masoki. -->
+		<e>
+			<p>
+				<l>renacuajo de sapo</l>
+				<r>masoki<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- mudo. majonti. -->
+		<e>
+			<p>
+				<l>mudo</l>
+				<r>majonti<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- especie de reptil. makota. -->
+		<e>
+			<p>
+				<l>especie de reptil</l>
+				<r>makota<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- búho. mamabo. -->
+		<e>
+			<p>
+				<l>búho</l>
+				<r>mamabo<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- sábalo (especie de pez). mamori. -->
+		<e>
+			<p>
+				<l>sábalo (especie de pez)</l>
+				<r>mamori<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- canción. mampaantsi. -->
+		<e>
+			<p>
+				<l>canción</l>
+				<r>mampaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cantar. mampaantsi. -->
+		<e>
+			<p>
+				<l>cantar</l>
+				<r>mampaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cantar. pampoyantsi. -->
+		<e>
+			<p>
+				<l>cantar</l>
+				<r>pampoyantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cantar. pampoyantsi. -->
+		<e>
+			<p>
+				<l>cantar</l>
+				<r>pampoyantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+					<s n="Urubamba"/>
+				</r>
+			</p>
+		</e>
+		<!-- puchkay (hilo de algodón). mampetsa. -->
+		<e>
+			<p>
+				<l>puchkay (hilo de algodón)</l>
+				<r>mampetsa<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- isango (especie de ácaro). mampiritsi. -->
+		<e>
+			<p>
+				<l>isango (especie de ácaro)</l>
+				<r>mampiritsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- isango (especie de ácaro). mampiriti. -->
+		<e>
+			<p>
+				<l>isango (especie de ácaro)</l>
+				<r>mampiriti<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- isango (especie de ácaro). mampiriti. -->
+		<e>
+			<p>
+				<l>isango (especie de ácaro)</l>
+				<r>mampiriti<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- isango (especie de ácaro). mampiriti. -->
+		<e>
+			<p>
+				<l>isango (especie de ácaro)</l>
+				<r>mampiriti<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- isula (especie de hormiga). mani. -->
+		<e>
+			<p>
+				<l>isula (especie de hormiga)</l>
+				<r>mani<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- isula (especie de hormiga). maniji. -->
+		<e>
+			<p>
+				<l>isula (especie de hormiga)</l>
+				<r>maniji<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- isula (especie de hormiga). maniji. -->
+		<e>
+			<p>
+				<l>isula (especie de hormiga)</l>
+				<r>maniji<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- isula (especie de hormiga). maniji. -->
+		<e>
+			<p>
+				<l>isula (especie de hormiga)</l>
+				<r>maniji<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- venado. maniro. -->
+		<e>
+			<p>
+				<l>venado</l>
+				<r>maniro<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tigre. maniti. -->
+		<e>
+			<p>
+				<l>tigre</l>
+				<r>maniti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- araña. mankareto. -->
+		<e>
+			<p>
+				<l>araña</l>
+				<r>mankareto<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- mal agüero. manonkaantsi. -->
+		<e>
+			<p>
+				<l>mal agüero</l>
+				<r>manonkaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- majás (especie de roedor). mantana. -->
+		<e>
+			<p>
+				<l>majás (especie de roedor)</l>
+				<r>mantana<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- enfermarse. mantsiyaantsi. -->
+		<e>
+			<p>
+				<l>enfermarse</l>
+				<r>mantsiyaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- enfermedad. mantsiyarentsi. -->
+		<e>
+			<p>
+				<l>enfermedad</l>
+				<r>mantsiyarentsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- grave. maperotaantsi. -->
+		<e>
+			<p>
+				<l>grave</l>
+				<r>maperotaantsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- piedra. mapi. -->
+		<e>
+			<p>
+				<l>piedra</l>
+				<r>mapi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cascajal (playa llena de piedras). mapipooki. -->
+		<e>
+			<p>
+				<l>cascajal (playa llena de piedras)</l>
+				<r>mapipooki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cascajal (playa llena de piedras). mapiporoki. -->
+		<e>
+			<p>
+				<l>cascajal (playa llena de piedras)</l>
+				<r>mapiporoki<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cascajal (playa llena de piedras). mapiporoki. -->
+		<e>
+			<p>
+				<l>cascajal (playa llena de piedras)</l>
+				<r>mapiporoki<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- pájaro del cerro. mapiti. -->
+		<e>
+			<p>
+				<l>pájaro del cerro</l>
+				<r>mapiti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- papaya. mapocha. -->
+		<e>
+			<p>
+				<l>papaya</l>
+				<r>mapocha<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sorprender. mapokaantsi. -->
+		<e>
+			<p>
+				<l>sorprender</l>
+				<r>mapokaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- congompe (especie de caracol grande). mapoto. -->
+		<e>
+			<p>
+				<l>congompe (especie de caracol grande)</l>
+				<r>mapoto<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sapo. mashero. -->
+		<e>
+			<p>
+				<l>sapo</l>
+				<r>mashero<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- especie de gusano. mata. -->
+		<e>
+			<p>
+				<l>especie de gusano</l>
+				<r>mata<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ya está. mataka. -->
+		<e>
+			<p>
+				<l>ya está</l>
+				<r>mataka<s n="interjección"/>
+				</r>
+			</p>
+		</e>
+		<!-- nacanaca (especie de culebra acuática). materinki. -->
+		<e>
+			<p>
+				<l>nacanaca (especie de culebra acuática)</l>
+				<r>materinki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ropa. matsaantsi. -->
+		<e>
+			<p>
+				<l>ropa</l>
+				<r>matsaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- flaco. matsari. -->
+		<e>
+			<p>
+				<l>flaco</l>
+				<r>matsari<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- flaco. matsabo. -->
+		<e>
+			<p>
+				<l>flaco</l>
+				<r>matsabo<s n="adjetivo"/>
+					<s n="femenimo"/>
+				</r>
+			</p>
+		</e>
+		<!-- flaco. matsaro. -->
+		<e>
+			<p>
+				<l>flaco</l>
+				<r>matsaro<s n="adjetivo"/>
+					<s n="femenimo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- flaco. matsaro. -->
+		<e>
+			<p>
+				<l>flaco</l>
+				<r>matsaro<s n="adjetivo"/>
+					<s n="femenimo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- flaco. matsaro. -->
+		<e>
+			<p>
+				<l>flaco</l>
+				<r>matsaro<s n="adjetivo"/>
+					<s n="femenimo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- brujo. matsinti. -->
+		<e>
+			<p>
+				<l>brujo</l>
+				<r>matsinti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- brujo. matsinto. -->
+		<e>
+			<p>
+				<l>brujo</l>
+				<r>matsinto<s n="sustantivo"/>
+					<s n="femenimo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tigrillo. matsontsori. -->
+		<e>
+			<p>
+				<l>tigrillo</l>
+				<r>matsontsori<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- mujeriego. mayempiri. -->
+		<e>
+			<p>
+				<l>mujeriego</l>
+				<r>mayempiri<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- mujeriego. mayempiri. -->
+		<e>
+			<p>
+				<l>mujeriego</l>
+				<r>mayempiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- mujeriego. mayempiro. -->
+		<e>
+			<p>
+				<l>mujeriego</l>
+				<r>mayempiro<s n="sustantivo"/>
+					<s n="femenimo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ahora. meeka. -->
+		<e>
+			<p>
+				<l>ahora</l>
+				<r>meeka<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- ahora. nimaeka. -->
+		<e>
+			<p>
+				<l>ahora</l>
+				<r>nimaeka<s n="adverbio"/>
+					<s n="Yurúa"/>
+				</r>
+			</p>
+		</e>
+		<!-- ahora. iroñaaka. -->
+		<e>
+			<p>
+				<l>ahora</l>
+				<r>iroñaaka<s n="adverbio"/>
+					<s n="Yurúa"/>
+				</r>
+			</p>
+		</e>
+		<!-- ahora. nimaeka. -->
+		<e>
+			<p>
+				<l>ahora</l>
+				<r>nimaeka<s n="adverbio"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- ahora. iroñaaka. -->
+		<e>
+			<p>
+				<l>ahora</l>
+				<r>iroñaaka<s n="adverbio"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- ahumar. menkorentsi. -->
+		<e>
+			<p>
+				<l>ahumar</l>
+				<r>menkorentsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- nube. menkori. -->
+		<e>
+			<p>
+				<l>nube</l>
+				<r>menkori<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- nublado. menkoriityaantsi. -->
+		<e>
+			<p>
+				<l>nublado</l>
+				<r>menkoriityaantsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- mojarra (especie de pez). mereto. -->
+		<e>
+			<p>
+				<l>mojarra (especie de pez)</l>
+				<r>mereto<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- chimicua (especie de árbol). meronki. -->
+		<e>
+			<p>
+				<l>chimicua (especie de árbol)</l>
+				<r>meronki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- capirona (especie de árbol). meshinto. -->
+		<e>
+			<p>
+				<l>capirona (especie de árbol)</l>
+				<r>meshinto<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- suave. metsori. -->
+		<e>
+			<p>
+				<l>suave</l>
+				<r>metsori<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ardilla. meyiri. -->
+		<e>
+			<p>
+				<l>ardilla</l>
+				<r>meyiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- brincar. miamiataantsi. -->
+		<e>
+			<p>
+				<l>brincar</l>
+				<r>miamiataantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tener sed. miretaantsi. -->
+		<e>
+			<p>
+				<l>tener sed</l>
+				<r>miretaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- líquido (para la sed). miretsi. -->
+		<e>
+			<p>
+				<l>líquido (para la sed)</l>
+				<r>miretsi<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- soñar. mishitaantsi. -->
+		<e>
+			<p>
+				<l>soñar</l>
+				<r>mishitaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- gato. misho. -->
+		<e>
+			<p>
+				<l>gato</l>
+				<r>misho<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- saltar. mitaantsi. -->
+		<e>
+			<p>
+				<l>saltar</l>
+				<r>mitaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sumergirse. mitsitsiyaantsi. -->
+		<e>
+			<p>
+				<l>sumergirse</l>
+				<r>mitsitsiyaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ombligo. moetontsi. -->
+		<e>
+			<p>
+				<l>ombligo</l>
+				<r>moetontsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- medir. mokaarentsi. -->
+		<e>
+			<p>
+				<l>medir</l>
+				<r>mokaarentsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- igualar. monkataantsi. -->
+		<e>
+			<p>
+				<l>igualar</l>
+				<r>monkataantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- medir. monkataantsi. -->
+		<e>
+			<p>
+				<l>medir</l>
+				<r>monkataantsi<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- meter. monkiantsi. -->
+		<e>
+			<p>
+				<l>meter</l>
+				<r>monkiantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- vadear. montyaantsi. -->
+		<e>
+			<p>
+				<l>vadear</l>
+				<r>montyaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- arder. morekaantsi. -->
+		<e>
+			<p>
+				<l>arder</l>
+				<r>morekaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- barrigón. motinti. -->
+		<e>
+			<p>
+				<l>barrigón</l>
+				<r>motinti<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- embarazada. motinto. -->
+		<e>
+			<p>
+				<l>embarazada</l>
+				<r>motinto<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- hervir. moyaantsi. -->
+		<e>
+			<p>
+				<l>hervir</l>
+				<r>moyaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- nailon (cordel para pescar). nairotsa. -->
+		<e>
+			<p>
+				<l>nailon (cordel para pescar)</l>
+				<r>nairotsa<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- mullo. nenkitsiki. -->
+		<e>
+			<p>
+				<l>mullo</l>
+				<r>nenkitsiki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- chaquira. nenkitsiki. -->
+		<e>
+			<p>
+				<l>chaquira</l>
+				<r>nenkitsiki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- piojo. netsi. -->
+		<e>
+			<p>
+				<l>piojo</l>
+				<r>netsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- agua. nija. -->
+		<e>
+			<p>
+				<l>agua</l>
+				<r>nija<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- amar. nintaantsi. -->
+		<e>
+			<p>
+				<l>amar</l>
+				<r>nintaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ronsapa (especie de abeja). nironto. -->
+		<e>
+			<p>
+				<l>ronsapa (especie de abeja)</l>
+				<r>nironto<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- garganta. niyamentotsi. -->
+		<e>
+			<p>
+				<l>garganta</l>
+				<r>niyamentotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- en medio. niyanki. -->
+		<e>
+			<p>
+				<l>en medio</l>
+				<r>niyanki<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- boa. noonki. -->
+		<e>
+			<p>
+				<l>boa</l>
+				<r>noonki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- raptar. noshikaantsi. -->
+		<e>
+			<p>
+				<l>raptar</l>
+				<r>noshikaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- jalar. noshikaantsi. -->
+		<e>
+			<p>
+				<l>jalar</l>
+				<r>noshikaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- arrastrar. noshikaantsi. -->
+		<e>
+			<p>
+				<l>arrastrar</l>
+				<r>noshikaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- radio. ñaabaementotsi. -->
+		<e>
+			<p>
+				<l>radio</l>
+				<r>ñaabaementotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- emisora radial. ñaabaementotsi. -->
+		<e>
+			<p>
+				<l>emisora radial</l>
+				<r>ñaabaementotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- radiofonía. ñaamentotsi. -->
+		<e>
+			<p>
+				<l>radiofonía</l>
+				<r>ñaamentotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- palabra. ñaantsi. -->
+		<e>
+			<p>
+				<l>palabra</l>
+				<r>ñaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- espejo. ñaarontsi. -->
+		<e>
+			<p>
+				<l>espejo</l>
+				<r>ñaarontsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ver. ñantaantsi. -->
+		<e>
+			<p>
+				<l>ver</l>
+				<r>ñantaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- valiente. ñaperori. -->
+		<e>
+			<p>
+				<l>valiente</l>
+				<r>ñaperori<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- comer. obaantsi. -->
+		<e>
+			<p>
+				<l>comer</l>
+				<r>obaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- piezar. obabitaantsi. -->
+		<e>
+			<p>
+				<l>piezar</l>
+				<r>obabitaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- gallo de roca. obae. -->
+		<e>
+			<p>
+				<l>gallo de roca</l>
+				<r>obae<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- enseñar. obametaantsi. -->
+		<e>
+			<p>
+				<l>enseñar</l>
+				<r>obametaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- profesor. obametantatsiri. -->
+		<e>
+			<p>
+				<l>profesor</l>
+				<r>obametantatsiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- maestro. obametantatsiri. -->
+		<e>
+			<p>
+				<l>maestro</l>
+				<r>obametantatsiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- levantar. obankaantsi. -->
+		<e>
+			<p>
+				<l>levantar</l>
+				<r>obankaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- alzar. obankaantsi. -->
+		<e>
+			<p>
+				<l>alzar</l>
+				<r>obankaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- chacra. obantsi. -->
+		<e>
+			<p>
+				<l>chacra</l>
+				<r>obantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- purma (chacra abandonada). obantsiposhi. -->
+		<e>
+			<p>
+				<l>purma (chacra abandonada)</l>
+				<r>obantsiposhi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- maspute (especie de escondrijo). obashirontsi. -->
+		<e>
+			<p>
+				<l>maspute (especie de escondrijo)</l>
+				<r>obashirontsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- broma. obashiyaantsi. -->
+		<e>
+			<p>
+				<l>broma</l>
+				<r>obashiyaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pulga. obeenikentsi. -->
+		<e>
+			<p>
+				<l>pulga</l>
+				<r>obeenikentsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sembrar (tallos de yuca). obiintantasi. -->
+		<e>
+			<p>
+				<l>sembrar (tallos de yuca)</l>
+				<r>obiintantasi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cosechar. obiitaantsi. -->
+		<e>
+			<p>
+				<l>cosechar</l>
+				<r>obiitaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cosechar. koyantaantsi. -->
+		<e>
+			<p>
+				<l>cosechar</l>
+				<r>koyantaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- cosechar. aabataantsi. -->
+		<e>
+			<p>
+				<l>cosechar</l>
+				<r>aabataantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- trampa (para aves). obirentsi. -->
+		<e>
+			<p>
+				<l>trampa (para aves)</l>
+				<r>obirentsi<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- cerro. ochempi. -->
+		<e>
+			<p>
+				<l>cerro</l>
+				<r>ochempi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- qué. oitaka. -->
+		<e>
+			<p>
+				<l>qué</l>
+				<r>oitaka<s n="pronombre"/>
+				</r>
+			</p>
+		</e>
+		<!-- abajo. ojaabiki. -->
+		<e>
+			<p>
+				<l>abajo</l>
+				<r>ojaabiki<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- en el verano. ojarentsi. -->
+		<e>
+			<p>
+				<l>en el verano</l>
+				<r>ojarentsi<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- cerca. okaakiini. -->
+		<e>
+			<p>
+				<l>cerca</l>
+				<r>okaakiini<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- botar. okaantsi. -->
+		<e>
+			<p>
+				<l>botar</l>
+				<r>okaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- semilla. okitsoki. -->
+		<e>
+			<p>
+				<l>semilla</l>
+				<r>okitsoki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- aleta (de árbol). omenta. -->
+		<e>
+			<p>
+				<l>aleta (de árbol)</l>
+				<r>omenta<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pongo. omoetonka. -->
+		<e>
+			<p>
+				<l>pongo</l>
+				<r>omoetonka<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- hueco. omoonaki. -->
+		<e>
+			<p>
+				<l>hueco</l>
+				<r>omoonaki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- barriga. omoti. -->
+		<e>
+			<p>
+				<l>barriga</l>
+				<r>omoti<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- pozo. omotya. -->
+		<e>
+			<p>
+				<l>poza</l>
+				<r>omotya<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- poza. omotya. -->
+		<e>
+			<p>
+				<l>poza</l>
+				<r>omotya<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- al costado. onampinaki. -->
+		<e>
+			<p>
+				<l>al costado</l>
+				<r>onampinaki<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- ratón. onkiro. -->
+		<e>
+			<p>
+				<l>ratón</l>
+				<r>onkiro<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cetico (especie de árbol). onkona. -->
+		<e>
+			<p>
+				<l>cetico (especie de árbol)</l>
+				<r>onkona<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- atizar. ontsotaantsi. -->
+		<e>
+			<p>
+				<l>atizar</l>
+				<r>ontsotaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tejer. ontyaantsi. -->
+		<e>
+			<p>
+				<l>tejer</l>
+				<r>ontyaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- mostrar. oñanitaantsi. -->
+		<e>
+			<p>
+				<l>mostrar</l>
+				<r>oñanitaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- puquear. oonkaantsi. -->
+		<e>
+			<p>
+				<l>puquear</l>
+				<r>oonkaantsi<s n="verbo intransitivo"/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- represarse. oonkaantsi. -->
+		<e>
+			<p>
+				<l>represarse</l>
+				<r>oonkaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- hincharse. oonkaantsi. -->
+		<e>
+			<p>
+				<l>hincharse</l>
+				<r>oonkaantsi<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- mechero. ootametotsi. -->
+		<e>
+			<p>
+				<l>mechero</l>
+				<r>ootametotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lamparín. ootametotsi. -->
+		<e>
+			<p>
+				<l>lamparín</l>
+				<r>ootametotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- polvo. opane. -->
+		<e>
+			<p>
+				<l>polvo</l>
+				<r>opane<s n="opane"/>
+				</r>
+			</p>
+		</e>
+		<!-- raíz. oparetsa. -->
+		<e>
+			<p>
+				<l>raíz</l>
+				<r>oparetsa<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- tucán. opempe. -->
+		<e>
+			<p>
+				<l>tucán</l>
+				<r>opempe<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- remolino. opiyaata. -->
+		<e>
+			<p>
+				<l>remolino</l>
+				<r>opiyaata<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- comedero (yuca picada). oretaantsi. -->
+		<e>
+			<p>
+				<l>comedero (yuca picada)</l>
+				<r>oretaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sol. oria. -->
+		<e>
+			<p>
+				<l>sol</l>
+				<r>oria<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sol. katsirinkajari. -->
+		<e>
+			<p>
+				<l>sol</l>
+				<r>katsirinkajari<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sol. katsirinkajari. -->
+		<e>
+			<p>
+				<l>sol</l>
+				<r>katsirinkajari<s n="sustantivo"/>
+					<s n="Urubamba"/>
+				</r>
+			</p>
+		</e>
+		<!-- mucho. osheki. -->
+		<e>
+			<p>
+				<l>mucho</l>
+				<r>osheki<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- demasiado. oshekipero. -->
+		<e>
+			<p>
+				<l>demasiado</l>
+				<r>oshekipero<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cangrejo. oshero. -->
+		<e>
+			<p>
+				<l>cangrejo</l>
+				<r>oshero<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- maquisapa (especie de mono). osheto. -->
+		<e>
+			<p>
+				<l>maquisapa (especie de mono)</l>
+				<r>osheto<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cámara (fotográfica). oshiyakaantsi. -->
+		<e>
+			<p>
+				<l>cámara (fotográfica)</l>
+				<r>oshiyakaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cáscara. otakintsi. -->
+		<e>
+			<p>
+				<l>cáscara</l>
+				<r>otakintsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- debajo. otapinaki. -->
+		<e>
+			<p>
+				<l>debajo</l>
+				<r>otapinaki<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- quijada (mandíbula inferior). otapinoma. -->
+		<e>
+			<p>
+				<l>quijada (mandíbula inferior)</l>
+				<r>otapinoma<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- empujar. otatsinkaantsi. -->
+		<e>
+			<p>
+				<l>empujar</l>
+				<r>otatsinkaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- rama. oteba. -->
+		<e>
+			<p>
+				<l>rama</l>
+				<r>oteba<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- zanja. otenkana. -->
+		<e>
+			<p>
+				<l>zanja</l>
+				<r>otenkana<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- meter (en un envase). otetaantsi. -->
+		<e>
+			<p>
+				<l>meter (en un envase)</l>
+				<r>otetaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- atravesarse. otitakotaantsi. -->
+		<e>
+			<p>
+				<l>atravesarse</l>
+				<r>otitakotaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- orilla. otsapiaki. -->
+		<e>
+			<p>
+				<l>orilla</l>
+				<r>otsapiaki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- al canto. otsapiki. -->
+		<e>
+			<p>
+				<l>al canto</l>
+				<r>otsapiki<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- jergón (especie de culebra venenosa). otsimapookiri. -->
+		<e>
+			<p>
+				<l>jergón (especie de culebra venenosa)</l>
+				<r>otsimapookiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- jergón (especie de culebra venenosa). otsimapookiri. -->
+		<e>
+			<p>
+				<l>jergón (especie de culebra venenosa)</l>
+				<r>otsimapookiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- jergón (especie de culebra venenosa). cheenkari. -->
+		<e>
+			<p>
+				<l>jergón (especie de culebra venenosa)</l>
+				<r>cheenkari<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- jergón (especie de culebra venenosa). cheenkari. -->
+		<e>
+			<p>
+				<l>jergón (especie de culebra venenosa)</l>
+				<r>cheenkari<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- otro. otsipa. -->
+		<e>
+			<p>
+				<l>otro</l>
+				<r>otsipa<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- perro. otsiti. -->
+		<e>
+			<p>
+				<l>perro</l>
+				<r>otsiti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- mandar. otyaantaantsi. -->
+		<e>
+			<p>
+				<l>mandar</l>
+				<r>otyaantaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bajar. oyitantsi. -->
+		<e>
+			<p>
+				<l>bajar</l>
+				<r>oyitantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bajarse. oyitantsi. -->
+		<e>
+			<p>
+				<l>bajarse</l>
+				<r>oyitantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- fuego. paamari. -->
+		<e>
+			<p>
+				<l>fuego</l>
+				<r>paamari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- fuego. paampari. -->
+		<e>
+			<p>
+				<l>fuego</l>
+				<r>paampari<s n="sustantivo"/>
+					<s n="Yurúa"/>
+				</r>
+			</p>
+		</e>
+		<!-- fuego. paampari. -->
+		<e>
+			<p>
+				<l>fuego</l>
+				<r>paampari<s n="sustantivo"/>
+					<s n="Shesheya"/>
+				</r>
+			</p>
+		</e>
+		<!-- candela. paamari. -->
+		<e>
+			<p>
+				<l>candela</l>
+				<r>paamari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- candela. paampari. -->
+		<e>
+			<p>
+				<l>candela</l>
+				<r>paampari<s n="sustantivo"/>
+					<s n="Yurúa"/>
+				</r>
+			</p>
+		</e>
+		<!-- candela. paampari. -->
+		<e>
+			<p>
+				<l>candela</l>
+				<r>paampari<s n="sustantivo"/>
+					<s n="Shesheya"/>
+				</r>
+			</p>
+		</e>
+		<!-- dar. paantsi. -->
+		<e>
+			<p>
+				<l>dar</l>
+				<r>paantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- entregar. paantsi. -->
+		<e>
+			<p>
+				<l>entregar</l>
+				<r>paantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tío (habla de varón). pabachori. -->
+		<e>
+			<p>
+				<l>tío (habla de varón)</l>
+				<r>pabachori<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tío (habla de mujer). pabaeni. -->
+		<e>
+			<p>
+				<l>tío (habla de mujer)</l>
+				<r>pabaeni<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- escalera. pabitsi. -->
+		<e>
+			<p>
+				<l>escalera</l>
+				<r>pabitsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- porongo (recipiente hecho de calabaza). pachaka. -->
+		<e>
+			<p>
+				<l>porongo (recipiente hecho de calabaza)</l>
+				<r>pachaka<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pate (especie de planta). pajo. -->
+		<e>
+			<p>
+				<l>pate (especie de planta)</l>
+				<r>pajo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- gracias. pajonki. -->
+		<e>
+			<p>
+				<l>gracias</l>
+				<r>pajonki<s n="interjección"/>
+				</r>
+			</p>
+		</e>
+		<!-- almendra (fruto silvestre comestible). pajotiki. -->
+		<e>
+			<p>
+				<l>almendra (fruto silvestre comestible)</l>
+				<r>pajotiki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- gavilán. pakitsa. -->
+		<e>
+			<p>
+				<l>gavilán</l>
+				<r>pakitsa<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- chimicua (especie de árbol). pamaki. -->
+		<e>
+			<p>
+				<l>chimicua (especie de árbol)</l>
+				<r>pamaki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- puente. pampiametotsi. -->
+		<e>
+			<p>
+				<l>puente</l>
+				<r>pampiametotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sembrador. pankibaerenti. -->
+		<e>
+			<p>
+				<l>sembrador</l>
+				<r>pankibaerenti<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sembrador. pankiberento. -->
+		<e>
+			<p>
+				<l>sembrador</l>
+				<r>pankiberento<s n="adjetivo"/>
+					<s n="femenimo"/>
+				</r>
+			</p>
+		</e>
+		<!-- planta (sembrada). pankirentsi. -->
+		<e>
+			<p>
+				<l>planta (sembrada)</l>
+				<r>pankirentsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- casa. pankotsi. -->
+		<e>
+			<p>
+				<l>casa</l>
+				<r>pankotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- boca. pantetsi. -->
+		<e>
+			<p>
+				<l>boca</l>
+				<r>pantetsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pato. pantyo. -->
+		<e>
+			<p>
+				<l>pato</l>
+				<r>pantyo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lobo marino. parari. -->
+		<e>
+			<p>
+				<l>lobo marino</l>
+				<r>parari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- especie de loro. pareto. -->
+		<e>
+			<p>
+				<l>especie de loro</l>
+				<r>pareto<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- caerse. pariantsi. -->
+		<e>
+			<p>
+				<l>caerse</l>
+				<r>pariantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tuyo. pashi. -->
+		<e>
+			<p>
+				<l>tuyo</l>
+				<r>pashi<s n="pronombre"/>
+				</r>
+			</p>
+		</e>
+		<!-- vergüenza. pashibentaantsi. -->
+		<e>
+			<p>
+				<l>vergüenza</l>
+				<r>pashibentaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- topa. pashiitoki. -->
+		<e>
+			<p>
+				<l>topa</l>
+				<r>pashiitoki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- topa. paato. -->
+		<e>
+			<p>
+				<l>topa</l>
+				<r>paato<s n="sustantivo"/>
+					<s n="Pasco"/>
+				</r>
+			</p>
+		</e>
+		<!-- topa. paato. -->
+		<e>
+			<p>
+				<l>topa</l>
+				<r>paato<s n="sustantivo"/>
+					<s n="Ucayali"/>
+				</r>
+			</p>
+		</e>
+		<!-- topa. paroto. -->
+		<e>
+			<p>
+				<l>topa</l>
+				<r>paroto<s n="sustantivo"/>
+					<s n="Pasco"/>
+				</r>
+			</p>
+		</e>
+		<!-- topa. paroto. -->
+		<e>
+			<p>
+				<l>topa</l>
+				<r>paroto<s n="sustantivo"/>
+					<s n="Ucayali"/>
+				</r>
+			</p>
+		</e>
+		<!-- topa. paroto. -->
+		<e>
+			<p>
+				<l>topa</l>
+				<r>paroto<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- palo (de balsa). pashiitoki. -->
+		<e>
+			<p>
+				<l>palo (de balsa)</l>
+				<r>pashiitoki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- palo (de balsa). paato. -->
+		<e>
+			<p>
+				<l>palo (de balsa)</l>
+				<r>paato<s n="sustantivo"/>
+					<s n="Pasco"/>
+				</r>
+			</p>
+		</e>
+		<!-- palo (de balsa). paato. -->
+		<e>
+			<p>
+				<l>palo (de balsa)</l>
+				<r>paato<s n="sustantivo"/>
+					<s n="Ucayali"/>
+				</r>
+			</p>
+		</e>
+		<!-- palo (de balsa). paroto. -->
+		<e>
+			<p>
+				<l>palo (de balsa)</l>
+				<r>paroto<s n="sustantivo"/>
+					<s n="Pasco"/>
+				</r>
+			</p>
+		</e>
+		<!-- palo (de balsa). paroto. -->
+		<e>
+			<p>
+				<l>palo (de balsa)</l>
+				<r>paroto<s n="sustantivo"/>
+					<s n="Ucayali"/>
+				</r>
+			</p>
+		</e>
+		<!-- palo (de balsa). paroto. -->
+		<e>
+			<p>
+				<l>palo (de balsa)</l>
+				<r>paroto<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- tarrafa. pashikaamentotsi. -->
+		<e>
+			<p>
+				<l>tarrafa</l>
+				<r>pashikaamentotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- atarraya. pashikaamentotsi. -->
+		<e>
+			<p>
+				<l>atarraya</l>
+				<r>pashikaamentotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- red (para pescar). pashikaamentotsi. -->
+		<e>
+			<p>
+				<l>red (para pescar)</l>
+				<r>pashikaamentotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- colcha. pashikabontsi. -->
+		<e>
+			<p>
+				<l>colcha</l>
+				<r>pashikabontsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cobija. pashikabontsi. -->
+		<e>
+			<p>
+				<l>cobija</l>
+				<r>pashikabontsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- garrapata. pashiti. -->
+		<e>
+			<p>
+				<l>garrapata</l>
+				<r>pashiti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- zapote. patintoki. -->
+		<e>
+			<p>
+				<l>zapote</l>
+				<r>patintoki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- herida. patsabontsi. -->
+		<e>
+			<p>
+				<l>herida</l>
+				<r>patsabontsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- rana (de invierno). patsiri. -->
+		<e>
+			<p>
+				<l>rana (de invierno)</l>
+				<r>patsiri<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- plátano. payanti. -->
+		<e>
+			<p>
+				<l>plátano</l>
+				<r>payanti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- machiki (hijuelo de plátano). payantipeshi. -->
+		<e>
+			<p>
+				<l>machiki (hijuelo de plátano)</l>
+				<r>payantipeshi<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- hoja de plátano. payantishi. -->
+		<e>
+			<p>
+				<l>hoja de plátano</l>
+				<r>payantishi<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- rozar. pejaantsi. -->
+		<e>
+			<p>
+				<l>rozar</l>
+				<r>pejaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- chupasangre (bicho acuático). penta. -->
+		<e>
+			<p>
+				<l>chupasangre (bicho acuático)</l>
+				<r>penta<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- escama. pentakintsi. -->
+		<e>
+			<p>
+				<l>escama</l>
+				<r>pentakintsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- diablo. peyari. -->
+		<e>
+			<p>
+				<l>peyari</l>
+				<r>diablo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- balista. piampeni. -->
+		<e>
+			<p>
+				<l>balista</l>
+				<r>piampeni<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- balista. piamene. -->
+		<e>
+			<p>
+				<l>balista</l>
+				<r>piamene<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- balista. piamene. -->
+		<e>
+			<p>
+				<l>balista</l>
+				<r>piamene<s n="sustantivo"/>
+					<s n="Yurúa"/>
+				</r>
+			</p>
+		</e>
+		<!-- arco (para tirar flechas). piampeni. -->
+		<e>
+			<p>
+				<l>arco (para tirar flechas)</l>
+				<r>piampeni<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- arco (para tirar flechas). piampeni. -->
+		<e>
+			<p>
+				<l>arco (para tirar flechas)</l>
+				<r>piampeni<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- arco (para tirar flechas). piampeni. -->
+		<e>
+			<p>
+				<l>arco (para tirar flechas)</l>
+				<r>piampeni<s n="sustantivo"/>
+					<s n="Yurúa"/>
+				</r>
+			</p>
+		</e>
+		<!-- masato (bebida hecha de yuca). piarentsi. -->
+		<e>
+			<p>
+				<l>masato (bebida hecha de yuca)</l>
+				<r>piarentsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pegar. pichaantsi. -->
+		<e>
+			<p>
+				<l>pegar</l>
+				<r>pichaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- huella digital. pichaantsi. -->
+		<e>
+			<p>
+				<l>huella digital</l>
+				<r>pichaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- parchar. pichakantsi. -->
+		<e>
+			<p>
+				<l>parchar</l>
+				<r>pichakantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- costoso. pinataantsi. -->
+		<e>
+			<p>
+				<l>costoso</l>
+				<r>pinataantsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- autoridad. pinkatsari. -->
+		<e>
+			<p>
+				<l>autoridad</l>
+				<r>pinkatsari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- con su permiso. piñaabakena. -->
+		<e>
+			<p>
+				<l>con su permiso</l>
+				<r>piñaabakena<s n="interjección"/>
+				</r>
+			</p>
+		</e>
+		<!-- levantar. pirintaantsi. -->
+		<e>
+			<p>
+				<l>levantar</l>
+				<r>pirintaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- resucitar. pirintaantsi. -->
+		<e>
+			<p>
+				<l>resucitar</l>
+				<r>pirintaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- hualo (especie de rana grande). pirinto. -->
+		<e>
+			<p>
+				<l>hualo (especie de rana grande)</l>
+				<r>pirinto<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- escoba. pishimentotsi. -->
+		<e>
+			<p>
+				<l>escoba</l>
+				<r>pishimentotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pinsha (especie de tucán). pishiti. -->
+		<e>
+			<p>
+				<l>pinsha (especie de tucán)</l>
+				<r>pishiti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- grillo. pitiro. -->
+		<e>
+			<p>
+				<l>grillo</l>
+				<r>pitiro<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- canoa. pitotsi. -->
+		<e>
+			<p>
+				<l>canoa</l>
+				<r>pitotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- miel. pitsi. -->
+		<e>
+			<p>
+				<l>miel</l>
+				<r>pitsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sucio. pitsitaantsi. -->
+		<e>
+			<p>
+				<l>sucio</l>
+				<r>pitsitaantsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- barro. pitsitsare. -->
+		<e>
+			<p>
+				<l>barro</l>
+				<r>pitsitsare<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- barro negro. pitsitsare. -->
+		<e>
+			<p>
+				<l>barro negro</l>
+				<r>pitsitsare<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- náuseas. piyantaantsi. -->
+		<e>
+			<p>
+				<l>náuseas</l>
+				<r>piyantaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- dulce. pochaari. -->
+		<e>
+			<p>
+				<l>dulce</l>
+				<r>pochaari<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tener sueño. pochokirentsi. -->
+		<e>
+			<p>
+				<l>tener sueño</l>
+				<r>pochokirentsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sueño. pochokitaantsi. -->
+		<e>
+			<p>
+				<l>sueño</l>
+				<r>pochokitaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sonar. poematantsi. -->
+		<e>
+			<p>
+				<l>sonar</l>
+				<r>poematantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pojaantsi. golpear. -->
+		<e>
+			<p>
+				<l>pojaantsi</l>
+				<r>golpear<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- venir. pokaantsi. -->
+		<e>
+			<p>
+				<l>venir</l>
+				<r>pokaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- especie de caracol grande. pomporo. -->
+		<e>
+			<p>
+				<l>especie de caracol grande</l>
+				<r>pomporo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- renegrido. ponataantsi. -->
+		<e>
+			<p>
+				<l>renegrido</l>
+				<r>ponataantsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- moreteado. ponataantsi. -->
+		<e>
+			<p>
+				<l>moreteado</l>
+				<r>ponataantsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- origen. poñaantsi. -->
+		<e>
+			<p>
+				<l>origen</l>
+				<r>poñaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- porotohuango. poobonto. -->
+		<e>
+			<p>
+				<l>porotohuango</l>
+				<r>poobonto<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- porotohuango. pooronto. -->
+		<e>
+			<p>
+				<l>porotohuango</l>
+				<r>pooronto<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- porotohuango. pooronto. -->
+		<e>
+			<p>
+				<l>porotohuango</l>
+				<r>pooronto<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- panguana (especie de perdiz). poobonto. -->
+		<e>
+			<p>
+				<l>panguana (especie de perdiz)</l>
+				<r>poobonto<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- panguana (especie de perdiz). pooronto. -->
+		<e>
+			<p>
+				<l>panguana (especie de perdiz)</l>
+				<r>pooronto<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- panguana (especie de perdiz). pooronto. -->
+		<e>
+			<p>
+				<l>panguana (especie de perdiz)</l>
+				<r>pooronto<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- ishanga. poonkito. -->
+		<e>
+			<p>
+				<l>ishanga</l>
+				<r>poonkito<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ortiga (de puas pequeñas). poonkito. -->
+		<e>
+			<p>
+				<l>ortiga (de puas pequeñas)</l>
+				<r>poonkito<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- luciérnaga. porenti. -->
+		<e>
+			<p>
+				<l>luciérnaga</l>
+				<r>porenti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pierna. poritsi. -->
+		<e>
+			<p>
+				<l>pierna</l>
+				<r>poritsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sabroso. poshinitaantsi. -->
+		<e>
+			<p>
+				<l>sabroso</l>
+				<r>poshinitaantsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- color (instrumento para colorear y pintar). potsomentotsi. -->
+		<e>
+			<p>
+				<l>color (instrumento para colorear y pintar)</l>
+				<r>potsomentotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pintar. potsotsaantsi. -->
+		<e>
+			<p>
+				<l>pintar</l>
+				<r>potsotsaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- achiote. potsotsi. -->
+		<e>
+			<p>
+				<l>achiote</l>
+				<r>potsotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lavarse (la cara). reboshitaantsi. -->
+		<e>
+			<p>
+				<l>lavarse (la cara)</l>
+				<r>reboshitaantsi<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- hermana (trato de mujer). rentotsi. -->
+		<e>
+			<p>
+				<l>hermana (trato de mujer)</l>
+				<r>rentotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- él. riitaki. -->
+		<e>
+			<p>
+				<l>él</l>
+				<r>riitaki<s n="pronombre"/>
+				</r>
+			</p>
+		</e>
+		<!-- ella. rootaki. -->
+		<e>
+			<p>
+				<l>ella</l>
+				<r>rootaki<s n="pronombre"/>
+				</r>
+			</p>
+		</e>
+		<!-- piampía (especie de ave). shaa. -->
+		<e>
+			<p>
+				<l>piampía (especie de ave)</l>
+				<r>shaa<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- piampía (especie de ave). shaa. -->
+		<e>
+			<p>
+				<l>piampía (especie de ave)</l>
+				<r>shaa<s n="sustantivo"/>
+					<s n="Pasco"/>
+				</r>
+			</p>
+		</e>
+		<!-- pelar. shaarentsi. -->
+		<e>
+			<p>
+				<l>pelar</l>
+				<r>shaarentsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- caminar (con el agua hasta la rodilla). shaatantsi. -->
+		<e>
+			<p>
+				<l>caminar (con el agua hasta la rodilla)</l>
+				<r>shaatantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- añuje (especie de roedor). shabo. -->
+		<e>
+			<p>
+				<l>añuje (especie de roedor)</l>
+				<r>shabo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- añuje (especie de roedor). sharoni. -->
+		<e>
+			<p>
+				<l>añuje (especie de roedor)</l>
+				<r>sharoni<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- añuje (especie de roedor). sharoni. -->
+		<e>
+			<p>
+				<l>añuje (especie de roedor)</l>
+				<r>sharoni<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- añuje (especie de roedor). sharoni. -->
+		<e>
+			<p>
+				<l>añuje (especie de roedor)</l>
+				<r>sharoni<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- añuje (especie de roedor). sharoni. -->
+		<e>
+			<p>
+				<l>añuje (especie de roedor)</l>
+				<r>sharoni<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- bailar. shabokitaantsi. -->
+		<e>
+			<p>
+				<l>bailar</l>
+				<r>shabokitaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+					<s n="sinónimo" c="bairatantsi"/>
+				</r>
+			</p>
+		</e>
+		<!-- uvilla (especie de árbol). shebantoki. -->
+		<e>
+			<p>
+				<l>uvilla (especie de árbol)</l>
+				<r>shebantoki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tripa. sheetontsi. -->
+		<e>
+			<p>
+				<l>tripa</l>
+				<r>sheetontsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- hombro. shempatsi. -->
+		<e>
+			<p>
+				<l>hombro</l>
+				<r>shempatsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- charapa (especie de tortuga acuática). shempiri. -->
+		<e>
+			<p>
+				<l>charapa (especie de tortuga acuática)</l>
+				<r>shempiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- coto (especie de mono). shenonti. -->
+		<e>
+			<p>
+				<l>coto (especie de mono)</l>
+				<r>shenonti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tabaco. sheri. -->
+		<e>
+			<p>
+				<l>tabaco</l>
+				<r>sheri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pasta (hecha de tabaco). sheri. -->
+		<e>
+			<p>
+				<l>pasta (hecha de tabaco)</l>
+				<r>sheri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- curandero. sheripiari. -->
+		<e>
+			<p>
+				<l>curandero</l>
+				<r>sheripiari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- chamán. sheripiari. -->
+		<e>
+			<p>
+				<l>chamán</l>
+				<r>sheripiari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- shansho (especie de garza). shesheti. -->
+		<e>
+			<p>
+				<l>shansho (especie de garza)</l>
+				<r>shesheti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- uña. shetakintsi. -->
+		<e>
+			<p>
+				<l>uña</l>
+				<r>shetakintsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- garra. shetakintsi. -->
+		<e>
+			<p>
+				<l>garra</l>
+				<r>shetakintsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pezuña. shetakintsi. -->
+		<e>
+			<p>
+				<l>pezuña</l>
+				<r>shetakintsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tuerto. sheteri. -->
+		<e>
+			<p>
+				<l>tuerto</l>
+				<r>sheteri<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tuerto. sheteri. -->
+		<e>
+			<p>
+				<l>tuerto</l>
+				<r>sheteri<s n="adjetivo"/>
+					<s n="femenimo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ungurahui (especie de palmera). sheyaki. -->
+		<e>
+			<p>
+				<l>ungurahui (especie de palmera)</l>
+				<r>sheyaki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- diarrea. shibaerontsi. -->
+		<e>
+			<p>
+				<l>diarrea</l>
+				<r>shibaerontsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pluma. shibankintsi. -->
+		<e>
+			<p>
+				<l>pluma</l>
+				<r>shibankintsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bejuco. shibitsa. -->
+		<e>
+			<p>
+				<l>bejuco</l>
+				<r>shibitsa<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- soga del monte. shibitsa. -->
+		<e>
+			<p>
+				<l>soga del monte</l>
+				<r>shibitsa<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pene. shibitsi. -->
+		<e>
+			<p>
+				<l>pene</l>
+				<r>shibitsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- carachama (pequeña). shiketi. -->
+		<e>
+			<p>
+				<l>carachama (pequeña)</l>
+				<r>shiketi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- mosca. shikiri. -->
+		<e>
+			<p>
+				<l>mosca</l>
+				<r>shikiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- flor de mayo. shimashiri. -->
+		<e>
+			<p>
+				<l>flor de mayo</l>
+				<r>shimashiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- nombre de mujer. shimashiri. -->
+		<e>
+			<p>
+				<l>nombre de mujer</l>
+				<r>shimashiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- espuma. shimorentsi. -->
+		<e>
+			<p>
+				<l>espuma</l>
+				<r>shimorentsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- nasa (para atrapar peces). shimperi. -->
+		<e>
+			<p>
+				<l>nasa (para atrapar peces)</l>
+				<r>shimperi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tábano. shimpoki. -->
+		<e>
+			<p>
+				<l>tábano</l>
+				<r>shimpoki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lupuna (especie de árbol). shina. -->
+		<e>
+			<p>
+				<l>lupuna (especie de árbol)</l>
+				<r>shina<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- maíz. shinki. -->
+		<e>
+			<p>
+				<l>maíz</l>
+				<r>shinki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ebrio. shinkirenti. -->
+		<e>
+			<p>
+				<l>ebrio</l>
+				<r>shinkirenti<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- borracho. shinkirenti. -->
+		<e>
+			<p>
+				<l>borracho</l>
+				<r>shinkirenti<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ebrio. shinkirento. -->
+		<e>
+			<p>
+				<l>ebrio</l>
+				<r>shinkirento<s n="adjetivo"/>
+					<s n="femenimo"/>
+				</r>
+			</p>
+		</e>
+		<!-- borracho. shinkirento. -->
+		<e>
+			<p>
+				<l>borracho</l>
+				<r>shinkirento<s n="adjetivo"/>
+					<s n="femenimo"/>
+				</r>
+			</p>
+		</e>
+		<!-- remolino (de viento). shinkiririti. -->
+		<e>
+			<p>
+				<l>remolino (de viento)</l>
+				<r>shinkiririti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- balsa. shintipa. -->
+		<e>
+			<p>
+				<l>balsa</l>
+				<r>shintipa<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- huangana (especie de pecarí). shintori. -->
+		<e>
+			<p>
+				<l>huangana (especie de pecarí)</l>
+				<r>shintori<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- hija. shintotsi. -->
+		<e>
+			<p>
+				<l>hija</l>
+				<r>shintotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- poner en fila. shintsaerenkaantsi. -->
+		<e>
+			<p>
+				<l>poner en fila</l>
+				<r>shintsaerenkaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- fuerte. shintsiri. -->
+		<e>
+			<p>
+				<l>fuerte</l>
+				<r>shintsiri<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bebida (fermentada). shintsiri. -->
+		<e>
+			<p>
+				<l>bebida (fermentada)</l>
+				<r>shintsiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- fuerza. shintsitaantsi. -->
+		<e>
+			<p>
+				<l>fuerza</l>
+				<r>shintsitaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- débil. shipetari. -->
+		<e>
+			<p>
+				<l>débil</l>
+				<r>shipetari<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- debilidad. shipetataantsi. -->
+		<e>
+			<p>
+				<l>debilidad</l>
+				<r>shipetataantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- hombre. shirampari. -->
+		<e>
+			<p>
+				<l>hombre</l>
+				<r>shirampari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- espíritu. shiretsi. -->
+		<e>
+			<p>
+				<l>espíritu</l>
+				<r>shiretsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- futuro próximo. shiretsi. -->
+		<e>
+			<p>
+				<l>futuro próximo</l>
+				<r>shiretsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- coser. shirikaantsi. -->
+		<e>
+			<p>
+				<l>coser</l>
+				<r>shirikaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- amarrar. shirikaantsi. -->
+		<e>
+			<p>
+				<l>amarrar</l>
+				<r>shirikaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- merma (el río). shirinkaare. -->
+		<e>
+			<p>
+				<l>merma (el río)</l>
+				<r>shirinkaare<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- reír. shirontaantsi. -->
+		<e>
+			<p>
+				<l>reír</l>
+				<r>shirontaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tarima (de corteza de palmera). shitamenkotsi. -->
+		<e>
+			<p>
+				<l>tarima (de corteza de palmera)</l>
+				<r>shitamenkotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- baño. shitamentotsi. -->
+		<e>
+			<p>
+				<l>baño</l>
+				<r>shitamentotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- letrina. shitamentotsi. -->
+		<e>
+			<p>
+				<l>letrina</l>
+				<r>shitamentotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- estera. shitashintsi. -->
+		<e>
+			<p>
+				<l>estera</l>
+				<r>shitashintsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!--  salir (de un lugar). shitobaantsi. -->
+		<e>
+			<p>
+				<l> salir (de un lugar)</l>
+				<r>shitobaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- salir (de un cargo). shitobaantsi. -->
+		<e>
+			<p>
+				<l>salir (de un cargo)</l>
+				<r>shitobaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- callampa (especie de hongo). shitobi. -->
+		<e>
+			<p>
+				<l>callampa (especie de hongo)</l>
+				<r>shitobi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lombriz. shitsa. -->
+		<e>
+			<p>
+				<l>lombriz</l>
+				<r>shitsa<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- raíz. shitsapaereki. -->
+		<e>
+			<p>
+				<l>raíz</l>
+				<r>shitsapaereki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- correr. shiyaantsi. -->
+		<e>
+			<p>
+				<l>correr</l>
+				<r>shiyaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- escapar. shiyaantsi. -->
+		<e>
+			<p>
+				<l>escapar</l>
+				<r>shiyaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- foto. shiyakaantsi. -->
+		<e>
+			<p>
+				<l>foto</l>
+				<r>shiyakaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- carro. shiyakaantsi. -->
+		<e>
+			<p>
+				<l>carro</l>
+				<r>shiyakaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bote (a motor). shiyakomentotsi. -->
+		<e>
+			<p>
+				<l>shiyakomentotsi</l>
+				<r>bote (a motor)<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- quena. shobirentsi. -->
+		<e>
+			<p>
+				<l>quena</l>
+				<r>shobirentsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bujurqui (especie de pez). shompotsi. -->
+		<e>
+			<p>
+				<l>bujurqui (especie de pez)</l>
+				<r>shompotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- perdiz. shonkiri. -->
+		<e>
+			<p>
+				<l>perdiz</l>
+				<r>shonkiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lagartija. shonkoro. -->
+		<e>
+			<p>
+				<l>lagartija</l>
+				<r>shonkoro<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lagartija. shankoro. -->
+		<e>
+			<p>
+				<l>lagartija</l>
+				<r>shankoro<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lagartija. shankoro. -->
+		<e>
+			<p>
+				<l>lagartija</l>
+				<r>shankoro<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- lagartija. shankoro. -->
+		<e>
+			<p>
+				<l>lagartija</l>
+				<r>shankoro<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- daledale (tubérculo comestible). shoñaki. -->
+		<e>
+			<p>
+				<l>daledale (tubérculo comestible)</l>
+				<r>shoñaki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- crecer (plantas). shookantsi. -->
+		<e>
+			<p>
+				<l>crecer (plantas)</l>
+				<r>shookantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- quemar. taantsi. -->
+		<e>
+			<p>
+				<l>quemar</l>
+				<r>taantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- soplar. tajonkaantsi. -->
+		<e>
+			<p>
+				<l>soplar</l>
+				<r>tajonkaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pelar (cascara). takiriantsi. -->
+		<e>
+			<p>
+				<l>pelar (cascara)</l>
+				<r>takiriantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- viento. tampia. -->
+		<e>
+			<p>
+				<l>viento</l>
+				<r>tampia<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tocar tambor. tampootaantsi. -->
+		<e>
+			<p>
+				<l>tocar tambor</l>
+				<r>tampootaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- desarmar (cerco). tantoriaantsi. -->
+		<e>
+			<p>
+				<l>tantoriaantsi</l>
+				<r>desarmar (cerco)<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cercar. tantotaantsi. -->
+		<e>
+			<p>
+				<l>cercar</l>
+				<r>tantotaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cerca. tantotsi. -->
+		<e>
+			<p>
+				<l>cerca</l>
+				<r>tantotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- asado. tashirentsi. -->
+		<e>
+			<p>
+				<l>asado</l>
+				<r>tashirentsi<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- asar (al carbón). tashitaantsi. -->
+		<e>
+			<p>
+				<l>asar (al carbón)</l>
+				<r>tashitaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- no. tee. -->
+		<e>
+			<p>
+				<l>no</l>
+				<r>tee<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- todavía. tekirata. -->
+		<e>
+			<p>
+				<l>todavía</l>
+				<r>tekirata<s n="adverbio"/>
+				</r>
+			</p>
+		</e>
+		<!-- teta. tenitsi. -->
+		<e>
+			<p>
+				<l>teta</l>
+				<r>tenitsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- teta. tenitsi. -->
+		<e>
+			<p>
+				<l>teta</l>
+				<r>tenitsi<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- teta. tenitsi. -->
+		<e>
+			<p>
+				<l>teta</l>
+				<r>tenitsi<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- seno. tenitsi. -->
+		<e>
+			<p>
+				<l>seno</l>
+				<r>tenitsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- seno. tenitsi. -->
+		<e>
+			<p>
+				<l>seno</l>
+				<r>tenitsi<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- seno. tenitsi. -->
+		<e>
+			<p>
+				<l>seno</l>
+				<r>tenitsi<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- pecho. tenitsi. -->
+		<e>
+			<p>
+				<l>pecho</l>
+				<r>tenitsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pecho. tenitsi. -->
+		<e>
+			<p>
+				<l>pecho</l>
+				<r>tenitsi<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- pecho. tenitsi. -->
+		<e>
+			<p>
+				<l>pecho</l>
+				<r>tenitsi<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- taricaya (especie de tortuga acuática). teparo. -->
+		<e>
+			<p>
+				<l>taricaya (especie de tortuga acuática)</l>
+				<r>teparo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- piña. tibana. -->
+		<e>
+			<p>
+				<l>piña</l>
+				<r>tibana<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sal. tibi. -->
+		<e>
+			<p>
+				<l>sal</l>
+				<r>tibi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bocina. tiborentsi. -->
+		<e>
+			<p>
+				<l>bocina</l>
+				<r>tiborentsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- romper. tijaantsi. -->
+		<e>
+			<p>
+				<l>romper</l>
+				<r>tijaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- rasgar. tijaantsi. -->
+		<e>
+			<p>
+				<l>rasgar</l>
+				<r>tijaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tener. timatsi. -->
+		<e>
+			<p>
+				<l>tener</l>
+				<r>timatsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- golondrina. timpinare. -->
+		<e>
+			<p>
+				<l>golondrina</l>
+				<r>timpinare<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- extraviado. timpinare. -->
+		<e>
+			<p>
+				<l>extraviado</l>
+				<r>timpinare<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- alzar. tinaantsi. -->
+		<e>
+			<p>
+				<l>alzar</l>
+				<r>tinaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- levantar. tinaantsi. -->
+		<e>
+			<p>
+				<l>levantar</l>
+				<r>tinaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- almohada. tinabontsi. -->
+		<e>
+			<p>
+				<l>almohada</l>
+				<r>tinabontsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- torcido. tipiro. -->
+		<e>
+			<p>
+				<l>torcido</l>
+				<r>tipiro<s n="adjetivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- doblar. tipiyaantsi. -->
+		<e>
+			<p>
+				<l>doblar</l>
+				<r>tipiyaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- brea. tiri. -->
+		<e>
+			<p>
+				<l>brea</l>
+				<r>tiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- renaco (especie de árbol). tirokitsa. -->
+		<e>
+			<p>
+				<l>renaco (especie de árbol)</l>
+				<r>tirokitsa<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- huicungo (especie de palmera). tiroti. -->
+		<e>
+			<p>
+				<l>huicungo (especie de palmera)</l>
+				<r>tiroti<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- surcar. tiyaatarenti. -->
+		<e>
+			<p>
+				<l>surcar</l>
+				<r>tiyaatarenti<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ir río arriba. tiyaatarenti. -->
+		<e>
+			<p>
+				<l>ir río arriba</l>
+				<r>tiyaatarenti<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- excremento. tiyatsi. -->
+		<e>
+			<p>
+				<l>excremento</l>
+				<r>tiyatsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- heces. tiyatsi. -->
+		<e>
+			<p>
+				<l>heces></l>
+				<r>tiyatsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tumbar. tobaantsi. -->
+		<e>
+			<p>
+				<l>tumbar</l>
+				<r>tobaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- talar. tobaantsi. -->
+		<e>
+			<p>
+				<l>talar</l>
+				<r>tobaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- aguaje (especie de palmera). toniro. -->
+		<e>
+			<p>
+				<l>aguaje (especie de palmera)</l>
+				<r>toniro<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- balear. tonkaantsi. -->
+		<e>
+			<p>
+				<l>balear</l>
+				<r>tonkaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- loma. tonkaare. -->
+		<e>
+			<p>
+				<l>loma</l>
+				<r>tonkaare<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- escopeta. tonkamentotsi. -->
+		<e>
+			<p>
+				<l>escopeta</l>
+				<r>tonkamentotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- moler. toonkaantsi. -->
+		<e>
+			<p>
+				<l>moler</l>
+				<r>toonkaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- moler. tononkaantsi. -->
+		<e>
+			<p>
+				<l>moler</l>
+				<r>tononkaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- moler. tononkaantsi. -->
+		<e>
+			<p>
+				<l>moler</l>
+				<r>tononkaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- turushuqui (especie de súngaro). tooso. -->
+		<e>
+			<p>
+				<l>turushuqui (especie de súngaro)</l>
+				<r>tooso<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cortarse. totaantsi. -->
+		<e>
+			<p>
+				<l>cortarse</l>
+				<r>totaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- especie de caracol acuático. totiroki. -->
+		<e>
+			<p>
+				<l>especie de caracol acuático</l>
+				<r>totiroki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- mariposa. tsaampi. -->
+		<e>
+			<p>
+				<l>mariposa</l>
+				<r>tsaampi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- mariposa. shabeta. -->
+		<e>
+			<p>
+				<l>mariposa</l>
+				<r>shabeta<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- mariposa. shabeta. -->
+		<e>
+			<p>
+				<l>mariposa</l>
+				<r>shabeta<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- mariposa. shabeta. -->
+		<e>
+			<p>
+				<l>mariposa</l>
+				<r>shabeta<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- mariposa. pempe. -->
+		<e>
+			<p>
+				<l>mariposa</l>
+				<r>pempe<s n="sustantivo"/>
+					<s n="Gran Pajonal"/>
+				</r>
+			</p>
+		</e>
+		<!-- mariposa. pempe. -->
+		<e>
+			<p>
+				<l>mariposa</l>
+				<r>pempe<s n="sustantivo"/>
+					<s n="Yurúa"/>
+				</r>
+			</p>
+		</e>
+		<!-- ladrar. tsaataantsi. -->
+		<e>
+			<p>
+				<l>ladrar</l>
+				<r>tsaataantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ladrar. tsarotaantsi. -->
+		<e>
+			<p>
+				<l>ladrar</l>
+				<r>tsarotaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- morral. tsaato. -->
+		<e>
+			<p>
+				<l>morral</l>
+				<r>tsaato<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- morral. tsarato. -->
+		<e>
+			<p>
+				<l>morral</l>
+				<r>tsarato<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- morral. tsarato. -->
+		<e>
+			<p>
+				<l>morral</l>
+				<r>tsarato<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- morral. tsarato. -->
+		<e>
+			<p>
+				<l>morral</l>
+				<r>tsarato<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- morral. tsarato. -->
+		<e>
+			<p>
+				<l>morral</l>
+				<r>tsarato<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- bolsa. tsaato. -->
+		<e>
+			<p>
+				<l>bolsa</l>
+				<r>tsaato<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bolsa. tsarato. -->
+		<e>
+			<p>
+				<l>bolsa</l>
+				<r>tsarato<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bolsa. tsarato. -->
+		<e>
+			<p>
+				<l>bolsa</l>
+				<r>tsarato<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- bolsa. tsarato. -->
+		<e>
+			<p>
+				<l>bolsa</l>
+				<r>tsarato<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- bolsa. tsarato. -->
+		<e>
+			<p>
+				<l>bolsa</l>
+				<r>tsarato<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- cultivar. tsamaetaantsi. -->
+		<e>
+			<p>
+				<l>cultivar</l>
+				<r>tsamaetaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cultivar. tsamaerentsi. -->
+		<e>
+			<p>
+				<l>cultivar</l>
+				<r>tsamaerentsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cultivar. tsamaerentsi. -->
+		<e>
+			<p>
+				<l>cultivar</l>
+				<r>tsamaerentsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- desyerbar. tsamaetaantsi. -->
+		<e>
+			<p>
+				<l>desyerbar</l>
+				<r>tsamaetaantsi<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- paujil (especie de ave). tsamiri. -->
+		<e>
+			<p>
+				<l>paujil (especie de ave)</l>
+				<r>tsamiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pituca. tsanabo. -->
+		<e>
+			<p>
+				<l>pituca</l>
+				<r>tsanabo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pituca. tsanaro. -->
+		<e>
+			<p>
+				<l>pituca</l>
+				<r>tsanaro<s n=""/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pituca. tsanaro. -->
+		<e>
+			<p>
+				<l>pituca</l>
+				<r>tsanaro<s n=""/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- collar. tsanoerentsi. -->
+		<e>
+			<p>
+				<l>collar</l>
+				<r>tsanoerentsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cuello. tsanotsi. -->
+		<e>
+			<p>
+				<l>cuello</l>
+				<r>tsanotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- colgarse. tsataantsi. -->
+		<e>
+			<p>
+				<l>colgarse</l>
+				<r>tsataantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ladrar. tsataantsi. -->
+		<e>
+			<p>
+				<l>ladrar</l>
+				<r>tsataantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- especie de caracol pequeño. tseeri. -->
+		<e>
+			<p>
+				<l>especie de caracol pequeño</l>
+				<r>tseeri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- mentir. tseeyaantsi. -->
+		<e>
+			<p>
+				<l>mentir</l>
+				<r>tseeyaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- Se añade a sustantivos no poseídos. -tsi. -->
+		<e>
+			<p>
+				<l>Se añade a sustantivos no poseídos</l>
+				<r>-tsi<s n="sufijo"/>
+				</r>
+			</p>
+		</e>
+		<!-- apagar. tsibakaantsi. -->
+		<e>
+			<p>
+				<l>apagar</l>
+				<r>tsibakaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- raya (especie de pez). tsibeta. -->
+		<e>
+			<p>
+				<l>raya (especie de pez)</l>
+				<r>tsibeta<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- mosquito. tsiito. -->
+		<e>
+			<p>
+				<l>mosquito</l>
+				<r>tsiito<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- colador. tsikaamentotsi. -->
+		<e>
+			<p>
+				<l>colador</l>
+				<r>tsikaamentotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- uña de gato (especie de bejuco). tsikontoche. -->
+		<e>
+			<p>
+				<l>uña de gato (especie de bejuco)</l>
+				<r>tsikontoche<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- coger (con un palo). tsikotaatsi. -->
+		<e>
+			<p>
+				<l>coger (con un palo)</l>
+				<r>tsikotaatsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sombra. tsimankaantsi. -->
+		<e>
+			<p>
+				<l>sombra</l>
+				<r>tsimankaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- carbón. tsimenkito. -->
+		<e>
+			<p>
+				<l>carbón</l>
+				<r>tsimenkito<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- vencer. tsinampaantsi. -->
+		<e>
+			<p>
+				<l>vencer</l>
+				<r>tsinampaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bromear. tsinampaantsi. -->
+		<e>
+			<p>
+				<l>bromear</l>
+				<r>tsinampaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- orinar. tsinitaantsi. -->
+		<e>
+			<p>
+				<l>orinar</l>
+				<r>tsinitaantsi<s n="verbo intransitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- bijao. tsipana. -->
+		<e>
+			<p>
+				<l>bijao</l>
+				<r>tsipana<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- huasaí (especie de palmera). tsireentsi. -->
+		<e>
+			<p>
+				<l>huasaí (especie de palmera)</l>
+				<r>tsireentsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- fideos. tsirentsitonki. -->
+		<e>
+			<p>
+				<l>fideos</l>
+				<r>tsirentsitonki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- ají. tsirikana. -->
+		<e>
+			<p>
+				<l>ají</l>
+				<r>tsirikana<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- leña. tsitsi. -->
+		<e>
+			<p>
+				<l>leña</l>
+				<r>tsitsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- grillo. tsitsiri. -->
+		<e>
+			<p>
+				<l>grillo</l>
+				<r>tsitsiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- chicua (especie de ave). tsiya. -->
+		<e>
+			<p>
+				<l>chicua (especie de ave)</l>
+				<r>tsiya<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- shapaja (especie de palmera). tsiyaroki. -->
+		<e>
+			<p>
+				<l>shapaja (especie de palmera)</l>
+				<r>tsiyaroki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- huasa (especie de mono). tsiyeri. -->
+		<e>
+			<p>
+				<l>huasa (especie de mono)</l>
+				<r>tsiyeri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- lechuza. tsobo. -->
+		<e>
+			<p>
+				<l>lechuza</l>
+				<r>tsobo<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sacar (de la tierra). tsokaantsi. -->
+		<e>
+			<p>
+				<l>sacar (de la tierra)</l>
+				<r>tsokaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- cumala (especie de árbol). tsomanto. -->
+		<e>
+			<p>
+				<l>cumala (especie de árbol)</l>
+				<r>tsomanto<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- garza. tsompari. -->
+		<e>
+			<p>
+				<l>garza</l>
+				<r>tsompari<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- terminar. tsonkaantsi. -->
+		<e>
+			<p>
+				<l>terminar</l>
+				<r>tsonkaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- acabar. tsonkaantsi. -->
+		<e>
+			<p>
+				<l>acabar</l>
+				<r>tsonkaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- picaflor. tsonkiri. -->
+		<e>
+			<p>
+				<l>picaflor</l>
+				<r>tsonkiri<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- moquichi (especie de plátano). tsonkitiroki. -->
+		<e>
+			<p>
+				<l>moquichi (especie de plátano)</l>
+				<r>tsonkitiroki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- aparina. tsoompirontsi. -->
+		<e>
+			<p>
+				<l>aparina</l>
+				<r>tsoompirontsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- paucar (especie de ave). tsoori. -->
+		<e>
+			<p>
+				<l>paucar (especie de ave)</l>
+				<r>tsoori<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- sacar (de un lugar estrecho). tsopantsi. -->
+		<e>
+			<p>
+				<l>sacar (de un lugar estrecho)</l>
+				<r>tsopantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- carachama (grande). tsopiro. -->
+		<e>
+			<p>
+				<l>carachama (grande)</l>
+				<r>tsopiro<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- chupar. tsotaantsi. -->
+		<e>
+			<p>
+				<l>chupar</l>
+				<r>tsotaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- tumbar. tyaantsi. -->
+		<e>
+			<p>
+				<l>tumbar</l>
+				<r>tyaantsi<s n=""/>
+					<s n=""/>
+				</r>
+			</p>
+		</e>
+		<!-- hacer caer. tyaantsi. -->
+		<e>
+			<p>
+				<l>hacer caer</l>
+				<r>tyaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- gallina. tyaapa. -->
+		<e>
+			<p>
+				<l>gallina</l>
+				<r>tyaapa<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- gallina. baripa. -->
+		<e>
+			<p>
+				<l>gallina</l>
+				<r>baripa<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- pollito. tyaapaniki. -->
+		<e>
+			<p>
+				<l>pollito</l>
+				<r>tyaapaniki<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pollito. tyaapajaniki. -->
+		<e>
+			<p>
+				<l>pollito</l>
+				<r>tyaapajaniki<s n="sustantivo"/>
+					<s n="Tambo"/>
+				</r>
+			</p>
+		</e>
+		<!-- pollito. tyaapajaniki. -->
+		<e>
+			<p>
+				<l>pollito</l>
+				<r>tyaapajaniki<s n="sustantivo"/>
+					<s n="Perené"/>
+				</r>
+			</p>
+		</e>
+		<!-- pollito. tyaapajaniki. -->
+		<e>
+			<p>
+				<l>pollito</l>
+				<r>tyaapajaniki<s n="sustantivo"/>
+					<s n="Ene"/>
+				</r>
+			</p>
+		</e>
+		<!-- pollito. tyopiki. -->
+		<e>
+			<p>
+				<l>pollito</l>
+				<r>tyopiki<s n="sustantivo"/>
+					<s n="Pichis"/>
+				</r>
+			</p>
+		</e>
+		<!-- gallinero. tyaapapanko. -->
+		<e>
+			<p>
+				<l>gallinero</l>
+				<r>tyaapapanko<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- especie de yuca. tyonkiro. -->
+		<e>
+			<p>
+				<l>especie de yuca</l>
+				<r>tyonkiro<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- teléfono. yempipaabaerontsi. -->
+		<e>
+			<p>
+				<l>teléfono</l>
+				<r>yempipaabaerontsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- oreja. yempitaantsi. -->
+		<e>
+			<p>
+				<l>oreja</l>
+				<r>yempitaantsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- rodilla. yerentotsi. -->
+		<e>
+			<p>
+				<l>rodilla</l>
+				<r>yerentotsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- hermano (habla de varón). yeye. -->
+		<e>
+			<p>
+				<l>hermano (habla de varón)</l>
+				<r>yeye<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- regla. yomaarentsi. -->
+		<e>
+			<p>
+				<l>regla</l>
+				<r>yomaarentsi<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- mantablanca (especie de mosquito). yoosara. -->
+		<e>
+			<p>
+				<l>mantablanca (especie de mosquito)</l>
+				<r>yoosara<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- instruir. yotaantsi. -->
+		<e>
+			<p>
+				<l>instruir</l>
+				<r>yotaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- saber. yotaantsi. -->
+		<e>
+			<p>
+				<l>saber</l>
+				<r>yotaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- conocer. yotaantsi. -->
+		<e>
+			<p>
+				<l>conocer</l>
+				<r>yotaantsi<s n="verbo transitivo"/>
+					<s n="infinitivo"/>
+				</r>
+			</p>
+		</e>
+		<!-- escuela. yotaantsipanko. -->
+		<e>
+			<p>
+				<l>escuela</l>
+				<r>yotaantsipanko<s n="sustantivo"/>
+				</r>
+			</p>
+		</e>
+	</section>
+</dictionary>
