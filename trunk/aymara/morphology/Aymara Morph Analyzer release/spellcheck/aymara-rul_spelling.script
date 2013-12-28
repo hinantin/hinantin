@@ -1,0 +1,103 @@
+clear stack
+
+define Vow [a|i|u] ;
+
+define Cons [ c h | c h h | c h %' | p | p h | p %' | t | t h | t %' |
+                k |   k h |   k %' | q |   q h |   q %' | m | w |
+		s | n | l | l l | r | ñ | y | j | x ] ;
+
+define R0  %^Z -> 0 ;
+
+define R1 %^YA -> [0 | y a] || _ [%^V | %^L]	
+.o.
+%^YA -> y a
+.o.
+%^L  -> %^V y a || _  %^LENGTHVSYA %^L	
+.o.
+%^LENGTHVSYA -> 0	
+.o.
+%^IN -> 0 || _ %^N t i 
+.o.
+%^IN -> n ;
+
+define R2       %^L %^C i %^S -> %^S || %^C p a c h a  _ 
+.o.
+c h i %^C -> s || _ [t|s]
+.o.
+%^W -> 0 || %^V n a  _  %^V k i		
+.o.
+%^W -> 0 || _ [ %^C | %^FVD | %^LAYKU ]
+.o.
+%^W -> 0 || _ [ %^L | %^V ]
+.o.
+[ a | i | u ] -> 0 || _ %^W %^N
+.o.
+%^W -> 0
+.o.
+%^S -> 0 || _ [ %^L | %^V ]
+.o.
+%^S -> 0 || _ [ %^C | %^FVD | %^LAYKU ]
+.o.
+%^S -> 0	
+.o.
+%^LAYKU -> %^C || $[Vow ?* Vow ?* Vow]  _	
+.o.
+%^LAYKU -> %^V	
+.o.
+[a|i|u] %^V (->) 0 ||   .#. Cons* Vow (%^L) Cons+ Vow (%^L) Cons+  _
+.o.
+%^V -> 0	
+.o.
+$[%^L %^L] -> ~[?*] 	
+.o.
+[ ä | ï | ü ] %^L -> ~[?*] 	
+.o.
+%^C %^FVD ->  ~[?*] 
+.o.
+Cons [ %^L | %^FVD ] -> ~[?*] 	
+;
+
+define R3        %^C c h i %^C i r i s k a -> %^C i r i s k c h i   
+.o.
+%^C c h i %^C i r i s k ä -> %^C i r i s k c h ï   
+.o.
+[..] -> [ s | j ] i || .#. _ s a %^C \[a|i|u]
+.o.
+u %^C i -> u	
+.o.
+u %^L %^C i -> ü	
+.o.
+[ a | i ] %^L %^C i -> ï  
+.o.
+a -> ä , i -> ï , u -> ü || _ %^L      
+.o.
+%^L -> 0
+.o.
+[a | i | u] -> 0 || _ [ %^C | %^FVD ] 
+.o.
+ä (->) a , ï (->) i , ü (->) u || _ %^C 	
+.o.
+%^J -> h || .#. [a|u] k %^C _ 
+.o.
+%^J -> j
+.o.
+[ %^FVD | %^C ]  -> 0
+;
+
+define R4 %^N -> 0  
+;
+
+define R5 s t ü (->) t ü s || k i _ t u	
+.o.
+s t ä (->) t ä s || k i _ t a
+;
+
+define AccCap  a (->) A, b (->) B, c (->) C, d (->) D, e (->) E, f (->) F, 
+g (->) G, h (->) H, i (->) I, j (->) J, k (->) K, l (->) L, m (->) M, 
+n (->) N, o (->) O, p (->) P, q (->) Q, r (->) R, s (->) S, t (->) T, 
+u (->) U, v (->) V, w (->) W, x (->) X, y (->) Y, z (->) Z, ñ (->) Ñ || .#. _  
+;
+
+read regex R0 .o. R1 .o. R2 .o. R3 .o. R4 .o. R5 .o. AccCap ;
+stack
+
