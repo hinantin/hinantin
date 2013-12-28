@@ -1,7 +1,5 @@
 #labels xfst,aymara,morphology
-#InstallationAymaraMorph.
-
-= Introduction =
+= Installation AymaraMorph =
 How to install the AymaraMorph.
   # Download AymaraMorph from http://www.dropbox.com/s/uq8d0sb2vlujazf/AymaraMorphAnalyzerRelease.tar.gz
   # Download and install XFST.
