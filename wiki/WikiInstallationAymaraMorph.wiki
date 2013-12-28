@@ -1,10 +1,8 @@
-#labels xfst,aymara
+#labels xfst,aymara,morphology
 #InstallationAymaraMorph.
 
 = Introduction =
 How to install the AymaraMorph.
-  # Download AymaraMorphAnalyzerRelease.tar.gz from https://code.google.com/p/hinantin/source/browse/trunk/aymara/morphology/AymaraMorphAnalyzerRelease.tar.gz
+  # Download AymaraMorphAnalyzerRelease.tar.gz from https://www.dropbox.com/s/uq8d0sb2vlujazf/AymaraMorphAnalyzerRelease.tar.gz
   # Download and install XFST.
   # Compile AymaraMorph.
-
-
