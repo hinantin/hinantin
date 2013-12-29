@@ -2,5 +2,5 @@
 = Installation AymaraMorph =
 How to install the AymaraMorph.
   # Download AymaraMorph from http://www.dropbox.com/s/uq8d0sb2vlujazf/AymaraMorphAnalyzerRelease.tar.gz
-  # Download and install XFST.
+  # Download and install XFST, for more details about XFST go to http://www.stanford.edu/~laurik/.book2software/ 
   # Compile AymaraMorph.
