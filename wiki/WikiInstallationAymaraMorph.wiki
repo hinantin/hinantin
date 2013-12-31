@@ -5,7 +5,8 @@ How to install the AymaraMorph.
   # Download XFST from the following url  http://www.stanford.edu/~laurik/.book2software/ 
   # Extract the contents from bin.tar.gz and copy the contents as follows:
 {{{
-$ cp xfst /usr/bin/
+$ tar -zxvf bin.tar.gz
+$ cp bin/xfst /usr/bin/
 $ cp bin/lexc /usr/bin/
 $ cp bin/lookup /usr/bin/
 $ cp bin/tokenize /usr/bin/
@@ -15,4 +16,32 @@ $ cp bin/twolc /usr/bin/
 {{{
 $ sudo apt-get install libxml-twig-perl
 }}}
-  # Compile AymaraMorph.
+  # Extract and compile AymaraMorph as follows:
+{{{
+$ tar -zxvf AymaraMorphAnalyzerRelease.tar.gz
+$ cd Aymara\ Morph\ Analyzer\ release/src/
+$ make
+}}}
+  # To run the morphological analyzer follow these instructions:
+{{{
+$ cd ../bin/
+$ echo aka | lookup aymara.fst
+
+0%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>100%
+
+  *****  LEXICON LOOK-UP  *****
+
+aka     aka     [pronoundemonstrative]
+
+
+LOOKUP STATISTICS (success with different strategies):
+strategy 0:     1 times         (100.00 %)
+not found:      0 times         (0.00 %)
+
+corpus size:    1 word
+execution time: 0 sec
+speed:          1 word/sec
+
+  *****  END OF LEXICON LOOK-UP  *****
+
+}}}
