@@ -1,6 +1,18 @@
 #labels xfst,aymara,morphology
 = Installation AymaraMorph =
 How to install the AymaraMorph.
-  # Download AymaraMorph from http://www.dropbox.com/s/uq8d0sb2vlujazf/AymaraMorphAnalyzerRelease.tar.gz
-  # Download and install XFST, for more details about XFST go to http://www.stanford.edu/~laurik/.book2software/ 
+  # Download AymaraMorph from [http://www.dropbox.com/s/uq8d0sb2vlujazf/AymaraMorphAnalyzerRelease.tar.gz here]
+  # Download XFST from the following url  http://www.stanford.edu/~laurik/.book2software/ 
+  # Extract the contents from bin.tar.gz and copy the contents as follows:
+{{{
+$ cp xfst /usr/bin/
+$ cp bin/lexc /usr/bin/
+$ cp bin/lookup /usr/bin/
+$ cp bin/tokenize /usr/bin/
+$ cp bin/twolc /usr/bin/
+}}}
+  # Install libxml-twig-perl
+{{{
+$ sudo apt-get install libxml-twig-perl
+}}}
   # Compile AymaraMorph.
