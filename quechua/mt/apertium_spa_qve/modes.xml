@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+<!-- 
+Quechua del Este de Apurímac / Eastern Apurimac Quechua /Qontisuyumanta Apurimacpa Runasimin - Español / Spanish
+ -->
+  <mode name="qve-spa" install="yes">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="qve-spa.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w -n -1">
+        <file name="qve-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="qve-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="qve-spa.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-spa-qve.qve-spa.t1x"/>
+        <file name="qve-spa.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-spa-qve.qve-spa.t2x"/>
+        <file name="qve-spa.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-spa-qve.qve-spa.t3x"/>
+        <file name="qve-spa.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="qve-spa.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="qve-spa.autopgen.bin"/>
+      </program>
+
+    </pipeline>
+  </mode>
+
+  <mode name="qve-spa-debug" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="qve-spa.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w -n -1">
+        <file name="qve-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="qve-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="qve-spa.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-spa-qve.qve-spa.t1x"/>
+        <file name="qve-spa.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-spa-qve.qve-spa.t2x"/>
+        <file name="qve-spa.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-spa-qve.qve-spa.t3x"/>
+        <file name="qve-spa.t3x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="qve-spa.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
+
+
+  <mode name="qve-spa-twol">
+    <pipeline>
+      <program name="hfst-strings2fst -S"/>
+      <program name="hfst-compose-intersect">
+        <file name=".deps/qve-spa.twol.hfst"/>
+      </program>
+      <program name="hfst-fst2strings"/>
+    </pipeline>
+  </mode>
+
+  <mode name="qve-spa-morph">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="qve-spa.automorf.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="qve-spa-lexc">
+    <pipeline>
+      <program name="hfst-proc -g">
+        <file name=".deps/qve-spa.lexc.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="qve-spa-gener">
+    <pipeline>
+      <program name="hfst-proc -g">
+        <file name="qve-spa.autogen.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="qve-spa-disam">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="qve-spa.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="qve-spa.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="qve-spa-disam-trace">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="qve-spa.automorf.hfst"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="qve-spa.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="qve-spa-biltrans">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="qve-spa.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w -n -1">
+        <file name="qve-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="qve-spa.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="qve-spa-lex">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="qve-spa.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w -n -1">
+        <file name="qve-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="qve-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="qve-spa.autolex.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="qve-spa-chunker">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="qve-spa.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w -n -1">
+        <file name="qve-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="qve-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="qve-spa.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-qve-spa.qve-spa.t1x"/>
+        <file name="qve-spa.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="qve-spa-interchunk">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="qve-spa.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w -n -1">
+        <file name="qve-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="qve-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="qve-spa.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-qve-spa.qve-spa.t1x"/>
+        <file name="qve-spa.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-qve-spa.qve-spa.t2x"/>
+        <file name="qve-spa.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="qve-spa-postchunk">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="qve-spa.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w -n -1">
+        <file name="qve-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="qve-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="qve-spa.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-spa-qve.qve-spa.t1x"/>
+        <file name="qve-spa.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-spa-qve.qve-spa.t2x"/>
+        <file name="qve-spa.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-spa-qve.qve-spa.t3x"/>
+        <file name="qve-spa.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+<!-- 
+Español / Spanish - Quechua del Este de Apurímac / Eastern Apurimac Quechua /Qontisuyumanta Apurimacpa Runasimin
+ -->
+
+<mode name="spa-qve" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="spa-qve.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-qve.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-spa-qve.spa-qve.t1x"/>
+        <file name="spa-qve.t1x.bin"/>
+        <file name="spa-qve.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-spa-qve.spa-qve.t2x"/>
+        <file name="spa-qve.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-spa-qve.spa-qve.t3x"/>
+        <file name="spa-qve.t3x.bin"/>
+      </program>
+      <program name="hfst-proc $1">
+        <file name="spa-qve.autogen.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="spa-qve-trae" install="">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="spa-qve.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-qve.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-qve.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-spa-qve.spa-qve.t1x"/>
+        <file name="spa-qve.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-spa-qve.spa-qve.t2x"/>
+        <file name="spa-qve.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-spa-qve.spa-qve.t3x"/>
+        <file name="spa-qve.t3x.bin"/>
+      </program>
+      <program name="hfst-proc -g">
+        <file name="spa-qve.autogen.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="spa-qve-anmor" install="">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="spa-qve.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="spa-qve-generador" install="">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="spa-qve.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-qve.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer -t">
+        <file name="apertium-spa-qve.spa-qve.t1x"/>
+        <file name="spa-qve.t1x.bin"/>
+        <file name="spa-qve.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk -t">
+        <file name="apertium-spa-qve.spa-qve.t2x"/>
+        <file name="spa-qve.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-spa-qve.spa-qve.t3x"/>
+        <file name="spa-qve.t3x.bin"/>
+      </program>
+      <program name="hfst-proc $1">
+        <file name="spa-qve.autogen.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="spa-qve-biltrans" install="">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="spa-qve.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-qve.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-qve.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="spa-qve-chunker" install="">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="spa-qve.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-qve.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer -t">
+        <file name="apertium-spa-qve.spa-qve.t1x"/>
+        <file name="spa-qve.t1x.bin"/>
+        <file name="spa-qve.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="spa-qve-interchunk" install="">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="spa-qve.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-qve.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer -t">
+        <file name="apertium-spa-qve.spa-qve.t1x"/>
+        <file name="spa-qve.t1x.bin"/>
+        <file name="spa-qve.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk -t">
+        <file name="apertium-spa-qve.spa-qve.t2x"/>
+        <file name="spa-qve.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="spa-qve-postchunk" install="">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="spa-qve.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-qve.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer -t">
+        <file name="apertium-spa-qve.spa-qve.t1x"/>
+        <file name="spa-qve.t1x.bin"/>
+        <file name="spa-qve.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk -t">
+        <file name="apertium-spa-qve.spa-qve.t2x"/>
+        <file name="spa-qve.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-spa-qve.spa-qve.t3x"/>
+        <file name="spa-qve.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="spa-qve-pretransfer" install="">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="spa-qve.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-qve.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+  <mode name="spa-qve-tagger" install="">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="spa-qve.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-qve.prob"/>
+      </program>
+    </pipeline>
+  </mode>
+
+</modes>
