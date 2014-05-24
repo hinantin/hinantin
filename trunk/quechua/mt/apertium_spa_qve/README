@@ -31,12 +31,8 @@ http://wiki.apertium.org/wiki/Hfst
 
 Compilando
 ===============================================================================
-Aun falta colocar en makfile, se puede compilar los datos linguísticos 
-de la siguiente manera:
 
-$./comptodo
-
-El archivo comtodo debe tener el permiso 755
+$ make all 2>&1 | tee -a install_apertium_spa_qve.log
 
 Testing
 ===============================================================================
