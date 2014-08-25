@@ -2,8 +2,8 @@
 
 define N=P=1 [
   "[1SG.poss+]" : {no}"@PRONLEN"
-!| "[1SG.poss+]" : {n}"@PRONLEN"
-!| "[2SG.poss+]" : {p}"@PRONLEN"
+| "[1SG.poss+]" : {n}"@PRONLEN"
+| "[2SG.poss+]" : {p}"@PRONLEN"
 | "[2SG.poss+]" : {pi}"@PRONLEN"
 | "[3SGm.poss+]" : {i}"@PRONLEN"
 | "[3SGm.poss+]" : {y}"@PRONLEN"
