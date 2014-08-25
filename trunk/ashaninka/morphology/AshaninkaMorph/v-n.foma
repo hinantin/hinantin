@@ -1,0 +1,6 @@
+# nominalizing suffixes
+
+define VtoN [
+  "+INF" : [{aantsi}|{antsi}]
+];
+

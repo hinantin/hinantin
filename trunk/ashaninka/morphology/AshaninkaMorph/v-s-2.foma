@@ -1,0 +1,6 @@
+# suffixes slot 2
+
+define S=2 [
+  "[+REAL]" : "@EP"[{i}|{a}]
+| "[+IRR]" : "@EP"{e}
+];
