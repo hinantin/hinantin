@@ -142,14 +142,14 @@
       #          Vowel Deletion Rules         #
       #########################################
       # noirani (in our lexicon) -> no@PRONLENirani -> n@PRONLENirani -> nirani 
-      define VowelLossRule1 [ o"@PRONLEN" -> "@PRONLEN" || n _ [{i}|{o}|{a}] ]; 
-      define VowelLossRule2 [ i"@PRONLEN" -> "@PRONLEN" || p _ [{i}|{o}|{a}] ]; 
+#      define VowelLossRule1 [ o"@PRONLEN" -> "@PRONLEN" || n _ [{i}|{o}|{a}] ]; 
+#      define VowelLossRule2 [ i"@PRONLEN" -> "@PRONLEN" || p _ [{i}|{o}|{a}] ]; 
       
-      define VowelLoss [ VowelLossRule1 .o. VowelLossRule2 ];
+#      define VowelLoss [ VowelLossRule1 .o. VowelLossRule2 ];
 
       source nroot.prq.foma
         define NRootPRQ NRootPRQin;
-      define Noun [ (NPref) [NRootPRQ] (NSuff) ] .o. Lenition .o. VowelLoss ;
+      define Noun [ (NPref) [NRootPRQ] (NSuff) ] .o. Lenition ; #.o. VowelLoss ;
       
       ##########################
       #                        #
