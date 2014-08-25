@@ -148,7 +148,8 @@
 #      define VowelLoss [ VowelLossRule1 .o. VowelLossRule2 ];
 
       source nroot.prq.foma
-        define NRootPRQ NRootPRQin;
+      source aroot.prq.foma
+        define NRootPRQ [NRootPRQin|ARootPRQin];
       define Noun [ (NPref) [NRootPRQ] (NSuff) ] .o. Lenition ; #.o. VowelLoss ;
       
       ##########################
