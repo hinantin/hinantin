@@ -1,6 +1,7 @@
 # noun suffixes slot 1
 
 define N=S=2 [
-"[+PL]" : {paye}
+  "[+PL]" : {paye}
+| "[+DEM]" : {ra}
 ];
 
