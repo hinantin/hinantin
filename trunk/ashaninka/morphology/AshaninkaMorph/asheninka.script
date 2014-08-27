@@ -161,7 +161,7 @@
         define ORootPRQ ORootPRQin;
       define Other [ [ORootPRQ] ];
 
-      read regex Cleanup2 .o. [ [Other|Noun|Verb] ] .o. Cleanup1 .o. Orthography ;
+      read regex Cleanup2 .o. [ [Other|Noun|Verb] ] .o. Cleanup1 .o. Orthography .o. UpperCase;
 #      read regex [ [Other|Noun|Verb] ] .o. Orthography ;
 
       save stack asheninka.bin
