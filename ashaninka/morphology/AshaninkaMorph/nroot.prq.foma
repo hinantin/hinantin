@@ -15,7 +15,6 @@ define NRootPRQin [
 | "[NRoot--father]" : {apa}
 | "[NRoot--somebody]" : {aparoni}
 | "[NRoot--person’s.name]" : {apiinka}
-| "[NRoot--our.fellowman]" : {ashaninka}
 | "[NRoot--steel]" : {ashiro}
 | "[NRoot--armadillo]" : {ashoshi}
 | "[NRoot--person]" : {atziri}
