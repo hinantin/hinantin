@@ -8,6 +8,7 @@ define NRootPRQin [
 | "[NRoot][=grandpa]" : {ani}
 | "[NRoot][=brother.in.law]" : {ani}
 | "[NRoot][=cotton]" : {ampee}
+| "[NRoot][=cotton]" : {ampehi}
 | "[NRoot][=cotton]" : {ampeshi}
 | "[NRoot][=woods]" : {antami}
 | "[NRoot][=forest]" : {antami}
@@ -37,6 +38,7 @@ define NRootPRQin [
 | "[NRoot][=school]" : {escuela}
 | "[NRoot][=school]" : {eskuera}
 | "[NRoot][=state]" : {estado}
+| "[NRoot][=spider]" : {heto}
 | "[NRoot][=hair]" : {iishi}
 | "[NRoot][=husband]" : {ime}
 | "[NRoot][=husband]" : {imi}
@@ -239,6 +241,7 @@ define NRootPRQin [
 | "[NRoot][=power]" : {tasorinka}
 | "[NRoot][=blessing]" : {tasorinka}
 | "[NRoot][=none]" : {tekatsi}
+| "[NRoot][=weaver]" : {tihatsi}
 | "[NRoot][=son]" : {tomi}
 | "[NRoot][=hill.top]" : {tonkari}
 | "[NRoot][=top]" : {tonkari}
@@ -281,3 +284,4 @@ define NRootPRQin [
 | "[NRoot][=brother]" : {yari}
 | "[NRoot][=ear]" : {yempita}
 ];
+
