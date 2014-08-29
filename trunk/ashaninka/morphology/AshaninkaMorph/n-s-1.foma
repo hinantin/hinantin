@@ -1,8 +1,7 @@
 # noun suffixes slot 1
 
 define N=S=1 [
-  "[+LOC]" : {ki}
-| "[+NPOSS]": [{tsi}|{ntsi}]
+  "[+NPOSS]": [{tsi}|{ntsi}]
 | "[+POSS]": [{ni}|{ri}|{te}]
 ];
 

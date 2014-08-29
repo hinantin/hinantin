@@ -1,0 +1,10 @@
+# suffixes slot 4
+
+define V=S=4 [
+  "[+1SG.O]" : "@EP"{na}
+| "[+2SG.O]" : "@EP"{mi}
+| "[+3SGm.O]" : "@EP"{ri}
+| "[+3SGnm.O]" : "@EP"{ro}
+| "[+1PL.O]" : "@EP"{ai}
+| "[+INF]" : [{aantsi}|{antsi}|{ntsi}]
+];

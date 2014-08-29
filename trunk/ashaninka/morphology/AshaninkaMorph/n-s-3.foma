@@ -1,0 +1,7 @@
+# noun suffixes slot 1
+
+define N=S=3 [
+  "[+PL]" : {paye}
+| "[+DEM]" : [{ka}|{ra}|{nta}]
+];
+

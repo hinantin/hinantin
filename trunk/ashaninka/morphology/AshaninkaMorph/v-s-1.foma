@@ -1,6 +1,7 @@
 # suffixes slot 1
 
-define S=1 [
-"[+PRF]" : "@EP"{ak}
+define V=S=1 [
+  "[+PRF]" : "@EP"{ak}
+| "[+PROG]" : "@EP"{aty}
 ];
 

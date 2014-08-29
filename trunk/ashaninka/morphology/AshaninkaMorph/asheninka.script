@@ -84,13 +84,13 @@
 
       source v-s-1.foma
       source v-s-2.foma
-#      source v-s-3.foma
-#      source v-s-4.foma
+      source v-s-3.foma
+      source v-s-4.foma
 #      source v-s-5.foma
-      source v-s-6.foma
-      source v-s-7.foma
+#      source v-s-6.foma
+#      source v-s-7.foma
 
-      define S [ (S=1) (S=6) (S=2) (S=7) ]; #(S=3) (S=4) (S=5) (S=6) (S=7)] ;
+      define S [ (V=S=1) (V=S=2) (V=S=3) (V=S=4) ]; #(V=S=3) (S=4) (S=5) (S=6) (S=7)] ;
       define Suff [S] ;
 
       ##########################
@@ -124,7 +124,8 @@
 
       source n-s-1.foma
       source n-s-2.foma
-      define NSuff [(N=S=1) (N=S=2)] ;
+      source n-s-3.foma
+      define NSuff [(N=S=1) (N=S=2) (N=S=3)] ;
 
       ###################################
       #          Lenition Rules         #
