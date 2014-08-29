@@ -1,6 +1,10 @@
 # suffixes slot 2
 
-define S=2 [
-  "[+REAL]" : "@EP"[{i}|{a}]
-| "[+IRR]" : "@EP"{e}
+define V=S=2 [
+  "[+APPL.GEN]" : "@EP"{ako}
+| "[+APPL.BEN]" : "@EP"[{vent}|{vint}]
+| "[+APPL.INST]" : "@EP"{ashi}
+| "[+APPL.INT]" : "@EP"{ri}
+| "[+APPL.PRES]" : "@EP"{imo}
+| "[+APPL.REAS]" : "@EP"{ant}
 ];
