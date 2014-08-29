@@ -232,7 +232,6 @@ define VRootPRQin [
 | "[VRoot][=wait]" : {ooy}
 | "[VRoot][=expect]" : {ooya}
 | "[VRoot][=wait]" : {ooya}
-| "[VRoot][=some.time.later]" : {osamani}
 | "[VRoot][=be.much]" : {osheki}
 | "[VRoot][=eat]" : {ov}
 | "[VRoot][=fight]" : {ovayeri}

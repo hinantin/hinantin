@@ -155,6 +155,15 @@
       
       ##########################
       #                        #
+      #         Adverb         #
+      #                        #
+      ##########################
+      source advroot.prq.foma
+        define AdvRootPRQ AdvRootPRQin;
+      define Adverb [ [AdvRootPRQ] ];
+
+      ##########################
+      #                        #
       #          Other         #
       #                        #
       ##########################
@@ -163,7 +172,7 @@
       define Other [ [ORootPRQ] ];
 
       read regex Cleanup2 .o. [ [Other|Noun|Verb] ] .o. Cleanup1 .o. Orthography .o. UpperCase;
-#      read regex [ [Other|Noun|Verb] ] .o. Orthography ;
+#      read regex [ [Other|Adverb|Noun|Verb] ] .o. Orthography ;
 
       save stack asheninka.bin
 
