@@ -110,7 +110,8 @@
 #      define FeatRestr [ TransSubjRestr3 ] ;
 
       source vroot.prq.foma
-        define VRootPRQ VRootPRQin;
+      source vroot.es.foma
+        define VRootPRQ [VRootPRQin|VRootEsin];
       
       define Verb FeatRestr .o. VerbRules .o. [ (Pref) [VRootPRQ] (Suff) ] .o. Epenthesis;
 
@@ -150,7 +151,8 @@
 
       source nroot.prq.foma
       source aroot.prq.foma
-        define NRootPRQ [NRootPRQin|ARootPRQin];
+      source nroot.es.foma
+        define NRootPRQ [NRootPRQin|ARootPRQin|NRootESin];
       define Noun [ (NPref) [NRootPRQ] (NSuff) ] .o. Lenition ; #.o. VowelLoss ;
       
       ##########################
@@ -171,7 +173,7 @@
         define ORootPRQ ORootPRQin;
       define Other [ [ORootPRQ] ];
 
-      read regex Cleanup2 .o. [ [Other|Noun|Verb] ] .o. Cleanup1 .o. Orthography .o. UpperCase;
+      read regex Cleanup2 .o. [ [Other|Adverb|Noun|Verb] ] .o. Cleanup1 .o. Orthography .o. UpperCase;
 #      read regex [ [Other|Adverb|Noun|Verb] ] .o. Orthography ;
 
       save stack asheninka.bin
