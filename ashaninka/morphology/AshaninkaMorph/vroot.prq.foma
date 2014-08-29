@@ -251,6 +251,7 @@ define VRootPRQin [
 | "[VRoot][=be.embarrassed]" : {pashivent}
 | "[VRoot][=embarrass]" : {pashivent}
 | "[VRoot][=idolize]" : {pavani}
+| "[VRoot][=turn into]" : {pea}
 | "[VRoot][=hack.with.a.machete]" : {pes}
 | "[VRoot][=transform]" : {pi}
 | "[VRoot][=lose]" : {pi}
@@ -358,7 +359,6 @@ define VRootPRQin [
 | "[VRoot][=pull.out]" : {tsok}
 | "[VRoot][=finish]" : {tsonk}
 | "[VRoot][=kill]" : {tsonk}
-| "[VRoot][=finish]" : {tsonka}
 | "[VRoot][=pull.out]" : {tsop}
 | "[VRoot][=send]" : {tyank}
 | "[VRoot][=kneel.down]" : {tyerov}
