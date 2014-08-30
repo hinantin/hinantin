@@ -27,17 +27,12 @@ define NRootPRQin [
 | "[NRoot][=grandpa]" : {charini}
 | "[NRoot][=grandparents]" : {charini}
 | "[NRoot][=trousers]" : {chenko}
+| "[NRoot][=pants]" : {chenko}
 | "[NRoot][=branch]" : {chevo}
 | "[NRoot][=sister]" : {chooki}
 | "[NRoot][=red.and.black.seed]" : {chovankeriki}
-| "[NRoot][=company]" : {compañia}
-| "[NRoot][=contract]" : {contrato}
 | "[NRoot][=child]" : {eentsi}
 | "[NRoot][=3n.m.poss.child]" : {eentsi}
-| "[NRoot][=exercise]" : {ejercicio}
-| "[NRoot][=school]" : {escuela}
-| "[NRoot][=school]" : {eskuera}
-| "[NRoot][=state]" : {estado}
 | "[NRoot][=spider]" : {heto}
 | "[NRoot][=hair]" : {iishi}
 | "[NRoot][=husband]" : {ime}
@@ -51,7 +46,6 @@ define NRootPRQin [
 | "[NRoot][=herb]" : {inchashi}
 | "[NRoot][=grass]" : {inchashi}
 | "[NRoot][=tree]" : {inchato}
-| "[NRoot][=engineer]" : {ingeniero}
 | "[NRoot][=lake]" : {inkaari}
 | "[NRoot][=rock]" : {impereta}
 | "[NRoot][=ancestor]" : {intakantarori}
@@ -73,13 +67,13 @@ define NRootPRQin [
 | "[NRoot][=cushma]" : {itsa}
 | "[NRoot][=foot]" : {itzi}
 | "[NRoot][=warriors]" : {ivayetziri}
-| "[NRoot][=person’s.name]" : {juan.santos.atahualpa}
 | "[NRoot][=car]" : {kaaro}
 | "[NRoot][=coffee]" : {kahai}
 | "[NRoot][=devil]" : {kamaaro}
 | "[NRoot][=death]" : {kamanitaantsi}
 | "[NRoot][=advice]" : {kamenaantsi}
 | "[NRoot][=rotten.leaf]" : {kami}
+| "[NRoot][=dead]" : {kaminka}
 | "[NRoot][=tree.sp]" : {kanai}
 | "[NRoot][=manioc]" : {kaniri}
 | "[NRoot][=moon]" : {kashiri}
@@ -131,12 +125,9 @@ define NRootPRQin [
 | "[NRoot][=stone]" : {mapi}
 | "[NRoot][=papaya]" : {mapocha}
 | "[NRoot][=name.of.village]" : {marankiaro}
-| "[NRoot][=math]" : {matematika}
 | "[NRoot][=womanizer]" : {mayempiri}
 | "[NRoot][=name]" : {meantarini}
-| "[NRoot][=table]" : {mesa}
 | "[NRoot][=village’s.name]" : {metaro}
-| "[NRoot][=mission]" : {misión}
 | "[NRoot][=hole]" : {morona}
 | "[NRoot][=stomach]" : {motya}
 | "[NRoot][=village]" : {nampi}
@@ -180,9 +171,11 @@ define NRootPRQin [
 | "[NRoot][=tree.bark]" : {patsitaroki}
 | "[NRoot][=river’s.name]" : {paukartambo}
 | "[NRoot][=solar.deity]" : {pava}
+| "[NRoot][=god]" : {pava}
 | "[NRoot][=Pichanaki]" : {pichanaki}
 | "[NRoot][=animal]" : {piratsi}
 | "[NRoot][=name]" : {pito}
+| "[NRoot][=canoe]" : {pito}
 | "[NRoot][=clay]" : {pitsitsari}
 | "[NRoot][=dream]" : {pochoki}
 | "[NRoot][=bejuco]" : {ponkaro}
@@ -210,6 +203,7 @@ define NRootPRQin [
 | "[NRoot][=fellowman]" : {sheninka}
 | "[NRoot][=shaman]" : {sheripyari}
 | "[NRoot][=fingernail]" : {shetaki}
+| "[NRoot][=afternoon]" : {shetene}
 | "[NRoot][=afternoon]" : {sheteni}
 | "[NRoot][=day]" : {sheteni}
 | "[NRoot][=leaf]" : {shi}
@@ -229,7 +223,6 @@ define NRootPRQin [
 | "[NRoot][=rope]" : {shivitsa}
 | "[NRoot][=Peruvian.currency]" : {soles}
 | "[NRoot][=police]" : {soraro}
-| "[NRoot][=soldier]" : {soraro}
 | "[NRoot][=Tarma]" : {taaroma}
 | "[NRoot][=wind]" : {tampyaa}
 | "[NRoot][=corral]" : {tantotsi}
@@ -254,6 +247,8 @@ define NRootPRQin [
 | "[NRoot][=night]" : {tsiteniri}
 | "[NRoot][=cricket]" : {tsitsiri}
 | "[NRoot][=anus]" : {tsiyaki}
+| "[NRoot][=belly]" : {tsomonte}
+| "[NRoot][=bulge]" : {tsomonte}
 | "[NRoot][=fabric]" : {tya}
 | "[NRoot][=hen]" : {tyaapa}
 | "[NRoot][=Beetle]" : {tziivito}
@@ -277,8 +272,6 @@ define NRootPRQin [
 | "[NRoot][=fat.m]" : {vatsantzi}
 | "[NRoot][=meat]" : {vatsatsi}
 | "[NRoot][=person’s.name]" : {vela}
-| "[NRoot][=bag]" : {volsa}
 | "[NRoot][=brother]" : {yari}
 | "[NRoot][=ear]" : {yempita}
 ];
-

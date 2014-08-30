@@ -3,5 +3,5 @@
 define P=2 [
   "[IRR+]" : {n}
 | "[M.CAUS+]" : {mi}
-| "[CAUS.AGT+]" : [{oi}|{v}]
+| "[CAUS.AGT+]" : [{oi}|{v}|{vi}]
 ];

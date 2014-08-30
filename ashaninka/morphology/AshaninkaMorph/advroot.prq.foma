@@ -1,4 +1,3 @@
-! adjective root list
 define AdvRootPRQin [
   "[AdvRoot][=later]" : {apaata}
 | "[AdvRoot][=soon]" : {apaata}
