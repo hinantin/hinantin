@@ -1,7 +1,5 @@
 define ORootPRQin [
   "[OtherRoot][=300]" : {300}
-| "[OtherRoot][=NEG.C]" : {kaari}
-| "[OtherRoot][=there]" : {anta}
 | "[OtherRoot][=humph]" : {aa}
 | "[OtherRoot][=also]" : {ahatzi}
 | "[OtherRoot][=still]" : {aikiro}
@@ -11,6 +9,7 @@ define ORootPRQin [
 | "[OtherRoot][=also]" : {aisatzi}
 | "[OtherRoot][=here]" : {aka}
 | "[OtherRoot][=ouch]" : {akaya}
+| "[OtherRoot][=there]" : {anta}
 | "[OtherRoot][=solely]" : {apaniroini}
 | "[OtherRoot][=one]" : {aparo}
 | "[OtherRoot][=PP]" : {ari}
@@ -76,13 +75,13 @@ define ORootPRQin [
 | "[OtherRoot][=head]" : {ito}
 | "[OtherRoot][=DEM]" : {iyoka}
 | "[OtherRoot][=DEM]" : {iyora}
+| "[OtherRoot][=NEG.C]" : {kaari}
 | "[OtherRoot][=NEG.P]" : {kaari}
 | "[OtherRoot][=NEG.COP]" : {kaari}
 | "[OtherRoot][=because]" : {kama}
 | "[OtherRoot][=well]" : {kameetsa}
 | "[OtherRoot][=well]" : {kametsa}
 | "[OtherRoot][=good]" : {kametsa}
-| "[OtherRoot][=dead]" : {kaminkari}
 | "[OtherRoot][=nevertheless]" : {kantzimaintacha}
 | "[OtherRoot][=nevertheless]" : {kantzimaitacha}
 | "[OtherRoot][=early]" : {kapichikitaite}
@@ -101,11 +100,11 @@ define ORootPRQin [
 | "[OtherRoot][=who]" : {ninka}
 | "[OtherRoot][=whoever]" : {ninkarika}
 | "[OtherRoot][=or]" : {o}
-| "[OtherRoot][=in.order]" : {onkantya}
-| "[OtherRoot][=so.that]" : {onkantya}
 | "[OtherRoot][=DEM]" : {oka}
 | "[OtherRoot][=DEM.n.m.]" : {oka}
 | "[OtherRoot][=close.by]" : {okaakini}
+| "[OtherRoot][=in.order]" : {onkantya}
+| "[OtherRoot][=so.that]" : {onkantya}
 | "[OtherRoot][=be.necessary]" : {ontzimatye}
 | "[OtherRoot][=it’s.necessary]" : {ontzimatye}
 | "[OtherRoot][=that.n.m.]" : {ora}
@@ -118,10 +117,10 @@ define ORootPRQin [
 | "[OtherRoot][=be.strong]" : {shintsi}
 | "[OtherRoot][=quickly]" : {shintsini}
 | "[OtherRoot][=seven]" : {siete}
-| "[OtherRoot][=IDEO]" : {tankorek}
 | "[OtherRoot][=NEG.W]" : {taan}
 | "[OtherRoot][=W.NEG]" : {taan}
 | "[OtherRoot][=IDEO]" : {takik}
+| "[OtherRoot][=IDEO]" : {tankorek}
 | "[OtherRoot][=NEG.REAL]" : {te}
 | "[OtherRoot][=NEG]" : {te}
 | "[OtherRoot][=NEG.EXIST]" : {tekatsi}
@@ -133,13 +132,13 @@ define ORootPRQin [
 | "[OtherRoot][=or]" : {terika}
 | "[OtherRoot][=maybe]" : {terika}
 | "[OtherRoot][=NEG.COND]" : {terika}
-| "[OtherRoot][=IDEO]" : {tsinki}
 | "[OtherRoot][=WH]" : {tsika}
 | "[OtherRoot][=where]" : {tsika}
 | "[OtherRoot][=what]" : {tsika}
 | "[OtherRoot][=WH]" : {tsika paita}
 | "[OtherRoot][=WH]" : {tsika.paita}
 | "[OtherRoot][=IDEO]" : {tsikiri}
+| "[OtherRoot][=IDEO]" : {tsinki}
 | "[OtherRoot][=IDEO]" : {tyak}
 | "[OtherRoot][=exist]" : {tzim}
 | "[OtherRoot][=EXIST]" : {tzimatsi}
@@ -148,8 +147,8 @@ define ORootPRQin [
 | "[OtherRoot][=land]" : {vani}
 | "[OtherRoot][=EXCL]" : {ve}
 | "[OtherRoot][=eat]" : {ya}
-| "[OtherRoot][=that]" : {yonta}
 | "[OtherRoot][=this.m]" : {yoka}
 | "[OtherRoot][=DEM.m]" : {yoka}
+| "[OtherRoot][=that]" : {yonta}
 | "[OtherRoot][=DEM]" : {yora}
 ];

@@ -1,4 +1,3 @@
-! adjective root list
 define ARootPRQin [
   "[AdjRoot][=big.m]" : {antari}
 | "[AdjRoot][=mature.m]" : {antari}

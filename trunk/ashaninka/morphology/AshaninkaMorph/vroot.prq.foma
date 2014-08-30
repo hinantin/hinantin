@@ -198,7 +198,9 @@ define VRootPRQin [
 | "[VRoot][=lay]" : {nary}
 | "[VRoot][=lie.prostrate]" : {nary}
 | "[VRoot][=be.green]" : {natsiya}
+| "[VRoot][=find]" : {neap}
 | "[VRoot][=like]" : {neve}
+| "[VRoot][=find]" : {niap}
 | "[VRoot][=water]" : {nihaa}
 | "[VRoot][=like]" : {nimo}
 | "[VRoot][=please]" : {nimot}
@@ -251,11 +253,9 @@ define VRootPRQin [
 | "[VRoot][=be.embarrassed]" : {pashivent}
 | "[VRoot][=embarrass]" : {pashivent}
 | "[VRoot][=idolize]" : {pavani}
-| "[VRoot][=turn into]" : {pea}
+| "[VRoot][=convert]" : {pe}
 | "[VRoot][=hack.with.a.machete]" : {pes}
-| "[VRoot][=transform]" : {pi}
 | "[VRoot][=lose]" : {pi}
-| "[VRoot][=convert]" : {pi}
 | "[VRoot][=sell]" : {pimanta}
 | "[VRoot][=pay]" : {pina}
 | "[VRoot][=pay]" : {pinat}
@@ -280,6 +280,8 @@ define VRootPRQin [
 | "[VRoot][=paint]" : {potsot}
 | "[VRoot][=rub.annatto]" : {potsot}
 | "[VRoot][=dye]" : {potsot}
+| "[VRoot][=transform]" : {py}
+| "[VRoot][=convert]" : {py}
 | "[VRoot][=watch]" : {riro}
 | "[VRoot][=bathe]" : {saa}
 | "[VRoot][=bathe.in.hot.water]" : {saa}
@@ -360,6 +362,7 @@ define VRootPRQin [
 | "[VRoot][=finish]" : {tsonk}
 | "[VRoot][=kill]" : {tsonk}
 | "[VRoot][=pull.out]" : {tsop}
+| "[VRoot][=fell]" : {ty}
 | "[VRoot][=send]" : {tyank}
 | "[VRoot][=kneel.down]" : {tyerov}
 | "[VRoot][=bathe]" : {tyoonk}
