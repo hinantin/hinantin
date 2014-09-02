@@ -158,6 +158,8 @@ define VRootPRQin [
 | "[VRoot][=dig]" : {kiy}
 | "[VRoot][=want]" : {kokov}
 | "[VRoot][=appear]" : {konyaa}
+| "[VRoot][=approach]" : {korake}
+| "[VRoot][=approach]" : {koraki}
 | "[VRoot][=kidnap]" : {koshi}
 | "[VRoot][=steal]" : {koshi}
 | "[VRoot][=cook]" : {kotsi}
