@@ -46,6 +46,7 @@ define VRootPRQin [
 | "[VRoot][=live]" : {any}
 | "[VRoot][=wait]" : {apaata}
 | "[VRoot][=gather]" : {apoto}
+| "[VRoot][=fly]" : {ar}
 | "[VRoot][=arrive]" : {aree}
 | "[VRoot][=arrive]" : {arii}
 | "[VRoot][=achieve]" : {arii}
@@ -294,6 +295,7 @@ define VRootPRQin [
 | "[VRoot][=be.at]" : {saik}
 | "[VRoot][=be.in]" : {saik}
 | "[VRoot][=sit]" : {saik}
+| "[VRoot][=live]" : {saik}
 | "[VRoot][=get.upset.with]" : {sam}
 | "[VRoot][=write]" : {sankina}
 | "[VRoot][=draw]" : {sankina}
