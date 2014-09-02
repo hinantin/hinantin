@@ -255,6 +255,7 @@ define VRootPRQin [
 | "[VRoot][=idolize]" : {pavani}
 | "[VRoot][=convert]" : {pe}
 | "[VRoot][=hack.with.a.machete]" : {pes}
+| "[VRoot][=transform]" : {pi}
 | "[VRoot][=lose]" : {pi}
 | "[VRoot][=sell]" : {pimanta}
 | "[VRoot][=pay]" : {pina}
@@ -280,7 +281,6 @@ define VRootPRQin [
 | "[VRoot][=paint]" : {potsot}
 | "[VRoot][=rub.annatto]" : {potsot}
 | "[VRoot][=dye]" : {potsot}
-| "[VRoot][=transform]" : {py}
 | "[VRoot][=convert]" : {py}
 | "[VRoot][=watch]" : {riro}
 | "[VRoot][=bathe]" : {saa}
