@@ -31,8 +31,10 @@ define NRootPRQin [
 | "[NRoot][=branch]" : {chevo}
 | "[NRoot][=sister]" : {chooki}
 | "[NRoot][=red.and.black.seed]" : {chovankeriki}
+| "[NRoot][=huayruro]" : {chovankiri}
 | "[NRoot][=child]" : {eentsi}
 | "[NRoot][=3n.m.poss.child]" : {eentsi}
+| "[NRoot][=child]" : {hananeki}
 | "[NRoot][=spider]" : {heto}
 | "[NRoot][=hair]" : {iishi}
 | "[NRoot][=husband]" : {ime}
@@ -150,6 +152,7 @@ define NRootPRQin [
 | "[NRoot][=hawk]" : {oovero}
 | "[NRoot][=year]" : {osarentsi}
 | "[NRoot][=hospital]" : {osipitari}
+| "[NRoot][=cliff]" : {otaapiki}
 | "[NRoot][=rocky.place]" : {otenkanaki}
 | "[NRoot][=dog]" : {otsitzi}
 | "[NRoot][=dog]" : {otsitzi.}
@@ -234,6 +237,7 @@ define NRootPRQin [
 | "[NRoot][=none]" : {tekatsi}
 | "[NRoot][=weaver]" : {tihatsi}
 | "[NRoot][=son]" : {tomi}
+| "[NRoot][=hill.top]" : {tonkaari}
 | "[NRoot][=hill.top]" : {tonkari}
 | "[NRoot][=top]" : {tonkari}
 | "[NRoot][=cut]" : {tot}
@@ -273,6 +277,7 @@ define NRootPRQin [
 | "[NRoot][=fat.m]" : {vatsantzi}
 | "[NRoot][=meat]" : {vatsatsi}
 | "[NRoot][=person’s.name]" : {vela}
+| "[NRoot][=outsider]" : {virakocha}
 | "[NRoot][=brother]" : {yari}
 | "[NRoot][=ear]" : {yempita}
 ];

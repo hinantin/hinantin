@@ -23,7 +23,9 @@ define ARootPRQin [
 | "[AdjRoot][=many]" : {osheki}
 | "[AdjRoot][=much]" : {osheki}
 | "[AdjRoot][=a.lot]" : {osheki}
+| "[AdjRoot][=other]" : {pashine}
 | "[AdjRoot][=another]" : {pashini}
 | "[AdjRoot][=other]" : {pashini}
 | "[AdjRoot][=few]" : {pashini}
+| "[AdjRoot][=other]" : {pasini}
 ];
