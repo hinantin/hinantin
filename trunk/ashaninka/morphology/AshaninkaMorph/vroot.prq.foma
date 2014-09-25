@@ -39,7 +39,6 @@ define VRootPRQin [
 | "[VRoot][=make]" : {ant}
 | "[VRoot][=do]" : {ant}
 | "[VRoot][=build]" : {ant}
-| "[VRoot][=work]" : {anta}
 | "[VRoot][=go.up]" : {antai}
 | "[VRoot][=fight]" : {antant}
 | "[VRoot][=work]" : {antavai}
@@ -106,6 +105,7 @@ define VRootPRQin [
 | "[VRoot][=COP.CAP]" : {kara}
 | "[VRoot][=COP.C]" : {kara}
 | "[VRoot][=cook.manioc]" : {kasa}
+| "[VRoot][=feel.pain]" : {kats}
 | "[VRoot][=feel.pain]" : {katsik}
 | "[VRoot][=be.cold]" : {katsinkaite}
 | "[VRoot][=be.in.pain]" : {katsit}
@@ -124,9 +124,10 @@ define VRootPRQin [
 | "[VRoot][=hear]" : {kim}
 | "[VRoot][=listen]" : {kim}
 | "[VRoot][=be.similar]" : {kimi}
+| "[VRoot][=seem]" : {kimi}
+| "[VRoot][=resemble]" : {kimi}
+| "[VRoot][=be.like]" : {kimi}
 | "[VRoot][=pay.attention]" : {kimisant}
-| "[VRoot][=pay.attention]" : {kimisanta}
-| "[VRoot][=seem]" : {kimit}
 | "[VRoot][=be.joyous]" : {kimoshi}
 | "[VRoot][=be.joyous]" : {kimoshiri}
 | "[VRoot][=be.happy]" : {kimoshiri}
@@ -258,6 +259,7 @@ define VRootPRQin [
 | "[VRoot][=idolize]" : {pavani}
 | "[VRoot][=convert]" : {pe}
 | "[VRoot][=hack.with.a.machete]" : {pes}
+| "[VRoot][=convert]" : {pey}
 | "[VRoot][=transform]" : {pi}
 | "[VRoot][=lose]" : {pi}
 | "[VRoot][=sell]" : {pimanta}
@@ -300,6 +302,7 @@ define VRootPRQin [
 | "[VRoot][=write]" : {sankina}
 | "[VRoot][=draw]" : {sankina}
 | "[VRoot][=ask]" : {sampi}
+| "[VRoot][=research]" : {sampita}
 | "[VRoot][=grow.big]" : {santsa}
 | "[VRoot][=stick]" : {sat}
 | "[VRoot][=wear.a.cap.on.the.head]" : {savoina}
@@ -328,6 +331,7 @@ define VRootPRQin [
 | "[VRoot][=run]" : {shiy}
 | "[VRoot][=be.similar]" : {shiy}
 | "[VRoot][=be.like]" : {shiy}
+| "[VRoot][=escape]" : {shiya}
 | "[VRoot][=think]" : {shiyakant}
 | "[VRoot][=imagine]" : {shiyakant}
 | "[VRoot][=go.around]" : {shonk}
@@ -340,7 +344,10 @@ define VRootPRQin [
 | "[VRoot][=be.heavy]" : {tena}
 | "[VRoot][=be.heavy.ADJ]" : {tenari}
 | "[VRoot][=fill]" : {tet}
+| "[VRoot][=lift]" : {tina}
 | "[VRoot][=be.son.of]" : {tomint}
+| "[VRoot][=shoot]" : {tonk}
+| "[VRoot][=ascend]" : {tonka}
 | "[VRoot][=cut]" : {tot}
 | "[VRoot][=fell]" : {tov}
 | "[VRoot][=cut]" : {tov}

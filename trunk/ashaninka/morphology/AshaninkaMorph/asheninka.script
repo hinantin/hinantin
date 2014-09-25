@@ -59,6 +59,12 @@
       ##########################
       define AEpenthesisRule1 [ "@EP" -> {a}"@EP" || t _ v ]; 
       define AEpenthesisRule2 [ "@EP" -> {a}"@EP" || r _ y ]; 
+
+      define AEpenthesisRule3 [ "@EP" -> {a}"@EP" || s _ r ]; # pinkatsari
+      define AEpenthesisRule4 [ "@EP" -> {a}"@EP" || k _ m ]; # notoncamento
+      define AEpenthesisRule5 [ "@EP" -> {a}"@EP" || t _ m ]; # itotamento
+      define AEpenthesisRule6 [ "@EP" -> {a}"@EP" || k _ n ]; # notyoonkantsi
+
       define TEpenthesisRule1 [ "@EP" -> {t}"@EP" || i _ i ]; 
       define TEpenthesisRule2 [ "@EP" -> {t}"@EP" || a _ a ]; 
       define TEpenthesisRule3 [ "@EP" -> {t}"@EP" || e _ a ]; 
@@ -67,7 +73,8 @@
       define TZEpenthesisRule1 [ "@EP" -> {tz}"@EP" || e _ i ]; ! ^EP IRREALIS ; 
       define TZEpenthesisRule2 [ "@EP" -> {tz}"@EP" || a _ i ]; 
 
-      define Epenthesis [ AEpenthesisRule1 .o. AEpenthesisRule2 .o. TEpenthesisRule1 .o. TEpenthesisRule2 
+      define Epenthesis [ AEpenthesisRule1 .o. AEpenthesisRule2 .o. AEpenthesisRule3 .o. AEpenthesisRule4 .o. AEpenthesisRule5 .o. AEpenthesisRule6 
+.o. TEpenthesisRule1 .o. TEpenthesisRule2 
 .o. TEpenthesisRule3 .o. TEpenthesisRule4 .o. TEpenthesisRule5 .o. TZEpenthesisRule1 .o. TZEpenthesisRule2 ];
 
       ##########################
@@ -90,7 +97,512 @@
 #      source v-s-6.foma
 #      source v-s-7.foma
 
-      define S [ (V=S=1) (V=S=2) (V=S=3) (V=S=4) ]; #(V=S=3) (S=4) (S=5) (S=6) (S=7)] ;
+      define V=S=PRNO [
+         "[+1SG.O]" : "@EP"{na}
+       | "[+2SG.O]" : "@EP"{mi}
+       | "[+3SGm.O]" : "@EP"{ri}
+       | "[+3SGnm.O]" : "@EP"{ro}
+       | "[+1PL.O]" : "@EP"{ai}
+      ];
+      
+      define V=S=IRR [
+       "[+IRR]" : "@EP"[{e}|{ia}|{n}|{ri}|{ye}|{a}|{i}]
+      ];
+      
+      define V=S=DIR [
+       "[+DIR]" : "@EP"[{av}|{an}|{ap}]
+      ];
+      
+      define V=S=PRF [
+       "[+PRF]" : "@EP"[{ak}|{aka}]
+      ];
+      
+      define V=S=OPT [
+       "[+OPT]" : "@EP"[{ta}]
+      ];
+      
+      define V=S=PL [
+       "[+PL]" : "@EP"[{he}|{paye}|{ni}|{aiy}|{het}|{ite}]
+      ];
+      
+      define V=S=REGR [
+       "[+REGR]" : "@EP"[{a}|{ah}]
+      ];
+      
+      define V=S=CNTF [
+       "[+CNT.F]" : "@EP"[{mi}]
+      ];
+      
+      define V=S=AUG [
+       "[+AUG]" : "@EP"[{piro}|{ni}|{pero}]
+      ];
+      
+      define V=S=DUR [
+       "[+DUR]" : "@EP"[{vai}]
+      ];
+      
+      define V=S=BEN [
+       "[+BEN]" : "@EP"[{vint}]
+      ];
+      
+      define V=S=ADVP [
+       "[+ADV.P]" : "@EP"[{ranki}]
+      ];
+      
+      define V=S=ADV [
+       "[+ADV]" : "@EP"[{ra}|{ka}|{nta}|{ranki}|{paite}|{ni}]
+      ];
+      
+      define V=S=APPR [
+       "[+APPR]" : "@EP"[{kari}]
+      ];
+      
+      define V=S=ICPL [
+       "[+ICPL]" : "@EP"[{it}|{e}]
+      ];
+      
+      define V=S=REL [
+       "[+REL]" : "@EP"[{ri}|{ni}|{ka}]
+      ];
+      
+      define V=S=IMPP [
+       "[+IMP.P]" : "@EP"[{ai}|{t}|{tz}]
+      ];
+      
+      define V=S=quickly [
+       "[+quickly]" : "@EP"[{ite}]
+      ];
+      
+      define V=S=EXCL [
+       "[+EXCL]" : "@EP"[{ve}]
+      ];
+      
+      define V=S=Q [
+       "[+Q]" : "@EP"[{ka}]
+      ];
+      
+      define V=S=APPL [
+       "[+APPL]" : "@EP"[{ako}|{t}]
+      ];
+      
+      define V=S=noun [
+       "[+noun]" : "@EP"[{vatsa}|{pori}|{ani}|{atziri}]
+      ];
+      
+      define V=S=disheveledhead [
+       "[+disheveled.head]" : "@EP"[{menkotzi}]
+      ];
+      
+      define V=S=DIM [
+       "[+DIM]" : "@EP"[{nint}|{ni}|{ini}]
+      ];
+      
+      define V=S=CL [
+       "[+CL]" : "@EP"[{}]
+      ];
+      
+      define V=S=3mposs [
+       "[+3m.poss]" : "@EP"[{i}|{y}]
+      ];
+      
+      define V=S=NMZ [
+       "[+NMZ]" : "@EP"[{nka}|{ri}|{nk}|{ntsi}|{antsi}|{rintsi}|{rentsi}|{mento}]
+      ];
+      
+      define V=S=ADJ [
+       "[+ADJ]" : "@EP"[{ri}|{tsinkari}]
+      ];
+      
+      define V=S=once [
+       "[+once]" : "@EP"[{apaint}]
+      ];
+      
+      define V=S=APPLINT [
+       "[+APPL.INT]" : "@EP"[{ashi}|{tz}]
+      ];
+      
+      define V=S=REP [
+       "[+REP]" : "@EP"[{a}]
+      ];
+      
+      define V=S=poss [
+       "[+poss]" : "@EP"[{ni}|{te}]
+      ];
+      
+      define V=S=EMPH [
+       "[+EMPH]" : "@EP"[{tya}|{kya}|{poo}|{ha}|{tzi}]
+      ];
+      
+      define V=S=APPLBEN [
+       "[+APPL.BEN]" : "@EP"[{vent}]
+      ];
+      
+      define V=S=one [
+       "[+one]" : "@EP"[{aparoni}]
+      ];
+      
+      define V=S=DEM [
+       "[+DEM]" : "@EP"[{ra}|{ka}]
+      ];
+      
+      define V=S=RCP [
+       "[+RCP]" : "@EP"[{av}]
+      ];
+      
+      define V=S=REV [
+       "[+REV]" : "@EP"[{ry}]
+      ];
+      
+      define V=S=ADJnm [
+       "[+ADJ.n.m.]" : "@EP"[{nto}|{tsinkaro}]
+      ];
+      
+      define V=S=ADJm [
+       "[+ADJ.m.]" : "@EP"[{ri}|{ntzi}]
+      ];
+      
+      define V=S=before [
+       "[+before]" : "@EP"[{it}]
+      ];
+      
+      define V=S=ADJm [
+       "[+ADJ.m]" : "@EP"[{ri}|{tsinkari}]
+      ];
+      
+      define V=S=ADJnm [
+       "[+ADJ.n.m]" : "@EP"[{ro}|{nto}]
+      ];
+      
+      define V=S=deceased [
+       "[+deceased]" : "@EP"[{ni}]
+      ];
+      
+      define V=S=smallpart [
+       "[+small.part]" : "@EP"[{patsa}]
+      ];
+      
+      define V=S=DEGR [
+       "[+DEGR]" : "@EP"[{piro}]
+      ];
+      
+      define V=S=small [
+       "[+small]" : "@EP"[{kapichi}]
+      ];
+      
+      define V=S=only [
+       "[+only]" : "@EP"[{intaani}]
+      ];
+      
+      define V=S=INCH [
+       "[+INCH]" : "@EP"[{ima}|{imai}|{amaint}]
+      ];
+      
+      define V=S=DIMDEGR [
+       "[+DIM.DEGR]" : "@EP"[{nint}]
+      ];
+      
+      define V=S=flat [
+       "[+flat]" : "@EP"[{miront}]
+      ];
+      
+      define V=S=early [
+       "[+early]" : "@EP"[{aman}]
+      ];
+      
+      define V=S=forawhile [
+       "[+for.a.while]" : "@EP"[{apaint}]
+      ];
+      
+      define V=S=notyet [
+       "[+not.yet]" : "@EP"[{tekira}]
+      ];
+      
+      define V=S=REC [
+       "[+REC]" : "@EP"[{av}]
+      ];
+      
+
+
+define S [
+(V=S=PRNO) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=IRR) | 
+ (V=S=DIR) (V=S=PRF) (V=S=IRR) (V=S=OPT) | 
+ (V=S=PL) (V=S=PRF) (V=S=REGR) (V=S=IRR) (V=S=CNTF) | 
+ (V=S=PRF) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=PRF) (V=S=PRNO) | 
+ (V=S=REGR) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=IRR) (V=S=PRNO) | 
+ (V=S=PRNO) | 
+ (V=S=AUG) (V=S=IRR) | 
+ (V=S=DUR) (V=S=IRR) | 
+ (V=S=IRR) (V=S=PRF) (V=S=IRR) (V=S=PRNO) (V=S=PRNO) | 
+ (V=S=IRR) (V=S=IRR) (V=S=PRNO) (V=S=PRNO) | 
+ (V=S=BEN) (V=S=PRF) | 
+ (V=S=DIR) (V=S=PRF) (V=S=ADVP) | 
+ (V=S=IRR) (V=S=IRR) (V=S=ADV) | 
+ (V=S=PRNO) (V=S=APPR) | 
+ (V=S=IRR) (V=S=REGR) (V=S=ICPL) (V=S=IRR) (V=S=CNTF) | 
+ (V=S=DUR) | 
+ (V=S=REGR) | 
+ (V=S=DUR) (V=S=PRF) | 
+ (V=S=PRNO) (V=S=ADV) | 
+ (V=S=IRR) (V=S=IRR) | 
+ (V=S=IRR) (V=S=PRNO) (V=S=REL) (V=S=CNTF) | 
+ (V=S=DUR) (V=S=REGR) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=PRNO) (V=S=PRNO) | 
+ (V=S=AUG) | 
+ (V=S=IRR) (V=S=IRR) (V=S=REL) | 
+ (V=S=IRR) (V=S=REL) | 
+ (V=S=DIR) (V=S=PRF) | 
+ (V=S=IMPP) | 
+ (V=S=quickly) (V=S=PRF) | 
+ (V=S=PRF) | 
+ (V=S=ADV) (V=S=EXCL) | 
+ (V=S=REL) | 
+ (V=S=REL) (V=S=Q) | 
+ (V=S=APPL) | 
+ (V=S=noun) (V=S=noun) (V=S=DIR) (V=S=REGR) | 
+ (V=S=IRR) (V=S=OPT) | 
+ (V=S=REGR) (V=S=IRR) | 
+ (V=S=IMPP) (V=S=PRF) | 
+ (V=S=PRNO) (V=S=disheveledhead) (V=S=PRF) | 
+ (V=S=quickly) (V=S=PRF) (V=S=PRNO) | 
+ (V=S=DIM) (V=S=PRNO) | 
+ (V=S=CL) (V=S=PRF) | 
+ (V=S=IRR) (V=S=IRR) (V=S=OPT) | 
+ (V=S=REGR) (V=S=PRNO) (V=S=IRR) (V=S=ADV) | 
+ (V=S=3mposs) (V=S=NMZ) | 
+ (V=S=ADJ) | 
+ (V=S=PL) (V=S=DIR) (V=S=PRF) | 
+ (V=S=once) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=IRR) (V=S=PRF) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=APPLINT) (V=S=PRF) (V=S=PRNO) | 
+ (V=S=3mposs) (V=S=NMZ) (V=S=PRNO) (V=S=DIM) | 
+ (V=S=PL) (V=S=PRF) | 
+ (V=S=NMZ) (V=S=PRNO) (V=S=PL) | 
+ (V=S=ADV) | 
+ (V=S=REL) (V=S=ADV) | 
+ (V=S=IRR) (V=S=IRR) (V=S=PRNO) (V=S=REL) | 
+ (V=S=IRR) (V=S=PRNO) (V=S=OPT) | 
+ (V=S=PL) (V=S=REL) | 
+ (V=S=IMPP) (V=S=PRNO) (V=S=ADV) | 
+ (V=S=IRR) (V=S=DIR) (V=S=PRF) (V=S=IRR) (V=S=OPT) (V=S=PRNO) (V=S=PRNO) | 
+ (V=S=PL) (V=S=PL) | 
+ (V=S=PL) (V=S=REGR) (V=S=PL) | 
+ (V=S=IRR) (V=S=DIR) (V=S=PRF) (V=S=IRR) (V=S=PRNO) (V=S=OPT) | 
+ (V=S=noun) (V=S=PRNO) | 
+ (V=S=APPLINT) (V=S=PRNO) | 
+ (V=S=REP) (V=S=PRNO) | 
+ (V=S=REP) (V=S=REP) (V=S=ICPL) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=ICPL) (V=S=IRR) | 
+ (V=S=PL) (V=S=EXCL) | 
+ (V=S=DIR) (V=S=REGR) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=IRR) (V=S=PRNO) (V=S=REL) | 
+ (V=S=IRR) (V=S=IRR) (V=S=CNTF) | 
+ (V=S=PRNO) (V=S=REL) | 
+ (V=S=NMZ) | 
+ (V=S=3mposs) (V=S=poss) (V=S=PRNO) | 
+ (V=S=IRR) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=IRR) (V=S=PRNO) (V=S=APPR) | 
+ (V=S=EMPH) (V=S=Q) | 
+ (V=S=PRF) (V=S=PRNO) (V=S=REL) | 
+ (V=S=DUR) (V=S=PRF) (V=S=PRNO) | 
+ (V=S=APPLBEN) (V=S=PRNO) (V=S=REL) | 
+ (V=S=IRR) (V=S=DIR) (V=S=PRF) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=APPL) (V=S=ICPL) (V=S=PRNO) | 
+ (V=S=one) | 
+ (V=S=ADJ) (V=S=DEM) | 
+ (V=S=RCP) (V=S=PRF) (V=S=PRNO) | 
+ (V=S=PRF) (V=S=PRNO) (V=S=PRNO) | 
+ (V=S=IRR) (V=S=DIR) (V=S=PRF) (V=S=IRR) | 
+ (V=S=REV) (V=S=APPL) (V=S=ICPL) (V=S=REGR) (V=S=PRNO) | 
+ (V=S=DIR) (V=S=PRF) (V=S=ADV) | 
+ (V=S=PRF) (V=S=IRR) | 
+ (V=S=NMZ) (V=S=REL) | 
+ (V=S=ADJnm) | 
+ (V=S=ADJm) | 
+ (V=S=before) | 
+ (V=S=APPL) (V=S=PRNO) (V=S=PRNO) | 
+ (V=S=ADVP) | 
+ (V=S=Q) | 
+ (V=S=APPL) (V=S=PRF) | 
+ (V=S=DIR) (V=S=PRF) (V=S=PRNO) | 
+ (V=S=ADJm) (V=S=PL) | 
+ (V=S=DIR) (V=S=REGR) (V=S=PRNO) | 
+ (V=S=REGR) (V=S=ADJ) (V=S=deceased) | 
+ (V=S=ADJm) (V=S=smallpart) (V=S=DIM) | 
+ (V=S=DIR) (V=S=PRF) (V=S=PL) (V=S=PL) | 
+ (V=S=IRR) (V=S=DEGR) (V=S=IRR) | 
+ (V=S=once) (V=S=PRNO) | 
+ (V=S=REV) (V=S=APPL) (V=S=PRF) | 
+ (V=S=ADJ) (V=S=PRNO) | 
+ (V=S=APPLINT) (V=S=PL) (V=S=DIR) (V=S=REGR) | 
+ (V=S=DIR) (V=S=PRF) (V=S=REL) | 
+ (V=S=CL) (V=S=ADV) | 
+ (V=S=REGR) (V=S=REL) | 
+ (V=S=small) | 
+ (V=S=IMPP) (V=S=PRF) (V=S=PRNO) | 
+ (V=S=DUR) (V=S=REGR) | 
+ (V=S=PL) | 
+ (V=S=PL) (V=S=PRNO) | 
+ (V=S=BEN) (V=S=PRNO) | 
+ (V=S=APPL) (V=S=PRF) (V=S=PRNO) | 
+ (V=S=only) | 
+ (V=S=AUG) (V=S=DIR) (V=S=PRF) (V=S=REL) | 
+ (V=S=RCP) (V=S=PRF) (V=S=REL) | 
+ (V=S=IMPP) (V=S=PRF) (V=S=REL) | 
+ (V=S=APPL) (V=S=REL) | 
+ (V=S=PRNO) (V=S=IRR) | 
+ (V=S=IRR) (V=S=CNTF) | 
+ (V=S=DUR) (V=S=REL) | 
+ (V=S=REGR) (V=S=IRR) (V=S=REL) | 
+ (V=S=NMZ) (V=S=poss) | 
+ (V=S=IRR) (V=S=PRNO) (V=S=PRNO) | 
+ (V=S=ICPL) (V=S=PRF) (V=S=PRNO) (V=S=PRNO) | 
+ (V=S=PL) (V=S=ADV) | 
+ (V=S=DIR) (V=S=PRF) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=EMPH) | 
+ (V=S=PRF) (V=S=REL) | 
+ (V=S=DUR) (V=S=PRF) (V=S=REL) | 
+ (V=S=IRR) (V=S=REGR) (V=S=IRR) | 
+ (V=S=IRR) (V=S=Q) | 
+ (V=S=INCH) (V=S=PRF) (V=S=IRR) | 
+ (V=S=IMPP) (V=S=PRNO) (V=S=Q) | 
+ (V=S=IRR) (V=S=PRNO) (V=S=IRR) | 
+ (V=S=IRR) (V=S=PRF) (V=S=IRR) | 
+ (V=S=DIMDEGR) (V=S=PRF) (V=S=PRNO) (V=S=REL) | 
+ (V=S=IRR) (V=S=IMPP) (V=S=PRF) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=PL) (V=S=PRF) (V=S=PRNO) | 
+ (V=S=ICPL) (V=S=REGR) | 
+ (V=S=DIR) (V=S=REGR) | 
+ (V=S=REP) (V=S=REGR) (V=S=PRNO) | 
+ (V=S=ICPL) (V=S=REL) | 
+ (V=S=APPL) (V=S=ICPL) (V=S=REL) | 
+ (V=S=DIR) (V=S=PRF) (V=S=IRR) (V=S=PRNO) (V=S=OPT) | 
+ (V=S=REP) (V=S=IRR) (V=S=PRNO) (V=S=REL) | 
+ (V=S=INCH) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=REGR) (V=S=PRNO) (V=S=REL) (V=S=Q) | 
+ (V=S=flat) (V=S=CL) (V=S=REL) | 
+ (V=S=BEN) (V=S=PRNO) (V=S=REL) | 
+ (V=S=IRR) (V=S=APPL) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=IMPP) (V=S=PRNO) | 
+ (V=S=IRR) (V=S=PL) (V=S=PRNO) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=DIM) (V=S=PRF) (V=S=PRNO) (V=S=REL) | 
+ (V=S=DUR) (V=S=REP) (V=S=REL) | 
+ (V=S=APPL) (V=S=REGR) (V=S=PRNO) (V=S=REL) | 
+ (V=S=CL) | 
+ (V=S=CL) (V=S=REL) | 
+ (V=S=IRR) (V=S=DUR) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=DUR) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=PRF) (V=S=REGR) (V=S=REL) | 
+ (V=S=APPL) (V=S=IRR) (V=S=REL) | 
+ (V=S=APPLINT) (V=S=PRF) | 
+ (V=S=DIR) (V=S=REGR) (V=S=PRNO) (V=S=REL) | 
+ (V=S=IMPP) (V=S=DIR) (V=S=PRF) (V=S=PRNO) | 
+ (V=S=DIR) (V=S=PRNO) (V=S=PRNO) | 
+ (V=S=APPLINT) (V=S=REGR) (V=S=PRNO) | 
+ (V=S=REGR) (V=S=PRNO) (V=S=REL) | 
+ (V=S=DIR) (V=S=PRNO) | 
+ (V=S=IRR) (V=S=PL) (V=S=IRR) | 
+ (V=S=REL) (V=S=PL) | 
+ (V=S=PRF) (V=S=REGR) (V=S=IRR) | 
+ (V=S=APPL) (V=S=PRNO) (V=S=REL) | 
+ (V=S=AUG) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=IRR) (V=S=EMPH) | 
+ (V=S=REP) (V=S=PL) (V=S=PRF) (V=S=PRNO) | 
+ (V=S=PL) (V=S=PL) (V=S=PL) | 
+ (V=S=PRF) (V=S=EMPH) | 
+ (V=S=ICPL) (V=S=PRNO) (V=S=AUG) | 
+ (V=S=REGR) (V=S=PRNO) | 
+ (V=S=noun) (V=S=REL) | 
+ (V=S=IRR) (V=S=noun) (V=S=IRR) | 
+ (V=S=OPT) | 
+ (V=S=IRR) (V=S=PRNO) (V=S=CNTF) | 
+ (V=S=DIR) (V=S=REGR) (V=S=IRR) (V=S=CNTF) | 
+ (V=S=APPL) (V=S=REP) (V=S=PL) (V=S=IRR) | 
+ (V=S=DIR) (V=S=PRF) (V=S=IRR) | 
+ (V=S=APPLBEN) (V=S=PRNO) | 
+ (V=S=DIR) (V=S=REGR) (V=S=IRR) | 
+ (V=S=IMPP) (V=S=PRNO) (V=S=PRNO) | 
+ (V=S=APPL) (V=S=PRNO) | 
+ (V=S=APPLINT) | 
+ (V=S=early) (V=S=ICPL) (V=S=IRR) | 
+ (V=S=APPL) (V=S=IRR) (V=S=PRNO) (V=S=OPT) | 
+ (V=S=IRR) (V=S=PRF) (V=S=PRNO) | 
+ (V=S=forawhile) | 
+ (V=S=REGR) (V=S=ICPL) (V=S=IRR) | 
+ (V=S=DUR) (V=S=APPLINT) (V=S=IRR) | 
+ (V=S=PRF) (V=S=PRNO) (V=S=ADV) | 
+ (V=S=PRF) (V=S=REL) (V=S=Q) | 
+ (V=S=IRR) (V=S=DUR) (V=S=IRR) | 
+ (V=S=DUR) (V=S=DIR) (V=S=REGR) | 
+ (V=S=INCH) (V=S=PRNO) | 
+ (V=S=APPL) (V=S=REGR) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=IRR) (V=S=REGR) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=AUG) (V=S=AUG) | 
+ (V=S=PRF) (V=S=ADV) (V=S=EMPH) | 
+ (V=S=IMPP) (V=S=PRF) (V=S=ADV) | 
+ (V=S=PRF) (V=S=ADV) | 
+ (V=S=DUR) (V=S=APPLINT) (V=S=PRNO) | 
+ (V=S=IRR) (V=S=REP) (V=S=PRNO) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=DUR) (V=S=PL) (V=S=PL) | 
+ (V=S=IRR) (V=S=IRR) (V=S=PRNO) (V=S=OPT) | 
+ (V=S=IRR) (V=S=DIR) (V=S=REGR) (V=S=IRR) (V=S=PRNO) (V=S=OPT) | 
+ (V=S=REGR) (V=S=IRR) (V=S=OPT) | 
+ (V=S=notyet) | 
+ (V=S=IRR) (V=S=APPLINT) (V=S=DIR) (V=S=PRF) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=APPL) (V=S=DIR) (V=S=PRF) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=IRR) (V=S=APPL) (V=S=DIR) (V=S=PRF) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=IRR) (V=S=noun) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=ICPL) (V=S=PRNO) (V=S=REL) | 
+ (V=S=APPL) (V=S=IRR) (V=S=PRNO) (V=S=REL) | 
+ (V=S=REGR) (V=S=IRR) (V=S=CNTF) | 
+ (V=S=IMPP) (V=S=PRNO) (V=S=CNTF) | 
+ (V=S=CNTF) | 
+ (V=S=IMPP) (V=S=CNTF) | 
+ (V=S=PL) (V=S=PRF) (V=S=IRR) (V=S=CNTF) | 
+ (V=S=EMPH) (V=S=CNTF) | 
+ (V=S=DIR) (V=S=PRF) (V=S=PL) (V=S=OPT) | 
+ (V=S=IRR) (V=S=DIR) (V=S=REGR) (V=S=IRR) | 
+ (V=S=IMPP) (V=S=PRF) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=DIR) (V=S=PRF) (V=S=IRR) (V=S=REL) | 
+ (V=S=DIR) (V=S=REGR) (V=S=IRR) (V=S=OPT) | 
+ (V=S=IMPP) (V=S=DIR) (V=S=PRF) | 
+ (V=S=IRR) (V=S=IRR) (V=S=EMPH) | 
+ (V=S=APPLINT) (V=S=PRNO) (V=S=PRNO) | 
+ (V=S=APPLINT) (V=S=INCH) (V=S=PRNO) | 
+ (V=S=APPLINT) (V=S=DIR) (V=S=PRF) | 
+ (V=S=APPLINT) (V=S=DIR) (V=S=PRF) (V=S=PRNO) | 
+ (V=S=APPLINT) (V=S=PRF) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=REP) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=REC) (V=S=PRF) (V=S=REL) | 
+ (V=S=IRR) (V=S=APPR) | 
+ (V=S=APPL) (V=S=IRR) (V=S=PRNO) (V=S=APPR) | 
+ (V=S=REGR) (V=S=APPR) | 
+ (V=S=APPR) | 
+ (V=S=NMZ) (V=S=CL) | 
+ (V=S=ICPL) (V=S=PRF) (V=S=PRNO) | 
+ (V=S=DIR) (V=S=PRF) (V=S=IRR) (V=S=PRNO) (V=S=PRNO) | 
+ (V=S=IRR) (V=S=CL) (V=S=PRF) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=IRR) (V=S=DIR) (V=S=PRF) (V=S=IRR) (V=S=OPT) | 
+ (V=S=IRR) (V=S=APPLINT) (V=S=ICPL) (V=S=REGR) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=ICPL) (V=S=IMPP) (V=S=PRNO) | 
+ (V=S=IRR) (V=S=ADVP) | 
+ (V=S=DIR) (V=S=ICPL) (V=S=IRR) (V=S=REL) | 
+ (V=S=PL) (V=S=PRNO) (V=S=REL) | 
+ (V=S=DIR) | 
+ (V=S=DIR) (V=S=PRF) (V=S=PRNO) (V=S=PRNO) | 
+ (V=S=DUR) (V=S=IRR) (V=S=OPT) | 
+ (V=S=IRR) (V=S=PRF) (V=S=IRR) (V=S=PRNO) (V=S=EMPH) | 
+ (V=S=PRF) (V=S=IRR) (V=S=PRNO) (V=S=PRNO) | 
+ (V=S=APPLINT) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=PRNO) (V=S=EMPH) | 
+ (V=S=IRR) (V=S=DIR) (V=S=REGR) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=AUG) (V=S=DIR) (V=S=PRF) (V=S=IRR) (V=S=PRNO) (V=S=REL) | 
+ (V=S=AUG) (V=S=IRR) (V=S=PRNO) (V=S=REL) 
+];
+
+#      define S [ (V=S=1) (V=S=2) (V=S=3) (V=S=4) ]; #(V=S=3) (S=4) (S=5) (S=6) (S=7)] ;
       define Suff [S] ;
 
       ##########################
@@ -126,7 +638,143 @@
       source n-s-1.foma
       source n-s-2.foma
       source n-s-3.foma
-      define NSuff [(N=S=1) (N=S=2) (N=S=3)] ;
+
+      define N=S=poss [
+       "[+poss]" : [{te}|{ni}|{ri}]
+      ];
+      
+      define N=S=DEM [
+       "[+DEM]" : [{ka}|{nta}|{ra}]
+      ];
+      
+      define N=S=PL [
+       "[+PL]" : [{paye}|{payeni}|{paeni}|{pe}]
+      ];
+      
+      define N=S=DIM [
+       "[+DIM]" : [{patsaini}|{ini}|{aniki}|{ni}]
+      ];
+      
+      define N=S=LOC [
+       "[+LOC]" : [{ki}]
+      ];
+      
+      define N=S=river [
+       "[+river]" : [{pareni}|{nihaa}]
+      ];
+      
+      define N=S=CL [
+       "[+CL]" : [{}]
+      ];
+      
+      define N=S=smallpartDIM [
+       "[+small.part.DIM]" : [{patsaini}]
+      ];
+      
+      define N=S=ADV [
+       "[+ADV]" : [{nta}]
+      ];
+      
+      define N=S=EXCL [
+       "[+EXCL]" : [{ve}]
+      ];
+      
+      define N=S=ADVP [
+       "[+ADV.P]" : [{ranki}]
+      ];
+      
+      define N=S=AUG [
+       "[+AUG]" : [{ni}|{ite}]
+      ];
+      
+      define N=S=monkey [
+       "[+monkey]" : [{koshiri}]
+      ];
+      
+      define N=S=deceased [
+       "[+deceased]" : [{ni}]
+      ];
+      
+      define N=S=leaf [
+       "[+leaf]" : [{shi}|{tsipana}]
+      ];
+      
+      define N=S=NOM [
+       "[+NOM]" : [{tsi}|{ntsi}|{rintsi}|{rentsi}|{rontsi}]
+      ];
+      
+      define N=S=EMPH [
+       "[+EMPH]" : [{kya}|{ha}]
+      ];
+      
+      define N=S=smallpart [
+       "[+small.part]" : [{patsa}]
+      ];
+      
+      define N=S=Q [
+       "[+Q]" : [{ka}]
+      ];
+      
+      define N=S=DUB [
+       "[+DUB]" : [{taima}]
+      ];
+      
+      define N=S=ADVT [
+       "[+ADV.T]" : [{ranki}]
+      ];
+      
+      define N=S=this [
+       "[+this]" : [{ka}]
+      ];
+      
+      define N=S=wide [
+       "[+wide]" : [{tsantsana}]
+      ];
+      
+
+define N [
+ (N=S=poss) | 
+ (N=S=DEM) | 
+ (N=S=PL) | 
+ (N=S=poss) (N=S=DIM) | 
+ (N=S=poss) (N=S=DEM) | 
+ (N=S=LOC) | 
+ (N=S=poss) (N=S=PL) | 
+ (N=S=river) (N=S=LOC) | 
+ (N=S=CL) (N=S=poss) (N=S=smallpartDIM) | 
+ (N=S=LOC) (N=S=smallpartDIM) | 
+ (N=S=CL) (N=S=LOC) | 
+ (N=S=DIM) | 
+ (N=S=LOC) (N=S=ADV) (N=S=EXCL) | 
+ (N=S=ADVP) | 
+ (N=S=AUG) | 
+ (N=S=LOC) (N=S=PL) | 
+ (N=S=monkey) | 
+ (N=S=deceased) | 
+ (N=S=LOC) (N=S=DEM) | 
+ (N=S=leaf) | 
+ (N=S=NOM) (N=S=DEM) | 
+ (N=S=LOC) (N=S=ADV) | 
+ (N=S=ADV) | 
+ (N=S=CL) (N=S=DEM) | 
+ (N=S=EMPH) | 
+ (N=S=DIM) (N=S=smallpart) (N=S=DIM) | 
+ (N=S=Q) | 
+ (N=S=poss) (N=S=LOC) | 
+ (N=S=DUB) | 
+ (N=S=deceased) (N=S=EXCL) | 
+ (N=S=LOC) (N=S=DIM) | 
+ (N=S=DEM) (N=S=EMPH) | 
+ (N=S=ADVT) | 
+ (N=S=this) | 
+ (N=S=CL) (N=S=smallpart) (N=S=DIM) | 
+ (N=S=EXCL) | 
+ (N=S=CL) | 
+ (N=S=leaf) (N=S=smallpart) (N=S=DIM) | 
+ (N=S=wide) (N=S=AUG) 
+];
+
+      define NSuff [ N ]; #(N=S=1) (N=S=2) (N=S=3)] ;
 
       ###################################
       #          Lenition Rules         #

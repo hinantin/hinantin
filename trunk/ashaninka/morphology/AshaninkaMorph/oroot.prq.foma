@@ -1,6 +1,5 @@
 define ORootPRQin [
-  "[OtherRoot][=300]" : {300}
-| "[OtherRoot][=humph]" : {aa}
+  "[OtherRoot][=humph]" : {aa}
 | "[OtherRoot][=also]" : {ahatzi}
 | "[OtherRoot][=still]" : {aikiro}
 | "[OtherRoot][=NEG.IRR]" : {airo}
@@ -11,7 +10,6 @@ define ORootPRQin [
 | "[OtherRoot][=ouch]" : {akaya}
 | "[OtherRoot][=there]" : {anta}
 | "[OtherRoot][=solely]" : {apaniroini}
-| "[OtherRoot][=one]" : {aparo}
 | "[OtherRoot][=PP]" : {ari}
 | "[OtherRoot][=there]" : {ari}
 | "[OtherRoot][=when]" : {arika}
@@ -23,11 +21,8 @@ define ORootPRQin [
 | "[OtherRoot][=hers]" : {ashi}
 | "[OtherRoot][=her]" : {ashi}
 | "[OtherRoot][=its]" : {ashi}
-| "[OtherRoot][=you.C.F]" : {avintsi}
-| "[OtherRoot][=you]" : {aviroka}
 | "[OtherRoot][=four]" : {cuatro}
 | "[OtherRoot][=eighteen]" : {dieciocho}
-| "[OtherRoot][=child]" : {eentsi}
 | "[OtherRoot][=NEG.IRR]" : {ero}
 | "[OtherRoot][=aha]" : {ha}
 | "[OtherRoot][=here]" : {haka}
@@ -48,10 +43,6 @@ define ORootPRQin [
 | "[OtherRoot][=inside]" : {intsompoi}
 | "[OtherRoot][=his]" : {irashi}
 | "[OtherRoot][=this.m]" : {irika}
-| "[OtherRoot][=he.FOC]" : {irintsi}
-| "[OtherRoot][=he]" : {iriro}
-| "[OtherRoot][=he]" : {irirori}
-| "[OtherRoot][=he.FOC]" : {irirori}
 | "[OtherRoot][=FOC]" : {iritaki}
 | "[OtherRoot][=but]" : {iro}
 | "[OtherRoot][=this]" : {iro}
@@ -61,13 +52,8 @@ define ORootPRQin [
 | "[OtherRoot][=in.conrast]" : {iroma}
 | "[OtherRoot][=CONN]" : {ironyaaka}
 | "[OtherRoot][=then]" : {ironyaaka}
-| "[OtherRoot][=she]" : {iroo}
 | "[OtherRoot][=3PL.n.m.]" : {irooite}
-| "[OtherRoot][=they.n.m]" : {iroori}
-| "[OtherRoot][=she]" : {iroori}
-| "[OtherRoot][=she.FOC]" : {iroori}
 | "[OtherRoot][=DEM.n.m]" : {irora}
-| "[OtherRoot][=whachamacallit]" : {irora}
 | "[OtherRoot][=DEM]" : {irora}
 | "[OtherRoot][=DEM.n.m.]" : {irora}
 | "[OtherRoot][=until]" : {irosatzi}
@@ -90,7 +76,6 @@ define ORootPRQin [
 | "[OtherRoot][=ant]" : {koye}
 | "[OtherRoot][=everybody]" : {maaro}
 | "[OtherRoot][=all]" : {maaro}
-| "[OtherRoot][=I]" : {naaka}
 | "[OtherRoot][=1PL.EXCL]" : {naakaite}
 | "[OtherRoot][=FOC]" : {naakataki}
 | "[OtherRoot][=I]" : {naari}
@@ -111,7 +96,6 @@ define ORootPRQin [
 | "[OtherRoot][=many]" : {oshiki}
 | "[OtherRoot][=dog]" : {otsitzi}
 | "[OtherRoot][=WH]" : {paita}
-| "[OtherRoot][=other]" : {pasini}
 | "[OtherRoot][=IDEO]" : {poo}
 | "[OtherRoot][=IDEO]" : {poo.o}
 | "[OtherRoot][=be.strong]" : {shintsi}
