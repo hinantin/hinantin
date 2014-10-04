@@ -1,0 +1,10 @@
+define IdeoPRQin [
+  "[IdeoPRQ][=IDEO][=poo]" : {poo}
+| "[IdeoPRQ][=IDEO][=poo.o]" : {poo.o}
+| "[IdeoPRQ][=IDEO][=takik]" : {takik}
+| "[IdeoPRQ][=IDEO][=tankorek]" : {tankorek}
+| "[IdeoPRQ][=IDEO][=tsikiri]" : {tsikiri}
+| "[IdeoPRQ][=IDEO][=tsinki]" : {tsinki}
+| "[IdeoPRQ][=IDEO][=tyak]" : {tyak}
+| "[IdeoPRQ][=IDEO][=tzinik]" : {tzinik}
+];
