@@ -800,7 +800,8 @@ define N [
       source nroot.prq.foma
       source aroot.prq.foma
       source nroot.es.foma
-        define NRootPRQ [NRootPRQin|ARootPRQin|NRootESin];
+      source pronoun.prq.foma
+        define NRootPRQ [NRootPRQin|ARootPRQin|PronounPRQin|NRootESin];
       define Noun [ (NPref) [NRootPRQ] (NSuff) ] .o. Lenition ; #.o. VowelLoss ;
       
       ##########################
