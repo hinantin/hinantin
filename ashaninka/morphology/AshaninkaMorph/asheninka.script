@@ -796,7 +796,7 @@ define N [
 #      define VowelLossRule2 [ i"@PRONLEN" -> "@PRONLEN" || p _ [{i}|{o}|{a}] ]; 
       
 #      define VowelLoss [ VowelLossRule1 .o. VowelLossRule2 ];
-
+      
       source nroot.prq.foma
       source aroot.prq.foma
       source nroot.es.foma
