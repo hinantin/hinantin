@@ -65,6 +65,7 @@ define VRootPRQin [
 | "[VRoot][=grandfather][=charini]" : {charini}
 | "[VRoot][=cut][=chek]" : {chek}
 | "[VRoot][=child][=eentsi]" : {eentsi}
+| "[VRoot][=go.to.warn][=et]" : {et}
 | "[VRoot][=go][=ha]" : {ha}
 | "[VRoot][=lead][=heva]" : {heva}
 | "[VRoot][=up][=hinoki]" : {hinoki}
@@ -195,6 +196,7 @@ define VRootPRQin [
 | "[VRoot][=make.holes][=mok]" : {mok}
 | "[VRoot][=measure][=monkara]" : {monkara}
 | "[VRoot][=cross.river][=monty]" : {monty}
+| "[VRoot][=burn][=morek]" : {morek}
 | "[VRoot][=boil][=moy]" : {moy}
 | "[VRoot][=be][=n]" : {n}
 | "[VRoot][=be][=na]" : {na}
@@ -300,6 +302,7 @@ define VRootPRQin [
 | "[VRoot][=sit][=saik]" : {saik}
 | "[VRoot][=live][=saik]" : {saik}
 | "[VRoot][=get.upset.with][=sam]" : {sam}
+| "[VRoot][=write][=sankena]" : {sankena}
 | "[VRoot][=write][=sankina]" : {sankina}
 | "[VRoot][=draw][=sankina]" : {sankina}
 | "[VRoot][=ask][=sampi]" : {sampi}

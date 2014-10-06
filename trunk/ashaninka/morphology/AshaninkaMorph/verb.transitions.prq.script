@@ -37,6 +37,7 @@ define V [
  (V=S=REL) | 
  (V=S=REL) (V=S=Q) | 
  (V=S=APPL) | 
+ (V=S=NMZ) | 
  (V=S=noun) (V=S=noun) (V=S=DIR) (V=S=REGR) | 
  (V=S=IRR) (V=S=OPT) | 
  (V=S=REGR) (V=S=IRR) | 
@@ -76,7 +77,6 @@ define V [
  (V=S=IRR) (V=S=PRNO) (V=S=REL) | 
  (V=S=IRR) (V=S=IRR) (V=S=CNTF) | 
  (V=S=PRNO) (V=S=REL) | 
- (V=S=NMZ) | 
  (V=S=3mposs) (V=S=poss) (V=S=PRNO) | 
  (V=S=IRR) (V=S=IRR) (V=S=PRNO) | 
  (V=S=IRR) (V=S=PRNO) (V=S=APPR) | 
