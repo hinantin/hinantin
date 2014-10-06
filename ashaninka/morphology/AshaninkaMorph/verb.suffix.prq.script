@@ -103,7 +103,7 @@
       ];
       
       define V=S=NMZ [
-       "[+NMZ]" : "@EP"[{nka}|{ri}|{nk}|{ntsi}|{rintsi}]
+       "[+NMZ]" : "@EP"[{nka}|{ri}|{nk}|{ntsi}|{rintsi}|{mento}]
       ];
       
       define V=S=ADJ [
