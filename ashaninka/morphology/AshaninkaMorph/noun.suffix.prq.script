@@ -1,92 +1,92 @@
       define N=S=poss [
-       "[+poss]" : [{te}|{ni}|{ri}]
+       "[--][+poss]" : [{te}|{ni}|{ri}]
       ];
       
       define N=S=DEM [
-       "[+DEM]" : [{ka}|{nta}|{ra}]
+       "[--][+DEM]" : [{ka}|{nta}|{ra}]
       ];
       
       define N=S=PL [
-       "[+PL]" : [{paye}]
+       "[--][+PL]" : [{paye}]
       ];
       
       define N=S=DIM [
-       "[+DIM]" : [{patsaini}|{ini}|{aniki}|{ni}]
+       "[--][+DIM]" : [{patsaini}|{ini}|{aniki}|{ni}]
       ];
       
       define N=S=LOC [
-       "[+LOC]" : [{ki}]
+       "[--][+LOC]" : [{ki}]
       ];
       
       define N=S=river [
-       "[+river]" : [{pareni}|{nihaa}]
+       "[--][+river]" : [{pareni}|{nihaa}]
       ];
       
       define N=S=CL [
-       "[+CL]" : [{}]
+       "[--][+CL]" : [{}]
       ];
       
       define N=S=smallpartDIM [
-       "[+small.part.DIM]" : [{patsaini}]
+       "[--][+small.part.DIM]" : [{patsaini}]
       ];
       
       define N=S=ADV [
-       "[+ADV]" : [{nta}]
+       "[--][+ADV]" : [{nta}]
       ];
       
       define N=S=EXCL [
-       "[+EXCL]" : [{ve}]
+       "[--][+EXCL]" : [{ve}]
       ];
       
       define N=S=ADVP [
-       "[+ADV.P]" : [{ranki}]
+       "[--][+ADV.P]" : [{ranki}]
       ];
       
       define N=S=AUG [
-       "[+AUG]" : [{ni}|{ite}]
+       "[--][+AUG]" : [{ni}|{ite}]
       ];
       
       define N=S=monkey [
-       "[+monkey]" : [{koshiri}]
+       "[--][+monkey]" : [{koshiri}]
       ];
       
       define N=S=deceased [
-       "[+deceased]" : [{ni}]
+       "[--][+deceased]" : [{ni}]
       ];
       
       define N=S=leaf [
-       "[+leaf]" : [{shi}|{tsipana}]
+       "[--][+leaf]" : [{shi}|{tsipana}]
       ];
       
       define N=S=NOM [
-       "[+NOM]" : [{rintsi}]
+       "[--][+NOM]" : [{rintsi}]
       ];
       
       define N=S=EMPH [
-       "[+EMPH]" : [{kya}|{ha}]
+       "[--][+EMPH]" : [{kya}|{ha}]
       ];
       
       define N=S=smallpart [
-       "[+small.part]" : [{patsa}]
+       "[--][+small.part]" : [{patsa}]
       ];
       
       define N=S=Q [
-       "[+Q]" : [{ka}]
+       "[--][+Q]" : [{ka}]
       ];
       
       define N=S=DUB [
-       "[+DUB]" : [{taima}]
+       "[--][+DUB]" : [{taima}]
       ];
       
       define N=S=ADVT [
-       "[+ADV.T]" : [{ranki}]
+       "[--][+ADV.T]" : [{ranki}]
       ];
       
       define N=S=this [
-       "[+this]" : [{ka}]
+       "[--][+this]" : [{ka}]
       ];
       
       define N=S=wide [
-       "[+wide]" : [{tsantsana}]
+       "[--][+wide]" : [{tsantsana}]
       ];
       

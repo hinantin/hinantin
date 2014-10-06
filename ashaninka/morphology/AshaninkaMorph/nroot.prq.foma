@@ -162,6 +162,7 @@ define NRootPRQin [
 | "[NRoot][=plot.of.land][=ovantsi]" : {ovantsi}
 | "[NRoot][=pot][=oya]" : {oya}
 | "[NRoot][=her.food][=oyari]" : {oyari}
+| "[NRoot][=fire][=paamari]" : {paamari}
 | "[NRoot][=bird.species][=paampatzi]" : {paampatzi}
 | "[NRoot][=pumpkin][=pachaka]" : {pachaka}
 | "[NRoot][=plank][=panki]" : {panki}
@@ -251,6 +252,7 @@ define NRootPRQin [
 | "[NRoot][=bird][=tsimiri]" : {tsimiri}
 | "[NRoot][=leaf][=tsipana]" : {tsipana}
 | "[NRoot][=night][=tsiteniri]" : {tsiteniri}
+| "[NRoot][=firewood][=tsitsi]" : {tsitsi}
 | "[NRoot][=cricket][=tsitsiri]" : {tsitsiri}
 | "[NRoot][=anus][=tsiyaki]" : {tsiyaki}
 | "[NRoot][=belly][=tsomonte]" : {tsomonte}
