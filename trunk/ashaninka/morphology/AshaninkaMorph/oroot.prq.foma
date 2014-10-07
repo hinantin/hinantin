@@ -3,7 +3,6 @@ define ORootPRQin [
 | "[OtherRoot][=also][=ahatzi]" : {ahatzi}
 | "[OtherRoot][=still][=aikiro]" : {aikiro}
 | "[OtherRoot][=or][=airorika]" : {airorika}
-| "[OtherRoot][=NEG.IRR.COND][=airorika]" : {airorika}
 | "[OtherRoot][=also][=aisatzi]" : {aisatzi}
 | "[OtherRoot][=here][=aka]" : {aka}
 | "[OtherRoot][=ouch][=akaya]" : {akaya}
@@ -94,8 +93,6 @@ define ORootPRQin [
 | "[OtherRoot][=be.strong][=shintsi]" : {shintsi}
 | "[OtherRoot][=quickly][=shintsini]" : {shintsini}
 | "[OtherRoot][=seven][=siete]" : {siete}
-| "[OtherRoot][=NEG.W][=taan]" : {taan}
-| "[OtherRoot][=W.NEG][=taan]" : {taan}
 | "[OtherRoot][=EXIST][=tekatsi]" : {tekatsi}
 | "[OtherRoot][=yet][=tekira]" : {tekira}
 | "[OtherRoot][=not.yet][=tekira]" : {tekira}
