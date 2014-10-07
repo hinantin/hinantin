@@ -2,7 +2,6 @@ define ORootPRQin [
   "[OtherRoot][=humph][=aa]" : {aa}
 | "[OtherRoot][=also][=ahatzi]" : {ahatzi}
 | "[OtherRoot][=still][=aikiro]" : {aikiro}
-| "[OtherRoot][=NEG.IRR][=airo]" : {airo}
 | "[OtherRoot][=or][=airorika]" : {airorika}
 | "[OtherRoot][=NEG.IRR.COND][=airorika]" : {airorika}
 | "[OtherRoot][=also][=aisatzi]" : {aisatzi}
@@ -23,7 +22,6 @@ define ORootPRQin [
 | "[OtherRoot][=its][=ashi]" : {ashi}
 | "[OtherRoot][=four][=cuatro]" : {cuatro}
 | "[OtherRoot][=eighteen][=dieciocho]" : {dieciocho}
-| "[OtherRoot][=NEG.IRR][=ero]" : {ero}
 | "[OtherRoot][=aha][=ha]" : {ha}
 | "[OtherRoot][=here][=haka]" : {haka}
 | "[OtherRoot][=yes][=he]" : {he}
@@ -61,9 +59,6 @@ define ORootPRQin [
 | "[OtherRoot][=head][=ito]" : {ito}
 | "[OtherRoot][=DEM][=iyoka]" : {iyoka}
 | "[OtherRoot][=DEM][=iyora]" : {iyora}
-| "[OtherRoot][=NEG.C][=kaari]" : {kaari}
-| "[OtherRoot][=NEG.P][=kaari]" : {kaari}
-| "[OtherRoot][=NEG.COP][=kaari]" : {kaari}
 | "[OtherRoot][=because][=kama]" : {kama}
 | "[OtherRoot][=well][=kameetsa]" : {kameetsa}
 | "[OtherRoot][=well][=kametsa]" : {kametsa}
@@ -101,9 +96,6 @@ define ORootPRQin [
 | "[OtherRoot][=seven][=siete]" : {siete}
 | "[OtherRoot][=NEG.W][=taan]" : {taan}
 | "[OtherRoot][=W.NEG][=taan]" : {taan}
-| "[OtherRoot][=NEG.REAL][=te]" : {te}
-| "[OtherRoot][=NEG][=te]" : {te}
-| "[OtherRoot][=NEG.EXIST][=tekatsi]" : {tekatsi}
 | "[OtherRoot][=EXIST][=tekatsi]" : {tekatsi}
 | "[OtherRoot][=yet][=tekira]" : {tekira}
 | "[OtherRoot][=not.yet][=tekira]" : {tekira}
@@ -111,7 +103,6 @@ define ORootPRQin [
 | "[OtherRoot][=maybe][=tema]" : {tema}
 | "[OtherRoot][=or][=terika]" : {terika}
 | "[OtherRoot][=maybe][=terika]" : {terika}
-| "[OtherRoot][=NEG.COND][=terika]" : {terika}
 | "[OtherRoot][=WH][=tsika]" : {tsika}
 | "[OtherRoot][=where][=tsika]" : {tsika}
 | "[OtherRoot][=what][=tsika]" : {tsika}

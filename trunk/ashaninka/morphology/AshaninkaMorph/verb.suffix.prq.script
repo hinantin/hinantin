@@ -7,7 +7,7 @@
       ];
       
       define V=S=IRR [
-       "[--][+IRR]" : "@EP"[{e}|{ia}|{n}|{ri}|{ye}|{a}|{i}]
+       "[--][+IRR]" : "@EP"[{e}|{ia}|{ya}|{n}|{ri}|{ye}|{a}|{i}]
       ];
       
       define V=S=DIR [

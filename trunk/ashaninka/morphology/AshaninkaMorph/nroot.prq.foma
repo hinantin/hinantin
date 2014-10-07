@@ -10,6 +10,7 @@ define NRootPRQin [
 | "[NRoot][=cotton][=ampee]" : {ampee}
 | "[NRoot][=cotton][=ampehi]" : {ampehi}
 | "[NRoot][=cotton][=ampeshi]" : {ampeshi}
+| "[NRoot][=intestine][=amporetsa]" : {amporetsa}
 | "[NRoot][=woods][=antami]" : {antami}
 | "[NRoot][=forest][=antami]" : {antami}
 | "[NRoot][=person’s.name][=antoko]" : {antoko}
@@ -33,10 +34,10 @@ define NRootPRQin [
 | "[NRoot][=red.and.black.seed][=chovankeriki]" : {chovankeriki}
 | "[NRoot][=huayruro][=chovankiri]" : {chovankiri}
 | "[NRoot][=child][=eentsi]" : {eentsi}
-| "[NRoot][=3n.m.poss.child][=eentsi]" : {eentsi}
 | "[NRoot][=child][=hananeki]" : {hananeki}
 | "[NRoot][=spider][=heto]" : {heto}
 | "[NRoot][=hair][=iishi]" : {iishi}
+| "[NRoot][=neck][=ikentsi]" : {ikentsi}
 | "[NRoot][=husband][=ime]" : {ime}
 | "[NRoot][=husband][=imi]" : {imi}
 | "[NRoot][=mother][=ina]" : {ina}
@@ -49,6 +50,7 @@ define NRootPRQin [
 | "[NRoot][=grass][=inchashi]" : {inchashi}
 | "[NRoot][=tree][=inchato]" : {inchato}
 | "[NRoot][=lake][=inkaari]" : {inkaari}
+| "[NRoot][=sky][=inkite]" : {inkite}
 | "[NRoot][=rock][=impereta]" : {impereta}
 | "[NRoot][=ancestor][=intakantarori]" : {intakantarori}
 | "[NRoot][=outside][=intakiro]" : {intakiro}
@@ -71,6 +73,7 @@ define NRootPRQin [
 | "[NRoot][=warriors][=ivayetziri]" : {ivayetziri}
 | "[NRoot][=car][=kaaro]" : {kaaro}
 | "[NRoot][=coffee][=kahai]" : {kahai}
+| "[NRoot][=perfume][=kahankari]" : {kahankari}
 | "[NRoot][=devil][=kamaaro]" : {kamaaro}
 | "[NRoot][=death][=kamanitaantsi]" : {kamanitaantsi}
 | "[NRoot][=advice][=kamenaantsi]" : {kamenaantsi}
@@ -130,6 +133,7 @@ define NRootPRQin [
 | "[NRoot][=womanizer][=mayempiri]" : {mayempiri}
 | "[NRoot][=name][=meantarini]" : {meantarini}
 | "[NRoot][=village’s.name][=metaro]" : {metaro}
+| "[NRoot][=cloud][=minkori]" : {minkori}
 | "[NRoot][=hole][=morona]" : {morona}
 | "[NRoot][=cave][=morona]" : {morona}
 | "[NRoot][=stomach][=motya]" : {motya}
@@ -181,6 +185,7 @@ define NRootPRQin [
 | "[NRoot][=animal][=piratsi]" : {piratsi}
 | "[NRoot][=name][=pito]" : {pito}
 | "[NRoot][=canoe][=pito]" : {pito}
+| "[NRoot][=sister.of.a.male][=pitsiro]" : {pitsiro}
 | "[NRoot][=clay][=pitsitsari]" : {pitsitsari}
 | "[NRoot][=dream][=pochoki]" : {pochoki}
 | "[NRoot][=bejuco][=ponkaro]" : {ponkaro}
