@@ -195,8 +195,16 @@
         define NegPRQ NegPRQin;
       define Negator [ [NegPRQ] ];
 
-      read regex Cleanup2 .o. [ [Other|Adverb|Noun|Verb|Negator] ] .o. Cleanup1 .o. Orthography .o. UpperCase;
-#      read regex [ [Other|Adverb|Noun|Verb] ] .o. Orthography ;
+      ##########################
+      #                        #
+      # Interrogative Pronoun  #
+      #                        #
+      ##########################
+      source interrogative.prq.foma
+        define WhPRQ WhPRQin;
+      define Interrogative [ [WhPRQ] ];
+
+      read regex Cleanup2 .o. [ [Other|Adverb|Noun|Verb|Negator|Interrogative] ] .o. Cleanup1 .o. Orthography .o. UpperCase;
 
       save stack asheninka.bin
 

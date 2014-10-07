@@ -10,10 +10,7 @@ define ORootPRQin [
 | "[OtherRoot][=solely][=apaniroini]" : {apaniroini}
 | "[OtherRoot][=PP][=ari]" : {ari}
 | "[OtherRoot][=there][=ari]" : {ari}
-| "[OtherRoot][=when][=arika]" : {arika}
 | "[OtherRoot][=if][=arika]" : {arika}
-| "[OtherRoot][=when/if][=arika]" : {arika}
-| "[OtherRoot][=when][=aririka]" : {aririka}
 | "[OtherRoot][=if][=aririka]" : {aririka}
 | "[OtherRoot][=PP][=aritaki]" : {aritaki}
 | "[OtherRoot][=hers][=ashi]" : {ashi}
@@ -76,8 +73,6 @@ define ORootPRQin [
 | "[OtherRoot][=I.FOC][=naari]" : {naari}
 | "[OtherRoot][=I.C.F][=naintsi]" : {naintsi}
 | "[OtherRoot][=mine][=nashi]" : {nashi}
-| "[OtherRoot][=who][=ninka]" : {ninka}
-| "[OtherRoot][=whoever][=ninkarika]" : {ninkarika}
 | "[OtherRoot][=or][=o]" : {o}
 | "[OtherRoot][=DEM][=oka]" : {oka}
 | "[OtherRoot][=DEM.n.m.][=oka]" : {oka}
@@ -89,7 +84,6 @@ define ORootPRQin [
 | "[OtherRoot][=that.n.m.][=ora]" : {ora}
 | "[OtherRoot][=many][=oshiki]" : {oshiki}
 | "[OtherRoot][=dog][=otsitzi]" : {otsitzi}
-| "[OtherRoot][=WH][=paita]" : {paita}
 | "[OtherRoot][=be.strong][=shintsi]" : {shintsi}
 | "[OtherRoot][=quickly][=shintsini]" : {shintsini}
 | "[OtherRoot][=seven][=siete]" : {siete}
@@ -100,11 +94,6 @@ define ORootPRQin [
 | "[OtherRoot][=maybe][=tema]" : {tema}
 | "[OtherRoot][=or][=terika]" : {terika}
 | "[OtherRoot][=maybe][=terika]" : {terika}
-| "[OtherRoot][=WH][=tsika]" : {tsika}
-| "[OtherRoot][=where][=tsika]" : {tsika}
-| "[OtherRoot][=what][=tsika]" : {tsika}
-| "[OtherRoot][=WH][=tsika paita]" : {tsika paita}
-| "[OtherRoot][=WH][=tsika.paita]" : {tsika.paita}
 | "[OtherRoot][=exist][=tzim]" : {tzim}
 | "[OtherRoot][=EXIST][=tzimatsi]" : {tzimatsi}
 | "[OtherRoot][=EXIST][=tzimtsi]" : {tzimtsi}
