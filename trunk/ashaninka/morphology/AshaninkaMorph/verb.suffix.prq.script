@@ -1,9 +1,13 @@
       define V=S=PRNO [
-       "[--][+PRNO]" : "@EP"[{}]
+         "[--][+1SG.O]" : "@EP"{na}
+       | "[--][+2SG.O]" : "@EP"{mi}
+       | "[--][+3SGm.O]" : "@EP"{ri}
+       | "[--][+3SGnm.O]" : "@EP"{ro}
+       | "[--][+1PL.O]" : "@EP"{ai}
       ];
       
       define V=S=IRR [
-       "[--][+IRR]" : "@EP"[{e}|{ia}|{n}|{ri}|{Ø}|{ye}|{a}|{i}]
+       "[--][+IRR]" : "@EP"[{e}|{ia}|{n}|{ri}|{ye}|{a}|{i}]
       ];
       
       define V=S=DIR [
@@ -103,7 +107,7 @@
       ];
       
       define V=S=NMZ [
-       "[--][+NMZ]" : "@EP"[{rentsi}|{nka}|{ri}|{nk}|{ntsi}|{rintsi}|{mento}]
+       "[--][+NMZ]" : "@EP"[{nka}|{ri}|{nk}|{ntsi}|{antsi}|{rintsi}|{rentsi}|{mento}]
       ];
       
       define V=S=ADJ [
