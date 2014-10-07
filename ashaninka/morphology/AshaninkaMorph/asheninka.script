@@ -186,7 +186,16 @@
         define ORootPRQ ORootPRQin;
       define Other [ [ORootPRQ] ];
 
-      read regex Cleanup2 .o. [ [Other|Adverb|Noun|Verb] ] .o. Cleanup1 .o. Orthography .o. UpperCase;
+      ##########################
+      #                        #
+      #        Negator         #
+      #                        #
+      ##########################
+      source neg.prq.foma
+        define NegPRQ NegPRQin;
+      define Negator [ [NegPRQ] ];
+
+      read regex Cleanup2 .o. [ [Other|Adverb|Noun|Verb|Negator] ] .o. Cleanup1 .o. Orthography .o. UpperCase;
 #      read regex [ [Other|Adverb|Noun|Verb] ] .o. Orthography ;
 
       save stack asheninka.bin

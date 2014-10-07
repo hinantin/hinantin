@@ -1,18 +1,18 @@
 # noun preffixes slot 1
 
 define N=P=1 [
-  "[1SG.poss+]" : {no}"@PRONLEN"
-| "[1SG.poss+]" : {n}"@PRONLEN"
-!| "[1SG.poss+]" : "@PRONLEN"
-| "[2SG.poss+]" : {p}"@PRONLEN"
-!| "[2SG.poss+]" : "@PRONLEN"
-| "[2SG.poss+]" : {pi}"@PRONLEN"
-| "[3SGm.poss+]" : {i}"@PRONLEN"
-| "[3SGm.poss+]" : {y}"@PRONLEN"
-| "[3SGm.poss+]" : {ir}"@PRONLEN"
-| "[3SGnm.poss+]" : {o}"@PRONLEN"
-| "[3SGnm.poss+]" : "@PRONLEN"
-| "[1PL.poss+]" : {a}"@PRONLEN"
-| "[1PL.poss+]" : "@PRONLEN"
+  "[1SG.poss+][--]" : {no}"@PRONLEN"
+| "[1SG.poss+][--]" : {n}"@PRONLEN"
+!| "[1SG.poss+][--]" : "@PRONLEN"
+| "[2SG.poss+][--]" : {p}"@PRONLEN"
+!| "[2SG.poss+][--]" : "@PRONLEN"
+| "[2SG.poss+][--]" : {pi}"@PRONLEN"
+| "[3SGm.poss+][--]" : {i}"@PRONLEN"
+| "[3SGm.poss+][--]" : {y}"@PRONLEN"
+| "[3SGm.poss+][--]" : {ir}"@PRONLEN"
+| "[3SGnm.poss+][--]" : {o}"@PRONLEN"
+| "[3SGnm.poss+][--]" : "@PRONLEN"
+| "[1PL.poss+][--]" : {a}"@PRONLEN"
+| "[1PL.poss+][--]" : "@PRONLEN"
 ];
 

@@ -3,6 +3,7 @@ define VRootPRQin [
 | "[VRoot][=get][=a]" : {a}
 | "[VRoot][=choose][=a]" : {a}
 | "[VRoot][=pick][=a]" : {a}
+| "[VRoot][=watch.out.for][=aam]" : {aam}
 | "[VRoot][=grandpa][=aani]" : {aani}
 | "[VRoot][=elder][=aapi]" : {aapi}
 | "[VRoot][=cure][=aavint]" : {aavint}
@@ -313,6 +314,7 @@ define VRootPRQin [
 | "[VRoot][=be.at][=shaik]" : {shaik}
 | "[VRoot][=be.much][=sheki]" : {sheki}
 | "[VRoot][=much][=sheki]" : {sheki}
+| "[VRoot][=be.of.the.same.group][=sheni]" : {sheni}
 | "[VRoot][=clean][=shet]" : {shet}
 | "[VRoot][=move][=sheva]" : {sheva}
 | "[VRoot][=fish][=shima]" : {shima}
