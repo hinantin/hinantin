@@ -164,6 +164,7 @@ define NRootPRQin [
 | "[NRoot][=hill][=otzishi]" : {otzishi}
 | "[NRoot][=eat][=ov]" : {ov}
 | "[NRoot][=plot.of.land][=ovantsi]" : {ovantsi}
+| "[NRoot][=guerrilla][=ovayeri]" : {ovayeri}
 | "[NRoot][=pot][=oya]" : {oya}
 | "[NRoot][=her.food][=oyari]" : {oyari}
 | "[NRoot][=fire][=paamari]" : {paamari}

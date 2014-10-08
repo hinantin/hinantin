@@ -23,7 +23,7 @@
       ];
       
       define N=S=CL [
-       "[--][+CL]" : [{}]
+       "[--][+CL]" : [{tsa}]
       ];
       
       define N=S=smallpartDIM [
