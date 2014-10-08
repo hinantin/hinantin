@@ -13,7 +13,8 @@ define N [
  (N=S=DIM) | 
  (N=S=LOC) (N=S=ADV) (N=S=EXCL) | 
  (N=S=ADVP) | 
- (N=S=AUG) | 
+ (N=S=ABS) (N=S=AUG) | 
+ (N=S=ABS) (N=S=DEM) | 
  (N=S=LOC) (N=S=PL) | 
  (N=S=monkey) | 
  (N=S=deceased) | 
@@ -23,10 +24,12 @@ define N [
  (N=S=LOC) (N=S=ADV) | 
  (N=S=ADV) | 
  (N=S=CL) (N=S=DEM) | 
+ (N=S=ABS) | 
  (N=S=EMPH) | 
  (N=S=DIM) (N=S=smallpart) (N=S=DIM) | 
  (N=S=Q) | 
  (N=S=poss) (N=S=LOC) | 
+ (N=S=DISTREL) | 
  (N=S=DUB) | 
  (N=S=deceased) (N=S=EXCL) | 
  (N=S=LOC) (N=S=DIM) | 
@@ -39,4 +42,3 @@ define N [
  (N=S=leaf) (N=S=smallpart) (N=S=DIM) | 
  (N=S=wide) (N=S=AUG) 
 ];
-
