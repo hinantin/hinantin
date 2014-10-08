@@ -16,8 +16,6 @@ define ORootPRQin [
 | "[OtherRoot][=hers][=ashi]" : {ashi}
 | "[OtherRoot][=her][=ashi]" : {ashi}
 | "[OtherRoot][=its][=ashi]" : {ashi}
-| "[OtherRoot][=four][=cuatro]" : {cuatro}
-| "[OtherRoot][=eighteen][=dieciocho]" : {dieciocho}
 | "[OtherRoot][=aha][=ha]" : {ha}
 | "[OtherRoot][=here][=haka]" : {haka}
 | "[OtherRoot][=yes][=he]" : {he}
@@ -46,7 +44,6 @@ define ORootPRQin [
 | "[OtherRoot][=in.conrast][=iroma]" : {iroma}
 | "[OtherRoot][=CONN][=ironyaaka]" : {ironyaaka}
 | "[OtherRoot][=then][=ironyaaka]" : {ironyaaka}
-| "[OtherRoot][=3PL.n.m.][=irooite]" : {irooite}
 | "[OtherRoot][=DEM.n.m][=irora]" : {irora}
 | "[OtherRoot][=DEM][=irora]" : {irora}
 | "[OtherRoot][=DEM.n.m.][=irora]" : {irora}
@@ -86,7 +83,6 @@ define ORootPRQin [
 | "[OtherRoot][=dog][=otsitzi]" : {otsitzi}
 | "[OtherRoot][=be.strong][=shintsi]" : {shintsi}
 | "[OtherRoot][=quickly][=shintsini]" : {shintsini}
-| "[OtherRoot][=seven][=siete]" : {siete}
 | "[OtherRoot][=EXIST][=tekatsi]" : {tekatsi}
 | "[OtherRoot][=yet][=tekira]" : {tekira}
 | "[OtherRoot][=not.yet][=tekira]" : {tekira}

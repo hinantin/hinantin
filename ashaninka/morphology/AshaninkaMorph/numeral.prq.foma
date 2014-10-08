@@ -1,3 +1,6 @@
 define NumeralPRQin [
   "[NumeralPRQ][=one][=aparo]" : {aparo}
+| "[NumeralPRQ][=four][=cuatro]" : {cuatro}
+| "[NumeralPRQ][=eighteen][=dieciocho]" : {dieciocho}
+| "[NumeralPRQ][=seven][=siete]" : {siete}
 ];
