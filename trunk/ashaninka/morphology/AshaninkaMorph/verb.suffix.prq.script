@@ -1,3 +1,11 @@
+      define V=S=PROG [
+       "[--][+PROG]" : "@EP"[{aty}|{atz}|{atsi}]
+      ];
+      
+      define V=S=IRR [
+       "[--][+IRR]" : "@EP"[{e}|{ia}|{n}|{ri}|{ye}|{a}|{i}]
+      ];
+      
       define V=S=PRNO [
          "[--][+1SG.O]" : "@EP"{na}
        | "[--][+2SG.O]" : "@EP"{mi}
@@ -6,8 +14,8 @@
        | "[--][+1PL.O]" : "@EP"{ai}
       ];
       
-      define V=S=IRR [
-       "[--][+IRR]" : "@EP"[{e}|{ia}|{ya}|{n}|{ri}|{ye}|{a}|{i}]
+      define V=S=DIST [
+       "[--][+DIST]" : "@EP"[{ye}|{t}]
       ];
       
       define V=S=DIR [
@@ -34,6 +42,10 @@
        "[--][+CNT.F]" : "@EP"[{mi}]
       ];
       
+      define V=S=REAL [
+       "[--][+REAL]" : "@EP"[{e}|{i}|{a}|{i.}|{t}|{ri}|{tzi}|{ia}]
+      ];
+      
       define V=S=AUG [
        "[--][+AUG]" : "@EP"[{piro}|{ni}|{pero}]
       ];
@@ -44,6 +56,10 @@
       
       define V=S=BEN [
        "[--][+BEN]" : "@EP"[{vint}]
+      ];
+      
+      define V=S=CAUS [
+       "[--][+CAUS]" : "@EP"[{ak}|{aka}|{v}|{oi}|{ov}|{o}]
       ];
       
       define V=S=ADVP [
@@ -62,8 +78,24 @@
        "[--][+ICPL]" : "@EP"[{it}|{e}]
       ];
       
+      define V=S=EPREAL [
+       "[--][+EP.REAL]" : "@EP"[{tzitzi}]
+      ];
+      
       define V=S=REL [
        "[--][+REL]" : "@EP"[{ri}|{ni}|{ka}]
+      ];
+      
+      define V=S=FRUS [
+       "[--][+FRUS]" : "@EP"[{ve}|{vi}|{macheve}|{vit}]
+      ];
+      
+      define V=S=APPLREAS [
+       "[--][+APPL.REAS]" : "@EP"[{ant}|{ako}|{anta}]
+      ];
+      
+      define V=S=CUST [
+       "[--][+CUST]" : "@EP"[{apint}|{ant}]
       ];
       
       define V=S=IMPP [
@@ -78,6 +110,10 @@
        "[--][+EXCL]" : "@EP"[{ve}]
       ];
       
+      define V=S=STAT [
+       "[--][+STAT]" : "@EP"[{atsi}|{ni}|{ach}|{acha}|{aintsi}]
+      ];
+      
       define V=S=Q [
        "[--][+Q]" : "@EP"[{ka}]
       ];
@@ -86,8 +122,16 @@
        "[--][+APPL]" : "@EP"[{ako}|{t}]
       ];
       
+      define V=S=NMZ [
+       "[--][+NMZ]" : "@EP"[{nka}|{ri}|{nk}|{ntsi}|{antsi}|{rintsi}|{rentsi}|{mento}]
+      ];
+      
       define V=S=noun [
        "[--][+noun]" : "@EP"[{vatsa}|{pori}|{ani}|{atziri}]
+      ];
+      
+      define V=S=COND [
+       "[--][+COND]" : "@EP"[{rika}]
       ];
       
       define V=S=disheveledhead [
@@ -106,12 +150,16 @@
        "[--][+3m.poss]" : "@EP"[{i}|{y}]
       ];
       
-      define V=S=NMZ [
-       "[--][+NMZ]" : "@EP"[{nka}|{ri}|{nk}|{ntsi}|{antsi}|{rintsi}|{rentsi}|{mento}]
-      ];
-      
       define V=S=ADJ [
        "[--][+ADJ]" : "@EP"[{ri}|{tsinkari}]
+      ];
+      
+      define V=S=CAUSSOC [
+       "[--][+CAUS.SOC]" : "@EP"[{ak}]
+      ];
+      
+      define V=S=APPLINST [
+       "[--][+APPL.INST]" : "@EP"[{ant}]
       ];
       
       define V=S=once [
@@ -122,8 +170,24 @@
        "[--][+APPL.INT]" : "@EP"[{ashi}|{tz}]
       ];
       
+      define V=S=LOC [
+       "[--][+LOC]" : "@EP"[{ki}]
+      ];
+      
+      define V=S=NCFOC [
+       "[--][+N.C.FOC]" : "@EP"[{tya}]
+      ];
+      
+      define V=S=OFOC [
+       "[--][+O.FOC]" : "@EP"[{kya}]
+      ];
+      
       define V=S=REP [
        "[--][+REP]" : "@EP"[{a}]
+      ];
+      
+      define V=S=CAUSCOM [
+       "[--][+CAUS.COM]" : "@EP"[{aka}]
       ];
       
       define V=S=poss [
@@ -134,12 +198,28 @@
        "[--][+EMPH]" : "@EP"[{tya}|{kya}|{poo}|{ha}|{tzi}]
       ];
       
+      define V=S=MCAUS [
+       "[--][+M.CAUS]" : "@EP"[{mi}]
+      ];
+      
+      define V=S=CAUSAGT [
+       "[--][+CAUS.AGT]" : "@EP"[{v}]
+      ];
+      
       define V=S=APPLBEN [
        "[--][+APPL.BEN]" : "@EP"[{vent}]
       ];
       
+      define V=S=APPLPRES [
+       "[--][+APPL.PRES]" : "@EP"[{imo}]
+      ];
+      
       define V=S=one [
        "[--][+one]" : "@EP"[{aparoni}]
+      ];
+      
+      define V=S=APPLSEP [
+       "[--][+APPL.SEP]" : "@EP"[{pitsa}]
       ];
       
       define V=S=DEM [
@@ -148,6 +228,10 @@
       
       define V=S=RCP [
        "[--][+RCP]" : "@EP"[{av}]
+      ];
+      
+      define V=S=REALRFL [
+       "[--][+REAL.RFL]" : "@EP"[{a}]
       ];
       
       define V=S=REV [
@@ -178,6 +262,10 @@
        "[--][+deceased]" : "@EP"[{ni}]
       ];
       
+      define V=S=INST [
+       "[--][+INST]" : "@EP"[{ant}]
+      ];
+      
       define V=S=smallpart [
        "[--][+small.part]" : "@EP"[{patsa}]
       ];
@@ -194,6 +282,18 @@
        "[--][+only]" : "@EP"[{intaani}]
       ];
       
+      define V=S=HAB [
+       "[--][+HAB]" : "@EP"[{apint}]
+      ];
+      
+      define V=S=1SGposs [
+       "[--][+1SG.poss]" : "@EP"[{no}]
+      ];
+      
+      define V=S=3SGmIRR [
+       "[--][+3SG.m.IRR]" : "@EP"[{ir}|{iri}]
+      ];
+      
       define V=S=INCH [
        "[--][+INCH]" : "@EP"[{ima}|{imai}|{amaint}]
       ];
@@ -204,6 +304,14 @@
       
       define V=S=flat [
        "[--][+flat]" : "@EP"[{miront}]
+      ];
+      
+      define V=S=STATT [
+       "[--][+STAT.T]" : "@EP"[{aintsi}]
+      ];
+      
+      define V=S=APPLSOC [
+       "[--][+APPL.SOC]" : "@EP"[{ak}]
       ];
       
       define V=S=early [
@@ -218,7 +326,19 @@
        "[--][+not.yet]" : "@EP"[{tekira}]
       ];
       
+      define V=S=INS [
+       "[--][+INS]" : "@EP"[{ant}]
+      ];
+      
+      define V=S=REALEMPH [
+       "[--][+REAL.EMPH]" : "@EP"[{tzitzi}]
+      ];
+      
       define V=S=REC [
        "[--][+REC]" : "@EP"[{av}]
+      ];
+      
+      define V=S=ABS [
+       "[--][+ABS]" : "@EP"[{tsi}]
       ];
       
