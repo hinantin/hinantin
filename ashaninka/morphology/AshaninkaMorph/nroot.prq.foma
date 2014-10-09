@@ -106,6 +106,7 @@ define NRootPRQin [
 | "[NRoot][=leg][=kitzi]" : {kitzi}
 | "[NRoot][=coca][=koka]" : {koka}
 | "[NRoot][=father][=koki]" : {koki}
+| "[NRoot][=father.in.law.of.a.man][=konki]" : {konki}
 | "[NRoot][=tortoise][=konoya]" : {konoya}
 | "[NRoot][=turtle][=konoya]" : {konoya}
 | "[NRoot][=second.father][=kompatsiri]" : {kompatsiri}
