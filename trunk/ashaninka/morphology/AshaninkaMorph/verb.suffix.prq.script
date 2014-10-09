@@ -43,7 +43,7 @@
       ];
       
       define V=S=REAL [
-       "[--][+REAL]" : "@EP"[{e}|{i}|{a}|{i.}|{t}|{ri}|{tzi}|{ia}]
+       "[--][+REAL]" : "@EP"[{e}|{i}|{a}|{i.}|{t}|{ri}|{tzi}|{ia}|{ya}]
       ];
       
       define V=S=AUG [
