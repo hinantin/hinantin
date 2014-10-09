@@ -3,7 +3,7 @@ define NRootESin [
 | "[NRootEs][=contract][=contrato]" : {contrato}
 | "[NRootEs][=exercise][=ejercicio]" : {ejercicio}
 | "[NRootEs][=school][=escuela]" : {escuela}
-| "[NRootEs][=school][=eskuera]" : {eskuera}
+| "[NRootEs][=school][=escuela]" : {eskuera}
 | "[NRootEs][=state][=estado]" : {estado}
 | "[NRootEs][=engineer][=ingeniero]" : {ingeniero}
 | "[NRootEs][=person’s.name][=juan.santos.atahualpa]" : {juan.santos.atahualpa}

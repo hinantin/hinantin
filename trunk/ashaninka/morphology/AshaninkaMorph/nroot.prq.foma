@@ -19,6 +19,7 @@ define NRootPRQin [
 | "[NRoot][=person’s.name][=apiinka]" : {apiinka}
 | "[NRoot][=steel][=ashiro]" : {ashiro}
 | "[NRoot][=armadillo][=ashoshi]" : {ashoshi}
+| "[NRoot][=person][=atziri]" : {atiri}
 | "[NRoot][=person][=atziri]" : {atziri}
 | "[NRoot][=road][=avotsi]" : {avotsi}
 | "[NRoot][=arrow][=chakopi]" : {chakopi}
@@ -71,6 +72,7 @@ define NRootPRQin [
 | "[NRoot][=cushma][=itsa]" : {itsa}
 | "[NRoot][=foot][=itzi]" : {itzi}
 | "[NRoot][=warriors][=ivayetziri]" : {ivayetziri}
+| "[NRoot][=spider][=heto]" : {jeto}
 | "[NRoot][=car][=kaaro]" : {kaaro}
 | "[NRoot][=coffee][=kahai]" : {kahai}
 | "[NRoot][=perfume][=kahankari]" : {kahankari}
@@ -211,6 +213,7 @@ define NRootPRQin [
 | "[NRoot][=provenance][=satzi]" : {satzi}
 | "[NRoot][=namesake][=shamitzi]" : {shamitzi}
 | "[NRoot][=fellowman][=shaninka]" : {shaninka}
+| "[NRoot][=fellowman][=shaninka]" : {sháninka}
 | "[NRoot][=agouti][=sharo]" : {sharo}
 | "[NRoot][=fellowman][=sheninka]" : {sheninka}
 | "[NRoot][=shaman][=sheripyari]" : {sheripyari}

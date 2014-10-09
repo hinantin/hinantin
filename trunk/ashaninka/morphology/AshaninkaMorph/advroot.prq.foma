@@ -41,6 +41,7 @@ define AdvRootPRQin [
 | "[AdvRoot][=since][=pairani]" : {pairani}
 | "[AdvRoot][=before][=pairani]" : {pairani}
 | "[AdvRoot][=long.ago][=pairani]" : {pairani}
+| "[AdvRoot][=long.ago][=pairani]" : {peerani}
 | "[AdvRoot][=then][=ponya]" : {ponya}
 | "[AdvRoot][=later][=ponya]" : {ponya}
 | "[AdvRoot][=afterwards][=ponyaka]" : {ponyaka}

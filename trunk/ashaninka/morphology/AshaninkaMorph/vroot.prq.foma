@@ -15,7 +15,7 @@ define VRootPRQin [
 | "[VRoot][=buy][=amant]" : {amant}
 | "[VRoot][=deceive][=amatavi]" : {amatavi}
 | "[VRoot][=take.care.of][=amen]" : {amen}
-| "[VRoot][=see][=amen]" : {amen}
+| "[VRoot][=see][=amin]" : {amen}
 | "[VRoot][=1PL.S.look.for][=amen]" : {amen}
 | "[VRoot][=look.after][=amen]" : {amen}
 | "[VRoot][=be.accustomed][=amet]" : {amet}
@@ -45,9 +45,11 @@ define VRootPRQin [
 | "[VRoot][=work][=antavai]" : {antavai}
 | "[VRoot][=live][=any]" : {any}
 | "[VRoot][=wait][=apaata]" : {apaata}
+| "[VRoot][=repeat][=anpi]" : {api}
 | "[VRoot][=gather][=apoto]" : {apoto}
 | "[VRoot][=fly][=ar]" : {ar}
-| "[VRoot][=arrive][=aree]" : {aree}
+| "[VRoot][=arrive][=arii]" : {are}
+| "[VRoot][=arrive][=arii]" : {aree}
 | "[VRoot][=arrive][=arii]" : {arii}
 | "[VRoot][=achieve][=arii]" : {arii}
 | "[VRoot][=be.enough][=aritapaki]" : {aritapaki}
@@ -162,7 +164,7 @@ define VRootPRQin [
 | "[VRoot][=dig][=kiy]" : {kiy}
 | "[VRoot][=want][=kokov]" : {kokov}
 | "[VRoot][=appear][=konyaa]" : {konyaa}
-| "[VRoot][=approach][=korake]" : {korake}
+| "[VRoot][=approach][=koraki]" : {korake}
 | "[VRoot][=approach][=koraki]" : {koraki}
 | "[VRoot][=kidnap][=koshi]" : {koshi}
 | "[VRoot][=steal][=koshi]" : {koshi}
@@ -201,11 +203,12 @@ define VRootPRQin [
 | "[VRoot][=boil][=moy]" : {moy}
 | "[VRoot][=be][=n]" : {n}
 | "[VRoot][=be][=na]" : {na}
+| "[VRoot][=see][=ny]" : {nae}
 | "[VRoot][=be.in.big.quantity][=nampi]" : {nampi}
 | "[VRoot][=lay][=nary]" : {nary}
 | "[VRoot][=lie.prostrate][=nary]" : {nary}
 | "[VRoot][=be.green][=natsiya]" : {natsiya}
-| "[VRoot][=find][=neap]" : {neap}
+| "[VRoot][=find][=niap]" : {neap}
 | "[VRoot][=like][=neve]" : {neve}
 | "[VRoot][=find][=niap]" : {niap}
 | "[VRoot][=water][=nihaa]" : {nihaa}
@@ -260,10 +263,10 @@ define VRootPRQin [
 | "[VRoot][=be.embarrassed][=pashivent]" : {pashivent}
 | "[VRoot][=embarrass][=pashivent]" : {pashivent}
 | "[VRoot][=idolize][=pavani]" : {pavani}
-| "[VRoot][=convert][=pe]" : {pe}
+| "[VRoot][=convert][=py]" : {pe}
 | "[VRoot][=hack.with.a.machete][=pes]" : {pes}
 | "[VRoot][=convert][=pey]" : {pey}
-| "[VRoot][=transform][=pi]" : {pi}
+| "[VRoot][=transform][=py]" : {pi}
 | "[VRoot][=lose][=pi]" : {pi}
 | "[VRoot][=sell][=pimanta]" : {pimanta}
 | "[VRoot][=pay][=pina]" : {pina}

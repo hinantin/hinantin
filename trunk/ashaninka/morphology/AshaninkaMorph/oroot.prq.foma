@@ -3,6 +3,7 @@ define ORootPRQin [
 | "[OtherRoot][=also][=ahatzi]" : {ahatzi}
 | "[OtherRoot][=still][=aikiro]" : {aikiro}
 | "[OtherRoot][=or][=airorika]" : {airorika}
+| "[OtherRoot][=also][=aisatzi]" : {aisati}
 | "[OtherRoot][=also][=aisatzi]" : {aisatzi}
 | "[OtherRoot][=here][=aka]" : {aka}
 | "[OtherRoot][=ouch][=akaya]" : {akaya}
@@ -47,6 +48,7 @@ define ORootPRQin [
 | "[OtherRoot][=DEM.n.m][=irora]" : {irora}
 | "[OtherRoot][=DEM][=irora]" : {irora}
 | "[OtherRoot][=DEM.n.m.][=irora]" : {irora}
+| "[OtherRoot][=until][=irosatzi]" : {irosati}
 | "[OtherRoot][=until][=irosatzi]" : {irosatzi}
 | "[OtherRoot][=FOC][=irotaki]" : {irotaki}
 | "[OtherRoot][=head][=ito]" : {ito}
@@ -90,6 +92,7 @@ define ORootPRQin [
 | "[OtherRoot][=maybe][=tema]" : {tema}
 | "[OtherRoot][=or][=terika]" : {terika}
 | "[OtherRoot][=maybe][=terika]" : {terika}
+| "[OtherRoot][=EXIST][=tzimatsi]" : {timatsi}
 | "[OtherRoot][=exist][=tzim]" : {tzim}
 | "[OtherRoot][=EXIST][=tzimatsi]" : {tzimatsi}
 | "[OtherRoot][=EXIST][=tzimtsi]" : {tzimtsi}
