@@ -51,7 +51,7 @@
       ];
       
       define V=S=DUR [
-       "[--][+DUR]" : "@EP"[{vai}]
+       "[--][+DUR]" : "@EP"[{vai}|{vae}]
       ];
       
       define V=S=BEN [
