@@ -11,6 +11,7 @@ define S [
  (V=S=PRNO) (V=S=REAL) | 
  (V=S=AUG) (V=S=IRR) | 
  (V=S=DUR) (V=S=IRR) | 
+ (V=S=DUR) (V=S=NMZ) | 
  (V=S=IRR) (V=S=PRF) (V=S=IRR) (V=S=PRNO) (V=S=PRNO) | 
  (V=S=IRR) (V=S=IRR) (V=S=PRNO) (V=S=PRNO) | 
  (V=S=BEN) (V=S=PRF) (V=S=REAL) (V=S=PRNO) | 

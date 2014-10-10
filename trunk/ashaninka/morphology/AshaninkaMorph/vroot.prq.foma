@@ -14,11 +14,13 @@ define VRootPRQin [
 | "[VRoot][=buy][=amanant]" : {amanant}
 | "[VRoot][=buy][=amant]" : {amant}
 | "[VRoot][=deceive][=amatavi]" : {amatavi}
+| "[VRoot][=sharpen, polish][=amik]" : {amek}
 | "[VRoot][=take.care.of][=amen]" : {amen}
 | "[VRoot][=see][=amin]" : {amen}
 | "[VRoot][=1PL.S.look.for][=amen]" : {amen}
 | "[VRoot][=look.after][=amen]" : {amen}
 | "[VRoot][=be.accustomed][=amet]" : {amet}
+| "[VRoot][=sharpen, polish][=amik]" : {amik}
 | "[VRoot][=look.for][=amin]" : {amin}
 | "[VRoot][=see][=amin]" : {amin}
 | "[VRoot][=treat][=amin]" : {amin}
@@ -42,7 +44,6 @@ define VRootPRQin [
 | "[VRoot][=build][=ant]" : {ant}
 | "[VRoot][=go.up][=antai]" : {antai}
 | "[VRoot][=fight][=antant]" : {antant}
-| "[VRoot][=work][=antavai]" : {antavai}
 | "[VRoot][=live][=any]" : {any}
 | "[VRoot][=wait][=apaata]" : {apaata}
 | "[VRoot][=repeat][=anpi]" : {api}
@@ -194,6 +195,7 @@ define VRootPRQin [
 | "[VRoot][=make.a.hunting.blind][=minka]" : {minka}
 | "[VRoot][=put][=minki]" : {minki}
 | "[VRoot][=remove.skin][=mish]" : {mish}
+| "[VRoot][=dream][=mishi]" : {mishi}
 | "[VRoot][=be.accustomed][=mit]" : {mit}
 | "[VRoot][=be.in.line][=mitsaink]" : {mitsaink}
 | "[VRoot][=make.holes][=mok]" : {mok}
@@ -231,6 +233,7 @@ define VRootPRQin [
 | "[VRoot][=play][=nyaatsa]" : {nyaatsa}
 | "[VRoot][=speak][=nyaavai]" : {nyaavai}
 | "[VRoot][=annoy][=nyashirink]" : {nyashirink}
+| "[VRoot][=play][=nyaatsa]" : {nyatsa}
 | "[VRoot][=CAUS.AGT.drink][=oi]" : {oi}
 | "[VRoot][=be.close][=okaaki]" : {okaaki}
 | "[VRoot][=be.necessary][=ontzimatye]" : {ontzimatye}
@@ -299,6 +302,7 @@ define VRootPRQin [
 | "[VRoot][=bathe.in.hot.water][=saa]" : {saa}
 | "[VRoot][=steam.bathe][=saa]" : {saa}
 | "[VRoot][=heat][=saava]" : {saava}
+| "[VRoot][=be][=saik]" : {saek}
 | "[VRoot][=pour][=sai]" : {sai}
 | "[VRoot][=empty][=sai]" : {sai}
 | "[VRoot][=be.at][=saik]" : {saik}
@@ -354,6 +358,7 @@ define VRootPRQin [
 | "[VRoot][=be.heavy][=tena]" : {tena}
 | "[VRoot][=be.heavy.ADJ][=tenari]" : {tenari}
 | "[VRoot][=fill][=tet]" : {tet}
+| "[VRoot][=have][=tzim]" : {tim}
 | "[VRoot][=lift][=tina]" : {tina}
 | "[VRoot][=be.son.of][=tomint]" : {tomint}
 | "[VRoot][=shoot][=tonk]" : {tonk}
