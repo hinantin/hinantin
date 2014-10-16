@@ -82,6 +82,7 @@ define VRootPRQin [
 | "[VRoot][=identify.as.a.witch][=itamatzi]" : {itamatzi}
 | "[VRoot][=pour][=kaa]" : {kaa}
 | "[VRoot][=bathe][=kaa]" : {kaa}
+| "[VRoot][=scream][=kaem]" : {kaem}
 | "[VRoot][=call][=kaim]" : {kaim}
 | "[VRoot][=die][=kam]" : {kam}
 | "[VRoot][=inform][=kamant]" : {kamant}

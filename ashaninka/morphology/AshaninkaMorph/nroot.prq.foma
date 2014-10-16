@@ -19,6 +19,7 @@ define NRootPRQin [
 | "[NRoot][=person’s.name][=apiinka]" : {apiinka}
 | "[NRoot][=steel][=ashiro]" : {ashiro}
 | "[NRoot][=armadillo][=ashoshi]" : {ashoshi}
+| "[NRoot][=cheek][=asorina]" : {asorina}
 | "[NRoot][=person][=atziri]" : {atiri}
 | "[NRoot][=person][=atziri]" : {atziri}
 | "[NRoot][=road][=avotsi]" : {avotsi}
@@ -30,6 +31,7 @@ define NRootPRQin [
 | "[NRoot][=grandparents][=charini]" : {charini}
 | "[NRoot][=trousers][=chenko]" : {chenko}
 | "[NRoot][=pants][=chenko]" : {chenko}
+| "[NRoot][=lip][=chera]" : {chera}
 | "[NRoot][=branch][=chevo]" : {chevo}
 | "[NRoot][=sister][=chooki]" : {chooki}
 | "[NRoot][=red.and.black.seed][=chovankeriki]" : {chovankeriki}
@@ -88,12 +90,15 @@ define NRootPRQin [
 | "[NRoot][=up.river][=katonko]" : {katonko}
 | "[NRoot][=testicle][=katsariki]" : {katsariki}
 | "[NRoot][=plantain.sp.][=katsimaropa]" : {katsimaropa}
+| "[NRoot][=ear][=kempita]" : {kempita}
+| "[NRoot][=neck][=kentsi]" : {kentsi}
 | "[NRoot][=patridge.sp][=kintsori]" : {kintsori}
 | "[NRoot][=mud][=kipatsi]" : {kipatsi}
 | "[NRoot][=ground][=kipatsi]" : {kipatsi}
 | "[NRoot][=earth][=kipatsi]" : {kipatsi}
 | "[NRoot][=money][=kireeki]" : {kireeki}
 | "[NRoot][=money][=kiriiki]" : {kiriiki}
+| "[NRoot][=nose][=kirimashi]" : {kirimashi}
 | "[NRoot][=downriver][=kirinka]" : {kirinka}
 | "[NRoot][=down.river][=kirinka]" : {kirinka}
 | "[NRoot][=black.person][=kisaakiri]" : {kisaakiri}
@@ -161,6 +166,7 @@ define NRootPRQin [
 | "[NRoot][=year][=osarentsi]" : {osarentsi}
 | "[NRoot][=hospital][=osipitari]" : {osipitari}
 | "[NRoot][=cliff][=otaapiki]" : {otaapiki}
+| "[NRoot][=chin,jaw][=otapinoma]" : {otapinoma}
 | "[NRoot][=rocky.place][=otenkanaki]" : {otenkanaki}
 | "[NRoot][=dog][=otsitzi]" : {otsitzi}
 | "[NRoot][=dog][=otsitzi.]" : {otsitzi.}
@@ -172,7 +178,9 @@ define NRootPRQin [
 | "[NRoot][=her.food][=oyari]" : {oyari}
 | "[NRoot][=fire][=paamari]" : {paamari}
 | "[NRoot][=bird.species][=paampatzi]" : {paampatzi}
+| "[NRoot][=mouth][=paante]" : {paante}
 | "[NRoot][=pumpkin][=pachaka]" : {pachaka}
+| "[NRoot][=forehead][=pankaina]" : {pankaina}
 | "[NRoot][=plank][=panki]" : {panki}
 | "[NRoot][=house][=panko]" : {panko}
 | "[NRoot][=house][=pankotsi]" : {pankotsi}
@@ -229,6 +237,7 @@ define NRootPRQin [
 | "[NRoot][=kapok.tree][=shina]" : {shina}
 | "[NRoot][=corn][=shinki]" : {shinki}
 | "[NRoot][=fish.trap][=shimperi]" : {shimperi}
+| "[NRoot][=eyelash][=shimpityoki]" : {shimpityoki}
 | "[NRoot][=horsefly][=shimpoki]" : {shimpoki}
 | "[NRoot][=daughter][=shinto]" : {shinto}
 | "[NRoot][=raft][=shintsipaa]" : {shintsipaa}
@@ -240,6 +249,7 @@ define NRootPRQin [
 | "[NRoot][=Peruvian.currency][=soles]" : {soles}
 | "[NRoot][=police][=soraro]" : {soraro}
 | "[NRoot][=Tarma][=taaroma]" : {taaroma}
+| "[NRoot][=eyebrow][=tamako]" : {tamako}
 | "[NRoot][=wind][=tampyaa]" : {tampyaa}
 | "[NRoot][=corral][=tantotsi]" : {tantotsi}
 | "[NRoot][=bottom][=tapi]" : {tapi}
@@ -249,7 +259,7 @@ define NRootPRQin [
 | "[NRoot][=none][=tekatsi]" : {tekatsi}
 | "[NRoot][=weaver][=tihatsi]" : {tihatsi}
 | "[NRoot][=son][=tomi]" : {tomi}
-| "[NRoot][=hill.top][=tonkaari]" : {tonkaari}
+| "[NRoot][=hill.top][=tonkari]" : {tonkaari}
 | "[NRoot][=hill.top][=tonkari]" : {tonkari}
 | "[NRoot][=top][=tonkari]" : {tonkari}
 | "[NRoot][=cut][=tot]" : {tot}
@@ -291,6 +301,7 @@ define NRootPRQin [
 | "[NRoot][=meat][=vatsatsi]" : {vatsatsi}
 | "[NRoot][=person’s.name][=vela]" : {vela}
 | "[NRoot][=outsider][=virakocha]" : {virakocha}
+| "[NRoot][=face][=voro]" : {voro}
 | "[NRoot][=brother][=yari]" : {yari}
 | "[NRoot][=ear][=yempita]" : {yempita}
 ];
