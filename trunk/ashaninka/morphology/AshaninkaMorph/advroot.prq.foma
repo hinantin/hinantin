@@ -28,6 +28,7 @@ define AdvRootPRQin [
 | "[AdvRoot][=then][=oponya]" : {oponya}
 | "[AdvRoot][=meanwhile][=oponya]" : {oponya}
 | "[AdvRoot][=afterwards][=oponya]" : {oponya}
+| "[AdvRoot][=then][=oponya]" : {oponyaa}
 | "[AdvRoot][=tomorrow][=osaikera]" : {osaikera}
 | "[AdvRoot][=tomorrow][=osaitekera]" : {osaitekera}
 | "[AdvRoot][=some time later][=osamani]" : {osamani}
