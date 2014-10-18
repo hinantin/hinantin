@@ -20,8 +20,9 @@ define NRootPRQin [
 | "[NRoot][=steel][=ashiro]" : {ashiro}
 | "[NRoot][=armadillo][=ashoshi]" : {ashoshi}
 | "[NRoot][=cheek][=asorina]" : {asorina}
-| "[NRoot][=person][=atziri]" : {atiri}
-| "[NRoot][=person][=atziri]" : {atziri}
+| "[NRoot][=person,individual,human][=atziri]" : {atiri}
+| "[NRoot][=person,individual,human][=atziri]" : {atsiri}
+| "[NRoot][=person,individual,human][=atziri]" : {atziri}
 | "[NRoot][=road][=avotsi]" : {avotsi}
 | "[NRoot][=arrow][=chakopi]" : {chakopi}
 | "[NRoot][=the.other.day][=chapinki]" : {chapinki}
@@ -224,6 +225,8 @@ define NRootPRQin [
 | "[NRoot][=fellowman][=shaninka]" : {sháninka}
 | "[NRoot][=agouti][=sharo]" : {sharo}
 | "[NRoot][=fellowman][=sheninka]" : {sheninka}
+| "[NRoot][=shaman][=sheripyari]" : {sheripiare}
+| "[NRoot][=shaman][=sheripyari]" : {sheripiari}
 | "[NRoot][=shaman][=sheripyari]" : {sheripyari}
 | "[NRoot][=fingernail][=shetaki]" : {shetaki}
 | "[NRoot][=afternoon][=shetene]" : {shetene}
@@ -270,6 +273,8 @@ define NRootPRQin [
 | "[NRoot][=La.Merced][=tsiirishi]" : {tsiirishi}
 | "[NRoot][=wood][=tsima]" : {tsima}
 | "[NRoot][=bird][=tsimiri]" : {tsimiri}
+| "[NRoot][=female,woman][=tsinani]" : {tsinane}
+| "[NRoot][=female,woman][=tsinani]" : {tsinani}
 | "[NRoot][=leaf][=tsipana]" : {tsipana}
 | "[NRoot][=night][=tsiteniri]" : {tsiteniri}
 | "[NRoot][=firewood][=tsitsi]" : {tsitsi}
@@ -298,7 +303,6 @@ define NRootPRQin [
 | "[NRoot][=mass][=vatsa]" : {vatsa}
 | "[NRoot][=flesh][=vatsa]" : {vatsa}
 | "[NRoot][=fat.m][=vatsantzi]" : {vatsantzi}
-| "[NRoot][=meat][=vatsatsi]" : {vatsatsi}
 | "[NRoot][=person’s.name][=vela]" : {vela}
 | "[NRoot][=outsider][=virakocha]" : {virakocha}
 | "[NRoot][=face][=voro]" : {voro}

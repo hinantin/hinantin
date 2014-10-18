@@ -124,8 +124,7 @@ define VRootPRQin [
 | "[VRoot][=walk][=ken]" : {ken}
 | "[VRoot][=go][=ken]" : {ken}
 | "[VRoot][=come][=ken]" : {ken}
-| "[VRoot][=talk][=kenkitsa]" : {kenkitsa}
-| "[VRoot][=tell][=kenkitsa]" : {kenkitsa}
+| "[VRoot][=talk,tell][=kenkitsa]" : {kenkitsa}
 | "[VRoot][=carry][=ki]" : {ki}
 | "[VRoot][=hear][=kim]" : {kim}
 | "[VRoot][=listen][=kim]" : {kim}
@@ -380,8 +379,7 @@ define VRootPRQin [
 | "[VRoot][=pepper][=tsikana]" : {tsikana}
 | "[VRoot][=urinate][=tsint]" : {tsint}
 | "[VRoot][=be.together][=tsipa]" : {tsipa}
-| "[VRoot][=accompany][=tsipat]" : {tsipat}
-| "[VRoot][=join][=tsipat]" : {tsipat}
+| "[VRoot][=accompany,join,combine][=tsipat]" : {tsipat}
 | "[VRoot][=attach][=tsirik]" : {tsirik}
 | "[VRoot][=get.dark][=tsiteni]" : {tsiteni}
 | "[VRoot][=heat][=tsiy]" : {tsiy}

@@ -8,6 +8,6 @@ define WhPRQin [
 | "[WhPRQ][=WH][=tsika]" : {tsika}
 | "[WhPRQ][=where][=tsika]" : {tsika}
 | "[WhPRQ][=what][=tsika]" : {tsika}
-| "[WhPRQ][=WH][=tsika paita]" : {tsika paita}
 | "[WhPRQ][=WH][=tsika.paita]" : {tsika.paita}
+| "[WhPRQ][=WH.COND][=tsikarika]" : {tsikarika}
 ];
