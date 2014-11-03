@@ -4,6 +4,8 @@ define NRootPRQin [
 | "[NRoot][=tooth][=aiki]" : {aiki}
 | "[NRoot][=arm][=ako]" : {ako}
 | "[NRoot][=hand][=ako]" : {ako}
+| "[NRoot][=heel][=akonta]" : {akonta}
+| "[NRoot][=wrist][=akopero]" : {akopero}
 | "[NRoot][=vulture][=amempori]" : {amempori}
 | "[NRoot][=grandpa][=ani]" : {ani}
 | "[NRoot][=brother.in.law][=ani]" : {ani}
@@ -17,7 +19,9 @@ define NRootPRQin [
 | "[NRoot][=father][=apa]" : {apa}
 | "[NRoot][=somebody][=aparoni]" : {aparoni}
 | "[NRoot][=person’s.name][=apiinka]" : {apiinka}
+| "[NRoot][=thigh][=aporivatsa]" : {aporivatsa}
 | "[NRoot][=steel][=ashiro]" : {ashiro}
+| "[NRoot][=ankle][=ashonki]" : {ashonki}
 | "[NRoot][=armadillo][=ashoshi]" : {ashoshi}
 | "[NRoot][=cheek][=asorina]" : {asorina}
 | "[NRoot][=person,individual,human][=atziri]" : {atiri}
@@ -39,8 +43,11 @@ define NRootPRQin [
 | "[NRoot][=huayruro][=chovankiri]" : {chovankiri}
 | "[NRoot][=child][=eentsi]" : {eentsi}
 | "[NRoot][=child][=hananeki]" : {hananeki}
+| "[NRoot][=arm][=hempeki]" : {hempeki}
 | "[NRoot][=spider][=heto]" : {heto}
 | "[NRoot][=hair][=iishi]" : {iishi}
+| "[NRoot][=head][=iito]" : {iito}
+| "[NRoot][=foot][=iitsi]" : {iitsi}
 | "[NRoot][=neck][=ikentsi]" : {ikentsi}
 | "[NRoot][=husband][=ime]" : {ime}
 | "[NRoot][=husband][=imi]" : {imi}
@@ -94,9 +101,7 @@ define NRootPRQin [
 | "[NRoot][=ear][=kempita]" : {kempita}
 | "[NRoot][=neck][=kentsi]" : {kentsi}
 | "[NRoot][=patridge.sp][=kintsori]" : {kintsori}
-| "[NRoot][=mud][=kipatsi]" : {kipatsi}
-| "[NRoot][=ground][=kipatsi]" : {kipatsi}
-| "[NRoot][=earth][=kipatsi]" : {kipatsi}
+| "[NRoot][=ground,mud,earth][=kipatsi]" : {kipatsi}
 | "[NRoot][=money][=kireeki]" : {kireeki}
 | "[NRoot][=money][=kiriiki]" : {kiriiki}
 | "[NRoot][=nose][=kirimashi]" : {kirimashi}
@@ -114,6 +119,7 @@ define NRootPRQin [
 | "[NRoot][=leg][=kitzi]" : {kitzi}
 | "[NRoot][=coca][=koka]" : {koka}
 | "[NRoot][=father][=koki]" : {koki}
+| "[NRoot][=elbow][=konaki]" : {konaki}
 | "[NRoot][=father.in.law.of.a.man][=konki]" : {konki}
 | "[NRoot][=tortoise][=konoya]" : {konoya}
 | "[NRoot][=turtle][=konoya]" : {konoya}
@@ -143,13 +149,16 @@ define NRootPRQin [
 | "[NRoot][=name][=meantarini]" : {meantarini}
 | "[NRoot][=village’s.name][=metaro]" : {metaro}
 | "[NRoot][=cloud][=minkori]" : {minkori}
+| "[NRoot][=navel][=moito]" : {moito}
 | "[NRoot][=hole][=morona]" : {morona}
 | "[NRoot][=cave][=morona]" : {morona}
+| "[NRoot][=tummy][=motsi]" : {motsi}
 | "[NRoot][=stomach][=motya]" : {motya}
 | "[NRoot][=village][=nampi]" : {nampi}
 | "[NRoot][=place][=nampitsi]" : {nampitsi}
 | "[NRoot][=person’s.name][=navireri]" : {navireri}
 | "[NRoot][=person’s.name][=naviriri]" : {naviriri}
+| "[NRoot][=chest][=nehi]" : {nehi}
 | "[NRoot][=river][=nihaa]" : {nihaa}
 | "[NRoot][=water][=nihaa]" : {nihaa}
 | "[NRoot][=breast][=nii]" : {nii}
@@ -160,6 +169,8 @@ define NRootPRQin [
 | "[NRoot][=lamb][=oisha]" : {oisha}
 | "[NRoot][=sheep][=oisha]" : {oisha}
 | "[NRoot][=eye][=oki]" : {oki}
+| "[NRoot][=seed][=okitsoki]" : {okitoki}
+| "[NRoot][=seed][=okitsoki]" : {okitsoki}
 | "[NRoot][=sun][=ooryaatsiri]" : {ooryaatsiri}
 | "[NRoot][=bird.species][=oovero]" : {oovero}
 | "[NRoot][=hawk.sp.][=oovero]" : {oovero}
@@ -225,6 +236,7 @@ define NRootPRQin [
 | "[NRoot][=fellowman][=shaninka]" : {sháninka}
 | "[NRoot][=agouti][=sharo]" : {sharo}
 | "[NRoot][=fellowman][=sheninka]" : {sheninka}
+| "[NRoot][=shoulder][=shempa]" : {shempa}
 | "[NRoot][=shaman][=sheripyari]" : {sheripiare}
 | "[NRoot][=shaman][=sheripyari]" : {sheripiari}
 | "[NRoot][=shaman][=sheripyari]" : {sheripyari}
@@ -251,6 +263,9 @@ define NRootPRQin [
 | "[NRoot][=rope][=shivitsa]" : {shivitsa}
 | "[NRoot][=Peruvian.currency][=soles]" : {soles}
 | "[NRoot][=police][=soraro]" : {soraro}
+| "[NRoot][=calf][=taabato]" : {taabato}
+| "[NRoot][=back][=taapi]" : {taapi}
+| "[NRoot][=back][=taapiiki]" : {taapiiki}
 | "[NRoot][=Tarma][=taaroma]" : {taaroma}
 | "[NRoot][=eyebrow][=tamako]" : {tamako}
 | "[NRoot][=wind][=tampyaa]" : {tampyaa}
@@ -260,6 +275,7 @@ define NRootPRQin [
 | "[NRoot][=power][=tasorinka]" : {tasorinka}
 | "[NRoot][=blessing][=tasorinka]" : {tasorinka}
 | "[NRoot][=none][=tekatsi]" : {tekatsi}
+| "[NRoot][=buttock][=tete]" : {tete}
 | "[NRoot][=weaver][=tihatsi]" : {tihatsi}
 | "[NRoot][=son][=tomi]" : {tomi}
 | "[NRoot][=hill.top][=tonkari]" : {tonkaari}
@@ -268,6 +284,7 @@ define NRootPRQin [
 | "[NRoot][=cut][=tot]" : {tot}
 | "[NRoot][=curassow][=tsamiri]" : {tsamiri}
 | "[NRoot][=adornment][=tsanoiriki]" : {tsanoiriki}
+| "[NRoot][=finger][=tsapaki]" : {tsapaki}
 | "[NRoot][=bag][=tsara]" : {tsara}
 | "[NRoot][=fear][=tsaronka]" : {tsaronka}
 | "[NRoot][=La.Merced][=tsiirishi]" : {tsiirishi}
@@ -302,10 +319,12 @@ define NRootPRQin [
 | "[NRoot][=meat][=vatsa]" : {vatsa}
 | "[NRoot][=mass][=vatsa]" : {vatsa}
 | "[NRoot][=flesh][=vatsa]" : {vatsa}
+| "[NRoot][=body][=vatsa]" : {vatsa}
 | "[NRoot][=fat.m][=vatsantzi]" : {vatsantzi}
 | "[NRoot][=person’s.name][=vela]" : {vela}
 | "[NRoot][=outsider][=virakocha]" : {virakocha}
 | "[NRoot][=face][=voro]" : {voro}
 | "[NRoot][=brother][=yari]" : {yari}
 | "[NRoot][=ear][=yempita]" : {yempita}
+| "[NRoot][=knee][=yerito]" : {yerito}
 ];

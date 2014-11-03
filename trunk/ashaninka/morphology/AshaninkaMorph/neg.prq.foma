@@ -3,7 +3,7 @@ define NegPRQin [
 | "[NegPRQ][=NEG.IRR.COND][=airorika]" : {airorika}
 | "[NegPRQ][=NEG.IRR][=airo]" : {eero}
 | "[NegPRQ][=NEG.IRR][=airo]" : {eiro}
-| "[NegPRQ][=NEG.IRR][=ero]" : {ero}
+| "[NegPRQ][=NEG.IRR][=airo]" : {ero}
 | "[NegPRQ][=NEG.COP][=kaari]" : {kaari}
 | "[NegPRQ][=NEG.C][=kaari]" : {kaari}
 | "[NegPRQ][=NEG.P][=kaari]" : {kaari}
