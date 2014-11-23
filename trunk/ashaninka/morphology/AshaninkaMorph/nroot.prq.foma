@@ -7,6 +7,7 @@ define NRootPRQin [
 | "[NRoot][=heel][=akonta]" : {akonta}
 | "[NRoot][=wrist][=akopero]" : {akopero}
 | "[NRoot][=vulture][=amempori]" : {amempori}
+| "[NRoot][=genipap,huito,jagua][=ana]" : {ana}
 | "[NRoot][=grandpa][=ani]" : {ani}
 | "[NRoot][=brother.in.law][=ani]" : {ani}
 | "[NRoot][=cotton][=ampee]" : {ampee}
@@ -150,6 +151,7 @@ define NRootPRQin [
 | "[NRoot][=village’s.name][=metaro]" : {metaro}
 | "[NRoot][=cloud][=minkori]" : {minkori}
 | "[NRoot][=navel][=moito]" : {moito}
+| "[NRoot][=hole][=moo]" : {moo}
 | "[NRoot][=hole][=morona]" : {morona}
 | "[NRoot][=cave][=morona]" : {morona}
 | "[NRoot][=tummy][=motsi]" : {motsi}
@@ -162,6 +164,7 @@ define NRootPRQin [
 | "[NRoot][=river][=nihaa]" : {nihaa}
 | "[NRoot][=water][=nihaa]" : {nihaa}
 | "[NRoot][=breast][=nii]" : {nii}
+| "[NRoot][=water][=nihaa]" : {nija}
 | "[NRoot][=mother][=niro]" : {niro}
 | "[NRoot][=word][=nyaa]" : {nyaa}
 | "[NRoot][=word][=nyaantsi]" : {nyaantsi}
@@ -277,6 +280,7 @@ define NRootPRQin [
 | "[NRoot][=none][=tekatsi]" : {tekatsi}
 | "[NRoot][=buttock][=tete]" : {tete}
 | "[NRoot][=weaver][=tihatsi]" : {tihatsi}
+| "[NRoot][=pineapple][=tivana]" : {tivana}
 | "[NRoot][=son][=tomi]" : {tomi}
 | "[NRoot][=hill.top][=tonkari]" : {tonkaari}
 | "[NRoot][=hill.top][=tonkari]" : {tonkari}
