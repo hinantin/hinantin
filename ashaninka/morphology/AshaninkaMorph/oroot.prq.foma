@@ -17,8 +17,8 @@ define ORootPRQin [
 | "[OtherRoot][=hers][=ashi]" : {ashi}
 | "[OtherRoot][=her][=ashi]" : {ashi}
 | "[OtherRoot][=its][=ashi]" : {ashi}
+| "[OtherRoot][=also,and][=eehatzi]" : {eehati}
 | "[OtherRoot][=also,and][=eehatzi]" : {eehatzi}
-| "[OtherRoot][=also,and][=eejati]" : {eejati}
 | "[OtherRoot][=aha][=ha]" : {ha}
 | "[OtherRoot][=here][=haka]" : {haka}
 | "[OtherRoot][=yes][=he]" : {he}
