@@ -37,11 +37,13 @@
 
       define TIReplacement [ {ty} (->) {ti} || _ [e|é] ];
 
+      define THReplacement [ {ts} (->) {th} || _ [a|á] ];
+
       define NYReplacement [ {ny} (->) {ñ} || _ Vowels ];
       define VowelsWithAccent [ {a} (->) {á}, {e} (->) {é}, {i} (->) {í},{o} (->) {ó}, {u} (->) {ú}];
 
       define Orthography [ QUIReplacement .o. QUReplacement .o. CReplacement .o. JReplacement .o. BReplacement .o. WReplacement 
-.o. PIReplacement .o. KIReplacement .o. RIReplacement .o. TIReplacement .o. NYReplacement .o. VowelsWithAccent ];
+.o. PIReplacement .o. KIReplacement .o. RIReplacement .o. TIReplacement .o. THReplacement .o. NYReplacement .o. VowelsWithAccent ];
 
       ##########################
       #                        #
