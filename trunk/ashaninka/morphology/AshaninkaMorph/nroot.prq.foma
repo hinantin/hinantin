@@ -128,6 +128,7 @@ define NRootPRQin [
 | "[NRoot][=second.father][=kompatsiri]" : {kompatsiri}
 | "[NRoot][=palm.sp.][=kompiro]" : {kompiro}
 | "[NRoot][=yarina][=kompiroshi]" : {kompiroshi}
+| "[NRoot][=riddle][=kompita]" : {kompita}
 | "[NRoot][=sole][=konta]" : {konta}
 | "[NRoot][=woman][=kooya]" : {kooya}
 | "[NRoot][=corral.n.m.][=korarintsi]" : {korarintsi}
