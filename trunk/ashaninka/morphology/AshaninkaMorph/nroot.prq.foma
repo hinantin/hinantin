@@ -166,7 +166,7 @@ define NRootPRQin [
 | "[NRoot][=breast][=nii]" : {nii}
 | "[NRoot][=water][=nihaa]" : {nija}
 | "[NRoot][=mother][=niro]" : {niro}
-| "[NRoot][=word][=nyaa]" : {nyaa}
+| "[NRoot][=word,language][=nyaa]" : {nyaa}
 | "[NRoot][=word][=nyaantsi]" : {nyaantsi}
 | "[NRoot][=branch][=ochevo]" : {ochevo}
 | "[NRoot][=lamb][=oisha]" : {oisha}
