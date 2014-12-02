@@ -66,8 +66,6 @@ define ORootPRQin [
 | "[OtherRoot][=white][=kitamaro]" : {kitamaro}
 | "[OtherRoot][=white][=kitamarori]" : {kitamarori}
 | "[OtherRoot][=ant][=koye]" : {koye}
-| "[OtherRoot][=everybody][=maaro]" : {maaro}
-| "[OtherRoot][=all][=maaro]" : {maaro}
 | "[OtherRoot][=1PL.EXCL][=naakaite]" : {naakaite}
 | "[OtherRoot][=FOC][=naakataki]" : {naakataki}
 | "[OtherRoot][=I][=naari]" : {naari}
