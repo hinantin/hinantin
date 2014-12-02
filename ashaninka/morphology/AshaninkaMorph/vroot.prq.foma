@@ -298,6 +298,7 @@ define VRootPRQin [
 | "[VRoot][=rub.annatto][=potsot]" : {potsot}
 | "[VRoot][=dye][=potsot]" : {potsot}
 | "[VRoot][=convert][=py]" : {py}
+| "[VRoot][=make][=ant]" : {rant}
 | "[VRoot][=watch][=riro]" : {riro}
 | "[VRoot][=bathe][=saa]" : {saa}
 | "[VRoot][=bathe.in.hot.water][=saa]" : {saa}
