@@ -218,7 +218,16 @@
         define WhPRQ WhPRQin;
       define Interrogative [ [WhPRQ] ];
 
-      read regex Cleanup .o. [ [Other|Adverb|Noun|Verb|Negator|Interrogative] ] .o. Cleanup1 .o. Orthography .o. UpperCase;
+      ##########################
+      #                        #
+      #       Interjection     #
+      #                        #
+      ##########################
+      source interjection.prq.foma
+        define InterjPRQ InterjPRQin;
+      define Interjection [ [InterjPRQ] ];
+
+      read regex Cleanup .o. [ [Other|Adverb|Noun|Verb|Negator|Interrogative|Interjection] ] .o. Cleanup1 .o. Orthography .o. UpperCase;
 
       save stack asheninka.bin
 
