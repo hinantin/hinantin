@@ -99,7 +99,6 @@ define ORootPRQin [
 | "[OtherRoot][=EXIST][=tzimatsi]" : {tzimatsi}
 | "[OtherRoot][=EXIST][=tzimtsi]" : {tzimtsi}
 | "[OtherRoot][=land][=vani]" : {vani}
-| "[OtherRoot][=EXCL][=ve]" : {ve}
 | "[OtherRoot][=eat][=ya]" : {ya}
 | "[OtherRoot][=this.m][=yoka]" : {yoka}
 | "[OtherRoot][=DEM.m][=yoka]" : {yoka}
