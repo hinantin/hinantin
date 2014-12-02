@@ -16,6 +16,8 @@ define ARootPRQin [
 | "[AdjRoot][=small][=kapichii]" : {kapichii}
 | "[AdjRoot][=old.m][=kinkivari]" : {kinkivari}
 | "[AdjRoot][=old.n.m][=kinkivaro]" : {kinkivaro}
+| "[AdjRoot][=everybody][=maaro]" : {maaro}
+| "[AdjRoot][=all][=maaro]" : {maaro}
 | "[AdjRoot][=all][=maaroni]" : {maaroni}
 | "[AdjRoot][=everybody][=maaroni]" : {maaroni}
 | "[AdjRoot][=entire][=maaroni]" : {maaroni}
