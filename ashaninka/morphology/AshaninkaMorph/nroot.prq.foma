@@ -201,6 +201,7 @@ define NRootPRQin [
 | "[NRoot][=house][=pankotsi]" : {pankotsi}
 | "[NRoot][=river][=pareni]" : {pareni}
 | "[NRoot][=plantain][=parentzi]" : {parentzi}
+| "[NRoot][=root][=paritsa]" : {paritsa}
 | "[NRoot][=plantain][=paryantsi]" : {paryantsi}
 | "[NRoot][=part][=patsa]" : {patsa}
 | "[NRoot][=top.branch][=patsishi]" : {patsishi}
