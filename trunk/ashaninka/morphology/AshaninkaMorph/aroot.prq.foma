@@ -19,6 +19,7 @@ define ARootPRQin [
 | "[AdjRoot][=all][=maaroni]" : {maaroni}
 | "[AdjRoot][=everybody][=maaroni]" : {maaroni}
 | "[AdjRoot][=entire][=maaroni]" : {maaroni}
+| "[AdjRoot][=all,everybody,entire][=maaroni]" : {maroni}
 | "[AdjRoot][=three][=mava]" : {mava}
 | "[AdjRoot][=many][=osheki]" : {osheki}
 | "[AdjRoot][=much][=osheki]" : {osheki}
