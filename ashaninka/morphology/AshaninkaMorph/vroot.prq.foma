@@ -72,6 +72,7 @@ define VRootPRQin [
 | "[VRoot][=go.to.warn][=et]" : {et}
 | "[VRoot][=start][=et]" : {et}
 | "[VRoot][=go][=ha]" : {ha}
+| "[VRoot][=write][=hankena]" : {hankena}
 | "[VRoot][=lead][=heva]" : {heva}
 | "[VRoot][=up][=hinoki]" : {hinoki}
 | "[VRoot][=split][=inchakota]" : {inchakota}
