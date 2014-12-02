@@ -87,6 +87,7 @@ define NRootPRQin [
 | "[NRoot][=car][=kaaro]" : {kaaro}
 | "[NRoot][=coffee][=kahai]" : {kahai}
 | "[NRoot][=perfume][=kahankari]" : {kahankari}
+| "[NRoot][=deamon,shaman][=kamaari]" : {kamaari}
 | "[NRoot][=devil][=kamaaro]" : {kamaaro}
 | "[NRoot][=death][=kamanitaantsi]" : {kamanitaantsi}
 | "[NRoot][=advice][=kamenaantsi]" : {kamenaantsi}
