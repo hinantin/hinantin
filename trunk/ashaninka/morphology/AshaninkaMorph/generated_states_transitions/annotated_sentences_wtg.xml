@@ -4,6 +4,15 @@ type=verb, noun, other
 empty set=Ø
 -->
 <sentences>
+  <data 
+  author="Elena Mihas" 
+  title="Essentials of Ashéninka Perené Grammar"
+  year="2010" 
+  url="http://etnolinguistica.wdfiles.com/local--files/tese:mihas-2010/mihas_2010.pdf" 
+  author_email="linguistphd@gmail.com" 
+  note="The sentences here by provided were extracted with the author's permission (consult e-mail - Permission to use text corpora from PhD Thesis : lunes, 24 de marzo de 2014 05:02:04 p.m.)."
+  correctedby="Richard Alexander Castro Mamani" 
+  correctedby_email="rcastro@hinantin.com" />
   <sentence id="1.1.">
     <normal>Nosaitatyero nihaa.</normal>
     <annotation_first_level>no=sai-t-aty-e=ro nihaa</annotation_first_level>
