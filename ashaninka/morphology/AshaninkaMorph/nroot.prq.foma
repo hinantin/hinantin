@@ -163,10 +163,9 @@ define NRootPRQin [
 | "[NRoot][=person’s.name][=navireri]" : {navireri}
 | "[NRoot][=person’s.name][=naviriri]" : {naviriri}
 | "[NRoot][=chest][=nehi]" : {nehi}
-| "[NRoot][=river][=nihaa]" : {nihaa}
-| "[NRoot][=water][=nihaa]" : {nihaa}
+| "[NRoot][=water][=nihaa]" : {niha}
+| "[NRoot][=water,river][=nihaa]" : {nihaa}
 | "[NRoot][=breast][=nii]" : {nii}
-| "[NRoot][=water][=nihaa]" : {nija}
 | "[NRoot][=mother][=niro]" : {niro}
 | "[NRoot][=word,language][=nyaa]" : {nyaa}
 | "[NRoot][=word][=nyaantsi]" : {nyaantsi}
