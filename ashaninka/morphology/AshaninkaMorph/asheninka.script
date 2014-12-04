@@ -78,7 +78,7 @@
       define TEpenthesisRule3 [ "@EP" -> {t}"@EP" || e _ a ]; 
       define TEpenthesisRule4 [ "@EP" -> {t}"@EP" || a _ e ]; 
       define TEpenthesisRule5 [ "@EP" -> {t}"@EP" || o _ a ]; 
-      define TEpenthesisRule6 [ "@EP" -> {t}"@EP" || i _ a ]; # Antabaitantsi
+      define TEpenthesisRule6 [ "@EP" (->) {t}"@EP" || i _ a ]; # Antabaitantsi
 																															# This rule is not working for this entry: Ikinkishiriaka 
 																															# but for Ikinkishiritaka
 
