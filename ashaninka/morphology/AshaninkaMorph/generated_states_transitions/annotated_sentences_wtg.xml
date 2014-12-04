@@ -1020,13 +1020,17 @@ empty set=Ø
 <element sign="none;isroot:yes"><e_afl>airo</e_afl><e_asl>NEG.IRR</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>paminavaitzitzi</n><afl>p=amin-a-vai~tzitzi</afl><asl>2S=look-EP-DUR~EP.REAL</asl>
+<!-- the reduplicated ending –tz-i is used -->
+<word type="verb"><n>paminavaitzitzi</n><afl>p=amin-a-vai-tz-i-tz-i</afl><asl>2S=look-EP-DUR-EP-REAL-EP-REAL</asl>
 <elements>
 <element sign="none"><e_afl>p</e_afl><e_asl>2SG.S</e_asl></element>
 <element sign="equal;isroot:yes"><e_afl>amin</e_afl><e_asl>look</e_asl></element>
 <element sign="hyphen"><e_afl>a</e_afl><e_asl>EP</e_asl></element>
 <element sign="hyphen"><e_afl>vai</e_afl><e_asl>DUR</e_asl></element>
-<element sign="tilde"><e_afl>tzitzi</e_afl><e_asl>EP.REAL</e_asl></element>
+<element sign="tilde"><e_afl>tz</e_afl><e_asl>EP</e_asl></element>
+<element sign="tilde"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
+<element sign="tilde"><e_afl>tz</e_afl><e_asl>EP</e_asl></element>
+<element sign="tilde"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
 </elements>
 </word>
 </words>
