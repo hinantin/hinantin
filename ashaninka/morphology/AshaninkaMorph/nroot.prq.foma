@@ -286,7 +286,7 @@ define NRootPRQin [
 | "[NRoot][=weaver][=tihatsi]" : {tihatsi}
 | "[NRoot][=pineapple][=tivana]" : {tivana}
 | "[NRoot][=son][=tomi]" : {tomi}
-| "[NRoot][=hill.top][=tonkari]" : {tonkaari}
+| "[NRoot][=hill.top,above][=tonkari]" : {tonkaari}
 | "[NRoot][=hill.top][=tonkari]" : {tonkari}
 | "[NRoot][=top][=tonkari]" : {tonkari}
 | "[NRoot][=cut][=tot]" : {tot}
