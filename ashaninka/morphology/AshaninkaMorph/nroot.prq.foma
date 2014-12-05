@@ -242,6 +242,7 @@ define NRootPRQin [
 | "[NRoot][=agouti][=sharo]" : {sharo}
 | "[NRoot][=fellowman][=sheninka]" : {sheninka}
 | "[NRoot][=shoulder][=shempa]" : {shempa}
+| "[NRoot][=charapa.turtle,terrapin.sp.][=shempiri]" : {shempiri}
 | "[NRoot][=shaman][=sheripyari]" : {sheripiare}
 | "[NRoot][=shaman][=sheripyari]" : {sheripiari}
 | "[NRoot][=shaman][=sheripyari]" : {sheripyari}
