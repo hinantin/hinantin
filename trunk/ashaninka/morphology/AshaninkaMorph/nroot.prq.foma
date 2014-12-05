@@ -123,7 +123,7 @@ define NRootPRQin [
 | "[NRoot][=father][=koki]" : {koki}
 | "[NRoot][=elbow][=konaki]" : {konaki}
 | "[NRoot][=father.in.law.of.a.man][=konki]" : {konki}
-| "[NRoot][=tortoise,turtle,motelo,turtle.sp.][=konoya]" : {konoya}
+| "[NRoot][=tortoise,turtle,motelo.turtle,turtle.sp.][=konoya]" : {konoya}
 | "[NRoot][=second.father][=kompatsiri]" : {kompatsiri}
 | "[NRoot][=palm.sp.][=kompiro]" : {kompiro}
 | "[NRoot][=yarina][=kompiroshi]" : {kompiroshi}
