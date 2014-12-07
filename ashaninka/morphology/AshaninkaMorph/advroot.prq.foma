@@ -8,6 +8,7 @@ define AdvRootPRQin [
 | "[AdvRoot][=the other day][=chapinkiranki]" : {chapinkiranki}
 | "[AdvRoot][=CONN][=ikanta]" : {ikanta}
 | "[AdvRoot][=meanwhile][=ikanta]" : {ikanta}
+| "[AdvRoot][=meanwhile][=ikanta]" : {ikantya}
 | "[AdvRoot][=recently][=inkaranki]" : {inkaranki}
 | "[AdvRoot][=some.time.ago][=inkaranki]" : {inkaranki}
 | "[AdvRoot][=afterwards][=imponya]" : {imponya}
