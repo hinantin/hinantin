@@ -237,6 +237,7 @@ define VRootPRQin [
 | "[VRoot][=annoy][=nyashirink]" : {nyashirink}
 | "[VRoot][=play][=nyaatsa]" : {nyatsa}
 | "[VRoot][=CAUS.AGT.drink][=oi]" : {oi}
+| "[VRoot][=annoy][=oihamintsat]" : {oihamintsat}
 | "[VRoot][=be.close][=okaaki]" : {okaaki}
 | "[VRoot][=be.necessary][=ontzimatye]" : {ontzimatye}
 | "[VRoot][=abandon][=ook]" : {ook}
