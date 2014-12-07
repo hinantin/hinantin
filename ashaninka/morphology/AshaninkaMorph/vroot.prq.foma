@@ -126,6 +126,7 @@ define VRootPRQin [
 | "[VRoot][=go][=ken]" : {ken}
 | "[VRoot][=come][=ken]" : {ken}
 | "[VRoot][=talk,tell][=kenkitsa]" : {kenkitsa}
+| "[VRoot][=sting][=kent]" : {kent}
 | "[VRoot][=carry][=ki]" : {ki}
 | "[VRoot][=hear][=kim]" : {kim}
 | "[VRoot][=listen][=kim]" : {kim}
