@@ -201,6 +201,7 @@ define VRootPRQin [
 | "[VRoot][=be.in.line][=mitsaink]" : {mitsaink}
 | "[VRoot][=make.holes][=mok]" : {mok}
 | "[VRoot][=measure][=monkara]" : {monkara}
+| "[VRoot][=find,meet][=monts]" : {monts}
 | "[VRoot][=cross.river][=monty]" : {monty}
 | "[VRoot][=burn][=morek]" : {morek}
 | "[VRoot][=boil][=moy]" : {moy}

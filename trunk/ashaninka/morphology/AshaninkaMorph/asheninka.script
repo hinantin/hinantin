@@ -98,12 +98,12 @@
       #        Transitive      #
       #                        #
       ##########################
-       define TransSubj1 [ "[1SG.A+]" <- "[1SG.S+]" || _ ?* "[+1SG.O]"];
-       define TransSubj2 [ "[2SG.A+]" <- "[2SG.S+]" || _ ?* "[+2SG.O]"];
-       define TransSubj3 [ "[3SGm.A+]" <- "[3SGm.S+]" || _ ?* "[+3SGm.O]"];
-       define TransSubj4 [ "[3SGnm.A+]" <- "[3SGnm.S+]" || _ ?* "[+3SGnm.O]"];
-       define TransSubj5 [ "[1PL.A+]" <- "[1PL.S+]" || _ ?* "[+1PL.O]"];
-      define VerbRules TransSubj1 .o. TransSubj2 .o. TransSubj3 .o. TransSubj4 .o. TransSubj5 ;
+#       define TransSubj1 [ "[1SG.A+]" <- "[1SG.S+]" || _ ?* "[+1SG.O]"];
+#       define TransSubj2 [ "[2SG.A+]" <- "[2SG.S+]" || _ ?* "[+2SG.O]"];
+#       define TransSubj3 [ "[3SGm.A+]" <- "[3SGm.S+]" || _ ?* "[+3SGm.O]"];
+#       define TransSubj4 [ "[3SGnm.A+]" <- "[3SGnm.S+]" || _ ?* "[+3SGnm.O]"];
+#       define TransSubj5 [ "[1PL.A+]" <- "[1PL.S+]" || _ ?* "[+1PL.O]"];
+#      define VerbRules TransSubj1 .o. TransSubj2 .o. TransSubj3 .o. TransSubj4 .o. TransSubj5 ;
 
       source v-s-1.foma
       source v-s-2.foma
@@ -139,7 +139,8 @@
       source vroot.es.foma
         define VRootPRQ [VRootPRQin|VRootEsin];
       
-      define Verb FeatRestr .o. VerbRules .o. [ (Pref) [VRootPRQ] (Suff) ] .o. Epenthesis;
+#      define Verb FeatRestr .o. VerbRules .o. [ (Pref) [VRootPRQ] (Suff) ] .o. Epenthesis;
+      define Verb [ (Pref) [VRootPRQ] (Suff) ] .o. Epenthesis .o. FeatRestr ;
 
       ##########################
       #                        #
