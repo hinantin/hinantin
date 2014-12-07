@@ -1027,10 +1027,10 @@ empty set=Ø
 <element sign="equal;isroot:yes"><e_afl>amin</e_afl><e_asl>look</e_asl></element>
 <element sign="hyphen"><e_afl>a</e_afl><e_asl>EP</e_asl></element>
 <element sign="hyphen"><e_afl>vai</e_afl><e_asl>DUR</e_asl></element>
-<element sign="tilde"><e_afl>tz</e_afl><e_asl>EP</e_asl></element>
-<element sign="tilde"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
-<element sign="tilde"><e_afl>tz</e_afl><e_asl>EP</e_asl></element>
-<element sign="tilde"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
+<element sign="hyphen"><e_afl>tz</e_afl><e_asl>EP</e_asl></element>
+<element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
+<element sign="hyphen"><e_afl>tz</e_afl><e_asl>EP</e_asl></element>
+<element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
 </elements>
 </word>
 </words>
@@ -21685,6 +21685,153 @@ empty set=Ø
 <element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
 <element sign="equal"><e_afl>ro</e_afl><e_asl>3n.m.O</e_asl></element>
 <element sign="equal"><e_afl>ni</e_afl><e_asl>REL</e_asl></element>
+</elements>
+</word>
+</words>
+</sentence>
+
+<sentence id="B.1.12.">
+<normal>Isaikashivaita, intaani inyaatsavaitya.</normal>
+<annotation_first_level>i=saik-ashi-vai-t-a iNtaani i=nyaatsa-vai-t-ia</annotation_first_level>
+<annotation_second_level>3m.S=be.at-APPL.INT-DUR-EP-REAL only 3m.S=play-DUR-EP-IRR</annotation_second_level>
+<translation>They are just sitting, they only will play.</translation>
+<words>
+<word type="verb"><n>Isaikashivaita</n><afl>i=saik-ashi-vai-t-a</afl><asl>3m.S=be.at-APPL.INT-DUR-EP-REAL</asl>
+<elements>
+<element sign="none"><e_afl>i</e_afl><e_asl>3m.S</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>saik</e_afl><e_asl>be.at</e_asl></element>
+<element sign="hyphen"><e_afl>ashi</e_afl><e_asl>APPL.INT</e_asl></element>
+<element sign="hyphen"><e_afl>vai</e_afl><e_asl>DUR</e_asl></element>
+<element sign="hyphen"><e_afl>t</e_afl><e_asl>EP</e_asl></element>
+<element sign="hyphen"><e_afl>a</e_afl><e_asl>REAL</e_asl></element>
+</elements>
+</word>
+<word type="other"><n>intaani</n><afl>iNtaani</afl><asl>only</asl>
+<elements>
+<element sign="none;isroot:yes"><e_afl>iNtaani</e_afl><e_asl>only</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>inyaatsavaitya</n><afl>i=nyaatsa-vai-t-ia</afl><asl>3m.S=play-DUR-EP-IRR</asl>
+<elements>
+<element sign="none"><e_afl>i</e_afl><e_asl>3m.S</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>nyaatsa</e_afl><e_asl>play</e_asl></element>
+<element sign="hyphen"><e_afl>vai</e_afl><e_asl>DUR</e_asl></element>
+<element sign="hyphen"><e_afl>t</e_afl><e_asl>EP</e_asl></element>
+<element sign="hyphen"><e_afl>ia</e_afl><e_asl>IRR</e_asl></element>
+</elements>
+</word>
+</words>
+</sentence>
+
+<sentence id="B.1.13.">
+<normal>Arika ankantavitakyari, ‘Airo pinyaatsavaita, airo pinyaatsavaita, airo tekatsi inkante, irohatzi yaminashitya sontoki, airo yantzirotzi yantavairi.</normal>
+<annotation_first_level>arika a=N-kaNt-a-vi-t-ak-ia=ri airo pi=nyaatsa-vai-t-a airo pi=nyaatsa-vai-t-a airo tekatsi i=N-kaNt-e irohatzi y=amin-ashi-t-ia soNtoki airo y=aNt-tz-i=ro~tzi y=aNtavai-ri</annotation_first_level>
+<annotation_second_level>when 1PL.A=IRR-say-EP-FRUS-EP-PRF-IRR=3m.O NEG.IRR 2S=play-DUR-EP-REAL NEG.IRR 2S=play-DUR-EP-REAL NEG.IRR NEG.EXIST 3m.S=IRR-say-IRR until 3m.S=look-APPL.INT-EP-IRR wide.open.eye NEG.IRR 3m.A=make-EP-REAL=3n.m.O~EMPH 3m.poss=work-NMZ</annotation_second_level>
+<translation>‘Whe we tell them, ‘Don’t play, don’t play,’ they won’t say anything, only will look [at you] with big eyes, [but] they won’t do the assignment.’</translation>
+<words>
+<word type="verb"><n>Arika</n><afl>arika</afl><asl>when</asl>
+<elements>
+<element sign="none"><e_afl>arika</e_afl><e_asl>when</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>ankantavitakyari</n><afl>a=N-kaNt-a-vi-t-ak-ia=ri</afl><asl>1PL.A=IRR-say-EP-FRUS-EP-PRF-IRR=3m.O</asl>
+<elements>
+<element sign="none"><e_afl>a</e_afl><e_asl>1PL.A</e_asl></element>
+<element sign="equal"><e_afl>N</e_afl><e_asl>IRR</e_asl></element>
+<element sign="hyphen"><e_afl>kaNt</e_afl><e_asl>say</e_asl></element>
+<element sign="hyphen"><e_afl>a</e_afl><e_asl>EP</e_asl></element>
+<element sign="hyphen"><e_afl>vi</e_afl><e_asl>FRUS</e_asl></element>
+<element sign="hyphen"><e_afl>t</e_afl><e_asl>EP</e_asl></element>
+<element sign="hyphen"><e_afl>ak</e_afl><e_asl>PRF</e_asl></element>
+<element sign="hyphen"><e_afl>ia</e_afl><e_asl>IRR</e_asl></element>
+<element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>‘Airo</n><afl>airo</afl><asl>NEG.IRR</asl>
+<elements>
+<element sign="none"><e_afl>airo</e_afl><e_asl>NEG.IRR</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>pinyaatsavaita</n><afl>pi=nyaatsa-vai-t-a</afl><asl>2S=play-DUR-EP-REAL</asl>
+<elements>
+<element sign="none"><e_afl>pi</e_afl><e_asl>2S</e_asl></element>
+<element sign="equal"><e_afl>nyaatsa</e_afl><e_asl>play</e_asl></element>
+<element sign="hyphen"><e_afl>vai</e_afl><e_asl>DUR</e_asl></element>
+<element sign="hyphen"><e_afl>t</e_afl><e_asl>EP</e_asl></element>
+<element sign="hyphen"><e_afl>a</e_afl><e_asl>REAL</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>airo</n><afl>airo</afl><asl>NEG.IRR</asl>
+<elements>
+<element sign="none"><e_afl>airo</e_afl><e_asl>NEG.IRR</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>pinyaatsavaita</n><afl>pi=nyaatsa-vai-t-a</afl><asl>2S=play-DUR-EP-REAL</asl>
+<elements>
+<element sign="none"><e_afl>pi</e_afl><e_asl>2S</e_asl></element>
+<element sign="equal"><e_afl>nyaatsa</e_afl><e_asl>play</e_asl></element>
+<element sign="hyphen"><e_afl>vai</e_afl><e_asl>DUR</e_asl></element>
+<element sign="hyphen"><e_afl>t</e_afl><e_asl>EP</e_asl></element>
+<element sign="hyphen"><e_afl>a</e_afl><e_asl>REAL</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>airo</n><afl>airo</afl><asl>NEG.IRR</asl>
+<elements>
+<element sign="none"><e_afl>airo</e_afl><e_asl>NEG.IRR</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>tekatsi</n><afl>tekatsi</afl><asl>NEG.EXIST</asl>
+<elements>
+<element sign="none"><e_afl>tekatsi</e_afl><e_asl>NEG.EXIST</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>inkante</n><afl>i=N-kaNt-e</afl><asl>3m.S=IRR-say-IRR</asl>
+<elements>
+<element sign="none"><e_afl>i</e_afl><e_asl>3m.S</e_asl></element>
+<element sign="equal"><e_afl>N</e_afl><e_asl>IRR</e_asl></element>
+<element sign="hyphen"><e_afl>kaNt</e_afl><e_asl>say</e_asl></element>
+<element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>irohatzi</n><afl>irohatzi</afl><asl>until</asl>
+<elements>
+<element sign="none"><e_afl>irohatzi</e_afl><e_asl>until</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>yaminashitya</n><afl>y=amin-ashi-t-ia</afl><asl>3m.S=look-APPL.INT-EP-IRR</asl>
+<elements>
+<element sign="none"><e_afl>y</e_afl><e_asl>3m.S</e_asl></element>
+<element sign="equal"><e_afl>amin</e_afl><e_asl>look</e_asl></element>
+<element sign="hyphen"><e_afl>ashi</e_afl><e_asl>APPL.INT</e_asl></element>
+<element sign="hyphen"><e_afl>t</e_afl><e_asl>EP</e_asl></element>
+<element sign="hyphen"><e_afl>ia</e_afl><e_asl>IRR</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>sontoki</n><afl>soNtoki</afl><asl>wide.open.eye</asl>
+<elements>
+<element sign="none"><e_afl>soNtoki</e_afl><e_asl>wide.open.eye</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>airo</n><afl>airo</afl><asl>NEG.IRR</asl>
+<elements>
+<element sign="none"><e_afl>airo</e_afl><e_asl>NEG.IRR</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>yantzirotzi</n><afl>y=aNt-tz-i=ro~tzi</afl><asl>3m.A=make-EP-REAL=3n.m.O~EMPH</asl>
+<elements>
+<element sign="none"><e_afl>y</e_afl><e_asl>3m.A</e_asl></element>
+<element sign="equal"><e_afl>aNt</e_afl><e_asl>make</e_asl></element>
+<element sign="hyphen"><e_afl>tz</e_afl><e_asl>EP</e_asl></element>
+<element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
+<element sign="equal"><e_afl>ro</e_afl><e_asl>3n.m.O</e_asl></element>
+<element sign="tilde"><e_afl>tzi</e_afl><e_asl>EMPH</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>yantavairi</n><afl>y=aNtavai-ri</afl><asl>3m.poss=work-NMZ</asl>
+<elements>
+<element sign="none"><e_afl>y</e_afl><e_asl>3m.poss</e_asl></element>
+<element sign="equal"><e_afl>aNtavai</e_afl><e_asl>work</e_asl></element>
+<element sign="hyphen"><e_afl>ri</e_afl><e_asl>NMZ</e_asl></element>
 </elements>
 </word>
 </words>
