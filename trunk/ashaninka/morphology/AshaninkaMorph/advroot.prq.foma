@@ -15,8 +15,8 @@ define AdvRootPRQin [
 | "[AdvRoot][=afterwards][=imponyashitakya]" : {imponyashitakya}
 | "[AdvRoot][=afterwards][=iponya]" : {iponya}
 | "[AdvRoot][=afterwards][=iponyashitanaka]" : {iponyashitanaka}
-| "[AdvRoot][=until][=irohatzi]" : {irohatzi}
-| "[AdvRoot][=when][=irohatzi]" : {irohatzi}
+| "[AdvRoot][=until,when][=irohatzi]" : {irohatsi}
+| "[AdvRoot][=until,when][=irohatzi]" : {irohatzi}
 | "[AdvRoot][=now][=ironya]" : {ironya}
 | "[AdvRoot][=now][=ironyaaka]" : {ironyaaka}
 | "[AdvRoot][=now][=ironyaka]" : {ironyaka}
