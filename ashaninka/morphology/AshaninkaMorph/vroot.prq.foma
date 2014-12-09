@@ -149,8 +149,7 @@ define VRootPRQin [
 | "[VRoot][=sting][=kint]" : {kint}
 | "[VRoot][=get.soiled][=kipatsi]" : {kipatsi}
 | "[VRoot][=weave][=kirik]" : {kirik}
-| "[VRoot][=be.angry][=kis]" : {kis}
-| "[VRoot][=get.upset][=kis]" : {kis}
+| "[VRoot][=be.angry,get.upset][=kis]" : {kis}
 | "[VRoot][=be.black][=kisaa]" : {kisaa}
 | "[VRoot][=be.hard][=kiso]" : {kiso}
 | "[VRoot][=bury][=kita]" : {kita}
