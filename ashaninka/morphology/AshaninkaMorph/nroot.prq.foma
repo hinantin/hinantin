@@ -231,6 +231,7 @@ define NRootPRQin [
 | "[NRoot][=opossum][=saari]" : {saari}
 | "[NRoot][=firewood][=saimpiki]" : {saimpiki}
 | "[NRoot][=paca][=samani]" : {samani}
+| "[NRoot][=wasp][=sani]" : {sani}
 | "[NRoot][=torch][=sampi]" : {sampi}
 | "[NRoot][=cedar.tree][=santari]" : {santari}
 | "[NRoot][=grandma][=sari]" : {sari}
