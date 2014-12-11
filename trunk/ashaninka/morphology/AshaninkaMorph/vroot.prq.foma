@@ -342,6 +342,7 @@ define VRootPRQin [
 | "[VRoot][=believe][=shiri]" : {shiri}
 | "[VRoot][=think][=shiri]" : {shiri}
 | "[VRoot][=grow][=shirinka]" : {shirinka}
+| "[VRoot][=laugh][=shironts]" : {shironts}
 | "[VRoot][=get.well][=shitako]" : {shitako}
 | "[VRoot][=leave][=shitov]" : {shitov}
 | "[VRoot][=escape][=shitov]" : {shitov}
