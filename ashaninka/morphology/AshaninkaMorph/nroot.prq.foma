@@ -132,7 +132,7 @@ define NRootPRQin [
 | "[NRoot][=woman][=kooya]" : {kooya}
 | "[NRoot][=corral.n.m.][=korarintsi]" : {korarintsi}
 | "[NRoot][=crocodile.m][=kosaniri]" : {kosaniri}
-| "[NRoot][=pit.viper,sp.,jergón][=koshipirinke]" : {koshipirinke}
+| "[NRoot][=pit.viper.sp.,jergón][=koshipirinke]" : {koshipirinke}
 | "[NRoot][=monkey][=koshiri]" : {koshiri}
 | "[NRoot][=machete][=kotsiro]" : {kotsiro}
 | "[NRoot][=machine][=maakina]" : {maakina}
