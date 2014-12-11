@@ -21,7 +21,6 @@ define ORootPRQin [
 | "[OtherRoot][=aha][=ha]" : {ha}
 | "[OtherRoot][=here][=haka]" : {haka}
 | "[OtherRoot][=yes][=he]" : {he}
-| "[OtherRoot][=top][=henoki]" : {henoki}
 | "[OtherRoot][=there][=hiri]" : {hiri}
 | "[OtherRoot][=there.he.is][=hiri]" : {hiri}
 | "[OtherRoot][=here.it.is][=hirika]" : {hirika}
