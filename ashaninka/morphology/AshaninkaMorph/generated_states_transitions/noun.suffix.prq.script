@@ -1,0 +1,100 @@
+      define N=S=poss [
+       "[--][+poss]" : [{te}|{ni}|{ri}]
+      ];
+      
+      define N=S=DEM [
+       "[--][+DEM]" : [{ka}|{nta}|{ra}]
+      ];
+      
+      define N=S=PL [
+       "[--][+PL]" : [{paye}]
+      ];
+      
+      define N=S=DIM [
+       "[--][+DIM]" : [{patsaini}|{ini}|{aniki}|{ni}]
+      ];
+      
+      define N=S=LOC [
+       "[--][+LOC]" : [{ki}]
+      ];
+      
+      define N=S=river [
+       "[--][+river]" : [{pareni}|{nihaa}]
+      ];
+      
+      define N=S=CL [
+       "[--][+CL]" : [{}]
+      ];
+      
+      define N=S=smallpartDIM [
+       "[--][+small.part.DIM]" : [{patsaini}]
+      ];
+      
+      define N=S=ADV [
+       "[--][+ADV]" : [{nta}]
+      ];
+      
+      define N=S=EXCL [
+       "[--][+EXCL]" : [{ve}]
+      ];
+      
+      define N=S=ADVP [
+       "[--][+ADV.P]" : [{ranki}]
+      ];
+      
+      define N=S=ABS [
+       "[--][+ABS]" : [{ntsi}|{tsi}]
+      ];
+      
+      define N=S=AUG [
+       "[--][+AUG]" : [{ni}|{ite}]
+      ];
+      
+      define N=S=monkey [
+       "[--][+monkey]" : [{koshiri}]
+      ];
+      
+      define N=S=deceased [
+       "[--][+deceased]" : [{ni}]
+      ];
+      
+      define N=S=leaf [
+       "[--][+leaf]" : [{shi}|{tsipana}]
+      ];
+      
+      define N=S=NOM [
+       "[--][+NOM]" : [{rintsi}]
+      ];
+      
+      define N=S=EMPH [
+       "[--][+EMPH]" : [{kya}|{ha}]
+      ];
+      
+      define N=S=smallpart [
+       "[--][+small.part]" : [{patsa}]
+      ];
+      
+      define N=S=Q [
+       "[--][+Q]" : [{ka}]
+      ];
+      
+      define N=S=DISTREL [
+       "[--][+DIST.REL]" : [{tsori}]
+      ];
+      
+      define N=S=DUB [
+       "[--][+DUB]" : [{taima}]
+      ];
+      
+      define N=S=ADVT [
+       "[--][+ADV.T]" : [{ranki}]
+      ];
+      
+      define N=S=this [
+       "[--][+this]" : [{ka}]
+      ];
+      
+      define N=S=wide [
+       "[--][+wide]" : [{tsantsana}]
+      ];
+      
