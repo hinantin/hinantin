@@ -19498,7 +19498,8 @@ empty set=Ø
 <element sign="hyphen"><e_afl>t</e_afl><e_asl>EP</e_asl></element>
 <element sign="hyphen"><e_afl>a</e_afl><e_asl>EP</e_asl></element>
 <element sign="hyphen"><e_afl>ye</e_afl><e_asl>DIST</e_asl></element>
-<element sign="hyphen"><e_afl>tzi</e_afl><e_asl>REAL</e_asl></element>
+<element sign="hyphen"><e_afl>tz</e_afl><e_asl>EP</e_asl></element>
+<element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
 <element sign="equal"><e_afl>ro</e_afl><e_asl>3n.m.O</e_asl></element>
 </elements>
 </word>
