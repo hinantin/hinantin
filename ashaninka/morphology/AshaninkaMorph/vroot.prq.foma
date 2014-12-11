@@ -57,7 +57,7 @@ define VRootPRQin [
 | "[VRoot][=smell][=asank]" : {asank}
 | "[VRoot][=have][=ashi]" : {ashi}
 | "[VRoot][=enclose][=ashi]" : {ashi}
-| "[VRoot][=go.up][=atai]" : {atai}
+| "[VRoot][=go.up,climb][=atai]" : {atai}
 | "[VRoot][=bite][=atsik]" : {atsik}
 | "[VRoot][=person][=atziri]" : {atziri}
 | "[VRoot][=pass][=avis]" : {avis}
