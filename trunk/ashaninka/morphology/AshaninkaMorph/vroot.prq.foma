@@ -327,6 +327,7 @@ define VRootPRQin [
 | "[VRoot][=be.at][=shaik]" : {shaik}
 | "[VRoot][=be.much][=sheki]" : {sheki}
 | "[VRoot][=much][=sheki]" : {sheki}
+| "[VRoot][=pound][=shemi]" : {shemi}
 | "[VRoot][=be.of.the.same.group][=sheni]" : {sheni}
 | "[VRoot][=clean][=shet]" : {shet}
 | "[VRoot][=move][=sheva]" : {sheva}
