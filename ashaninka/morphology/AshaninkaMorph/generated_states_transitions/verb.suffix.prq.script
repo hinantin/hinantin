@@ -39,7 +39,7 @@
       ];
       
       define V=S=REAL [
-       "[--][+REAL]" : "@EP"[{e}|{i}|{a}|{i.}|{t}|{ri}|{tzi}|{ia}]
+       "[--][+REAL]" : "@EP"[{e}|{i}|{a}|{t}|{ri}|{ia}]
       ];
       
       define V=S=AUG [
@@ -72,10 +72,6 @@
       
       define V=S=ICPL [
        "[--][+ICPL]" : "@EP"[{it}|{e}]
-      ];
-      
-      define V=S=EPREAL [
-       "[--][+EP.REAL]" : "@EP"[{tzitzi}]
       ];
       
       define V=S=REL [
@@ -143,7 +139,7 @@
       ];
       
       define V=S=3mposs [
-       "[--][+3m.poss]" : "@EP"[{i}|{y}]
+       "[--][+3m.poss]" : "@EP"[{i}|{y}|{ir}]
       ];
       
       define V=S=ADJ [
@@ -332,6 +328,62 @@
       
       define V=S=REC [
        "[--][+REC]" : "@EP"[{av}]
+      ];
+      
+      define V=S=2S [
+       "[--][+2S]" : "@EP"[{pi}]
+      ];
+      
+      define V=S=also [
+       "[--][+also]" : "@EP"[{aisatzi}]
+      ];
+      
+      define V=S=when [
+       "[--][+when]" : "@EP"[{arika}]
+      ];
+      
+      define V=S=beangry [
+       "[--][+be.angry]" : "@EP"[{kis}]
+      ];
+      
+      define V=S=benecessary [
+       "[--][+be.necessary]" : "@EP"[{ontzimatye}|{ontzimatye}]
+      ];
+      
+      define V=S=call [
+       "[--][+call]" : "@EP"[{kaim}|{pai}|{kant}]
+      ];
+      
+      define V=S=father [
+       "[--][+father]" : "@EP"[{iri}]
+      ];
+      
+      define V=S=WH [
+       "[--][+WH]" : "@EP"[{paita}]
+      ];
+      
+      define V=S=make [
+       "[--][+make]" : "@EP"[{vetsik}|{ant}|{vitsik}]
+      ];
+      
+      define V=S=sothat [
+       "[--][+so.that]" : "@EP"[{onkantia}]
+      ];
+      
+      define V=S=all [
+       "[--][+all]" : "@EP"[{maaroni}]
+      ];
+      
+      define V=S=fix [
+       "[--][+fix]" : "@EP"[{vetsik}|{vitsik}]
+      ];
+      
+      define V=S=well [
+       "[--][+well]" : "@EP"[{kameetsa}]
+      ];
+      
+      define V=S=child [
+       "[--][+child]" : "@EP"[{eentsi}]
       ];
       
       define V=S=ABS [
