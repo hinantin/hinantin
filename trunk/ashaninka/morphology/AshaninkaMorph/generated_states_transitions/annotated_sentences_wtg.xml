@@ -1708,7 +1708,7 @@ empty set=Ø
 <element sign="hyphen"><e_afl>a</e_afl><e_asl>EP</e_asl></element>
 <element sign="hyphen"><e_afl>vai</e_afl><e_asl>DUR</e_asl></element>
 <element sign="hyphen"><e_afl>tz</e_afl><e_asl>EP</e_asl></element>
-<element sign="hyphen"><e_afl>i.</e_afl><e_asl>REAL</e_asl></element>
+<element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
 </elements>
 </word>
 </words>
