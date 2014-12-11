@@ -181,6 +181,7 @@ define VRootPRQin [
 | "[VRoot][=sleep][=ma]" : {ma}
 | "[VRoot][=close.eyes][=machok]" : {machok}
 | "[VRoot][=forget][=maisant]" : {maisant}
+| "[VRoot][=tire][=makot]" : {makot}
 | "[VRoot][=hide][=man]" : {man}
 | "[VRoot][=fight][=mana]" : {mana}
 | "[VRoot][=be.sick][=mantsiy]" : {mantsiy}
