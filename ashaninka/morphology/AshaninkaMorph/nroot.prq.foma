@@ -44,6 +44,7 @@ define NRootPRQin [
 | "[NRoot][=huayruro][=chovankiri]" : {chovankiri}
 | "[NRoot][=child][=eentsi]" : {eentsi}
 | "[NRoot][=child][=hananeki]" : {hananeki}
+| "[NRoot][=top][=henoki]" : {henoki}
 | "[NRoot][=arm][=hempeki]" : {hempeki}
 | "[NRoot][=spider][=heto]" : {heto}
 | "[NRoot][=hair][=iishi]" : {iishi}
