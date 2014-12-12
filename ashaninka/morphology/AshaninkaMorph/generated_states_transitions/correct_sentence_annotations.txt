@@ -3,3 +3,39 @@ Aisatzi arika inkisakakai, ontzimatye ankaimakanteri iriri, paitarika yantapaint
 aisatzi arika i=N-kis-ak-ak=ai oNtzimatye a=N-kaim-ak-aNt-e=ri ir=iri paita=rika y=aNt-apaiNt-e=ri oNkaNtia=kya maaroni a=vitsik-ah-e=ro kameetsa y=aNt-ak-e=ri=ra eentsi
 also when 3m.A=IRR-be.angry-CAUS-PRF=1PL.O be.necessary 1PL.A=IRR-call-PRF-APPL.REAS-IRR=REL 3m.poss=father WH=COND 3m.S=make-once-IRR=REL so.that=EMPH all 1PL.A=fix-REGR-IRR=3n.m.O well 3m.A=make-PRF-IRR=3m.O=ADV child
 ‘Also when they make us [teachers] angry, we haveto call their father, so that all, whatever he [the child] did, could be resolved.’
+
+B.1.15.
+Arika imposavakakya o intsitonkakero aparoni kooya, onkamantahero iniro.
+arika i=N-pos-av-ak-ak-ia o i=N-tsitoNk-ak-e=ro aparoni kooya i=N-kamaNt-ah-e=ro i=niro
+when 3m.S=IRR-hit-RCP-CAUS-PRF-IRR or 3m.A=IRR-hit-PRF-IRR=3n.m.O one woman 3m.A=IRR-inform-REGR-IRR=3n.m.O 3m.poss=mother
+‘When they fight each other or hit a woman, he [the child] will notify his mother about it.’
+
+B.1.16.
+Arika ompokahe iniro, naakataki vitsikaironi nyaantsi.
+arika o=N-pok-ah-e i=niro naakataki vitsik-a-e=ro=ni nyaa-ntsi.
+when 3n.m.S=IRR-come-REGR-IRR 3m.poss=mother I.FOC fix-REGR-IRR=3n.m.O=REL word-ABS
+‘When his mother comes, I will be the one who will resolve it [the issue].’
+
+B.1.17.
+Irotaki aisatzita arika noyomitairi nonyaanate aparonira, ironyaaka noyomitairi inyaanira, ikantziri virakocha, irotaki naparoninkari.
+irotaki aisatzi=ta arika no=yomit-a-e=ri no=nyaana-t-e aparoni=ra ironyaaka no=yomit-a-e=ri i=nyaa-ni=ra i=kaNt-tz-i virakocha irotaki n=aparoni-Nka-ri
+FOC also=OPT when 1SG.A=teach-REGR-IRR=3m.O 1SG.S=instruct-EP-IRR one=DEM now 1SG.A=teach-REGR-IRR=3m.O 3m.poss=word-poss=DEM 3m.S=say-EP-REAL outsider FOC 1SG.poss=one-NMZ-NMZ
+‘Also when I teach them, I will speak their language, I will teach in his language, they say, the language of ‘virakocha’ (of outsiders), in only one language.’
+
+B.1.18.
+Ovakeraini ovakira noyomitakiri eentsipaye anta, noyomitairi inyaaniki, nonyaaniki naari.
+ovakeraini ovakera no=yomit-ak-i=ri eentsi-paye aNta no=yomit-a-i=ri i=nyaa-ni-ki no=nyaa-ni-ki naari
+recently when 1SG.A=teach-PRF-REAL=3m.O child-PL over.there 1SG.A=teach-REGR-REAL=3m.O 3m.poss=word-poss-LOC 1SG.poss=word-poss-LOC I
+‘When recently I taught children over there, I taught them in their language, [which is] my language too.’
+
+B.1.19.
+Noyomitaitzitavakyari nonyaanikinta, iyotzirinta eentsi.
+no=yomit-a-itz-it-av-ak-ia=ri no=nyaa-ni-ki=Nta i=yo-tz-i=ri=Nta eentsi
+1SG.A=teach-EP-ICPL-before-DIR-PRF-IRR=3m.O 1SG.poss=word-poss-LOC=DEM 3m.S=know-EP-REAL=3m.O=ADV child
+‘First I will teach in my language, which the childknows.’
+
+B.1.20.
+Ponyashitakaha noyomitahiri, novakotahiri inyaanikinta virakocha.
+ponyashitaka=ha no=yomit-ah-e=ri no=v-ako-t-ah-i=ri i=nyaa-ni-ki=Nta virakocha
+afterwards=EMPH 1SG.A=teach-REGR-IRR=3m.O 1SG.A=place-APPL-EP-REGR-REAL=3m.O 3m.poss=word-poss-LOC=DEM outsider
+‘Then I will teach them, I will translate it intothe Spaniards’ language.’
