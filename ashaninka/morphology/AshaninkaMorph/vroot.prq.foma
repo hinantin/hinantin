@@ -93,7 +93,6 @@ define VRootPRQin [
 | "[VRoot][=crawl][=kamatsa]" : {kamatsa}
 | "[VRoot][=be.good][=kameetsa]" : {kameetsa}
 | "[VRoot][=good][=kameetsa]" : {kameetsa}
-| "[VRoot][=be.good][=kameetsat]" : {kameetsat}
 | "[VRoot][=advise][=kamen]" : {kamen}
 | "[VRoot][=plead][=kamet]" : {kamet}
 | "[VRoot][=be.good][=kametsa]" : {kametsa}
