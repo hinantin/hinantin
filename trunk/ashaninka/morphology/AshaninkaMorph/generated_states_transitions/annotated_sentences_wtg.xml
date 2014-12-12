@@ -8694,7 +8694,8 @@ empty set=Ø
 <elements>
 <element sign="none"><e_afl>o</e_afl><e_asl>3n.m.S</e_asl></element>
 <element sign="equal"><e_afl>N</e_afl><e_asl>IRR</e_asl></element>
-<element sign="hyphen;isroot:yes"><e_afl>kameetsat</e_afl><e_asl>be.good</e_asl></element>
+<element sign="hyphen;isroot:yes"><e_afl>kameetsa</e_afl><e_asl>be.good</e_asl></element>
+<element sign="hyphen"><e_afl>t</e_afl><e_asl>EP</e_asl></element>
 <element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
 </elements>
 </word>
@@ -21880,7 +21881,7 @@ empty set=Ø
 <element sign="equal"><e_afl>ri</e_afl><e_asl>REL</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>iriri</n><afl>ir=iri</afl><asl>3m.poss=father</asl>
+<word type="noun"><n>iriri</n><afl>ir=iri</afl><asl>3m.poss=father</asl>
 <elements>
 <element sign="none"><e_afl>ir</e_afl><e_asl>3m.poss</e_asl></element>
 <element sign="equal"><e_afl>iri</e_afl><e_asl>father</e_asl></element>
@@ -21936,9 +21937,384 @@ empty set=Ø
 <element sign="equal"><e_afl>ra</e_afl><e_asl>ADV</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>eentsi</n><afl>eentsi</afl><asl>child</asl>
+<word type="noun"><n>eentsi</n><afl>eentsi</afl><asl>child</asl>
 <elements>
 <element sign="none"><e_afl>eentsi</e_afl><e_asl>child</e_asl></element>
+</elements>
+</word>
+</words>
+</sentence>
+
+<sentence id="B.1.15.">
+<normal>Arika imposavakakya o intsitonkakero aparoni kooya, onkamantahero iniro.</normal>
+<annotation_first_level>arika i=N-pos-av-ak-ak-ia o i=N-tsitoNk-ak-e=ro aparoni kooya i=N-kamaNt-ah-e=ro i=niro</annotation_first_level>
+<annotation_second_level>when 3m.S=IRR-hit-RCP-CAUS-PRF-IRR or 3m.A=IRR-hit-PRF-IRR=3n.m.O one woman 3m.A=IRR-inform-REGR-IRR=3n.m.O 3m.poss=mother</annotation_second_level>
+<translation>‘When they fight each other or hit a woman, he [the child] will notify his mother about it.’</translation>
+<words>
+<word type="verb"><n>Arika</n><afl>arika</afl><asl>when</asl>
+<elements>
+<element sign="none"><e_afl>arika</e_afl><e_asl>when</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>imposavakakya</n><afl>i=N-pos-av-ak-ak-ia</afl><asl>3m.S=IRR-hit-RCP-CAUS-PRF-IRR</asl>
+<elements>
+<element sign="none"><e_afl>i</e_afl><e_asl>3m.S</e_asl></element>
+<element sign="equal"><e_afl>N</e_afl><e_asl>IRR</e_asl></element>
+<element sign="hyphen"><e_afl>pos</e_afl><e_asl>hit</e_asl></element>
+<element sign="hyphen"><e_afl>av</e_afl><e_asl>RCP</e_asl></element>
+<element sign="hyphen"><e_afl>ak</e_afl><e_asl>CAUS</e_asl></element>
+<element sign="hyphen"><e_afl>ak</e_afl><e_asl>PRF</e_asl></element>
+<element sign="hyphen"><e_afl>ia</e_afl><e_asl>IRR</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>o</n><afl>o</afl><asl>or</asl>
+<elements>
+<element sign="none"><e_afl>o</e_afl><e_asl>or</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>intsitonkakero</n><afl>i=N-tsitoNk-ak-e=ro</afl><asl>3m.A=IRR-hit-PRF-IRR=3n.m.O</asl>
+<elements>
+<element sign="none"><e_afl>i</e_afl><e_asl>3m.A</e_asl></element>
+<element sign="equal"><e_afl>N</e_afl><e_asl>IRR</e_asl></element>
+<element sign="hyphen"><e_afl>tsitoNk</e_afl><e_asl>hit</e_asl></element>
+<element sign="hyphen"><e_afl>ak</e_afl><e_asl>PRF</e_asl></element>
+<element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
+<element sign="equal"><e_afl>ro</e_afl><e_asl>3n.m.O</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>aparoni</n><afl>aparoni</afl><asl>one</asl>
+<elements>
+<element sign="none"><e_afl>aparoni</e_afl><e_asl>one</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>kooya</n><afl>kooya</afl><asl>woman</asl>
+<elements>
+<element sign="none"><e_afl>kooya</e_afl><e_asl>woman</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>onkamantahero</n><afl>i=N-kamaNt-ah-e=ro</afl><asl>3m.A=IRR-inform-REGR-IRR=3n.m.O</asl>
+<elements>
+<element sign="none"><e_afl>i</e_afl><e_asl>3m.A</e_asl></element>
+<element sign="equal"><e_afl>N</e_afl><e_asl>IRR</e_asl></element>
+<element sign="hyphen"><e_afl>kamaNt</e_afl><e_asl>inform</e_asl></element>
+<element sign="hyphen"><e_afl>ah</e_afl><e_asl>REGR</e_asl></element>
+<element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
+<element sign="equal"><e_afl>ro</e_afl><e_asl>3n.m.O</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>iniro</n><afl>i=niro</afl><asl>3m.poss=mother</asl>
+<elements>
+<element sign="none"><e_afl>i</e_afl><e_asl>3m.poss</e_asl></element>
+<element sign="equal"><e_afl>niro</e_afl><e_asl>mother</e_asl></element>
+</elements>
+</word>
+</words>
+</sentence>
+
+<sentence id="B.1.16.">
+<normal>Arika ompokahe iniro, naakataki vitsikaironi nyaantsi.</normal>
+<annotation_first_level>arika o=N-pok-ah-e i=niro naakataki vitsik-a-e=ro=ni nyaa-ntsi.</annotation_first_level>
+<annotation_second_level>when 3n.m.S=IRR-come-REGR-IRR 3m.poss=mother I.FOC fix-REGR-IRR=3n.m.O=REL word-ABS</annotation_second_level>
+<translation>‘When his mother comes, I will be the one who will resolve it [the issue].’</translation>
+<words>
+<word type="verb"><n>Arika</n><afl>arika</afl><asl>when</asl>
+<elements>
+<element sign="none"><e_afl>arika</e_afl><e_asl>when</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>ompokahe</n><afl>o=N-pok-ah-e</afl><asl>3n.m.S=IRR-come-REGR-IRR</asl>
+<elements>
+<element sign="none"><e_afl>o</e_afl><e_asl>3n.m.S</e_asl></element>
+<element sign="equal"><e_afl>N</e_afl><e_asl>IRR</e_asl></element>
+<element sign="hyphen"><e_afl>pok</e_afl><e_asl>come</e_asl></element>
+<element sign="hyphen"><e_afl>ah</e_afl><e_asl>REGR</e_asl></element>
+<element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>iniro</n><afl>i=niro</afl><asl>3m.poss=mother</asl>
+<elements>
+<element sign="none"><e_afl>i</e_afl><e_asl>3m.poss</e_asl></element>
+<element sign="equal"><e_afl>niro</e_afl><e_asl>mother</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>naakataki</n><afl>naakataki</afl><asl>I.FOC</asl>
+<elements>
+<element sign="none"><e_afl>naakataki</e_afl><e_asl>I.FOC</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>vitsikaironi</n><afl>vitsik-a-e=ro=ni</afl><asl>fix-REGR-IRR=3n.m.O=REL</asl>
+<elements>
+<element sign="none"><e_afl>vitsik</e_afl><e_asl>fix</e_asl></element>
+<element sign="hyphen"><e_afl>a</e_afl><e_asl>REGR</e_asl></element>
+<element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
+<element sign="equal"><e_afl>ro</e_afl><e_asl>3n.m.O</e_asl></element>
+<element sign="equal"><e_afl>ni</e_afl><e_asl>REL</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>nyaantsi</n><afl>nyaa-ntsi.</afl><asl>word-ABS</asl>
+<elements>
+<element sign="none"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
+<element sign="hyphen"><e_afl>ntsi.</e_afl><e_asl>ABS</e_asl></element>
+</elements>
+</word>
+</words>
+</sentence>
+
+<sentence id="B.1.17.">
+<normal>Irotaki aisatzita arika noyomitairi nonyaanate aparonira, ironyaaka noyomitairi inyaanira, ikantziri virakocha, irotaki naparoninkari.</normal>
+<annotation_first_level>irotaki aisatzi=ta arika no=yomit-a-e=ri no=nyaana-t-e aparoni=ra ironyaaka no=yomit-a-e=ri i=nyaa-ni=ra i=kaNt-tz-i virakocha irotaki n=aparoni-Nka-ri</annotation_first_level>
+<annotation_second_level>FOC also=OPT when 1SG.A=teach-REGR-IRR=3m.O 1SG.S=instruct-EP-IRR one=DEM now 1SG.A=teach-REGR-IRR=3m.O 3m.poss=word-poss=DEM 3m.S=say-EP-REAL outsider FOC 1SG.poss=one-NMZ-NMZ</annotation_second_level>
+<translation>‘Also when I teach them, I will speak their language, I will teach in his language, they say, the language of ‘virakocha’ (of outsiders), in only one language.’</translation>
+<words>
+<word type="verb"><n>Irotaki</n><afl>irotaki</afl><asl>FOC</asl>
+<elements>
+<element sign="none"><e_afl>irotaki</e_afl><e_asl>FOC</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>aisatzita</n><afl>aisatzi=ta</afl><asl>also=OPT</asl>
+<elements>
+<element sign="none"><e_afl>aisatzi</e_afl><e_asl>also</e_asl></element>
+<element sign="equal"><e_afl>ta</e_afl><e_asl>OPT</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>arika</n><afl>arika</afl><asl>when</asl>
+<elements>
+<element sign="none"><e_afl>arika</e_afl><e_asl>when</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>noyomitairi</n><afl>no=yomit-a-e=ri</afl><asl>1SG.A=teach-REGR-IRR=3m.O</asl>
+<elements>
+<element sign="none"><e_afl>no</e_afl><e_asl>1SG.A</e_asl></element>
+<element sign="equal"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
+<element sign="hyphen"><e_afl>a</e_afl><e_asl>REGR</e_asl></element>
+<element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
+<element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>nonyaanate</n><afl>no=nyaana-t-e</afl><asl>1SG.S=instruct-EP-IRR</asl>
+<elements>
+<element sign="none"><e_afl>no</e_afl><e_asl>1SG.S</e_asl></element>
+<element sign="equal"><e_afl>nyaana</e_afl><e_asl>instruct</e_asl></element>
+<element sign="hyphen"><e_afl>t</e_afl><e_asl>EP</e_asl></element>
+<element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>aparonira</n><afl>aparoni=ra</afl><asl>one=DEM</asl>
+<elements>
+<element sign="none"><e_afl>aparoni</e_afl><e_asl>one</e_asl></element>
+<element sign="equal"><e_afl>ra</e_afl><e_asl>DEM</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>ironyaaka</n><afl>ironyaaka</afl><asl>now</asl>
+<elements>
+<element sign="none"><e_afl>ironyaaka</e_afl><e_asl>now</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>noyomitairi</n><afl>no=yomit-a-e=ri</afl><asl>1SG.A=teach-REGR-IRR=3m.O</asl>
+<elements>
+<element sign="none"><e_afl>no</e_afl><e_asl>1SG.A</e_asl></element>
+<element sign="equal"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
+<element sign="hyphen"><e_afl>a</e_afl><e_asl>REGR</e_asl></element>
+<element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
+<element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>inyaanira</n><afl>i=nyaa-ni=ra</afl><asl>3m.poss=word-poss=DEM</asl>
+<elements>
+<element sign="none"><e_afl>i</e_afl><e_asl>3m.poss</e_asl></element>
+<element sign="equal"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
+<element sign="hyphen"><e_afl>ni</e_afl><e_asl>poss</e_asl></element>
+<element sign="equal"><e_afl>ra</e_afl><e_asl>DEM</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>ikantziri</n><afl>i=kaNt-tz-i</afl><asl>3m.S=say-EP-REAL</asl>
+<elements>
+<element sign="none"><e_afl>i</e_afl><e_asl>3m.S</e_asl></element>
+<element sign="equal"><e_afl>kaNt</e_afl><e_asl>say</e_asl></element>
+<element sign="hyphen"><e_afl>tz</e_afl><e_asl>EP</e_asl></element>
+<element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>virakocha</n><afl>virakocha</afl><asl>outsider</asl>
+<elements>
+<element sign="none"><e_afl>virakocha</e_afl><e_asl>outsider</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>irotaki</n><afl>irotaki</afl><asl>FOC</asl>
+<elements>
+<element sign="none"><e_afl>irotaki</e_afl><e_asl>FOC</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>naparoninkari</n><afl>n=aparoni-Nka-ri</afl><asl>1SG.poss=one-NMZ-NMZ</asl>
+<elements>
+<element sign="none"><e_afl>n</e_afl><e_asl>1SG.poss</e_asl></element>
+<element sign="equal"><e_afl>aparoni</e_afl><e_asl>one</e_asl></element>
+<element sign="hyphen"><e_afl>Nka</e_afl><e_asl>NMZ</e_asl></element>
+<element sign="hyphen"><e_afl>ri</e_afl><e_asl>NMZ</e_asl></element>
+</elements>
+</word>
+</words>
+</sentence>
+
+<sentence id="B.1.18.">
+<normal>Ovakeraini ovakira noyomitakiri eentsipaye anta, noyomitairi inyaaniki, nonyaaniki naari.</normal>
+<annotation_first_level>ovakeraini ovakera no=yomit-ak-i=ri eentsi-paye aNta no=yomit-a-i=ri i=nyaa-ni-ki no=nyaa-ni-ki naari</annotation_first_level>
+<annotation_second_level>recently when 1SG.A=teach-PRF-REAL=3m.O child-PL over.there 1SG.A=teach-REGR-REAL=3m.O 3m.poss=word-poss-LOC 1SG.poss=word-poss-LOC I</annotation_second_level>
+<translation>‘When recently I taught children over there, I taught them in their language, [which is] my language too.’</translation>
+<words>
+<word type="verb"><n>Ovakeraini</n><afl>ovakeraini</afl><asl>recently</asl>
+<elements>
+<element sign="none"><e_afl>ovakeraini</e_afl><e_asl>recently</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>ovakira</n><afl>ovakera</afl><asl>when</asl>
+<elements>
+<element sign="none"><e_afl>ovakera</e_afl><e_asl>when</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>noyomitakiri</n><afl>no=yomit-ak-i=ri</afl><asl>1SG.A=teach-PRF-REAL=3m.O</asl>
+<elements>
+<element sign="none"><e_afl>no</e_afl><e_asl>1SG.A</e_asl></element>
+<element sign="equal"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
+<element sign="hyphen"><e_afl>ak</e_afl><e_asl>PRF</e_asl></element>
+<element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
+<element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>eentsipaye</n><afl>eentsi-paye</afl><asl>child-PL</asl>
+<elements>
+<element sign="none"><e_afl>eentsi</e_afl><e_asl>child</e_asl></element>
+<element sign="hyphen"><e_afl>paye</e_afl><e_asl>PL</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>anta</n><afl>aNta</afl><asl>over.there</asl>
+<elements>
+<element sign="none"><e_afl>aNta</e_afl><e_asl>over.there</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>noyomitairi</n><afl>no=yomit-a-i=ri</afl><asl>1SG.A=teach-REGR-REAL=3m.O</asl>
+<elements>
+<element sign="none"><e_afl>no</e_afl><e_asl>1SG.A</e_asl></element>
+<element sign="equal"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
+<element sign="hyphen"><e_afl>a</e_afl><e_asl>REGR</e_asl></element>
+<element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
+<element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>inyaaniki</n><afl>i=nyaa-ni-ki</afl><asl>3m.poss=word-poss-LOC</asl>
+<elements>
+<element sign="none"><e_afl>i</e_afl><e_asl>3m.poss</e_asl></element>
+<element sign="equal"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
+<element sign="hyphen"><e_afl>ni</e_afl><e_asl>poss</e_asl></element>
+<element sign="hyphen"><e_afl>ki</e_afl><e_asl>LOC</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>nonyaaniki</n><afl>no=nyaa-ni-ki</afl><asl>1SG.poss=word-poss-LOC</asl>
+<elements>
+<element sign="none"><e_afl>no</e_afl><e_asl>1SG.poss</e_asl></element>
+<element sign="equal"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
+<element sign="hyphen"><e_afl>ni</e_afl><e_asl>poss</e_asl></element>
+<element sign="hyphen"><e_afl>ki</e_afl><e_asl>LOC</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>naari</n><afl>naari</afl><asl>I</asl>
+<elements>
+<element sign="none"><e_afl>naari</e_afl><e_asl>I</e_asl></element>
+</elements>
+</word>
+</words>
+</sentence>
+
+<sentence id="B.1.19.">
+<normal>Noyomitaitzitavakyari nonyaanikinta, iyotzirinta eentsi.</normal>
+<annotation_first_level>no=yomit-a-itz-it-av-ak-ia=ri no=nyaa-ni-ki=Nta i=yo-tz-i=ri=Nta eentsi</annotation_first_level>
+<annotation_second_level>1SG.A=teach-EP-ICPL-before-DIR-PRF-IRR=3m.O 1SG.poss=word-poss-LOC=DEM 3m.S=know-EP-REAL=3m.O=ADV child</annotation_second_level>
+<translation>‘First I will teach in my language, which the childknows.’</translation>
+<words>
+<word type="verb"><n>Noyomitaitzitavakyari</n><afl>no=yomit-a-itz-it-av-ak-ia=ri</afl><asl>1SG.A=teach-EP-ICPL-before-DIR-PRF-IRR=3m.O</asl>
+<elements>
+<element sign="none"><e_afl>no</e_afl><e_asl>1SG.A</e_asl></element>
+<element sign="equal"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
+<element sign="hyphen"><e_afl>a</e_afl><e_asl>EP</e_asl></element>
+<element sign="hyphen"><e_afl>itz</e_afl><e_asl>ICPL</e_asl></element>
+<element sign="hyphen"><e_afl>it</e_afl><e_asl>before</e_asl></element>
+<element sign="hyphen"><e_afl>av</e_afl><e_asl>DIR</e_asl></element>
+<element sign="hyphen"><e_afl>ak</e_afl><e_asl>PRF</e_asl></element>
+<element sign="hyphen"><e_afl>ia</e_afl><e_asl>IRR</e_asl></element>
+<element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
+</elements>
+</word>
+<word type="noun"><n>nonyaanikinta</n><afl>no=nyaa-ni-ki=Nta</afl><asl>1SG.poss=word-poss-LOC=DEM</asl>
+<elements>
+<element sign="none"><e_afl>no</e_afl><e_asl>1SG.poss</e_asl></element>
+<element sign="equal"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
+<element sign="hyphen"><e_afl>ni</e_afl><e_asl>poss</e_asl></element>
+<element sign="hyphen"><e_afl>ki</e_afl><e_asl>LOC</e_asl></element>
+<element sign="equal"><e_afl>Nta</e_afl><e_asl>DEM</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>iyotzirinta</n><afl>i=yo-tz-i=ri=Nta</afl><asl>3m.S=know-EP-REAL=3m.O=ADV</asl>
+<elements>
+<element sign="none"><e_afl>i</e_afl><e_asl>3m.S</e_asl></element>
+<element sign="equal"><e_afl>yo</e_afl><e_asl>know</e_asl></element>
+<element sign="hyphen"><e_afl>tz</e_afl><e_asl>EP</e_asl></element>
+<element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
+<element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
+<element sign="equal"><e_afl>Nta</e_afl><e_asl>ADV</e_asl></element>
+</elements>
+</word>
+<word type="noun"><n>eentsi</n><afl>eentsi</afl><asl>child</asl>
+<elements>
+<element sign="none"><e_afl>eentsi</e_afl><e_asl>child</e_asl></element>
+</elements>
+</word>
+</words>
+</sentence>
+
+<sentence id="B.1.20.">
+<normal>Ponyashitakaha noyomitahiri, novakotahiri inyaanikinta virakocha.</normal>
+<annotation_first_level>ponyashitaka=ha no=yomit-ah-e=ri no=v-ako-t-ah-i=ri i=nyaa-ni-ki=Nta virakocha</annotation_first_level>
+<annotation_second_level>afterwards=EMPH 1SG.A=teach-REGR-IRR=3m.O 1SG.A=place-APPL-EP-REGR-REAL=3m.O 3m.poss=word-poss-LOC=DEM outsider</annotation_second_level>
+<translation>‘Then I will teach them, I will translate it intothe Spaniards’ language.’</translation>
+<words>
+<word type="verb"><n>Ponyashitakaha</n><afl>ponyashitaka=ha</afl><asl>afterwards=EMPH</asl>
+<elements>
+<element sign="none"><e_afl>ponyashitaka</e_afl><e_asl>afterwards</e_asl></element>
+<element sign="equal"><e_afl>ha</e_afl><e_asl>EMPH</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>noyomitahiri</n><afl>no=yomit-ah-e=ri</afl><asl>1SG.A=teach-REGR-IRR=3m.O</asl>
+<elements>
+<element sign="none"><e_afl>no</e_afl><e_asl>1SG.A</e_asl></element>
+<element sign="equal"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
+<element sign="hyphen"><e_afl>ah</e_afl><e_asl>REGR</e_asl></element>
+<element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
+<element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>novakotahiri</n><afl>no=v-ako-t-ah-i=ri</afl><asl>1SG.A=place-APPL-EP-REGR-REAL=3m.O</asl>
+<elements>
+<element sign="none"><e_afl>no</e_afl><e_asl>1SG.A</e_asl></element>
+<element sign="equal"><e_afl>v</e_afl><e_asl>place</e_asl></element>
+<element sign="hyphen"><e_afl>ako</e_afl><e_asl>APPL</e_asl></element>
+<element sign="hyphen"><e_afl>t</e_afl><e_asl>EP</e_asl></element>
+<element sign="hyphen"><e_afl>ah</e_afl><e_asl>REGR</e_asl></element>
+<element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
+<element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>inyaanikinta</n><afl>i=nyaa-ni-ki=Nta</afl><asl>3m.poss=word-poss-LOC=DEM</asl>
+<elements>
+<element sign="none"><e_afl>i</e_afl><e_asl>3m.poss</e_asl></element>
+<element sign="equal"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
+<element sign="hyphen"><e_afl>ni</e_afl><e_asl>poss</e_asl></element>
+<element sign="hyphen"><e_afl>ki</e_afl><e_asl>LOC</e_asl></element>
+<element sign="equal"><e_afl>Nta</e_afl><e_asl>DEM</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>virakocha</n><afl>virakocha</afl><asl>outsider</asl>
+<elements>
+<element sign="none"><e_afl>virakocha</e_afl><e_asl>outsider</e_asl></element>
 </elements>
 </word>
 </words>
