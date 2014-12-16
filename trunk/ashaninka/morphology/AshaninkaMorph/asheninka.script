@@ -26,7 +26,7 @@
       define QUReplacement [ {k} (->) {qu} || _ [e|i|é|í] ,, {k} (->) {qü} || _ [e|i|é|í] ];
       define CReplacement [ {k} (->) {c} || _ [a|o|u|á|é|í] ];
 
-      define JReplacement [ {h} (->) {j} || _ Vowels ];
+      define JReplacement [ {h} (->) {j} || Vowels _ Vowels ]; # not accepting sh -> sj 
 
       define BReplacement [ {v} (->) {b} || _ Vowels ];
       define WReplacement [ {v} (->) {w} || _ Vowels ];
