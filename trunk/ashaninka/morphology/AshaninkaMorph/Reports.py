@@ -49,25 +49,42 @@ def main(argv):
    cursor = cnx.cursor()
 
    query = ("CALL sp_Report_Entry4MorfAnalysis( '"+FileHeaderShort+"' , "+str(Language)+" , "+str(Type)+" ) ;")
-   cursor.execute(query)
-
+   iterable = cursor.execute(query, multi=True)
    # Opening the file
    fo = open(File, "wb")
    index = 0;
    fo.write("define "+FileHeader+" [\n")
-   for lexicon_entry in cursor.fetchall():
-     #print lexicon_entry
-     if index==0:
-       x=lexicon_entry[0] 
-       fo.write(" "+x[1:]+"\n")
-     else:
-       fo.write(lexicon_entry[0]+"\n") 
-     index+=1
+   for item in iterable:
+     #print("BEGIN-->")
+     for lexicon_item in item.fetchall():
+       if index==0:
+         x=lexicon_item[0]
+         fo.write(" "+x[1:]+"\n")
+       else:
+         fo.write(lexicon_item[0]+"\n") 
+       index+=1
    fo.write("];\n")
    # Closing the file
    fo.close()
+   #print("END-->")
 
-   cursor.close()
+   # Opening the file
+   #fo = open(File, "wb")
+   #index = 0;
+   #fo.write("define "+FileHeader+" [\n")
+   #for lexicon_entry in cursor.fetchall():
+    # #print lexicon_entry
+    # if index==0:
+    #   x=lexicon_entry[0] 
+    #   fo.write(" "+x[1:]+"\n")
+    # else:
+    #   fo.write(lexicon_entry[0]+"\n") 
+    # index+=1
+   #fo.write("];\n")
+   # Closing the file
+   #fo.close()
+
+   #cursor.close()
    cnx.close()
 
 if __name__ == "__main__":
