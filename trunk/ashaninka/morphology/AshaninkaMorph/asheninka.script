@@ -133,10 +133,11 @@
       define TransSubjRestr3 [~$["[3SGm.S+]"?*["[+1SG.O]"|"[+2SG.O]"|"[+3SGm.O]"|"[+3SGnm.O]"|"[+1PL.O]"]]];
       define TransSubjRestr4 [~$["[3SGnm.S+]"?*["[+1SG.O]"|"[+2SG.O]"|"[+3SGm.O]"|"[+3SGnm.O]"|"[+1PL.O]"]]];
       define TransSubjRestr5 [~$["[1PL.S+]"?*["[+1SG.O]"|"[+2SG.O]"|"[+3SGm.O]"|"[+3SGnm.O]"|"[+1PL.O]"]]];
+      define MINSUFFIX  [~$[ ?*"--"?* ] ]; 
 
 #      define TransSubjRestr6 [~$[["[VRoot"]?*".O]"]];
 #      define FeatRestr [TransSubjRestr1 .o. TransSubjRestr2 .o. TransSubjRestr3 .o. TransSubjRestr4 .o. TransSubjRestr5 .o. TransSubjRestr6] ;
-      define FeatRestr [TransSubjRestr1 .o. TransSubjRestr2 .o. TransSubjRestr3 .o. TransSubjRestr4 .o. TransSubjRestr5 ] ;
+      define FeatRestr [TransSubjRestr1 .o. TransSubjRestr2 .o. TransSubjRestr3 .o. TransSubjRestr4 .o. TransSubjRestr5 .o. MINSUFFIX ] ;
 #      define FeatRestr [ TransSubjRestr3 ] ;
 
       source vroot.prq.foma
