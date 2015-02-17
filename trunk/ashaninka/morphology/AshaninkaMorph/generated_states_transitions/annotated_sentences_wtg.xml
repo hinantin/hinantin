@@ -21846,36 +21846,36 @@ empty set=Ø
 <annotation_second_level>also when 3m.A=IRR-be.angry-CAUS-PRF=1PL.O be.necessary 1PL.A=IRR-call-PRF-APPL.REAS-IRR=REL 3m.poss=father WH=COND 3m.S=make-once-IRR=REL so.that=EMPH all 1PL.A=fix-REGR-IRR=3n.m.O well 3m.A=make-PRF-IRR=3m.O=ADV child</annotation_second_level>
 <translation>‘Also when they make us [teachers] angry, we haveto call their father, so that all, whatever he [the child] did, could be resolved.’</translation>
 <words>
-<word type="verb"><n>Aisatzi</n><afl>aisatzi</afl><asl>also</asl>
+<word type="other"><n>Aisatzi</n><afl>aisatzi</afl><asl>also</asl>
 <elements>
-<element sign="none"><e_afl>aisatzi</e_afl><e_asl>also</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>aisatzi</e_afl><e_asl>also</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>arika</n><afl>arika</afl><asl>when</asl>
+<word type="other"><n>arika</n><afl>arika</afl><asl>when</asl>
 <elements>
-<element sign="none"><e_afl>arika</e_afl><e_asl>when</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>arika</e_afl><e_asl>when</e_asl></element>
 </elements>
 </word>
 <word type="verb"><n>inkisakakai</n><afl>i=N-kis-ak-ak=ai</afl><asl>3m.A=IRR-be.angry-CAUS-PRF=1PL.O</asl>
 <elements>
 <element sign="none"><e_afl>i</e_afl><e_asl>3m.A</e_asl></element>
 <element sign="equal"><e_afl>N</e_afl><e_asl>IRR</e_asl></element>
-<element sign="hyphen"><e_afl>kis</e_afl><e_asl>be.angry</e_asl></element>
+<element sign="hyphen;isroot:yes"><e_afl>kis</e_afl><e_asl>be.angry</e_asl></element>
 <element sign="hyphen"><e_afl>ak</e_afl><e_asl>CAUS</e_asl></element>
 <element sign="hyphen"><e_afl>ak</e_afl><e_asl>PRF</e_asl></element>
 <element sign="equal"><e_afl>ai</e_afl><e_asl>1PL.O</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>ontzimatye</n><afl>oNtzimatye</afl><asl>be.necessary</asl>
+<word type="other"><n>ontzimatye</n><afl>oNtzimatye</afl><asl>be.necessary</asl>
 <elements>
-<element sign="none"><e_afl>oNtzimatye</e_afl><e_asl>be.necessary</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>oNtzimatye</e_afl><e_asl>be.necessary</e_asl></element>
 </elements>
 </word>
 <word type="verb"><n>ankaimakanteri</n><afl>a=N-kaim-ak-aNt-e=ri</afl><asl>1PL.A=IRR-call-PRF-APPL.REAS-IRR=REL</asl>
 <elements>
 <element sign="none"><e_afl>a</e_afl><e_asl>1PL.A</e_asl></element>
 <element sign="equal"><e_afl>N</e_afl><e_asl>IRR</e_asl></element>
-<element sign="hyphen"><e_afl>kaim</e_afl><e_asl>call</e_asl></element>
+<element sign="hyphen;isroot:yes"><e_afl>kaim</e_afl><e_asl>call</e_asl></element>
 <element sign="hyphen"><e_afl>ak</e_afl><e_asl>PRF</e_asl></element>
 <element sign="hyphen"><e_afl>aNt</e_afl><e_asl>APPL.REAS</e_asl></element>
 <element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
@@ -21885,53 +21885,53 @@ empty set=Ø
 <word type="noun"><n>iriri</n><afl>ir=iri</afl><asl>3m.poss=father</asl>
 <elements>
 <element sign="none"><e_afl>ir</e_afl><e_asl>3m.poss</e_asl></element>
-<element sign="equal"><e_afl>iri</e_afl><e_asl>father</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>iri</e_afl><e_asl>father</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>paitarika</n><afl>paita=rika</afl><asl>WH=COND</asl>
+<word type="other"><n>paitarika</n><afl>paita=rika</afl><asl>WH=COND</asl>
 <elements>
-<element sign="none"><e_afl>paita</e_afl><e_asl>WH</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>paita</e_afl><e_asl>WH</e_asl></element>
 <element sign="equal"><e_afl>rika</e_afl><e_asl>COND</e_asl></element>
 </elements>
 </word>
 <word type="verb"><n>yantapainteri</n><afl>y=aNt-apaiNt-e=ri</afl><asl>3m.S=make-once-IRR=REL</asl>
 <elements>
 <element sign="none"><e_afl>y</e_afl><e_asl>3m.S</e_asl></element>
-<element sign="equal"><e_afl>aNt</e_afl><e_asl>make</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>aNt</e_afl><e_asl>make</e_asl></element>
 <element sign="hyphen"><e_afl>apaiNt</e_afl><e_asl>once</e_asl></element>
 <element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
 <element sign="equal"><e_afl>ri</e_afl><e_asl>REL</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>onkantyakya</n><afl>oNkaNtia=kya</afl><asl>so.that=EMPH</asl>
+<word type="other"><n>onkantyakya</n><afl>oNkaNtia=kya</afl><asl>so.that=EMPH</asl>
 <elements>
-<element sign="none"><e_afl>oNkaNtia</e_afl><e_asl>so.that</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>oNkaNtia</e_afl><e_asl>so.that</e_asl></element>
 <element sign="equal"><e_afl>kya</e_afl><e_asl>EMPH</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>maaroni</n><afl>maaroni</afl><asl>all</asl>
+<word type="other"><n>maaroni</n><afl>maaroni</afl><asl>all</asl>
 <elements>
-<element sign="none"><e_afl>maaroni</e_afl><e_asl>all</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>maaroni</e_afl><e_asl>all</e_asl></element>
 </elements>
 </word>
 <word type="verb"><n>avitsikahero</n><afl>a=vitsik-ah-e=ro</afl><asl>1PL.A=fix-REGR-IRR=3n.m.O</asl>
 <elements>
 <element sign="none"><e_afl>a</e_afl><e_asl>1PL.A</e_asl></element>
-<element sign="equal"><e_afl>vitsik</e_afl><e_asl>fix</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>vitsik</e_afl><e_asl>fix</e_asl></element>
 <element sign="hyphen"><e_afl>ah</e_afl><e_asl>REGR</e_asl></element>
 <element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
 <element sign="equal"><e_afl>ro</e_afl><e_asl>3n.m.O</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>kameetsa</n><afl>kameetsa</afl><asl>well</asl>
+<word type="other"><n>kameetsa</n><afl>kameetsa</afl><asl>well</asl>
 <elements>
-<element sign="none"><e_afl>kameetsa</e_afl><e_asl>well</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>kameetsa</e_afl><e_asl>well</e_asl></element>
 </elements>
 </word>
 <word type="verb"><n>yantakirira</n><afl>y=aNt-ak-e=ri=ra</afl><asl>3m.A=make-PRF-IRR=3m.O=ADV</asl>
 <elements>
 <element sign="none"><e_afl>y</e_afl><e_asl>3m.A</e_asl></element>
-<element sign="equal"><e_afl>aNt</e_afl><e_asl>make</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>aNt</e_afl><e_asl>make</e_asl></element>
 <element sign="hyphen"><e_afl>ak</e_afl><e_asl>PRF</e_asl></element>
 <element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
 <element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
@@ -21940,7 +21940,7 @@ empty set=Ø
 </word>
 <word type="noun"><n>eentsi</n><afl>eentsi</afl><asl>child</asl>
 <elements>
-<element sign="none"><e_afl>eentsi</e_afl><e_asl>child</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>eentsi</e_afl><e_asl>child</e_asl></element>
 </elements>
 </word>
 </words>
@@ -21952,61 +21952,61 @@ empty set=Ø
 <annotation_second_level>when 3m.S=IRR-hit-RCP-CAUS-PRF-IRR or 3m.A=IRR-hit-PRF-IRR=3n.m.O one woman 3m.A=IRR-inform-REGR-IRR=3n.m.O 3m.poss=mother</annotation_second_level>
 <translation>‘When they fight each other or hit a woman, he [the child] will notify his mother about it.’</translation>
 <words>
-<word type="verb"><n>Arika</n><afl>arika</afl><asl>when</asl>
+<word type="other"><n>Arika</n><afl>arika</afl><asl>when</asl>
 <elements>
-<element sign="none"><e_afl>arika</e_afl><e_asl>when</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>arika</e_afl><e_asl>when</e_asl></element>
 </elements>
 </word>
 <word type="verb"><n>imposavakakya</n><afl>i=N-pos-av-ak-ak-ia</afl><asl>3m.S=IRR-hit-RCP-CAUS-PRF-IRR</asl>
 <elements>
 <element sign="none"><e_afl>i</e_afl><e_asl>3m.S</e_asl></element>
 <element sign="equal"><e_afl>N</e_afl><e_asl>IRR</e_asl></element>
-<element sign="hyphen"><e_afl>pos</e_afl><e_asl>hit</e_asl></element>
+<element sign="hyphen;isroot:yes"><e_afl>pos</e_afl><e_asl>hit</e_asl></element>
 <element sign="hyphen"><e_afl>av</e_afl><e_asl>RCP</e_asl></element>
 <element sign="hyphen"><e_afl>ak</e_afl><e_asl>CAUS</e_asl></element>
 <element sign="hyphen"><e_afl>ak</e_afl><e_asl>PRF</e_asl></element>
 <element sign="hyphen"><e_afl>ia</e_afl><e_asl>IRR</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>o</n><afl>o</afl><asl>or</asl>
+<word type="other"><n>o</n><afl>o</afl><asl>or</asl>
 <elements>
-<element sign="none"><e_afl>o</e_afl><e_asl>or</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>o</e_afl><e_asl>or</e_asl></element>
 </elements>
 </word>
 <word type="verb"><n>intsitonkakero</n><afl>i=N-tsitoNk-ak-e=ro</afl><asl>3m.A=IRR-hit-PRF-IRR=3n.m.O</asl>
 <elements>
 <element sign="none"><e_afl>i</e_afl><e_asl>3m.A</e_asl></element>
 <element sign="equal"><e_afl>N</e_afl><e_asl>IRR</e_asl></element>
-<element sign="hyphen"><e_afl>tsitoNk</e_afl><e_asl>hit</e_asl></element>
+<element sign="hyphen;isroot:yes"><e_afl>tsitoNk</e_afl><e_asl>hit</e_asl></element>
 <element sign="hyphen"><e_afl>ak</e_afl><e_asl>PRF</e_asl></element>
 <element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
 <element sign="equal"><e_afl>ro</e_afl><e_asl>3n.m.O</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>aparoni</n><afl>aparoni</afl><asl>one</asl>
+<word type="other"><n>aparoni</n><afl>aparoni</afl><asl>one</asl>
 <elements>
-<element sign="none"><e_afl>aparoni</e_afl><e_asl>one</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>aparoni</e_afl><e_asl>one</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>kooya</n><afl>kooya</afl><asl>woman</asl>
+<word type="noun"><n>kooya</n><afl>kooya</afl><asl>woman</asl>
 <elements>
-<element sign="none"><e_afl>kooya</e_afl><e_asl>woman</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>kooya</e_afl><e_asl>woman</e_asl></element>
 </elements>
 </word>
 <word type="verb"><n>onkamantahero</n><afl>i=N-kamaNt-ah-e=ro</afl><asl>3m.A=IRR-inform-REGR-IRR=3n.m.O</asl>
 <elements>
 <element sign="none"><e_afl>i</e_afl><e_asl>3m.A</e_asl></element>
 <element sign="equal"><e_afl>N</e_afl><e_asl>IRR</e_asl></element>
-<element sign="hyphen"><e_afl>kamaNt</e_afl><e_asl>inform</e_asl></element>
+<element sign="hyphen;isroot:yes"><e_afl>kamaNt</e_afl><e_asl>inform</e_asl></element>
 <element sign="hyphen"><e_afl>ah</e_afl><e_asl>REGR</e_asl></element>
 <element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
 <element sign="equal"><e_afl>ro</e_afl><e_asl>3n.m.O</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>iniro</n><afl>i=niro</afl><asl>3m.poss=mother</asl>
+<word type="noun"><n>iniro</n><afl>i=niro</afl><asl>3m.poss=mother</asl>
 <elements>
 <element sign="none"><e_afl>i</e_afl><e_asl>3m.poss</e_asl></element>
-<element sign="equal"><e_afl>niro</e_afl><e_asl>mother</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>niro</e_afl><e_asl>mother</e_asl></element>
 </elements>
 </word>
 </words>
@@ -22018,44 +22018,44 @@ empty set=Ø
 <annotation_second_level>when 3n.m.S=IRR-come-REGR-IRR 3m.poss=mother I.FOC fix-REGR-IRR=3n.m.O=REL word-ABS</annotation_second_level>
 <translation>‘When his mother comes, I will be the one who will resolve it [the issue].’</translation>
 <words>
-<word type="verb"><n>Arika</n><afl>arika</afl><asl>when</asl>
+<word type="other"><n>Arika</n><afl>arika</afl><asl>when</asl>
 <elements>
-<element sign="none"><e_afl>arika</e_afl><e_asl>when</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>arika</e_afl><e_asl>when</e_asl></element>
 </elements>
 </word>
 <word type="verb"><n>ompokahe</n><afl>o=N-pok-ah-e</afl><asl>3n.m.S=IRR-come-REGR-IRR</asl>
 <elements>
 <element sign="none"><e_afl>o</e_afl><e_asl>3n.m.S</e_asl></element>
 <element sign="equal"><e_afl>N</e_afl><e_asl>IRR</e_asl></element>
-<element sign="hyphen"><e_afl>pok</e_afl><e_asl>come</e_asl></element>
+<element sign="hyphen;isroot:yes"><e_afl>pok</e_afl><e_asl>come</e_asl></element>
 <element sign="hyphen"><e_afl>ah</e_afl><e_asl>REGR</e_asl></element>
 <element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>iniro</n><afl>i=niro</afl><asl>3m.poss=mother</asl>
+<word type="noun"><n>iniro</n><afl>i=niro</afl><asl>3m.poss=mother</asl>
 <elements>
 <element sign="none"><e_afl>i</e_afl><e_asl>3m.poss</e_asl></element>
-<element sign="equal"><e_afl>niro</e_afl><e_asl>mother</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>niro</e_afl><e_asl>mother</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>naakataki</n><afl>naakataki</afl><asl>I.FOC</asl>
+<word type="other"><n>naakataki</n><afl>naakataki</afl><asl>I.FOC</asl>
 <elements>
-<element sign="none"><e_afl>naakataki</e_afl><e_asl>I.FOC</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>naakataki</e_afl><e_asl>I.FOC</e_asl></element>
 </elements>
 </word>
 <word type="verb"><n>vitsikaironi</n><afl>vitsik-a-e=ro=ni</afl><asl>fix-REGR-IRR=3n.m.O=REL</asl>
 <elements>
-<element sign="none"><e_afl>vitsik</e_afl><e_asl>fix</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>vitsik</e_afl><e_asl>fix</e_asl></element>
 <element sign="hyphen"><e_afl>a</e_afl><e_asl>REGR</e_asl></element>
 <element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
 <element sign="equal"><e_afl>ro</e_afl><e_asl>3n.m.O</e_asl></element>
 <element sign="equal"><e_afl>ni</e_afl><e_asl>REL</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>nyaantsi</n><afl>nyaa-ntsi.</afl><asl>word-ABS</asl>
+<word type="noun"><n>nyaantsi</n><afl>nyaa-ntsi</afl><asl>word-ABS</asl>
 <elements>
-<element sign="none"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
-<element sign="hyphen"><e_afl>ntsi.</e_afl><e_asl>ABS</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
+<element sign="hyphen"><e_afl>ntsi</e_afl><e_asl>ABS</e_asl></element>
 </elements>
 </word>
 </words>
@@ -22067,26 +22067,26 @@ empty set=Ø
 <annotation_second_level>FOC also=OPT when 1SG.A=teach-REGR-IRR=3m.O 1SG.S=instruct-EP-IRR one=DEM now 1SG.A=teach-REGR-IRR=3m.O 3m.poss=word-poss=DEM 3m.S=say-EP-REAL outsider FOC 1SG.poss=one-NMZ-NMZ</annotation_second_level>
 <translation>‘Also when I teach them, I will speak their language, I will teach in his language, they say, the language of ‘virakocha’ (of outsiders), in only one language.’</translation>
 <words>
-<word type="verb"><n>Irotaki</n><afl>irotaki</afl><asl>FOC</asl>
+<word type="other"><n>Irotaki</n><afl>irotaki</afl><asl>FOC</asl>
 <elements>
-<element sign="none"><e_afl>irotaki</e_afl><e_asl>FOC</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>irotaki</e_afl><e_asl>FOC</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>aisatzita</n><afl>aisatzi=ta</afl><asl>also=OPT</asl>
+<word type="other"><n>aisatzita</n><afl>aisatzi=ta</afl><asl>also=OPT</asl>
 <elements>
-<element sign="none"><e_afl>aisatzi</e_afl><e_asl>also</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>aisatzi</e_afl><e_asl>also</e_asl></element>
 <element sign="equal"><e_afl>ta</e_afl><e_asl>OPT</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>arika</n><afl>arika</afl><asl>when</asl>
+<word type="other"><n>arika</n><afl>arika</afl><asl>when</asl>
 <elements>
-<element sign="none"><e_afl>arika</e_afl><e_asl>when</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>arika</e_afl><e_asl>when</e_asl></element>
 </elements>
 </word>
 <word type="verb"><n>noyomitairi</n><afl>no=yomit-a-e=ri</afl><asl>1SG.A=teach-REGR-IRR=3m.O</asl>
 <elements>
 <element sign="none"><e_afl>no</e_afl><e_asl>1SG.A</e_asl></element>
-<element sign="equal"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
 <element sign="hyphen"><e_afl>a</e_afl><e_asl>REGR</e_asl></element>
 <element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
 <element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
@@ -22095,35 +22095,35 @@ empty set=Ø
 <word type="verb"><n>nonyaanate</n><afl>no=nyaana-t-e</afl><asl>1SG.S=instruct-EP-IRR</asl>
 <elements>
 <element sign="none"><e_afl>no</e_afl><e_asl>1SG.S</e_asl></element>
-<element sign="equal"><e_afl>nyaana</e_afl><e_asl>instruct</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>nyaana</e_afl><e_asl>instruct</e_asl></element>
 <element sign="hyphen"><e_afl>t</e_afl><e_asl>EP</e_asl></element>
 <element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>aparonira</n><afl>aparoni=ra</afl><asl>one=DEM</asl>
+<word type="other"><n>aparonira</n><afl>aparoni=ra</afl><asl>one=DEM</asl>
 <elements>
-<element sign="none"><e_afl>aparoni</e_afl><e_asl>one</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>aparoni</e_afl><e_asl>one</e_asl></element>
 <element sign="equal"><e_afl>ra</e_afl><e_asl>DEM</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>ironyaaka</n><afl>ironyaaka</afl><asl>now</asl>
+<word type="other"><n>ironyaaka</n><afl>ironyaaka</afl><asl>now</asl>
 <elements>
-<element sign="none"><e_afl>ironyaaka</e_afl><e_asl>now</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>ironyaaka</e_afl><e_asl>now</e_asl></element>
 </elements>
 </word>
 <word type="verb"><n>noyomitairi</n><afl>no=yomit-a-e=ri</afl><asl>1SG.A=teach-REGR-IRR=3m.O</asl>
 <elements>
 <element sign="none"><e_afl>no</e_afl><e_asl>1SG.A</e_asl></element>
-<element sign="equal"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
 <element sign="hyphen"><e_afl>a</e_afl><e_asl>REGR</e_asl></element>
 <element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
 <element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>inyaanira</n><afl>i=nyaa-ni=ra</afl><asl>3m.poss=word-poss=DEM</asl>
+<word type="noun"><n>inyaanira</n><afl>i=nyaa-ni=ra</afl><asl>3m.poss=word-poss=DEM</asl>
 <elements>
 <element sign="none"><e_afl>i</e_afl><e_asl>3m.poss</e_asl></element>
-<element sign="equal"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
 <element sign="hyphen"><e_afl>ni</e_afl><e_asl>poss</e_asl></element>
 <element sign="equal"><e_afl>ra</e_afl><e_asl>DEM</e_asl></element>
 </elements>
@@ -22131,25 +22131,25 @@ empty set=Ø
 <word type="verb"><n>ikantziri</n><afl>i=kaNt-tz-i</afl><asl>3m.S=say-EP-REAL</asl>
 <elements>
 <element sign="none"><e_afl>i</e_afl><e_asl>3m.S</e_asl></element>
-<element sign="equal"><e_afl>kaNt</e_afl><e_asl>say</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>kaNt</e_afl><e_asl>say</e_asl></element>
 <element sign="hyphen"><e_afl>tz</e_afl><e_asl>EP</e_asl></element>
 <element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>virakocha</n><afl>virakocha</afl><asl>outsider</asl>
+<word type="noun"><n>virakocha</n><afl>virakocha</afl><asl>outsider</asl>
 <elements>
-<element sign="none"><e_afl>virakocha</e_afl><e_asl>outsider</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>virakocha</e_afl><e_asl>outsider</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>irotaki</n><afl>irotaki</afl><asl>FOC</asl>
+<word type="other"><n>irotaki</n><afl>irotaki</afl><asl>FOC</asl>
 <elements>
-<element sign="none"><e_afl>irotaki</e_afl><e_asl>FOC</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>irotaki</e_afl><e_asl>FOC</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>naparoninkari</n><afl>n=aparoni-Nka-ri</afl><asl>1SG.poss=one-NMZ-NMZ</asl>
+<word type="noun"><n>naparoninkari</n><afl>n=aparoni-Nka-ri</afl><asl>1SG.poss=one-NMZ-NMZ</asl>
 <elements>
 <element sign="none"><e_afl>n</e_afl><e_asl>1SG.poss</e_asl></element>
-<element sign="equal"><e_afl>aparoni</e_afl><e_asl>one</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>aparoni</e_afl><e_asl>one</e_asl></element>
 <element sign="hyphen"><e_afl>Nka</e_afl><e_asl>NMZ</e_asl></element>
 <element sign="hyphen"><e_afl>ri</e_afl><e_asl>NMZ</e_asl></element>
 </elements>
@@ -22163,64 +22163,64 @@ empty set=Ø
 <annotation_second_level>recently when 1SG.A=teach-PRF-REAL=3m.O child-PL over.there 1SG.A=teach-REGR-REAL=3m.O 3m.poss=word-poss-LOC 1SG.poss=word-poss-LOC I</annotation_second_level>
 <translation>‘When recently I taught children over there, I taught them in their language, [which is] my language too.’</translation>
 <words>
-<word type="verb"><n>Ovakeraini</n><afl>ovakeraini</afl><asl>recently</asl>
+<word type="other"><n>Ovakeraini</n><afl>ovakeraini</afl><asl>recently</asl>
 <elements>
-<element sign="none"><e_afl>ovakeraini</e_afl><e_asl>recently</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>ovakeraini</e_afl><e_asl>recently</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>ovakira</n><afl>ovakera</afl><asl>when</asl>
+<word type="other"><n>ovakira</n><afl>ovakera</afl><asl>when</asl>
 <elements>
-<element sign="none"><e_afl>ovakera</e_afl><e_asl>when</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>ovakera</e_afl><e_asl>when</e_asl></element>
 </elements>
 </word>
 <word type="verb"><n>noyomitakiri</n><afl>no=yomit-ak-i=ri</afl><asl>1SG.A=teach-PRF-REAL=3m.O</asl>
 <elements>
 <element sign="none"><e_afl>no</e_afl><e_asl>1SG.A</e_asl></element>
-<element sign="equal"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
 <element sign="hyphen"><e_afl>ak</e_afl><e_asl>PRF</e_asl></element>
 <element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
 <element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>eentsipaye</n><afl>eentsi-paye</afl><asl>child-PL</asl>
+<word type="noun"><n>eentsipaye</n><afl>eentsi-paye</afl><asl>child-PL</asl>
 <elements>
-<element sign="none"><e_afl>eentsi</e_afl><e_asl>child</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>eentsi</e_afl><e_asl>child</e_asl></element>
 <element sign="hyphen"><e_afl>paye</e_afl><e_asl>PL</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>anta</n><afl>aNta</afl><asl>over.there</asl>
+<word type="other"><n>anta</n><afl>aNta</afl><asl>over.there</asl>
 <elements>
-<element sign="none"><e_afl>aNta</e_afl><e_asl>over.there</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>aNta</e_afl><e_asl>over.there</e_asl></element>
 </elements>
 </word>
 <word type="verb"><n>noyomitairi</n><afl>no=yomit-a-i=ri</afl><asl>1SG.A=teach-REGR-REAL=3m.O</asl>
 <elements>
 <element sign="none"><e_afl>no</e_afl><e_asl>1SG.A</e_asl></element>
-<element sign="equal"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
 <element sign="hyphen"><e_afl>a</e_afl><e_asl>REGR</e_asl></element>
 <element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
 <element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>inyaaniki</n><afl>i=nyaa-ni-ki</afl><asl>3m.poss=word-poss-LOC</asl>
+<word type="noun"><n>inyaaniki</n><afl>i=nyaa-ni-ki</afl><asl>3m.poss=word-poss-LOC</asl>
 <elements>
 <element sign="none"><e_afl>i</e_afl><e_asl>3m.poss</e_asl></element>
-<element sign="equal"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
 <element sign="hyphen"><e_afl>ni</e_afl><e_asl>poss</e_asl></element>
 <element sign="hyphen"><e_afl>ki</e_afl><e_asl>LOC</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>nonyaaniki</n><afl>no=nyaa-ni-ki</afl><asl>1SG.poss=word-poss-LOC</asl>
+<word type="noun"><n>nonyaaniki</n><afl>no=nyaa-ni-ki</afl><asl>1SG.poss=word-poss-LOC</asl>
 <elements>
 <element sign="none"><e_afl>no</e_afl><e_asl>1SG.poss</e_asl></element>
-<element sign="equal"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
 <element sign="hyphen"><e_afl>ni</e_afl><e_asl>poss</e_asl></element>
 <element sign="hyphen"><e_afl>ki</e_afl><e_asl>LOC</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>naari</n><afl>naari</afl><asl>I</asl>
+<word type="other"><n>naari</n><afl>naari</afl><asl>I</asl>
 <elements>
-<element sign="none"><e_afl>naari</e_afl><e_asl>I</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>naari</e_afl><e_asl>I</e_asl></element>
 </elements>
 </word>
 </words>
@@ -22235,7 +22235,7 @@ empty set=Ø
 <word type="verb"><n>Noyomitaitzitavakyari</n><afl>no=yomit-a-itz-it-av-ak-ia=ri</afl><asl>1SG.A=teach-EP-ICPL-before-DIR-PRF-IRR=3m.O</asl>
 <elements>
 <element sign="none"><e_afl>no</e_afl><e_asl>1SG.A</e_asl></element>
-<element sign="equal"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
 <element sign="hyphen"><e_afl>a</e_afl><e_asl>EP</e_asl></element>
 <element sign="hyphen"><e_afl>itz</e_afl><e_asl>ICPL</e_asl></element>
 <element sign="hyphen"><e_afl>it</e_afl><e_asl>before</e_asl></element>
@@ -22248,7 +22248,7 @@ empty set=Ø
 <word type="noun"><n>nonyaanikinta</n><afl>no=nyaa-ni-ki=Nta</afl><asl>1SG.poss=word-poss-LOC=DEM</asl>
 <elements>
 <element sign="none"><e_afl>no</e_afl><e_asl>1SG.poss</e_asl></element>
-<element sign="equal"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
 <element sign="hyphen"><e_afl>ni</e_afl><e_asl>poss</e_asl></element>
 <element sign="hyphen"><e_afl>ki</e_afl><e_asl>LOC</e_asl></element>
 <element sign="equal"><e_afl>Nta</e_afl><e_asl>DEM</e_asl></element>
@@ -22257,7 +22257,7 @@ empty set=Ø
 <word type="verb"><n>iyotzirinta</n><afl>i=yo-tz-i=ri=Nta</afl><asl>3m.S=know-EP-REAL=3m.O=ADV</asl>
 <elements>
 <element sign="none"><e_afl>i</e_afl><e_asl>3m.S</e_asl></element>
-<element sign="equal"><e_afl>yo</e_afl><e_asl>know</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>yo</e_afl><e_asl>know</e_asl></element>
 <element sign="hyphen"><e_afl>tz</e_afl><e_asl>EP</e_asl></element>
 <element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
 <element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
@@ -22266,7 +22266,7 @@ empty set=Ø
 </word>
 <word type="noun"><n>eentsi</n><afl>eentsi</afl><asl>child</asl>
 <elements>
-<element sign="none"><e_afl>eentsi</e_afl><e_asl>child</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>eentsi</e_afl><e_asl>child</e_asl></element>
 </elements>
 </word>
 </words>
@@ -22278,16 +22278,16 @@ empty set=Ø
 <annotation_second_level>afterwards=EMPH 1SG.A=teach-REGR-IRR=3m.O 1SG.A=place-APPL-EP-REGR-REAL=3m.O 3m.poss=word-poss-LOC=DEM outsider</annotation_second_level>
 <translation>‘Then I will teach them, I will translate it intothe Spaniards’ language.’</translation>
 <words>
-<word type="verb"><n>Ponyashitakaha</n><afl>ponyashitaka=ha</afl><asl>afterwards=EMPH</asl>
+<word type="other"><n>Ponyashitakaha</n><afl>ponyashitaka=ha</afl><asl>afterwards=EMPH</asl>
 <elements>
-<element sign="none"><e_afl>ponyashitaka</e_afl><e_asl>afterwards</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>ponyashitaka</e_afl><e_asl>afterwards</e_asl></element>
 <element sign="equal"><e_afl>ha</e_afl><e_asl>EMPH</e_asl></element>
 </elements>
 </word>
 <word type="verb"><n>noyomitahiri</n><afl>no=yomit-ah-e=ri</afl><asl>1SG.A=teach-REGR-IRR=3m.O</asl>
 <elements>
 <element sign="none"><e_afl>no</e_afl><e_asl>1SG.A</e_asl></element>
-<element sign="equal"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
 <element sign="hyphen"><e_afl>ah</e_afl><e_asl>REGR</e_asl></element>
 <element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
 <element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
@@ -22296,7 +22296,7 @@ empty set=Ø
 <word type="verb"><n>novakotahiri</n><afl>no=v-ako-t-ah-i=ri</afl><asl>1SG.A=place-APPL-EP-REGR-REAL=3m.O</asl>
 <elements>
 <element sign="none"><e_afl>no</e_afl><e_asl>1SG.A</e_asl></element>
-<element sign="equal"><e_afl>v</e_afl><e_asl>place</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>v</e_afl><e_asl>place</e_asl></element>
 <element sign="hyphen"><e_afl>ako</e_afl><e_asl>APPL</e_asl></element>
 <element sign="hyphen"><e_afl>t</e_afl><e_asl>EP</e_asl></element>
 <element sign="hyphen"><e_afl>ah</e_afl><e_asl>REGR</e_asl></element>
@@ -22304,18 +22304,95 @@ empty set=Ø
 <element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>inyaanikinta</n><afl>i=nyaa-ni-ki=Nta</afl><asl>3m.poss=word-poss-LOC=DEM</asl>
+<word type="noun"><n>inyaanikinta</n><afl>i=nyaa-ni-ki=Nta</afl><asl>3m.poss=word-poss-LOC=DEM</asl>
 <elements>
 <element sign="none"><e_afl>i</e_afl><e_asl>3m.poss</e_asl></element>
-<element sign="equal"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>nyaa</e_afl><e_asl>word</e_asl></element>
 <element sign="hyphen"><e_afl>ni</e_afl><e_asl>poss</e_asl></element>
 <element sign="hyphen"><e_afl>ki</e_afl><e_asl>LOC</e_asl></element>
 <element sign="equal"><e_afl>Nta</e_afl><e_asl>DEM</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>virakocha</n><afl>virakocha</afl><asl>outsider</asl>
+<word type="noun"><n>virakocha</n><afl>virakocha</afl><asl>outsider</asl>
 <elements>
-<element sign="none"><e_afl>virakocha</e_afl><e_asl>outsider</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>virakocha</e_afl><e_asl>outsider</e_asl></element>
+</elements>
+</word>
+</words>
+</sentence>
+
+<sentence id="B.1.21.">
+<normal>Ari nokantzirori pairani, ovakira nintakaro noyomitairi eentsipaye saikatsiri Pirimorishiki (Koviryaki).</normal>
+<annotation_first_level>ari no=kaNt-tz-i=ro=ri pairani ovakira n=iNt-ak-a=ro no=yomit-a-i=ri eentsi-paye saik-atsi=ri Pirimorishi-ki Kovirya-ki</annotation_first_level>
+<annotation_second_level>PP 1SG.A=do-EP-REAL=3n.m.O=REL before when 1SG.A=begin-PRF-REAL=3n.m.O 1SG.A=teach-REGR-REAL=3m.O child-PL be.at-STAT=REL Puerto.Bermudez-LOC Puerto.Bermudez-LOC</annotation_second_level>
+<translation>‘This is what I did long ago when I began teaching children who lived in Puerto Bermudez.’</translation>
+<words>
+<word type="other"><n>Ari</n><afl>ari</afl><asl>PP</asl>
+<elements>
+<element sign="none;isroot:yes"><e_afl>ari</e_afl><e_asl>PP</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>nokantzirori</n><afl>no=kaNt-tz-i=ro=ri</afl><asl>1SG.A=do-EP-REAL=3n.m.O=REL</asl>
+<elements>
+<element sign="none"><e_afl>no</e_afl><e_asl>1SG.A</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>kaNt</e_afl><e_asl>do</e_asl></element>
+<element sign="hyphen"><e_afl>tz</e_afl><e_asl>EP</e_asl></element>
+<element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
+<element sign="equal"><e_afl>ro</e_afl><e_asl>3n.m.O</e_asl></element>
+<element sign="equal"><e_afl>ri</e_afl><e_asl>REL</e_asl></element>
+</elements>
+</word>
+<word type="other"><n>pairani</n><afl>pairani</afl><asl>before</asl>
+<elements>
+<element sign="none;isroot:yes"><e_afl>pairani</e_afl><e_asl>before</e_asl></element>
+</elements>
+</word>
+<word type="other"><n>ovakira</n><afl>ovakira</afl><asl>when</asl>
+<elements>
+<element sign="none;isroot:yes"><e_afl>ovakira</e_afl><e_asl>when</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>nintakaro</n><afl>n=iNt-ak-a=ro</afl><asl>1SG.A=begin-PRF-REAL=3n.m.O</asl>
+<elements>
+<element sign="none"><e_afl>n</e_afl><e_asl>1SG.A</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>iNt</e_afl><e_asl>begin</e_asl></element>
+<element sign="hyphen"><e_afl>ak</e_afl><e_asl>PRF</e_asl></element>
+<element sign="hyphen"><e_afl>a</e_afl><e_asl>REAL</e_asl></element>
+<element sign="equal"><e_afl>ro</e_afl><e_asl>3n.m.O</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>noyomitairi</n><afl>no=yomit-a-i=ri</afl><asl>1SG.A=teach-REGR-REAL=3m.O</asl>
+<elements>
+<element sign="none"><e_afl>no</e_afl><e_asl>1SG.A</e_asl></element>
+<element sign="equal;isroot:yes"><e_afl>yomit</e_afl><e_asl>teach</e_asl></element>
+<element sign="hyphen"><e_afl>a</e_afl><e_asl>REGR</e_asl></element>
+<element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
+<element sign="equal"><e_afl>ri</e_afl><e_asl>3m.O</e_asl></element>
+</elements>
+</word>
+<word type="noun"><n>eentsipaye</n><afl>eentsi-paye</afl><asl>child-PL</asl>
+<elements>
+<element sign="none;isroot:yes"><e_afl>eentsi</e_afl><e_asl>child</e_asl></element>
+<element sign="hyphen"><e_afl>paye</e_afl><e_asl>PL</e_asl></element>
+</elements>
+</word>
+<word type="verb"><n>saikatsiri</n><afl>saik-atsi=ri</afl><asl>be.at-STAT=REL</asl>
+<elements>
+<element sign="none;isroot:yes"><e_afl>saik</e_afl><e_asl>be.at</e_asl></element>
+<element sign="hyphen"><e_afl>atsi</e_afl><e_asl>STAT</e_asl></element>
+<element sign="equal"><e_afl>ri</e_afl><e_asl>REL</e_asl></element>
+</elements>
+</word>
+<word type="noun"><n>Pirimorishiki</n><afl>Pirimorishi-ki</afl><asl>Puerto.Bermudez-LOC</asl>
+<elements>
+<element sign="none;isroot:yes"><e_afl>Pirimorishi</e_afl><e_asl>Puerto.Bermudez</e_asl></element>
+<element sign="hyphen"><e_afl>ki</e_afl><e_asl>LOC</e_asl></element>
+</elements>
+</word>
+<word type="noun"><n>(Koviryaki)</n><afl>Kovirya-ki</afl><asl>Puerto.Bermudez-LOC</asl>
+<elements>
+<element sign="none;isroot:yes"><e_afl>Kovirya</e_afl><e_asl>Puerto.Bermudez</e_asl></element>
+<element sign="hyphen"><e_afl>ki</e_afl><e_asl>LOC</e_asl></element>
 </elements>
 </word>
 </words>
