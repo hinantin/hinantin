@@ -12682,8 +12682,8 @@ empty set=Ø
 
 <sentence id="4.52">
 <normal>Yamitakotahetakai amine pashini nyaavaihetatsini.</normal>
-<annotation_first_level>y=amitako-t-a-he-t-ak=ai amen-i pashini nyaavai-he-t-atsi=ni</annotation_first_level>
-<annotation_second_level>3m.A=help-EP-REP-PL-EP-PRF=1PL.O 1PL.S.look.for-REAL other speak-PL-EP-STAT=REL</annotation_second_level>
+<annotation_first_level>y=amitako-t-a-he-t-ak=ai amen-i pashini nyaa-vai-he-t-atsi=ni</annotation_first_level>
+<annotation_second_level>3m.A=help-EP-REP-PL-EP-PRF=1PL.O 1PL.S.look.for-REAL other speak-DUR-PL-EP-STAT=REL</annotation_second_level>
 <translation>They helped us look for new language consultants.</translation>
 <words>
 <word type="verb"><n>Yamitakotahetakai</n><afl>y=amitako-t-a-he-t-ak=ai</afl><asl>3m.A=help-EP-REP-PL-EP-PRF=1PL.O</asl>
@@ -12709,9 +12709,10 @@ empty set=Ø
 <element sign="none;isroot:yes"><e_afl>pashini</e_afl><e_asl>other</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>nyaavaihetatsini</n><afl>nyaavai-he-t-atsi=ni</afl><asl>speak-PL-EP-STAT=REL</asl>
+<word type="verb"><n>nyaavaihetatsini</n><afl>nyaa-vai-he-t-atsi=ni</afl><asl>speak-DUR-PL-EP-STAT=REL</asl>
 <elements>
-<element sign="none;isroot:yes"><e_afl>nyaavai</e_afl><e_asl>speak</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>nyaa</e_afl><e_asl>speak</e_asl></element>
+<element sign="hyphen"><e_afl>vai</e_afl><e_asl>DUR</e_asl></element>
 <element sign="hyphen"><e_afl>he</e_afl><e_asl>PL</e_asl></element>
 <element sign="hyphen"><e_afl>t</e_afl><e_asl>EP</e_asl></element>
 <element sign="hyphen"><e_afl>atsi</e_afl><e_asl>STAT</e_asl></element>
