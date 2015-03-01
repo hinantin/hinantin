@@ -98,3 +98,7 @@
        "[--][+wide]" : [{tsantsana}]
       ];
       
+      define N=S=NMZ [
+       "[--][+NMZ]" : [{nka}|{ri}]
+      ];
+      

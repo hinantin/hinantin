@@ -4,6 +4,7 @@ import sys, getopt
 import datetime
 import mysql.connector
 import ConfigParser
+import pprint
 
 # =========================================================
 # This file connects to the Lexical Database prototype and 
@@ -13,20 +14,23 @@ import ConfigParser
 
 # python Reports.py --file=nroot.prq.foma --header=NRootPRQin --headershort=NRoot --lang=4 --type=12
 def main(argv):
+   Config = 'ConfigFile.ini'
    File = 'nroot.prq.foma'
    FileHeader = 'NRootPRQin'
    FileHeaderShort = 'NRoot'
    Language = 4
    Type = 12
    try:
-      opts, args = getopt.getopt(argv,"hf:e:s:l:t:",["file=","header=","headershort=","lang=","type="])
+      opts, args = getopt.getopt(argv,"hc:f:e:s:l:t:",["configfile=","file=","header=","headershort=","lang=","type="])
    except getopt.GetoptError:
-      print 'Reports.py -f <file> -e <fileheader> -s <fileheadershort> -l <language> -t <type>'
+      print 'Reports.py -c <configfile> -f <file> -e <fileheader> -s <fileheadershort> -l <language> -t <type>'
       sys.exit(2)
    for opt, arg in opts:
       if opt == '-h':
-         print 'Reports.py -f <file> -e <fileheader> -s <fileheadershort> -l <language> -t <type>'
+         print 'Reports.py -c <configfile> -f <file> -e <fileheader> -s <fileheadershort> -l <language> -t <type>'
          sys.exit()
+      elif opt in ("-c", "--configfile"):
+         Config = arg
       elif opt in ("-f", "--file"):
          File = arg
       elif opt in ("-e", "--header"):
@@ -38,7 +42,7 @@ def main(argv):
       elif opt in ("-t", "--type"):
          Type = arg
    config = ConfigParser.RawConfigParser()
-   config.read('ConfigFile.ini')
+   config.read(Config)
    SECTION = 'DEVELOPMENT'
    HOST = config.get(SECTION, 'HOST')
    USER = config.get(SECTION, 'USER')
@@ -47,44 +51,23 @@ def main(argv):
 
    cnx = mysql.connector.connect(user=USER, database=DATABASE, host=HOST, password=PASSWORD)
    cursor = cnx.cursor()
-
-   query = ("CALL sp_Report_Entry4MorfAnalysis( '"+FileHeaderShort+"' , "+str(Language)+" , "+str(Type)+" ) ;")
-   iterable = cursor.execute(query, multi=True)
-   # Opening the file
+   args = (FileHeaderShort,Language,Type)
+   cursor.callproc("sp_Report_Entry4MorfAnalysis",args)
    fo = open(File, "wb")
    index = 0;
    fo.write("define "+FileHeader+" [\n")
-   for item in iterable:
-     #print("BEGIN-->")
-     for lexicon_item in item.fetchall():
+   for result in cursor.stored_results():
+     for lexicon_entry in result.fetchall():
        if index==0:
-         x=lexicon_item[0]
+         x=lexicon_entry[0].encode('utf-8') 
          fo.write(" "+x[1:]+"\n")
        else:
-         fo.write(lexicon_item[0]+"\n") 
+         fo.write(lexicon_entry[0].encode('utf-8')+"\n") 
        index+=1
    fo.write("];\n")
-   # Closing the file
    fo.close()
-   #print("END-->")
 
-   # Opening the file
-   #fo = open(File, "wb")
-   #index = 0;
-   #fo.write("define "+FileHeader+" [\n")
-   #for lexicon_entry in cursor.fetchall():
-    # #print lexicon_entry
-    # if index==0:
-    #   x=lexicon_entry[0] 
-    #   fo.write(" "+x[1:]+"\n")
-    # else:
-    #   fo.write(lexicon_entry[0]+"\n") 
-    # index+=1
-   #fo.write("];\n")
-   # Closing the file
-   #fo.close()
-
-   #cursor.close()
+   cursor.close()
    cnx.close()
 
 if __name__ == "__main__":
