@@ -72,8 +72,9 @@ def main(argv):
        f = open(fileLog,'w')
        f.write(output) # python will convert \n to os.linesep
        f.close() # you can omit in most cases as the destructor will call if
-
+       # #####################################################
        # ************ LIST TRANSDUCER TRANSITIONS ************
+       # #####################################################
        input = ''
        with open (fileNameSuffixList, "r") as file:
          input=file.read().replace('\n', ' ')
@@ -81,6 +82,9 @@ def main(argv):
        query.bind("$file_name", str(databaseFilePath))
        outputSuffixList = query.execute()
        strList = ''
+       # ###################################
+       # Deleting empty line (not working)  
+       # ###################################
        List = outputSuffixList.split('\n')
        for s in List:
           if s != '':
@@ -89,8 +93,8 @@ def main(argv):
        #outputSuffixList = filter(lambda x: not re.match(r'^\s*$', x), outputSuffixList)
 
        #outputSuffixList = define + outputSuffixList[:-5] + " \n];"
-       strList = define + strList[:-4] + " \n];"
-       f = open(fileNameSuffixListScript,'w')
+       strList = define + outputSuffixList[:-4] + " \n];"
+       f = open(fileNameSuffixListScript,'wb')
        f.write(strList) # python will convert \n to os.linesep
        f.close() # you can omit in most cases as the destructor will call if
        

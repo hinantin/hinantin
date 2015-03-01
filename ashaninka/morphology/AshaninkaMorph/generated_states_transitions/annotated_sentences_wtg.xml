@@ -12682,8 +12682,8 @@ empty set=Ø
 
 <sentence id="4.52">
 <normal>Yamitakotahetakai amine pashini nyaavaihetatsini.</normal>
-<annotation_first_level>y=amitako-t-a-he-t-ak=ai amen-i pashini nyaa-vai-he-t-atsi=ni</annotation_first_level>
-<annotation_second_level>3m.A=help-EP-REP-PL-EP-PRF=1PL.O 1PL.S.look.for-REAL other speak-DUR-PL-EP-STAT=REL</annotation_second_level>
+<annotation_first_level>y=amitako-t-a-he-t-ak=ai Ø=amen-i pashini nyaa-vai-he-t-atsi=ni</annotation_first_level>
+<annotation_second_level>3m.A=help-EP-REP-PL-EP-PRF=1PL.O 1PL.S=look.for-REAL other speak-DUR-PL-EP-STAT=REL</annotation_second_level>
 <translation>They helped us look for new language consultants.</translation>
 <words>
 <word type="verb"><n>Yamitakotahetakai</n><afl>y=amitako-t-a-he-t-ak=ai</afl><asl>3m.A=help-EP-REP-PL-EP-PRF=1PL.O</asl>
@@ -12698,9 +12698,10 @@ empty set=Ø
 <element sign="equal"><e_afl>ai</e_afl><e_asl>1PL.O</e_asl></element>
 </elements>
 </word>
-<word type="verb"><n>amine</n><afl>amen-i</afl><asl>1PL.S.look.for-REAL</asl>
+<word type="verb"><n>amine</n><afl>Ø=amen-i</afl><asl>1PL.S=look.for-REAL</asl>
 <elements>
-<element sign="none;isroot:yes"><e_afl>amen</e_afl><e_asl>1PL.S.look.for</e_asl></element>
+<element sign="none"><e_afl>Ø</e_afl><e_asl>1PL.S</e_asl></element>
+<element sign="none;isroot:yes"><e_afl>amen</e_afl><e_asl>look.for</e_asl></element>
 <element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
 </elements>
 </word>
