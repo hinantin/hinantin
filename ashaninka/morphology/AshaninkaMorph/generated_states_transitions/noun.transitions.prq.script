@@ -7,6 +7,7 @@ define N [
  (N=S=poss) (N=S=DEM) | 
  (N=S=LOC) | 
  (N=S=poss) (N=S=PL) | 
+ (N=S=poss) (N=S=LOC) | 
  (N=S=river) (N=S=LOC) | 
  (N=S=CL) (N=S=poss) (N=S=smallpartDIM) | 
  (N=S=LOC) (N=S=smallpartDIM) | 
@@ -29,7 +30,6 @@ define N [
  (N=S=EMPH) | 
  (N=S=DIM) (N=S=smallpart) (N=S=DIM) | 
  (N=S=Q) | 
- (N=S=poss) (N=S=LOC) | 
  (N=S=DISTREL) | 
  (N=S=DUB) | 
  (N=S=deceased) (N=S=EXCL) | 
@@ -38,6 +38,7 @@ define N [
  (N=S=ADVT) | 
  (N=S=this) | 
  (N=S=CL) (N=S=smallpart) (N=S=DIM) | 
+ (N=S=ABS) (N=S=EXCL) | 
  (N=S=EXCL) | 
  (N=S=CL) | 
  (N=S=leaf) (N=S=smallpart) (N=S=DIM) | 

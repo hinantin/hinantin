@@ -50,7 +50,7 @@ define S [
  (V=S=FRUS) (V=S=IRR) (V=S=OPT) | 
  (V=S=DIST) (V=S=REAL) | 
  (V=S=IMPP) (V=S=PRF) (V=S=REAL) (V=S=PRNO) | 
- (V=S=PRNO) (V=S=disheveledhead) (V=S=DIST) (V=S=PRF) (V=S=REAL) | 
+ (V=S=disheveledhead) (V=S=DIST) (V=S=PRF) (V=S=REAL) | 
  (V=S=quickly) (V=S=PRF) (V=S=REAL) (V=S=PRNO) | 
  (V=S=CAUS) (V=S=DIM) (V=S=REAL) (V=S=PRNO) | 
  (V=S=CL) (V=S=PRF) (V=S=REAL) | 
@@ -84,7 +84,7 @@ define S [
  (V=S=noun) (V=S=REAL) (V=S=PRNO) | 
  (V=S=APPLINT) (V=S=REAL) (V=S=PRNO) | 
  (V=S=REP) (V=S=PRNO) (V=S=REAL) (V=S=PRNO) | 
- (V=S=REP) (V=S=REP) (V=S=ICPL) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=REP) (V=S=ICPL) (V=S=IRR) (V=S=PRNO) (V=S=ADV) | 
  (V=S=ICPL) (V=S=IRR) | 
  (V=S=PL) (V=S=REAL) (V=S=EXCL) | 
  (V=S=DIR) (V=S=REGR) (V=S=IRR) (V=S=PRNO) (V=S=PRNO) | 
@@ -96,7 +96,8 @@ define S [
  (V=S=IRR) (V=S=PRNO) (V=S=APPR) | 
  (V=S=REAL) (V=S=EMPH) (V=S=Q) | 
  (V=S=MCAUS) (V=S=REAL) (V=S=PRNO) | 
- (V=S=CAUSAGT) (V=S=APPLREAS) (V=S=PRF) (V=S=REAL) (V=S=PRNO) (V=S=REL) | 
+ (V=S=CAUSAGT) (V=S=PRF) (V=S=IRR) (V=S=PRNO) | 
+ (V=S=CAUSAGT) (V=S=APPL) (V=S=PRF) (V=S=REAL) (V=S=PRNO) (V=S=REL) | 
  (V=S=CAUSAGT) (V=S=DIR) (V=S=PRF) (V=S=REAL) (V=S=PRNO) | 
  (V=S=DUR) (V=S=PRNO) (V=S=PRF) (V=S=REAL) (V=S=PRNO) | 
  (V=S=APPLBEN) (V=S=REAL) (V=S=PRNO) (V=S=REL) | 
