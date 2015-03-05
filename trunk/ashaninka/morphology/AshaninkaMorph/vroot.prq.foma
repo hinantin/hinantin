@@ -10,45 +10,34 @@ define VRootPRQin [
 | "[VRoot][=hang][=airik]" : {airik}
 | "[VRoot][=wrap][=akipa]" : {akipa}
 | "[VRoot][=bring][=am]" : {am}
-| "[VRoot][=swim][=ama]" : {ama}
+| "[VRoot][=swim][=ama]" : [{ama}|{amaa}]
 | "[VRoot][=buy][=amanant]" : {amanant}
 | "[VRoot][=buy][=amant]" : {amant}
 | "[VRoot][=deceive][=amatavi]" : {amatavi}
 | "[VRoot][=deceive][=amatavits]" : {amatavits}
-| "[VRoot][=take.care.of][=amen]" : {amen}
-| "[VRoot][=1PL.S.look.for][=amen]" : {amen}
-| "[VRoot][=look.after][=amen]" : {amen}
 | "[VRoot][=be.accustomed][=amet]" : {amet}
 | "[VRoot][=sharpen, polish][=amik]" : [{amik}|{amek}]
-| "[VRoot][=look.for][=amin]" : {amin}
-| "[VRoot][=see][=amin]" : [{amin}|{amen}]
 | "[VRoot][=treat][=amin]" : {amin}
 | "[VRoot][=examine][=amin]" : {amin}
-| "[VRoot][=look][=amin]" : {amin}
+| "[VRoot][=see, look, look.for, look.after, take.care.of][=amin]" : [{amin}|{amen}]
 | "[VRoot][=be.accustomed][=amit]" : {amit}
 | "[VRoot][=help][=amitako]" : {amitako}
 | "[VRoot][=repeat][=ampi]" : {ampi}
 | "[VRoot][=roll.up][=ampinaik]" : {ampinaik}
 | "[VRoot][=be.wrinkled][=ampitsa]" : {ampitsa}
 | "[VRoot][=wrap][=amponat]" : {amponat}
+| "[VRoot][=win,gain][=anaako]" : {anaako}
 | "[VRoot][=cross][=anankori]" : {anankori}
-| "[VRoot][=walk][=anii]" : {anii}
-| "[VRoot][=go.down][=anii]" : {anii}
-| "[VRoot][=go][=anii]" : {anii}
+| "[VRoot][=walk,go.down,go][=anii]" : [{anii}|{ani}]
 | "[VRoot][=repeat][=anpi]" : {anpi}
-| "[VRoot][=work][=ant]" : {ant}
-| "[VRoot][=hit][=ant]" : {ant}
-| "[VRoot][=beat][=ant]" : {ant}
-| "[VRoot][=make][=ant]" : {ant}
-| "[VRoot][=do][=ant]" : {ant}
-| "[VRoot][=build][=ant]" : {ant}
+| "[VRoot][=beat, build, do, hit, make, work][=ant]" : {ant}
 | "[VRoot][=go.up][=antai]" : {antai}
 | "[VRoot][=fight][=antant]" : {antant}
 | "[VRoot][=live][=any]" : {any}
 | "[VRoot][=wait][=apaata]" : {apaata}
 | "[VRoot][=gather][=apoto]" : {apoto}
 | "[VRoot][=fly][=ar]" : {ar}
-| "[VRoot][=arrive][=arii]" : {arii}
+| "[VRoot][=arrive][=arii]" : [{arii}|{are}|{aree}]
 | "[VRoot][=achieve][=arii]" : {arii}
 | "[VRoot][=be.enough][=aritapaki]" : {aritapaki}
 | "[VRoot][=smell][=asank]" : {asank}
@@ -115,33 +104,18 @@ define VRootPRQin [
 | "[VRoot][=stand][=katziy]" : {katziy}
 | "[VRoot][=stand.guard][=katziy]" : {katziy}
 | "[VRoot][=walk][=keken]" : {keken}
-| "[VRoot][=listen][=kem]" : {kem}
-| "[VRoot][=hear][=kem]" : {kem}
-| "[VRoot][=walk][=ken]" : {ken}
-| "[VRoot][=go][=ken]" : {ken}
-| "[VRoot][=come][=ken]" : {ken}
-| "[VRoot][=talk,tell][=kenkitsa]" : {kenkitsa}
-| "[VRoot][=sting][=kent]" : {kent}
 | "[VRoot][=carry][=ki]" : {ki}
-| "[VRoot][=hear][=kim]" : {kim}
-| "[VRoot][=listen][=kim]" : {kim}
-| "[VRoot][=be.similar][=kimi]" : {kimi}
-| "[VRoot][=seem][=kimi]" : {kimi}
-| "[VRoot][=resemble][=kimi]" : {kimi}
-| "[VRoot][=be.like][=kimi]" : {kimi}
+| "[VRoot][=hear, listen][=kim]" : [{kim}|{kem}]
+| "[VRoot][=be.similar, seem, resemble, be.like][=kimi]" : {kimi}
 | "[VRoot][=pay.attention][=kimisant]" : {kimisant}
 | "[VRoot][=be.joyous][=kimoshi]" : {kimoshi}
 | "[VRoot][=be.joyous][=kimoshiri]" : {kimoshiri}
 | "[VRoot][=be.happy][=kimoshiri]" : {kimoshiri}
-| "[VRoot][=pass][=kin]" : {kin}
-| "[VRoot][=walk][=kin]" : {kin}
-| "[VRoot][=go][=kin]" : {kin}
+| "[VRoot][=go.by.trail, go, pass, walk, come][=kin]" : [{kin}|{ken}]
 | "[VRoot][=think][=kinkishiri]" : {kinkishiri}
-| "[VRoot][=tell][=kinkitsa]" : {kinkitsa}
+| "[VRoot][=talk, tell][=kinkitsa]" : [{kinkitsa}|{kenkitsa}]
 | "[VRoot][=be.old][=kinkivarotzi]" : {kinkivarotzi}
-| "[VRoot][=pierce.with.arrows][=kint]" : {kint}
-| "[VRoot][=shoot.arrows][=kint]" : {kint}
-| "[VRoot][=sting][=kint]" : {kint}
+| "[VRoot][=pierce.with.arrows, shoot.arrows, sting][=kint]" : [{kint}|{kent}]
 | "[VRoot][=get.soiled][=kipatsi]" : {kipatsi}
 | "[VRoot][=weave][=kirik]" : {kirik}
 | "[VRoot][=be.angry,get.upset][=kis]" : {kis}
@@ -219,8 +193,7 @@ define VRootPRQin [
 | "[VRoot][=kiss][=nintat]" : {nintat}
 | "[VRoot][=like][=nive]" : {nive}
 | "[VRoot][=pull][=noshik]" : {noshik}
-| "[VRoot][=see][=ny]" : {ny}
-| "[VRoot][=look.for][=ny]" : {ny}
+| "[VRoot][=see, look.for][=ny]" : {ny}
 | "[VRoot][=speak][=nya]" : {nya}
 | "[VRoot][=speak][=nyaa]" : {nyaa}
 | "[VRoot][=study][=nyaana]" : {nyaana}
@@ -243,9 +216,8 @@ define VRootPRQin [
 | "[VRoot][=expect][=ooya]" : {ooya}
 | "[VRoot][=wait][=ooya]" : {ooya}
 | "[VRoot][=be.much][=osheki]" : {osheki}
-| "[VRoot][=eat][=ov]" : {ov}
+| "[VRoot][=eat][=ov]" : [{ov}|{oy}]
 | "[VRoot][=fight][=ovayeri]" : {ovayeri}
-| "[VRoot][=3n.m.A.follow][=oya]" : {oya}
 | "[VRoot][=follow][=oya]" : {oya}
 | "[VRoot][=give][=p]" : {p}
 | "[VRoot][=be.called][=pai]" : {pai}
@@ -274,9 +246,7 @@ define VRootPRQin [
 | "[VRoot][=2S.cry][=pirapira]" : {pirapira}
 | "[VRoot][=sweep][=pishi]" : {pishi}
 | "[VRoot][=peel][=pitziry]" : {pitziry}
-| "[VRoot][=return][=piy]" : {piy}
-| "[VRoot][=come.back][=piy]" : {piy}
-| "[VRoot][=come.back][=piya]" : {piya}
+| "[VRoot][=return, come.back][=piy]" : {piy}
 | "[VRoot][=disobey][=piyatsa]" : {piyatsa}
 | "[VRoot][=come][=pok]" : {pok}
 | "[VRoot][=arrive][=pok]" : {pok}
@@ -286,12 +256,8 @@ define VRootPRQin [
 | "[VRoot][=crash][=pos]" : {pos}
 | "[VRoot][=cook][=posa]" : {posa}
 | "[VRoot][=hit][=posh]" : {posh}
-| "[VRoot][=paint][=potso]" : {potso}
-| "[VRoot][=paint][=potsot]" : {potsot}
-| "[VRoot][=rub.annatto][=potsot]" : {potsot}
-| "[VRoot][=dye][=potsot]" : {potsot}
-| "[VRoot][=convert][=py]" : {py}
-| "[VRoot][=transform][=py]" : {py}
+| "[VRoot][=dye,paint,rub.annatto][=potso]" : {potso}
+| "[VRoot][=convert, transform][=py]" : {py}
 | "[VRoot][=watch][=riro]" : {riro}
 | "[VRoot][=bathe][=saa]" : {saa}
 | "[VRoot][=bathe.in.hot.water][=saa]" : {saa}
@@ -307,9 +273,7 @@ define VRootPRQin [
 | "[VRoot][=get.upset.with][=sam]" : {sam}
 | "[VRoot][=ask][=sampi]" : {sampi}
 | "[VRoot][=research][=sampita]" : {sampita}
-| "[VRoot][=write][=sankena]" : {sankena}
-| "[VRoot][=write][=sankina]" : {sankina}
-| "[VRoot][=draw][=sankina]" : {sankina}
+| "[VRoot][=write, draw][=sankina]" : [{sankina}|{sankena}|{jankena}|{jankina}]
 | "[VRoot][=grow.big][=santsa]" : {santsa}
 | "[VRoot][=stick][=sat]" : {sat}
 | "[VRoot][=wear.a.cap.on.the.head][=savoina]" : {savoina}
@@ -388,20 +352,16 @@ define VRootPRQin [
 | "[VRoot][=kneel.down][=tyerov]" : {tyerov}
 | "[VRoot][=bathe][=tyoonk]" : {tyoonk}
 | "[VRoot][=bathe.in.steam][=tyoonk]" : {tyoonk}
-| "[VRoot][=have][=tzim]" : {tzim}
+| "[VRoot][=have][=tzim]" : [{tzim}|{tim}|{tsim}]
 | "[VRoot][=be.born][=tzim]" : {tzim}
 | "[VRoot][=give.birth][=tzimant]" : {tzimant}
 | "[VRoot][=rise][=tzin]" : {tzin}
 | "[VRoot][=get.up][=tzin]" : {tzin}
 | "[VRoot][=be.person][=tziri]" : {tziri}
-| "[VRoot][=eat][=v]" : {v}
 | "[VRoot][=put][=v]" : {v}
 | "[VRoot][=place][=v]" : {v}
 | "[VRoot][=kill][=v]" : {v}
-| "[VRoot][=eat][=va]" : {va}
-| "[VRoot][=teach][=vamet]" : {vamet}
-| "[VRoot][=get.fat][=vatsa]" : {vatsa}
-| "[VRoot][=gain.weight][=vatsa]" : {vatsa}
+| "[VRoot][=get.fat, gain.weight][=vatsa]" : {vatsa}
 | "[VRoot][=be.warrior][=vayeri]" : {vayeri}
 | "[VRoot][=fade][=veha]" : {veha}
 | "[VRoot][=fix][=vetsik]" : {vetsik}
@@ -412,10 +372,9 @@ define VRootPRQin [
 | "[VRoot][=build][=vitsik]" : {vitsik}
 | "[VRoot][=fix][=vitsik]" : {vitsik}
 | "[VRoot][=grow.hair][=vitzit]" : {vitzit}
-| "[VRoot][=eat.IRR][=ya]" : {ya}
 | "[VRoot][=learn][=yo]" : {yo}
 | "[VRoot][=know][=yo]" : {yo}
-| "[VRoot][=teach][=yomit]" : {yomit}
+| "[VRoot][=teach][=yomit]" : [{yomit}|{yomet}|{vamet}]
 | "[VRoot][=know][=yot]" : {yot}
 | "[VRoot][=know][=yotani]" : {yotani}
 ];

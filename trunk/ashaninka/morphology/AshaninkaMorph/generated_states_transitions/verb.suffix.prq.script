@@ -3,7 +3,7 @@
       ];
       
       define V=S=IRR [
-       "[--][+IRR]" : "@EP"[{e}|{ia}|{n}|{ri}|{Ø}|{ye}|{a}|{i}]
+       "[--][+IRR]" : "@EP"[{e}|{ia}|{n}|{Ø}|{ye}|{a}|{i}]
       ];
       
       define V=S=PRNO [
@@ -71,7 +71,7 @@
       ];
       
       define V=S=ICPL [
-       "[--][+ICPL]" : "@EP"[{it}|{e}|{itz}]
+       "[--][+ICPL]" : "@EP"[{it}|{itz}]
       ];
       
       define V=S=REL [
@@ -83,7 +83,7 @@
       ];
       
       define V=S=APPLREAS [
-       "[--][+APPL.REAS]" : "@EP"[{ant}|{ako}|{anta}]
+       "[--][+APPL.REAS]" : "@EP"[{ant}|{anta}]
       ];
       
       define V=S=CUST [
@@ -111,11 +111,11 @@
       ];
       
       define V=S=APPL [
-       "[--][+APPL]" : "@EP"[{ako}|{t}]
+       "[--][+APPL]" : "@EP"[{ako}]
       ];
       
       define V=S=NMZ [
-       "[--][+NS][+INF]" : "@EP"[{rentsi}|{nka}|{ri}|{nk}|{ntsi}|{aantsi}|{antsi}|{rintsi}|{mento}]
+       "[--][+NMZ]" : "@EP"[{rentsi}|{nka}|{ri}|{nk}|{ntsi}|{rintsi}|{mento}]
       ];
       
       define V=S=noun [
@@ -195,7 +195,7 @@
       ];
       
       define V=S=CAUSAGT [
-       "[--][+CAUS.AGT]" : "@EP"[{v}]
+       "[--][+CAUS.AGT]" : "@EP"[{Ø}|{v}]
       ];
       
       define V=S=APPLBEN [

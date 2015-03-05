@@ -12,9 +12,10 @@ import re
 from lxml import etree
 
 def main(argv):
+   Config = 'ConfigFile.ini'
    Type = 'verb'
    try:
-      opts, args = getopt.getopt(argv,"ht:",["type="])
+      opts, args = getopt.getopt(argv,"hc:t:",["configfile=","type="])
    except getopt.GetoptError:
       print 'query_nodes_in_the_transducer_4_foma.py -t <type>'
       sys.exit(2)
@@ -22,13 +23,15 @@ def main(argv):
       if opt == '-h':
          print 'query_nodes_in_the_transducer_4_foma.py -t <type>'
          sys.exit()
+      elif opt in ("-c", "--configfile"):
+         Config = arg
       elif opt in ("-t", "--type"):
          Type = arg
 
    try:
      # create session
      config = ConfigParser.RawConfigParser()
-     config.read('ConfigFile.ini')
+     config.read(Config)
      SECTION = 'PRODUCTION'
      HOST = config.get(SECTION, 'HOST')
      USER = config.get(SECTION, 'USER')
