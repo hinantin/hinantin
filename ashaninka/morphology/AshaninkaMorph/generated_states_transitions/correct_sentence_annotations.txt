@@ -40,6 +40,12 @@ ponyashitaka=ha no=yomit-ah-e=ri no=v-ako-t-ah-i=ri i=nyaa-ni-ki=Nta virakocha
 afterwards=EMPH 1SG.A=teach-REGR-IRR=3m.O 1SG.A=place-APPL-EP-REGR-REAL=3m.O 3m.poss=word-poss-LOC=DEM outsider
 'Then I will teach them, I will translate it intothe Spaniards' language.'
 
+B.1.22.
+Nintakari saikatsiri aka ikantaitzi Ooheroniki, ironyaaka ikantaitahiro San_Miguel_Centro_Marankiari.
+n=iNt-ak-a=ri saik-atsi=ri aka i=kaNt-a-it-tz-i Ooheroni-ki ironyaa-ka i=kaNt-ai-t-ah-i=ro San.Miguel.Centro.Marankiari
+1SG.A=begin-PRF-REAL=3m.O be.at-STAT=REL here 3m.S=say-EP-before-EP-REAL Fatigue-LOC now-EMPH 3m.A=say-IMP.P-EP-REGR-REAL=3n.m.O village’s.name
+'I began [to work] with the children who lived here[in the village] called Ooheroni (Fatigue), now it is called San Miguel Centro Marankiari.'
+
 =================================================================
 
 =================================================================
