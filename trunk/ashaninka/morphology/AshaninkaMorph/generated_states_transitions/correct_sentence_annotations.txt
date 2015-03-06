@@ -39,3 +39,41 @@ Ponyashitakaha noyomitahiri, novakotahiri inyaanikinta virakocha.
 ponyashitaka=ha no=yomit-ah-e=ri no=v-ako-t-ah-i=ri i=nyaa-ni-ki=Nta virakocha
 afterwards=EMPH 1SG.A=teach-REGR-IRR=3m.O 1SG.A=place-APPL-EP-REGR-REAL=3m.O 3m.poss=word-poss-LOC=DEM outsider
 'Then I will teach them, I will translate it intothe Spaniards' language.'
+
+=================================================================
+
+=================================================================
+PAGE.9.jankinebaerenti
+Otimatye ayometaeri eentsipaye ijankenate ijankenabaerentitantyaari.
+o=tzim-aty-e i=yomit-a-e=ri eentsi-paye i=saNkina-t-e i=saNkina-vai-rintsi-aNt-ia=ri
+3n.m.S=have-PROG-IRR 3m.A=teach-REGR-IRR=3m.O child-PL 3m.S=write-EP-IRR 3m.S=write-DUR-NMZ-APPL.REAS-IRR=REL
+Tenemos que enseñar a los niños a escribir para que sean escritores.
+
+PAGE.9.jankenamentotsi
+Niyompari ipashitakanabo jankenamentotsi kityonkari.
+Ni=yoNpari i=pashi-ak-a=na=ro saNkena-mento-tsi kityonka-ri
+1SG.poss=friend 3m.A=give.a.present-PRF-IRR=1SG.O=3n.m.O write-NMZ-ABS be.red-ADJ.m.
+Mi amigo me regaló un lapicero rojo.
+Ni=yoNpari i=pashi-ak-a=na=bo jaNkena-mento-tsi kityonka-ri
+
+PAGE.67.LINE.6
+ayompari
+a=yoNpari
+1PL=friend
+our friend
+
+PAGE.110.LINE.39
+nyompari
+n=yompari
+1SG.S=friend
+"meu amigo", "meu parceiro de troca".
+
+PAGE.64.EXAMPLE.b
+Paerani ayinipaeni yotakinaro antiro kantiripaeni.
+pairani aiyeni-paye yo-t-ak-i=na=ro ant-i=ro kantiri-paye
+before mother.in.law-PL know-EP-PRF-REAL=1SG.O=3n.m.O make-REAL=3SGnm.O hamper-PL
+'Antes las suegras me enseñaron a hacer canastas.'
+paerani ayini-paeni yo-t-ak-i-na-ro ant-i-ro kantiri-paeni
+
+
+

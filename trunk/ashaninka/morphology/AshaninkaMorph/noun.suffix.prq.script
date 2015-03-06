@@ -67,7 +67,7 @@
       ];
       
       define N=S=EMPH [
-       "[--][+EMPH]" : [{kya}|{ha}]
+       "[--][+EMPH]" : [{kya}|{ka}|{ha}]
       ];
       
       define N=S=smallpart [
@@ -96,5 +96,9 @@
       
       define N=S=wide [
        "[--][+wide]" : [{tsantsana}]
+      ];
+      
+      define N=S=NMZ [
+       "[--][+NMZ]" : [{nka}|{ri}]
       ];
       

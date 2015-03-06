@@ -60,38 +60,38 @@
       #        Epenthesis      #
       #                        #
       ##########################
-      define AEpenthesisRule1 [ "@EP" -> {a}"@EP" || t _ v ]; 
-      define AEpenthesisRule2 [ "@EP" -> {a}"@EP" || r _ y ]; 
+      define AEpenthesisRule1 [ "@EP" (->) {a}"@EP" || t _ v ]; 
+      define AEpenthesisRule2 [ "@EP" (->) {a}"@EP" || r _ y ]; 
 
-      define AEpenthesisRule3 [ "@EP" -> {a}"@EP" || s _ r ]; # pinkatsari
-      define AEpenthesisRule4 [ "@EP" -> {a}"@EP" || k _ m ]; # notoncamento
-      define AEpenthesisRule5 [ "@EP" -> {a}"@EP" || t _ m ]; # itotamento
-      define AEpenthesisRule6 [ "@EP" -> {a}"@EP" || k _ n ]; # notyoonkantsi
-      define AEpenthesisRule7 [ "@EP" -> {a}"@EP" || k _ v ]; # pokabaetantsi
-      define AEpenthesisRule8 [ "@EP" -> {a}"@EP" || p _ v ]; # Pabaetantsi
-      define AEpenthesisRule9 [ "@EP" -> {a}"@EP" || v _ v ]; # Obabaetantsi
-      define AEpenthesisRule10 [ "@EP" -> {a}"@EP" || r _ v ]; # irabaetantsi
-      define AEpenthesisRule11 [ "@EP" -> {a}"@EP" || m _ v ]; # timabaetantsi
+      define AEpenthesisRule3 [ "@EP" (->) {a}"@EP" || s _ r ]; # pinkatsari
+      define AEpenthesisRule4 [ "@EP" (->) {a}"@EP" || k _ m ]; # notoncamento
+      define AEpenthesisRule5 [ "@EP" (->) {a}"@EP" || t _ m ]; # itotamento
+      define AEpenthesisRule6 [ "@EP" (->) {a}"@EP" || k _ n ]; # notyoonkantsi
+      define AEpenthesisRule7 [ "@EP" (->) {a}"@EP" || k _ v ]; # pokabaetantsi
+      define AEpenthesisRule8 [ "@EP" (->) {a}"@EP" || p _ v ]; # Pabaetantsi
+      define AEpenthesisRule9 [ "@EP" (->) {a}"@EP" || v _ v ]; # Obabaetantsi
+      define AEpenthesisRule10 [ "@EP" (->) {a}"@EP" || r _ v ]; # irabaetantsi
+      define AEpenthesisRule11 [ "@EP" (->) {a}"@EP" || m _ v ]; # timabaetantsi
 
-      define TEpenthesisRule1 [ "@EP" -> {t}"@EP" || i _ i ]; 
-      define TEpenthesisRule2 [ "@EP" -> {t}"@EP" || a _ a ]; 
-      define TEpenthesisRule3 [ "@EP" -> {t}"@EP" || e _ a ]; 
-      define TEpenthesisRule4 [ "@EP" -> {t}"@EP" || a _ e ]; 
+      define TEpenthesisRule1 [ "@EP" (->) {t}"@EP" || i _ i ]; 
+      define TEpenthesisRule2 [ "@EP" (->) {t}"@EP" || a _ a ]; 
+      define TEpenthesisRule3 [ "@EP" (->) {t}"@EP" || e _ a ]; 
+      define TEpenthesisRule4 [ "@EP" (->) {t}"@EP" || a _ e ]; 
       define TEpenthesisRule5 [ "@EP" (->) {t}"@EP" || o _ a ]; # Amitakotaantsi
       define TEpenthesisRule6 [ "@EP" (->) {t}"@EP" || i _ a ]; # Antabaitantsi
       define TEpenthesisRule7 [ "@EP" (->) {t}"@EP" || e _ i ]; # Raniwaeti
 																															# This rule is not working for this entry: Ikinkishiriaka 
 																															# but for Ikinkishiritaka, for this reason we apply an optional rule
 
-      define TZEpenthesisRule1 [ "@EP" -> {tz}"@EP" || e _ i ]; # ^EP IRREALIS ; 
-      define TZEpenthesisRule2 [ "@EP" -> {tz}"@EP" || a _ i ]; 
+      define TZEpenthesisRule1 [ "@EP" (->) {tz}"@EP" || e _ i ]; # ^EP IRREALIS ; 
+      define TZEpenthesisRule2 [ "@EP" (->) {tz}"@EP" || a _ i ]; 
 
-      define TSEpenthesisRule1 [ "@EP" -> {ts}"@EP" || i _ i ];  # ts allophone to tz
+      define TSEpenthesisRule1 [ "@EP" (->) {ts}"@EP" || i _ i ];  # ts allophone to tz
                                                                  # n-amatawits-i-mi
-      define TSEpenthesisRule2 [ "@EP" -> {ts}"@EP" || o _ a ];  # potsotsaantsi
+      define TSEpenthesisRule2 [ "@EP" (->) {ts}"@EP" || o _ a ];  # potsotsaantsi
 
       
-      define CleanUpEpenthesisRule6 [ "" -> "@EP" || i _ {antsi} ]; # kinkishiriantsi
+      define CleanUpEpenthesisRule6 [ "" (->) "@EP" || i _ {antsi} ]; # kinkishiriantsi
 
       define Epenthesis [ AEpenthesisRule1 .o. AEpenthesisRule2 .o. AEpenthesisRule3 .o. AEpenthesisRule4 .o. AEpenthesisRule5 .o. AEpenthesisRule6 
 .o. AEpenthesisRule7 .o. AEpenthesisRule8 .o. AEpenthesisRule9 .o. AEpenthesisRule10 .o. AEpenthesisRule11 

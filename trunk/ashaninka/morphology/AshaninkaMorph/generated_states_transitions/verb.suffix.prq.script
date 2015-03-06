@@ -115,7 +115,7 @@
       ];
       
       define V=S=NMZ [
-       "[--][+NMZ]" : "@EP"[{rentsi}|{nka}|{ri}|{nk}|{ntsi}|{rintsi}|{mento}]
+       "[--][+NMZ]" : "@EP"[{rentsi}|{nka}|{ri}|{nk}|{ntsi}|{rintsi}|{mento}|{mento}]
       ];
       
       define V=S=noun [
@@ -231,23 +231,19 @@
       ];
       
       define V=S=ADJnm [
-       "[--][+ADJ.n.m.]" : "@EP"[{nto}|{tsinkaro}]
+       "[--][+ADJ.n.m.]" : "@EP"[{nto}|{ro}|{tsinkaro}]
       ];
       
       define V=S=ADJm [
-       "[--][+ADJ.m.]" : "@EP"[{ri}|{ntzi}]
+       "[--][+ADJ.m.]" : "@EP"[{ri}|{ntzi}|{tsinkari}]
+      ];
+      
+      define V=S=DUB [
+       "[--][+DUB]" : "@EP"[{ma}]
       ];
       
       define V=S=before [
        "[--][+before]" : "@EP"[{it}]
-      ];
-      
-      define V=S=ADJm [
-       "[--][+ADJ.m]" : "@EP"[{ri}|{tsinkari}]
-      ];
-      
-      define V=S=ADJnm [
-       "[--][+ADJ.n.m]" : "@EP"[{ro}|{nto}]
       ];
       
       define V=S=deceased [

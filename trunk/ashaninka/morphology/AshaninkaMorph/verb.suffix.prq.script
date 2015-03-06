@@ -3,7 +3,7 @@
       ];
       
       define V=S=IRR [
-       "[--][+IRR]" : "@EP"[{e}|{ia}|{n}|{ri}|{ye}|{a}|{i}]
+       "[--][+IRR]" : "@EP"[{e}|{ia}|{ya}|{n}|{ye}|{a}|{i}]
       ];
       
       define V=S=PRNO [
@@ -43,7 +43,7 @@
       ];
       
       define V=S=REAL [
-       "[--][+REAL]" : "@EP"[{e}|{i}|{a}|{i.}|{t}|{ri}|{tzi}|{ia}|{ya}]
+       "[--][+REAL]" : "@EP"[{e}|{i}|{a}|{t}|{ri}|{tzi}|{ia}|{ya}]
       ];
       
       define V=S=AUG [
@@ -75,11 +75,7 @@
       ];
       
       define V=S=ICPL [
-       "[--][+ICPL]" : "@EP"[{it}|{e}]
-      ];
-      
-      define V=S=EPREAL [
-       "[--][+EP.REAL]" : "@EP"[{tzitzi}]
+       "[--][+ICPL]" : "@EP"[{it}|{itz}]
       ];
       
       define V=S=REL [
@@ -91,7 +87,7 @@
       ];
       
       define V=S=APPLREAS [
-       "[--][+APPL.REAS]" : "@EP"[{ant}|{ako}|{anta}]
+       "[--][+APPL.REAS]" : "@EP"[{ant}|{anta}]
       ];
       
       define V=S=CUST [
@@ -119,11 +115,13 @@
       ];
       
       define V=S=APPL [
-       "[--][+APPL]" : "@EP"[{ako}|{t}]
+       "[--][+APPL]" : "@EP"[{ako}]
       ];
       
       define V=S=NMZ [
-       "[--][+NS][+Inf]" : "@EP"[{nka}|{ri}|{nk}|{ntsi}|{antsi}|{aantsi}|{rintsi}|{rentsi}|{mento}]
+       "[--][+NMZ]" : "@EP"[{rintsi}|{rentsi}|{renti}] |
+       "[--][+NMZ]" : "@EP"[{aantsi}|{antsi}] |
+       "[--][+NMZ]" : "@EP"[{nka}|{ri}|{nk}|{ntsi}|{mento}]
       ];
       
       define V=S=noun [
@@ -239,23 +237,19 @@
       ];
       
       define V=S=ADJnm [
-       "[--][+ADJ.n.m.]" : "@EP"[{nto}|{tsinkaro}]
+       "[--][+ADJ.n.m.]" : "@EP"[{nto}|{ro}|{tsinkaro}]
       ];
       
       define V=S=ADJm [
-       "[--][+ADJ.m.]" : "@EP"[{ri}|{ntzi}]
+       "[--][+ADJ.m.]" : "@EP"[{ri}|{ntzi}|{tsinkari}]
+      ];
+      
+      define V=S=DUB [
+       "[--][+DUB]" : "@EP"[{ma}]
       ];
       
       define V=S=before [
        "[--][+before]" : "@EP"[{it}]
-      ];
-      
-      define V=S=ADJm [
-       "[--][+ADJ.m]" : "@EP"[{ri}|{tsinkari}]
-      ];
-      
-      define V=S=ADJnm [
-       "[--][+ADJ.n.m]" : "@EP"[{ro}|{nto}]
       ];
       
       define V=S=deceased [
@@ -336,6 +330,10 @@
       
       define V=S=REC [
        "[--][+REC]" : "@EP"[{av}]
+      ];
+      
+      define V=S=2S [
+       "[--][+2S]" : "@EP"[{pi}]
       ];
       
       define V=S=ABS [

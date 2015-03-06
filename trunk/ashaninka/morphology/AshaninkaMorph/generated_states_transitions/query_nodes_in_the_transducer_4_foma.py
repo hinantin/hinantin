@@ -43,7 +43,7 @@ def main(argv):
      session = BaseXClient.Session(HOST, PORT, USER, PASSWORD)
      databaseFilePath = DATABASE
      fileName = ''
-     fileLog = ''
+     fileHeadersLog = ''
      fileNameSuffixList = ''
      fileNameSuffixListScript = ''
      define = ''
@@ -53,14 +53,14 @@ def main(argv):
        if Type == 'verb' :
          #value = "PRNO IRR DIR PRF OPT PL REGR CNT.F AUG DUR BEN ADV.P ADV APPR ICPL REL IMP.P quickly EXCL Q APPL noun disheveled.head DIM CL 3m.poss NMZ ADJ once APPL.INT REP poss EMPH APPL.BEN one DEM RCP REV ADJ.n.m. ADJ.m. before ADJ.m ADJ.n.m deceased small.part DEGR small only INCH DIM.DEGR flat early for.a.while not.yet REC"
          fileName = "query_transducer_verb_suffixes_4_python.xq"
-         fileLog = "verb.headers.prq.txt"
+         fileHeadersLog = "verb.headers.prq.txt"
          fileNameSuffixList = "query_transducer_verb_suffixes_lists.xq"
          fileNameSuffixListScript = "verb.transitions.prq.script"
          define = "define S [\n"
        else:
          #value = "poss DEM PL DIM LOC river CL small.part.DIM ADV EXCL ADV.P AUG monkey deceased leaf NOM EMPH small.part Q DUB ADV.T this wide"
          fileName = "query_transducer_noun_suffixes_4_python.xq"
-         fileLog = "noun.headers.prq.txt"
+         fileHeadersLog = "noun.headers.prq.txt"
          fileNameSuffixList = "query_transducer_noun_suffixes_lists.xq"
          fileNameSuffixListScript = "noun.transitions.prq.script"
          define = "define N [\n"
@@ -70,10 +70,10 @@ def main(argv):
          input=file.read().replace('\n', ' ')
        query = session.query(input)
        query.bind("$file_name", str(databaseFilePath))
-       output = query.execute()
+       outputHeaders = query.execute()
        #print output
-       f = open(fileLog,'w')
-       f.write(output) # python will convert \n to os.linesep
+       f = open(fileHeadersLog,'w')
+       f.write(outputHeaders) # python will convert \n to os.linesep
        f.close() # you can omit in most cases as the destructor will call if
        # #####################################################
        # ************ LIST TRANSDUCER TRANSITIONS ************
@@ -90,18 +90,21 @@ def main(argv):
        # ###################################
        List = outputSuffixList.split('\n')
        for s in List:
-          if s != '':
-             if s != " | \n":
-                strList = strList + s
+          if s != '| ':
+             if s != " | ":
+                strList = strList + s + "\n"
        #outputSuffixList = filter(lambda x: not re.match(r'^\s*$', x), outputSuffixList)
 
        #outputSuffixList = define + outputSuffixList[:-5] + " \n];"
-       strList = define + outputSuffixList[:-4] + " \n];"
+       strList = define + strList[:-4] + " \n];"
        f = open(fileNameSuffixListScript,'wb')
        f.write(strList) # python will convert \n to os.linesep
        f.close() # you can omit in most cases as the destructor will call if
        
-       values = output
+       # #####################################################
+       # ************ LIST TRANSDUCER STATES ************
+       # #####################################################
+       values = outputHeaders
        values = values.split(' ')
        for element in values:
          #print element
