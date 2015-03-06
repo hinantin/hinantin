@@ -171,7 +171,8 @@
             <xs:enumeration value="small.part"/> <!-- realis  -->
             <xs:enumeration value="for.a.while"/> <!-- realis  -->
 
-            <!-- New lexicon entries for lexical database -->
+            <!-- New abbreviations added by rcastro -->
+            <xs:enumeration value="NPOSS"/> <!--  -->
             
             <!-- Verb slot prefix 1 -->
             <xs:enumeration value="1SG.S"/>

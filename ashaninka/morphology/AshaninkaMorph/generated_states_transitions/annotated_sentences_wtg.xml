@@ -23189,6 +23189,51 @@ empty set=Ø
     </words>
   </sentence>
   
+  <sentence source_id="A0001" id="2.55.a">
+    <normal istandard="yes">pitotsi</normal>
+    <annotation_first_level>pito-tsi</annotation_first_level>
+    <annotation_second_level>canoe-NPOSS</annotation_second_level>
+    <translation lang="en">canoe</translation>
+    <words>
+      <word type="verb"><n>pitotsi</n><afl>pito-tsi</afl><asl>canoe-NPOSS</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>pito</e_afl><e_asl>canoe</e_asl></element>
+          <element sign="hyphen"><e_afl>tsi</e_afl><e_asl>NPOSS</e_asl></element>
+        </elements>
+      </word>
+    </words>
+  </sentence>
+  
+  <sentence source_id="A0001" id="2.55.a.1">
+    <normal istandard="yes">novito</normal>
+    <annotation_first_level>no-pito</annotation_first_level>
+    <annotation_second_level>1SG.poss-canoe</annotation_second_level>
+    <translation lang="en">my canoe</translation>
+    <words>
+      <word type="verb"><n>novito</n><afl>no-pito</afl><asl>1SG.poss-canoe</asl>
+        <elements>
+          <element sign="none"><e_afl>no</e_afl><e_asl>1SG.poss</e_asl></element>
+          <element sign="hyphen;isroot:yes"><e_afl>pito</e_afl><e_asl>canoe</e_asl></element>
+        </elements>
+      </word>
+    </words>
+  </sentence>
+  
+  <sentence source_id="A0001" id="2.55.a.2">
+    <normal istandard="yes">pivito</normal>
+    <annotation_first_level>pi-pito</annotation_first_level>
+    <annotation_second_level>2poss-canoe</annotation_second_level>
+    <translation lang="en">your canoe</translation>
+    <words>
+      <word type="verb"><n>pivito</n><afl>pi-pito</afl><asl>2poss-canoe</asl>
+        <elements>
+          <element sign="none"><e_afl>pi</e_afl><e_asl>2poss</e_asl></element>
+          <element sign="hyphen;isroot:yes"><e_afl>pito</e_afl><e_asl>canoe</e_asl></element>
+        </elements>
+      </word>
+    </words>
+  </sentence>
+  
   
 
 </sentences>
