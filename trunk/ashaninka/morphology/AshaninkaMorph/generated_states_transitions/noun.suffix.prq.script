@@ -7,7 +7,7 @@
       ];
       
       define N=S=PL [
-       "[--][+PL]" : [{paye}]
+       "[--][+PL]" : [{paye}|{he}]
       ];
       
       define N=S=DIM [
@@ -100,5 +100,21 @@
       
       define N=S=NMZ [
        "[--][+NMZ]" : [{nka}|{ri}]
+      ];
+      
+      define N=S=REL [
+       "[--][+REL]" : [{ni}]
+      ];
+      
+      define N=S=PROG [
+       "[--][+PROG]" : [{atz}]
+      ];
+      
+      define N=S=REAL [
+       "[--][+REAL]" : [{i}]
+      ];
+      
+      define N=S=3mO [
+       "[--][+3m.O]" : [{ri}]
       ];
       

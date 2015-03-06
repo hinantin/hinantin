@@ -470,6 +470,7 @@
  <xs:enumeration value="2S.cry"/>
  <xs:enumeration value="animal"/>
  <xs:enumeration value="sweep"/>
+ <xs:enumeration value="canoe"/>
  <xs:enumeration value="clay"/>
  <xs:enumeration value="peel"/>
  <xs:enumeration value="return"/>
