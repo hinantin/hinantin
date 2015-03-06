@@ -1,6 +1,6 @@
 declare namespace xs = "http://www.w3.org/2001/XMLSchema";
 declare variable $file_name external; 
-(:declare variable $file_name  := 'annotated_sentences_wtg.xml';:)
+(: declare variable $file_name  := 'annotated_sentences_wtg.xml'; :)
 
 fn:distinct-values(
 for $word in doc($file_name)//sentences//sentence//words//word
@@ -14,7 +14,7 @@ for $word in doc($file_name)//sentences//sentence//words//word
     return
       if ($element//e_asl[fn:matches(text(),'\.A$')] or $element//e_asl[fn:matches(text(),'\.S$')]) 
       then ()
-      else if ($element//e_asl[fn:matches(text(),'.O')])
+      else if ($element//e_asl[fn:matches(text(),'\.O')])
       then '(V=S=PRNO) '
       else if ($element//e_asl[fn:matches(text(),'^EP$')])
       then ()

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="annotated_sentences">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="maintainers">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="maintainer" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"/>
+                                        <xs:element name="email" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="sources">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="source" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"/>
+                                        <xs:element name="title" type="xs:string"/>
+                                        <xs:element name="year" type="xs:string"/>
+                                        <xs:element name="url" type="xs:string"/>
+                                        <xs:element name="email" type="xs:string"/>
+                                        <xs:element name="note" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="source_id" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="sentences">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sentence" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="normal">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute type="xs:string" name="istandard"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="nonstandard_annotation_first_level" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                                        <xs:element name="annotation_first_level" type="xs:string"/>
+                                        <xs:element name="annotation_second_level" type="xs:string"/>
+                                        <xs:element name="translation" minOccurs="1" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute type="xs:string" name="lang" use="optional"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="words">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="word" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="n"/>
+                                                                <xs:element type="xs:string" name="afl"/>
+                                                                <xs:element type="xs:string" name="asl"/>
+                                                                <xs:element name="elements">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="element" maxOccurs="unbounded" minOccurs="0">
+                                                                                <xs:complexType>
+                                                                                    <xs:sequence>
+                                                                                        <xs:element type="xs:string" name="n" minOccurs="0" maxOccurs="1"/>
+                                                                                        <xs:element type="xs:string" name="e_afl"/>
+                                                                                        <xs:element type="xs:string" name="e_asl"/>
+                                                                                    </xs:sequence>
+                                                                                    <xs:attribute type="xs:string" name="sign" use="optional"/>
+                                                                                </xs:complexType>
+                                                                            </xs:element>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                            <xs:attribute type="xs:string" name="type"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="source_id" type="xs:string" use="required"/>
+                                    <xs:attribute name="id" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

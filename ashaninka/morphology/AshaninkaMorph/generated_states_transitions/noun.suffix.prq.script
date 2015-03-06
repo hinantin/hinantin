@@ -11,7 +11,7 @@
       ];
       
       define N=S=DIM [
-       "[--][+DIM]" : [{patsaini}|{ini}|{aniki}|{ni}]
+       "[--][+DIM]" : [{patsaini}|{ini}|{ni}|{aniki}]
       ];
       
       define N=S=LOC [
@@ -67,7 +67,7 @@
       ];
       
       define N=S=EMPH [
-       "[--][+EMPH]" : [{kya}|{ha}]
+       "[--][+EMPH]" : [{kya}|{ka}|{ha}]
       ];
       
       define N=S=smallpart [

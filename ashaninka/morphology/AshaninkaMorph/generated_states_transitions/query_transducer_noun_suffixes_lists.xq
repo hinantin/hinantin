@@ -14,7 +14,7 @@ for $word in doc($file_name)//sentences//sentence//words//word
     return
       if ($element//e_asl[fn:matches(text(),'\.A$')] or $element//e_asl[fn:matches(text(),'\.S$')]) 
       then ()
-      else if ($element//e_asl[fn:matches(text(),'.poss')])
+      else if ($element//e_asl[fn:matches(text(),'\.poss')])
       then ()
       else if ($element//e_asl[fn:matches(text(),'^EP$')])
       then ()

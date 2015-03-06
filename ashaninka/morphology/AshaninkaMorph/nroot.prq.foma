@@ -43,12 +43,12 @@ define NRootPRQin [
 | "[NRoot][=huayruro][=chovankiri]" : {chovankiri}
 | "[NRoot][=child][=eentsi]" : {eentsi}
 | "[NRoot][=river][=eni]" : {eni}
+| "[NRoot][=young.man][=evankari]" : {evankari}
 | "[NRoot][=child][=hananeki]" : {hananeki}
 | "[NRoot][=arm][=hempeki]" : {hempeki}
 | "[NRoot][=top][=henoki]" : {henoki}
 | "[NRoot][=spider][=heto]" : [{heto}|{jeto}]
 | "[NRoot][=spider][=heto]" : {heto}
-| "[NRoot][=head][=iito]" : {iito}
 | "[NRoot][=foot][=iitsi]" : {iitsi}
 | "[NRoot][=neck][=ikentsi]" : {ikentsi}
 | "[NRoot][=husband][=ime]" : {ime}
@@ -78,6 +78,7 @@ define NRootPRQin [
 | "[NRoot][=Lima][=irimashi]" : {irimashi}
 | "[NRoot][=Irina][=irina]" : {irina}
 | "[NRoot][=his.sister][=iritsiro]" : {iritsiro}
+| "[NRoot][=now][=ironyaa]" : [{ironyaa}|{ironya}]
 | "[NRoot][=whachamacallit][=irora]" : {irora}
 | "[NRoot][=grandma][=isha]" : {isha}
 | "[NRoot][=head][=ito]" : {ito}
@@ -174,8 +175,7 @@ define NRootPRQin [
 | "[NRoot][=seed][=okitsoki]" : [{okitsoki}|{okitoki}]
 | "[NRoot][=sun][=ooryaatsiri]" : {ooryaatsiri}
 | "[NRoot][=bird.species][=oovero]" : {oovero}
-| "[NRoot][=hawk.sp.][=oovero]" : {oovero}
-| "[NRoot][=hawk][=oovero]" : {oovero}
+| "[NRoot][=hawk.sp., hawk][=oovero]" : {oovero}
 | "[NRoot][=year][=osarentsi]" : {osarentsi}
 | "[NRoot][=hospital][=osipitari]" : {osipitari}
 | "[NRoot][=cliff][=otaapiki]" : {otaapiki}
@@ -189,12 +189,12 @@ define NRootPRQin [
 | "[NRoot][=her.food][=oyari]" : {oyari}
 | "[NRoot][=fire][=paamari]" : {paamari}
 | "[NRoot][=bird.species][=paampatzi]" : {paampatzi}
-| "[NRoot][=mouth][=paante]" : {paante}
 | "[NRoot][=pumpkin][=pachaka]" : {pachaka}
 | "[NRoot][=forehead][=pankaina]" : {pankaina}
 | "[NRoot][=plank][=panki]" : {panki}
 | "[NRoot][=house][=panko]" : {panko}
 | "[NRoot][=house][=pankotsi]" : {pankotsi}
+| "[NRoot][=mouth][=pante]" : [{pante}|{paante}]
 | "[NRoot][=river][=pareni]" : {pareni}
 | "[NRoot][=plantain][=parentzi]" : {parentzi}
 | "[NRoot][=root][=paritsa]" : {paritsa}
@@ -302,6 +302,7 @@ define NRootPRQin [
 | "[NRoot][=Beetle][=tziivito]" : {tziivito}
 | "[NRoot][=pifayo][=tzina]" : {tzina}
 | "[NRoot][=camonilla][=tzina]" : {tzina}
+| "[NRoot][=tail][=tzinko]" : {tzinko}
 | "[NRoot][=salt][=tzivi]" : {tzivi}
 | "[NRoot][=cow][=vaaka]" : {vaaka}
 | "[NRoot][=scarf][=vaanyo]" : {vaanyo}
@@ -320,6 +321,8 @@ define NRootPRQin [
 | "[NRoot][=outsider][=virakocha]" : {virakocha}
 | "[NRoot][=face][=voro]" : {voro}
 | "[NRoot][=brother][=yari]" : {yari}
+| "[NRoot][=fat][=yenka]" : {yenka}
 | "[NRoot][=ear][=yempita]" : {yempita}
 | "[NRoot][=knee][=yerito]" : {yerito}
+| "[NRoot][=friend][=yompari]" : {yompari}
 ];
