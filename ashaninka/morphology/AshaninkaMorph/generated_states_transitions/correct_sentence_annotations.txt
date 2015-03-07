@@ -81,6 +81,7 @@ before mother.in.law-PL know-EP-PRF-REAL=1SG.O=3n.m.O make-REAL=3SGnm.O hamper-P
 'Antes las suegras me enseñaron a hacer canastas.'
 paerani ayini-paeni yo-t-ak-i-na-ro ant-i-ro kantiri-paeni
 
+RICHARD.
 Inchatomashi onkantaiteni inchatomashi
 Inchatomashi o-N=kant-a-it-e=ni inchatomashi
 scrub 3SGnm.S-IRR=be-REP-ICPL-IRR=ADV scrub

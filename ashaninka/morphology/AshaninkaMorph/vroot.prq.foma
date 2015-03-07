@@ -367,13 +367,9 @@ define VRootPRQin [
 | "[VRoot][=get.fat, gain.weight][=vatsa]" : {vatsa}
 | "[VRoot][=be.warrior][=vayeri]" : {vayeri}
 | "[VRoot][=fade][=veha]" : {veha}
-| "[VRoot][=fix][=vetsik]" : {vetsik}
-| "[VRoot][=make][=vetsik]" : {vetsik}
 | "[VRoot][=visit][=vitsa]" : {vitsa}
 | "[VRoot][=greet][=vitsa]" : {vitsa}
-| "[VRoot][=make][=vitsik]" : {vitsik}
-| "[VRoot][=build][=vitsik]" : {vitsik}
-| "[VRoot][=fix][=vitsik]" : {vitsik}
+| "[VRoot][=fix, make, create, build][=vitsik]" : [{vitsik}|{vetsik}]
 | "[VRoot][=grow.hair][=vitzit]" : {vitzit}
 | "[VRoot][=learn][=yo]" : {yo}
 | "[VRoot][=know][=yo]" : {yo}
