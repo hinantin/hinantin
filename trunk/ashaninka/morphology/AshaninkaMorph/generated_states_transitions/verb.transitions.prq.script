@@ -407,5 +407,7 @@ define S [
  (V=S=DIST) (V=S=REAL) (V=S=PRNO) | 
  (V=S=APPL) (V=S=REAL) | 
  (V=S=IRR) (V=S=APPL) (V=S=REAL) | 
- (V=S=IRR) (V=S=DIST) (V=S=DIR) (V=S=PRF) (V=S=REAL) (V=S=PRNO) (V=S=REL)  
+ (V=S=IRR) (V=S=DIST) (V=S=DIR) (V=S=PRF) (V=S=REAL) (V=S=PRNO) (V=S=REL) | 
+ (V=S=DUR) (V=S=APPLINT) (V=S=STAT) (V=S=REAL) (V=S=REL) | 
+ (V=S=APPL) (V=S=IRR) (V=S=PRNO)  
 ];

@@ -60,6 +60,7 @@ define VRootPRQin [
 | "[VRoot][=go][=ha]" : {ha}
 | "[VRoot][=lead][=heva]" : {heva}
 | "[VRoot][=up][=hinoki]" : {hinoki}
+| "[VRoot][=get.ahead][=hivat]" : {hivat}
 | "[VRoot][=split][=inchakota]" : {inchakota}
 | "[VRoot][=begin][=int]" : {int}
 | "[VRoot][=cry][=ir]" : {ir}
@@ -216,7 +217,7 @@ define VRootPRQin [
 | "[VRoot][=wait][=ooy]" : {ooy}
 | "[VRoot][=expect][=ooya]" : {ooya}
 | "[VRoot][=wait][=ooya]" : {ooya}
-| "[VRoot][=be.much][=osheki]" : {osheki}
+| "[VRoot][=be.much][=osheki]" : [{osheki}|{osheke}]
 | "[VRoot][=eat][=ov]" : [{ov}|{oy}]
 | "[VRoot][=fight][=ovayeri]" : {ovayeri}
 | "[VRoot][=follow][=oya]" : {oya}
@@ -270,7 +271,7 @@ define VRootPRQin [
 | "[VRoot][=be.at][=saik]" : {saik}
 | "[VRoot][=be.in][=saik]" : {saik}
 | "[VRoot][=sit][=saik]" : {saik}
-| "[VRoot][=live][=saik]" : {saik}
+| "[VRoot][=live][=saik]" : [{saik}|{saek}]
 | "[VRoot][=get.upset.with][=sam]" : {sam}
 | "[VRoot][=ask][=sampi]" : {sampi}
 | "[VRoot][=research][=sampita]" : {sampita}

@@ -7,7 +7,7 @@
       ];
       
       define N=S=PL [
-       "[--][+PL]" : [{paye}|{payeni}|{paeni}|{pe}]
+       "[--][+PL]" : [{paye}|{payeni}|{payeeni}|{paeni}|{pe}]
       ];
       
       define N=S=DIM [
@@ -100,5 +100,9 @@
       
       define N=S=NMZ [
        "[--][+NMZ]" : [{nka}|{ri}]
+      ];
+      
+      define N=S=NPOSS [
+       "[--][+NPOSS]" : [{tsi}]
       ];
       

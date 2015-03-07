@@ -159,7 +159,7 @@
       ];
       
       define V=S=APPLINT [
-       "[--][+APPL.INT]" : "@EP"[{ashi}|{tz}]
+       "[--][+APPL.INT]" : "@EP"[{ashi}|{tz}|{@a.vowel.loss.Ø@shi}]
       ];
       
       define V=S=LOC [

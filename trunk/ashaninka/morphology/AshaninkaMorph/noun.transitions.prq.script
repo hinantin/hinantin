@@ -51,5 +51,6 @@ define N [
  (N=S=leaf) (N=S=smallpart) (N=S=DIM) | 
  (N=S=wide) (N=S=AUG) | 
  (N=S=NMZ) (N=S=NMZ) | 
- (N=S=poss) (N=S=LOC) (N=S=DEM)  
+ (N=S=poss) (N=S=LOC) (N=S=DEM) | 
+ (N=S=NPOSS)  
 ];

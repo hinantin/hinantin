@@ -22796,7 +22796,7 @@ empty set=Ø
     </words>
   </sentence>
 
-  <sentence  source_id="A0005" id="RICHARD.1.02">
+  <sentence source_id="A0005" id="RICHARD.1.02">
     <normal istandard="no">Tsika Ikantaitziro Ñaantsipaye</normal>
     <nonstandard_annotation_first_level>tsika i=kaNt-ai-tz-i=ro ñaantsi-paye</nonstandard_annotation_first_level>
     <annotation_first_level>tsika i=kaNt-ai-tz-i=ro nyaantsi-paye</annotation_first_level>
@@ -23004,10 +23004,10 @@ empty set=Ø
   </sentence>
   
   <sentence source_id="A0005" id="RICHARD.1.06">
-    <normal istandard="no">ikantaitzi pairani maaroni impokiropayeni anyayetziri iroñaaka atziri inahetatzi saikatziri aka kipatsikika</normal>
+    <normal istandard="no">ikantaitzi pairani maaroni impokiropaye anyayetziri iroñaaka atziri inahetatzi saikatziri aka kipatsikika</normal>
     <nonstandard_annotation_first_level>icantaitzi pairani maaroni impoquiropayeni añaayetziri iroñaaca atziri inajeetatzi saicatziri aca Quipatsiquica</nonstandard_annotation_first_level>
-    <annotation_first_level>i=kaNt-ai-tz-i pairani maaroni iNpokiro-paye-ni a=ny-a-ye-tzi=ri iroñaaka atziri i=na-he-t-atz-i saik-atz-i=ri aka kipatsi-ki=ka</annotation_first_level>
-    <annotation_second_level>3m.A=say-IMP.P-EP-REAL long.ago all star-PL-REL 1PL.A=see-EP-DIST-REAL=3m.O today person 3m.S=be-PL-EP-PROG-REAL be.at-PROG-REAL=3m.O here earth-LOC=DEM</annotation_second_level>
+    <annotation_first_level>i=kaNt-ai-tz-i pairani maaroni iNpokiro-paye a=ny-a-ye-tzi=ri iroñaaka atziri i=na-he-t-atz-i saik-atz-i=ri aka kipatsi-ki=ka</annotation_first_level>
+    <annotation_second_level>3m.A=say-IMP.P-EP-REAL long.ago all star-PL 1PL.A=see-EP-DIST-REAL=3m.O today person 3m.S=be-PL-EP-PROG-REAL be.at-PROG-REAL=3m.O here earth-LOC=DEM</annotation_second_level>
     <translation lang="en">It is said that formerly all the stars that we see today, were persons who were living here in this ground</translation>
     <translation lang="es">Se dice que antiguamente todas las estrellas que vemos hoy, eran personas que vivían aquí en esta tierra</translation>
     <words>
@@ -23030,11 +23030,10 @@ empty set=Ø
           <element sign="none;isroot:yes"><e_afl>maaroni</e_afl><e_asl>all</e_asl></element>
         </elements>
       </word>
-      <word type="noun"><n>impokiropayeni</n><afl>iNpokiro-paye-ni</afl><asl>star-PL-REL</asl>
+      <word type="noun"><n>impokiropayeni</n><afl>iNpokiro-paye</afl><asl>star-PL</asl>
         <elements>
-          <element sign="none;isroot:yes"><e_afl>iNpokiro</e_afl><e_asl>star</e_asl></element>
-          <element sign="equal"><e_afl>paye</e_afl><e_asl>PL</e_asl></element>
-          <element sign="hyphen"><e_afl>ni</e_afl><e_asl>REL</e_asl></element>
+          <element sign="none;isroot:yes"><n>iNpokiro</n><e_afl>iNpokiro</e_afl><e_asl>star</e_asl></element>
+          <element sign="equal"><n>payeni</n><e_afl>paye</e_afl><e_asl>PL</e_asl></element>
         </elements>
       </word>
       <word type="verb"><n>anyayetziri</n><afl>a=ny-a-ye-tzi=ri</afl><asl>1PL.A=see-EP-DIST-REAL=3m.O</asl>
@@ -23058,7 +23057,7 @@ empty set=Ø
           <element sign="none;isroot:yes"><e_afl>atziri</e_afl><e_asl>person</e_asl></element>
         </elements>
       </word>
-      <word type="noun"><n>inahetatzi</n><afl>i=na-he-t-atz-i</afl><asl>3m.S=be-PL-EP-PROG-REAL</asl> <!-- were/was -->
+      <word type="verb"><n>inahetatzi</n><afl>i=na-he-t-atz-i</afl><asl>3m.S=be-PL-EP-PROG-REAL</asl> <!-- were/was -->
         <elements>
           <element sign="none"><e_afl>i</e_afl><e_asl>3m.S</e_asl></element>
           <element sign="equal;isroot:yes"><e_afl>na</e_afl><e_asl>be</e_asl></element>
@@ -23068,7 +23067,7 @@ empty set=Ø
           <element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
         </elements>
       </word>
-      <word type="noun"><n>saikatziri</n><afl>saik-atz-i=ri</afl><asl>be.at-PROG-REAL=3m.O</asl>
+      <word type="verb"><n>saikatziri</n><afl>saik-atz-i=ri</afl><asl>be.at-PROG-REAL=3m.O</asl>
         <elements>
           <element sign="none;isroot:yes"><e_afl>saik</e_afl><e_asl>be.at</e_asl></element>
           <element sign="hyphen"><e_afl>atz</e_afl><e_asl>PROG</e_asl></element>
@@ -23090,8 +23089,7 @@ empty set=Ø
       </word>
     </words>
   </sentence>
-  
-  
+    
   <sentence source_id="A0005" id="RICHARD.1.07">
     <normal istandard="no">Icoñaatantacari Ashaninca</normal>
     <nonstandard_annotation_first_level>i-coñaa-t-ant-ac-a=ri a=shaninca</nonstandard_annotation_first_level>
@@ -23195,7 +23193,7 @@ empty set=Ø
     <annotation_second_level>canoe-NPOSS</annotation_second_level>
     <translation lang="en">canoe</translation>
     <words>
-      <word type="verb"><n>pitotsi</n><afl>pito-tsi</afl><asl>canoe-NPOSS</asl>
+      <word type="noun"><n>pitotsi</n><afl>pito-tsi</afl><asl>canoe-NPOSS</asl>
         <elements>
           <element sign="none;isroot:yes"><e_afl>pito</e_afl><e_asl>canoe</e_asl></element>
           <element sign="hyphen"><e_afl>tsi</e_afl><e_asl>NPOSS</e_asl></element>
@@ -23210,7 +23208,7 @@ empty set=Ø
     <annotation_second_level>1SG.poss-canoe</annotation_second_level>
     <translation lang="en">my canoe</translation>
     <words>
-      <word type="verb"><n>novito</n><afl>no-pito</afl><asl>1SG.poss-canoe</asl>
+      <word type="noun"><n>novito</n><afl>no-pito</afl><asl>1SG.poss-canoe</asl>
         <elements>
           <element sign="none"><e_afl>no</e_afl><e_asl>1SG.poss</e_asl></element>
           <element sign="hyphen;isroot:yes"><e_afl>pito</e_afl><e_asl>canoe</e_asl></element>
@@ -23225,7 +23223,7 @@ empty set=Ø
     <annotation_second_level>2poss-canoe</annotation_second_level>
     <translation lang="en">your canoe</translation>
     <words>
-      <word type="verb"><n>pivito</n><afl>pi-pito</afl><asl>2poss-canoe</asl>
+      <word type="noun"><n>pivito</n><afl>pi-pito</afl><asl>2poss-canoe</asl>
         <elements>
           <element sign="none"><e_afl>pi</e_afl><e_asl>2poss</e_asl></element>
           <element sign="hyphen;isroot:yes"><e_afl>pito</e_afl><e_asl>canoe</e_asl></element>
@@ -23234,7 +23232,75 @@ empty set=Ø
     </words>
   </sentence>
   
-  
+  <sentence source_id="A0001" id="RICHARD.1.10">
+    <normal istandard="no">kantavaishitachari</normal>
+    <nonstandard_annotation_first_level>kantabaeshitachari</nonstandard_annotation_first_level>
+    <annotation_first_level>kantavaishitachari</annotation_first_level>
+    <annotation_second_level>kant-a-vai-@A.VOWEL.LOSS.Ø@shi-t-ach-a=ri</annotation_second_level>
+    <translation lang="en">say-EP-DUR-APPL.INT-EP-STAT-REAL=REL</translation>
+    <words>
+      <word type="verb"><n>kantavaishitachari</n><afl>kant-a-vai-@A.VOWEL.LOSS.Ø@shi-t-ach-a=ri</afl><asl>say-EP-DUR-APPL.INT-EP-STAT-REAL=REL</asl>
+        <elements>
+          <element sign="hyphen;isroot:yes"><n>kant</n><e_afl>kant</e_afl><e_asl>say</e_asl></element>
+          <element sign="hyphen"><n>a</n><e_afl>a</e_afl><e_asl>EP</e_asl></element>
+          <element sign="hyphen"><n>vae</n><e_afl>vai</e_afl><e_asl>DUR</e_asl></element>
+          <element sign="hyphen"><n>@A.VOWEL.LOSS.Ø@shi</n><e_afl>@A.VOWEL.LOSS.Ø@shi</e_afl><e_asl>APPL.INT</e_asl></element>
+          <element sign="hyphen"><n>t</n><e_afl>t</e_afl><e_asl>EP</e_asl></element>
+          <element sign="hyphen"><n>ach</n><e_afl>ach</e_afl><e_asl>STAT</e_asl></element>
+          <element sign="hyphen"><n>a</n><e_afl>a</e_afl><e_asl>REAL</e_asl></element>
+          <element sign="equal"><n>ri</n><e_afl>ri</e_afl><e_asl>REL</e_asl></element>          
+        </elements>
+      </word>
+    </words>
+  </sentence>  
+
+  <sentence source_id="A0001" id="RICHARD.1.11">
+    <normal istandard="yes">aminakotero</normal>
+    <annotation_first_level>amin-ako-t-e-ro</annotation_first_level>
+    <annotation_second_level>look-APPL-EP-IRR-3nm.O</annotation_second_level>
+    <translation lang="en">not-available</translation>
+    <words>
+      <word type="verb"><n>aminakotero</n><afl>amin-ako-t-e-ro</afl><asl>look-APPL-EP-IRR-3nm.O</asl>
+        <elements>
+          <element sign="equal;isroot:yes"><e_afl>amin</e_afl><e_asl>look</e_asl></element>
+          <element sign="hyphen"><e_afl>ako</e_afl><e_asl>APPL</e_asl></element>
+          <element sign="hyphen"><e_afl>t</e_afl><e_asl>EP</e_asl></element>
+          <element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
+          <element sign="equal"><e_afl>ro</e_afl><e_asl>3nm.O</e_asl></element>
+        </elements>
+      </word>
+    </words>
+  </sentence>
+
+  <sentence source_id="A0005" id="RICHARD.">
+    <normal istandard="yes">Inchatomashi onkantaiteni inchatomashi</normal>
+    <annotation_first_level>Inchatomashi o-N=kant-a-it-e=ni inchatomashi</annotation_first_level>
+    <annotation_second_level>scrub 3SGnm.S-IRR=be-REP-ICPL-IRR=ADV scrub</annotation_second_level>
+    <translation lang="es">Porque bosque soy y sigo siendo bosque.</translation>
+    <words>
+      <word type="verb"><n>Inchatomashi</n><afl>Inchatomashi</afl><asl>scrub</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>Inchatomashi</e_afl><e_asl>scrub</e_asl></element>
+        </elements>
+      </word>
+      <word type="verb"><n>onkantaiteni</n><afl>o-N=kant-a-it-e=ni</afl><asl>3SGnm.S-IRR=be-REP-ICPL-IRR=ADV</asl>
+        <elements>
+          <element sign="none"><e_afl>o</e_afl><e_asl>3SGnm.S</e_asl></element>
+          <element sign="hyphen"><e_afl>N</e_afl><e_asl>IRR</e_asl></element>
+          <element sign="equal;isroot:yes"><e_afl>kant</e_afl><e_asl>be</e_asl></element>
+          <element sign="hyphen"><e_afl>a</e_afl><e_asl>REP</e_asl></element>
+          <element sign="hyphen"><e_afl>it</e_afl><e_asl>ICPL</e_asl></element>
+          <element sign="hyphen"><e_afl>e</e_afl><e_asl>IRR</e_asl></element>
+          <element sign="equal"><e_afl>ni</e_afl><e_asl>ADV</e_asl></element>
+        </elements>
+      </word>
+      <word type="verb"><n>inchatomashi</n><afl>inchatomashi</afl><asl>scrub</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>inchatomashi</e_afl><e_asl>scrub</e_asl></element>
+        </elements>
+      </word>
+    </words>
+  </sentence>
 
 </sentences>
 </annotated_sentences>

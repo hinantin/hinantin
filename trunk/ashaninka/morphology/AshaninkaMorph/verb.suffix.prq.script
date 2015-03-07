@@ -3,7 +3,7 @@
       ];
       
       define V=S=IRR [
-       "[--][+IRR]" : "@EP"[{e}|{ia}|{ya}|{n}|{ye}|{a}|{i}]
+       "[--][+IRR]" : "@EP"[{e}|{ia}|{ya}|{n}|{ye}|{a}|{i}|{yaa}]
       ];
       
       define V=S=PRNO [
@@ -148,8 +148,8 @@
        "[--][+3m.poss]" : "@EP"[{i}|{y}]
       ];
       
-      define V=S=ADJ [
-       "[--][+ADJ]" : "@EP"[{ri}|{tsinkari}]
+      define V=S=ADJm [
+       "[--][+ADJ.m.]" : "@EP"[{ri}|{ntzi}|{tsinkari}]
       ];
       
       define V=S=CAUSSOC [
@@ -165,7 +165,7 @@
       ];
       
       define V=S=APPLINT [
-       "[--][+APPL.INT]" : "@EP"[{ashi}|{tz}]
+       "[--][+APPL.INT]" : "@EP"[{ashi}|{shi}|{tz}]
       ];
       
       define V=S=LOC [
@@ -240,10 +240,6 @@
        "[--][+ADJ.n.m.]" : "@EP"[{nto}|{ro}|{tsinkaro}]
       ];
       
-      define V=S=ADJm [
-       "[--][+ADJ.m.]" : "@EP"[{ri}|{ntzi}|{tsinkari}]
-      ];
-      
       define V=S=DUB [
        "[--][+DUB]" : "@EP"[{ma}]
       ];
@@ -290,6 +286,10 @@
       
       define V=S=INCH [
        "[--][+INCH]" : "@EP"[{ima}|{imai}|{amaint}]
+      ];
+      
+      define V=S=ADJ [
+       "[--][+ADJ]" : "@EP"[{tsinkari}]
       ];
       
       define V=S=DIMDEGR [
