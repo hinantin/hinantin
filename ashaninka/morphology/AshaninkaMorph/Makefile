@@ -1,5 +1,5 @@
 DROPBOXPATH=/home/richard/Descargas/RCastroq/dropbox/Dropbox/05_Ashaninca/05_Morfologia/Ashaninka_Morph/xml
-TOKENIZERPATH=/home/richard/Descargas/RCastroq/Runa_Simi_Corpus/scripts
+TOKENIZERPATH=/home/richard/Documents/git/02_AshaninkaMorph_GoogleCode/hntAshaninka/morphology/AshaninkaMorph/generated_states_transitions
 
 compile:
 	@rm -f asheninka.bin

@@ -7,6 +7,7 @@
  <xs:enumeration value="eat"/>
  <xs:enumeration value="friend"/>
  <xs:enumeration value="person’s.name"/>
+ <xs:enumeration value="scrub"/>
  <xs:enumeration value="lake"/>
  <xs:enumeration value="Lima"/>
  <xs:enumeration value="Irina"/>

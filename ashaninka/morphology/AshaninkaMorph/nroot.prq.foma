@@ -18,6 +18,7 @@ define NRootPRQin [
 | "[NRoot][=forest][=antami]" : {antami}
 | "[NRoot][=person’s.name][=antoko]" : {antoko}
 | "[NRoot][=father][=apa]" : {apa}
+| "[NRoot][=one][=aparo]" : {aparo}
 | "[NRoot][=somebody][=aparoni]" : {aparoni}
 | "[NRoot][=person’s.name][=apiinka]" : {apiinka}
 | "[NRoot][=thigh][=aporivatsa]" : {aporivatsa}
@@ -63,6 +64,7 @@ define NRootPRQin [
 | "[NRoot][=herb][=inchashi]" : {inchashi}
 | "[NRoot][=grass][=inchashi]" : {inchashi}
 | "[NRoot][=tree][=inchato]" : {inchato}
+| "[NRoot][=scrub][=inchatomashi]" : {inchatomashi}
 | "[NRoot][=lake][=inkaari]" : {inkaari}
 | "[NRoot][=sky][=inkite]" : {inkite}
 | "[NRoot][=ancestor][=intakantarori]" : {intakantarori}
@@ -205,6 +207,7 @@ define NRootPRQin [
 | "[NRoot][=river’s.name][=paukartambo]" : {paukartambo}
 | "[NRoot][=solar.deity][=pava]" : {pava}
 | "[NRoot][=god][=pava]" : {pava}
+| "[NRoot][=NP][=perú]" : {perú}
 | "[NRoot][=Pichanaki][=pichanaki]" : {pichanaki}
 | "[NRoot][=animal][=piratsi]" : {piratsi}
 | "[NRoot][=name][=pito]" : {pito}
@@ -272,6 +275,7 @@ define NRootPRQin [
 | "[NRoot][=corral][=tantotsi]" : {tantotsi}
 | "[NRoot][=power][=tasorinka]" : {tasorinka}
 | "[NRoot][=blessing][=tasorinka]" : {tasorinka}
+| "[NRoot][=god, saint, sacred][=tasorintsi]" : [{tasorintsi}|{tajorentsi}|{tasorentsi}|{tazorentzi}]
 | "[NRoot][=none][=tekatsi]" : {tekatsi}
 | "[NRoot][=buttock][=tete]" : {tete}
 | "[NRoot][=weaver][=tihatsi]" : {tihatsi}
