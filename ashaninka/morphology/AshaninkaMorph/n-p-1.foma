@@ -4,7 +4,7 @@ define N=P=1 [
   "[1SG.poss+][=no][--]" : {no}"@PRONLEN@"
 | "[1SG.poss+][=no][--]" : {n}"@PRONLEN@"
 !| "[1SG.poss+][=Ø][--]" : "@PRONLEN@"
-| "[2SG.poss+][=pi][--]" : {p}"@PRONLEN@"
+| "[2SG.poss+][=p][--]" : {p}"@PRONLEN@"
 !| "[2SG.poss+][=Ø][--]" : "@PRONLEN@"
 | "[2SG.poss+][=pi][--]" : {pi}"@PRONLEN@"
 | "[3SGm.poss+][=i][--]" : {i}"@PRONLEN@"
