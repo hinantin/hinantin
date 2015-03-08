@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" vc:minVersion="1.1">
     <xs:include schemaLocation="full.lexicon.schema.xsd"></xs:include>
+    <xs:include schemaLocation="full.root.affix.schema.xsd"></xs:include>
+
+    <xs:simpleType name="identifier">
+        <xs:restriction base="xs:token">
+            <xs:pattern value="[a-zA-Z\d]{0,3}.[a-zA-Z\d]{0,3}.([a-zA-Z\d]{0,30}.)"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
     <xs:simpleType name="nonEmptyString">
         <xs:restriction base="xs:string">
             <xs:pattern value="(\s*[^\s]\s*)+"></xs:pattern>
@@ -135,6 +143,8 @@
             <xs:enumeration value="WH"/> <!-- content interrogative -->
             
             <!-- Abreviations not included in source  -->
+            
+            <xs:enumeration value="CT.F"/> <!-- realis  -->
             <xs:enumeration value="REAL"/> <!-- realis  -->
             <xs:enumeration value="BEN"/> <!-- realis  -->
             <xs:enumeration value="CNTR"/> <!-- realis  -->
@@ -206,11 +216,14 @@
             <xs:enumeration value="3m.S"/>
             <xs:enumeration value="1SG.O"/>
             <xs:enumeration value="3O"/>
-            <xs:enumeration value="2O"/>            
+            <xs:enumeration value="2O"/>
             <xs:enumeration value="3SGnm.O"/>
             <xs:enumeration value="1PL.O"/>
             <xs:enumeration value="2S"/>
             <xs:enumeration value="3SG.m.IRR"/> <!-- found in source -->
+            <xs:enumeration value="3n.m.O"/> <!-- found in source -->
+            <xs:enumeration value="3m.A"/> <!-- found in source -->
+            <xs:enumeration value="1SGS"/> <!-- found in source -->
             
             <!-- Noun prefix slot 1 
             Where:
@@ -287,6 +300,7 @@
                             <xs:element name="sentence" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
+                                        <xs:element name="annotation_source" minOccurs="0" maxOccurs="2" type="nonEmptyString"/>
                                         <xs:element name="normal">
                                             <xs:complexType>
                                                 <xs:simpleContent>
@@ -320,11 +334,11 @@
                                                                 <xs:element name="elements">
                                                                     <xs:complexType>
                                                                         <xs:sequence>
-                                                                            <xs:element name="element" maxOccurs="unbounded" minOccurs="0">
+                                                                            <xs:element name="element" maxOccurs="unbounded" minOccurs="1">
                                                                                 <xs:complexType>
                                                                                     <xs:sequence>
                                                                                         <xs:element type="xs:string" name="n" minOccurs="0" maxOccurs="1"/>
-                                                                                        <xs:element type="xs:string" name="e_afl"/>
+                                                                                        <xs:element type="AffixAndRoot" name="e_afl"/>
                                                                                         <xs:element type="LexiconOrTag" name="e_asl"/>
                                                                                     </xs:sequence>
                                                                                     <xs:attribute type="sign" name="sign" use="required"/>
@@ -333,10 +347,16 @@
                                                                                 </xs:complexType>
                                                                             </xs:element>
                                                                         </xs:sequence>
+                                                                        <xs:assert test="count(element) lt 12"/> <!-- if it has more than 12 is a mistake -->
+                                                                        <xs:assert test="(count(element[@sign='none;isroot:yes']) le 1)"/>
+                                                                        <xs:assert test="(count(element[@sign='hyphen;isroot:yes']) le 1)"/>
+                                                                        <xs:assert test="(count(element[@sign='equal;isroot:yes']) le 1)"/>
+                                                                        <xs:assert test="(count(element[@sign='tilde;isroot:yes']) le 1)"/>
                                                                     </xs:complexType>
                                                                 </xs:element>
                                                             </xs:sequence>
                                                             <xs:attribute type="wordclass" name="type"/>
+                                                            <xs:assert test="count(elements/element[matches(@sign,'isroot:yes$')]) = 1"/>
                                                         </xs:complexType>
                                                     </xs:element>
                                                 </xs:sequence>
@@ -344,7 +364,7 @@
                                         </xs:element>
                                     </xs:sequence>
                                     <xs:attribute name="source_id" type="author" use="required"/>
-                                    <xs:attribute name="id" type="xs:string" use="required"/>
+                                    <xs:attribute name="id" type="identifier" use="required"/>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
