@@ -7,6 +7,7 @@
  <xs:enumeration value="eat"/>
  <xs:enumeration value="friend"/>
  <xs:enumeration value="person’s.name"/>
+ <xs:enumeration value="village’s.name"/>
  <xs:enumeration value="scrub"/>
  <xs:enumeration value="lake"/>
  <xs:enumeration value="Lima"/>
@@ -16,7 +17,6 @@
  <xs:enumeration value="Matsigenka"/>
  <xs:enumeration value="name.of.village"/>
  <xs:enumeration value="name"/>
- <xs:enumeration value="village’s.name"/>
  <xs:enumeration value="Fatigue"/>
  <xs:enumeration value="long.ago"/>
  <xs:enumeration value="river’s.name"/>
@@ -58,10 +58,12 @@
  <xs:enumeration value="also"/>
  <xs:enumeration value="tooth"/>
  <xs:enumeration value="still"/>
+ <xs:enumeration value="EXIST"/>
  <xs:enumeration value="hang"/>
  <xs:enumeration value="NEG.IRR"/>
  <xs:enumeration value="or"/>
  <xs:enumeration value="NEG.IRR.COND"/>
+ <xs:enumeration value="PP"/>
  <xs:enumeration value="mother.in.law"/>
  <xs:enumeration value="here"/>
  <xs:enumeration value="fish.with.bait"/>
@@ -94,12 +96,13 @@
  <xs:enumeration value="later"/>
  <xs:enumeration value="wait"/>
  <xs:enumeration value="solely"/>
+ <xs:enumeration value="solo"/>
  <xs:enumeration value="one"/>
  <xs:enumeration value="somebody"/>
  <xs:enumeration value="two"/>
  <xs:enumeration value="gather"/>
+ <xs:enumeration value="arbiter"/>
  <xs:enumeration value="arrive"/>
- <xs:enumeration value="PP"/>
  <xs:enumeration value="achieve"/>
  <xs:enumeration value="when/if"/>
  <xs:enumeration value="when"/>
@@ -123,7 +126,6 @@
  <xs:enumeration value="road"/>
  <xs:enumeration value="get.IRR"/>
  <xs:enumeration value="1PL.get"/>
- <xs:enumeration value="dark.water"/>
  <xs:enumeration value="arrow"/>
  <xs:enumeration value="the.other.day"/>
  <xs:enumeration value="grandfather"/>
@@ -164,6 +166,7 @@
  <xs:enumeration value="inside"/>
  <xs:enumeration value="outside"/>
  <xs:enumeration value="this.side.of.the.river"/>
+ <xs:enumeration value="other.side.of.river"/>
  <xs:enumeration value="CONN"/>
  <xs:enumeration value="husband"/>
  <xs:enumeration value="wife"/>
@@ -240,6 +243,7 @@
  <xs:enumeration value="hamper"/>
  <xs:enumeration value="nevertheless"/>
  <xs:enumeration value="little"/>
+ <xs:enumeration value="some"/>
  <xs:enumeration value="early"/>
  <xs:enumeration value="break"/>
  <xs:enumeration value="COP.C"/>
@@ -285,6 +289,7 @@
  <xs:enumeration value="weave"/>
  <xs:enumeration value="be.angry"/>
  <xs:enumeration value="get.upset"/>
+ <xs:enumeration value="get.angry"/>
  <xs:enumeration value="be.black"/>
  <xs:enumeration value="black.person"/>
  <xs:enumeration value="pajonalino"/>
@@ -307,7 +312,6 @@
  <xs:enumeration value="second.father"/>
  <xs:enumeration value="palm.sp."/>
  <xs:enumeration value="yarina"/>
- <xs:enumeration value="sole"/>
  <xs:enumeration value="coca"/>
  <xs:enumeration value="want"/>
  <xs:enumeration value="tortoise"/>
@@ -364,6 +368,7 @@
  <xs:enumeration value="cross.river"/>
  <xs:enumeration value="make.holes"/>
  <xs:enumeration value="hole"/>
+ <xs:enumeration value="bike"/>
  <xs:enumeration value="stomach"/>
  <xs:enumeration value="boil"/>
  <xs:enumeration value="village"/>
@@ -403,6 +408,7 @@
  <xs:enumeration value="be.close"/>
  <xs:enumeration value="close.by"/>
  <xs:enumeration value="eye"/>
+ <xs:enumeration value="for.example"/>
  <xs:enumeration value="it’s.necessary"/>
  <xs:enumeration value="leave"/>
  <xs:enumeration value="throw"/>
@@ -424,6 +430,7 @@
  <xs:enumeration value="a.lot"/>
  <xs:enumeration value="much"/>
  <xs:enumeration value="be.much"/>
+ <xs:enumeration value="yesterday"/>
  <xs:enumeration value="hospital"/>
  <xs:enumeration value="rocky.place"/>
  <xs:enumeration value="dog"/>
@@ -436,7 +443,6 @@
  <xs:enumeration value="pot"/>
  <xs:enumeration value="her.food"/>
  <xs:enumeration value="give"/>
- <xs:enumeration value="plank"/>
  <xs:enumeration value="house"/>
  <xs:enumeration value="pumpkin"/>
  <xs:enumeration value="be.called"/>
@@ -454,7 +460,6 @@
  <xs:enumeration value="few"/>
  <xs:enumeration value="be.embarrassed"/>
  <xs:enumeration value="embarrass"/>
- <xs:enumeration value="part"/>
  <xs:enumeration value="top.branch"/>
  <xs:enumeration value="tree.bark"/>
  <xs:enumeration value="deity"/>
@@ -484,7 +489,6 @@
  <xs:enumeration value="thigh"/>
  <xs:enumeration value="leg"/>
  <xs:enumeration value="face"/>
- <xs:enumeration value="bunch"/>
  <xs:enumeration value="crash"/>
  <xs:enumeration value="paint"/>
  <xs:enumeration value="rub.annatto"/>
@@ -510,7 +514,7 @@
  <xs:enumeration value="get.upset.with"/>
  <xs:enumeration value="paca"/>
  <xs:enumeration value="grow.big"/>
- <xs:enumeration value="provenance"/>
+ <xs:enumeration value="Saturday"/>
  <xs:enumeration value="wear.a.cap.on.the.head"/>
  <xs:enumeration value="namesake"/>
  <xs:enumeration value="fellowman"/>
@@ -520,7 +524,6 @@
  <xs:enumeration value="fingernail"/>
  <xs:enumeration value="afternoon"/>
  <xs:enumeration value="move"/>
- <xs:enumeration value="leaf"/>
  <xs:enumeration value="cry.a.lot"/>
  <xs:enumeration value="get.drunk"/>
  <xs:enumeration value="corn"/>
@@ -550,6 +553,7 @@
  <xs:enumeration value="run"/>
  <xs:enumeration value="imagine"/>
  <xs:enumeration value="go.around"/>
+ <xs:enumeration value="whistle"/>
  <xs:enumeration value="seven"/>
  <xs:enumeration value="wide.open.eye"/>
  <xs:enumeration value="Peruvian.currency"/>
@@ -571,7 +575,6 @@
  <xs:enumeration value="NEG.REAL"/>
  <xs:enumeration value="NEG"/>
  <xs:enumeration value="NEG.EXIST"/>
- <xs:enumeration value="EXIST"/>
  <xs:enumeration value="none"/>
  <xs:enumeration value="not.yet"/>
  <xs:enumeration value="yet"/>
@@ -583,14 +586,15 @@
  <xs:enumeration value="fill"/>
  <xs:enumeration value="hill.top"/>
  <xs:enumeration value="son"/>
+ <xs:enumeration value="Sunday"/>
  <xs:enumeration value="be.son.of"/>
  <xs:enumeration value="fell"/>
  <xs:enumeration value="cut.grass"/>
+ <xs:enumeration value="clean.up"/>
  <xs:enumeration value="come.on"/>
  <xs:enumeration value="curassow"/>
  <xs:enumeration value="prevent"/>
  <xs:enumeration value="adornment"/>
- <xs:enumeration value="bank"/>
  <xs:enumeration value="bag"/>
  <xs:enumeration value="fear"/>
  <xs:enumeration value="be.afraid"/>
@@ -602,8 +606,9 @@
  <xs:enumeration value="wood"/>
  <xs:enumeration value="bird"/>
  <xs:enumeration value="be.together"/>
- <xs:enumeration value="accompany"/>
  <xs:enumeration value="join"/>
+ <xs:enumeration value="leaf"/>
+ <xs:enumeration value="accompany"/>
  <xs:enumeration value="attach"/>
  <xs:enumeration value="get.dark"/>
  <xs:enumeration value="at.night"/>
@@ -627,9 +632,11 @@
  <xs:enumeration value="camonilla"/>
  <xs:enumeration value="pifayo"/>
  <xs:enumeration value="be.person"/>
+ <xs:enumeration value="pineapple"/>
  <xs:enumeration value="salt"/>
  <xs:enumeration value="cow"/>
  <xs:enumeration value="scarf"/>
+ <xs:enumeration value="cable.car"/>
  <xs:enumeration value="teach"/>
  <xs:enumeration value="garden"/>
  <xs:enumeration value="plot"/>
@@ -650,6 +657,7 @@
  <xs:enumeration value="outsider"/>
  <xs:enumeration value="greet"/>
  <xs:enumeration value="grow.hair"/>
+ <xs:enumeration value="volleyball"/>
  <xs:enumeration value="eat.IRR"/>
  <xs:enumeration value="brother"/>
  <xs:enumeration value="ear"/>
