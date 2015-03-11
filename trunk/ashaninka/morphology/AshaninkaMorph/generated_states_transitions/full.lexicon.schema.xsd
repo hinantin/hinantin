@@ -2,7 +2,8 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 <xs:simpleType name="lexicon">
 <xs:restriction base="xs:string">
-<xs:enumeration value="300"/>
+<xs:enumeration value="follow"/>
+ <xs:enumeration value="300"/>
  <xs:enumeration value="hair"/>
  <xs:enumeration value="eat"/>
  <xs:enumeration value="friend"/>
@@ -17,8 +18,10 @@
  <xs:enumeration value="Matsigenka"/>
  <xs:enumeration value="name.of.village"/>
  <xs:enumeration value="name"/>
+ <xs:enumeration value="restaurant’s.name"/>
  <xs:enumeration value="Fatigue"/>
  <xs:enumeration value="long.ago"/>
+ <xs:enumeration value="son’s.name"/>
  <xs:enumeration value="river’s.name"/>
  <xs:enumeration value="Pichanaki"/>
  <xs:enumeration value="Tarma"/>
@@ -28,10 +31,12 @@
  <xs:enumeration value="get"/>
  <xs:enumeration value="choose"/>
  <xs:enumeration value="pick"/>
+ <xs:enumeration value="harvest"/>
  <xs:enumeration value="cotton"/>
  <xs:enumeration value="repeat"/>
  <xs:enumeration value="roll.up"/>
  <xs:enumeration value="be.wrinkled"/>
+ <xs:enumeration value="wrinkled"/>
  <xs:enumeration value="wrap"/>
  <xs:enumeration value="work"/>
  <xs:enumeration value="make"/>
@@ -43,6 +48,7 @@
  <xs:enumeration value="over.there"/>
  <xs:enumeration value="fight"/>
  <xs:enumeration value="go.up"/>
+ <xs:enumeration value="outside"/>
  <xs:enumeration value="woods"/>
  <xs:enumeration value="forest"/>
  <xs:enumeration value="big.m"/>
@@ -52,6 +58,7 @@
  <xs:enumeration value="humph"/>
  <xs:enumeration value="grandpa"/>
  <xs:enumeration value="grandseer"/>
+ <xs:enumeration value="Dad"/>
  <xs:enumeration value="elder"/>
  <xs:enumeration value="cure"/>
  <xs:enumeration value="medicine"/>
@@ -61,6 +68,7 @@
  <xs:enumeration value="EXIST"/>
  <xs:enumeration value="hang"/>
  <xs:enumeration value="NEG.IRR"/>
+ <xs:enumeration value="NEG.EXIST"/>
  <xs:enumeration value="or"/>
  <xs:enumeration value="NEG.IRR.COND"/>
  <xs:enumeration value="PP"/>
@@ -107,6 +115,7 @@
  <xs:enumeration value="when/if"/>
  <xs:enumeration value="when"/>
  <xs:enumeration value="if"/>
+ <xs:enumeration value="maybe"/>
  <xs:enumeration value="be.enough"/>
  <xs:enumeration value="smell"/>
  <xs:enumeration value="our.fellowman"/>
@@ -117,6 +126,7 @@
  <xs:enumeration value="enclose"/>
  <xs:enumeration value="steel"/>
  <xs:enumeration value="armadillo"/>
+ <xs:enumeration value="sugar"/>
  <xs:enumeration value="bite"/>
  <xs:enumeration value="person"/>
  <xs:enumeration value="be.a.person"/>
@@ -128,11 +138,13 @@
  <xs:enumeration value="1PL.get"/>
  <xs:enumeration value="arrow"/>
  <xs:enumeration value="the.other.day"/>
+ <xs:enumeration value="recently"/>
  <xs:enumeration value="grandfather"/>
  <xs:enumeration value="grandparents"/>
  <xs:enumeration value="cut"/>
  <xs:enumeration value="fried"/>
  <xs:enumeration value="branch"/>
+ <xs:enumeration value="fruit"/>
  <xs:enumeration value="sister"/>
  <xs:enumeration value="red.and.black.seed"/>
  <xs:enumeration value="company"/>
@@ -142,20 +154,22 @@
  <xs:enumeration value="child"/>
  <xs:enumeration value="be.a.child"/>
  <xs:enumeration value="3SGnm.poss.child"/>
+ <xs:enumeration value="yes"/>
  <xs:enumeration value="exercise"/>
  <xs:enumeration value="school"/>
  <xs:enumeration value="state"/>
  <xs:enumeration value="young.man"/>
+ <xs:enumeration value="youth"/>
+ <xs:enumeration value="be.young"/>
  <xs:enumeration value="aha"/>
+ <xs:enumeration value="little.child"/>
  <xs:enumeration value="wasp"/>
- <xs:enumeration value="yes"/>
  <xs:enumeration value="top"/>
  <xs:enumeration value="lead"/>
  <xs:enumeration value="up"/>
  <xs:enumeration value="there.he.is"/>
  <xs:enumeration value="here.it.is"/>
  <xs:enumeration value="some.time.ago"/>
- <xs:enumeration value="recently"/>
  <xs:enumeration value="rock"/>
  <xs:enumeration value="star"/>
  <xs:enumeration value="afterwards"/>
@@ -164,7 +178,6 @@
  <xs:enumeration value="far.away"/>
  <xs:enumeration value="ancestor"/>
  <xs:enumeration value="inside"/>
- <xs:enumeration value="outside"/>
  <xs:enumeration value="this.side.of.the.river"/>
  <xs:enumeration value="other.side.of.river"/>
  <xs:enumeration value="CONN"/>
@@ -188,6 +201,7 @@
  <xs:enumeration value="milk"/>
  <xs:enumeration value="poney"/>
  <xs:enumeration value="this.m"/>
+ <xs:enumeration value="money"/>
  <xs:enumeration value="he.FOC"/>
  <xs:enumeration value="he"/>
  <xs:enumeration value="FOC"/>
@@ -237,6 +251,7 @@
  <xs:enumeration value="be.good"/>
  <xs:enumeration value="advice"/>
  <xs:enumeration value="plead"/>
+ <xs:enumeration value="handsome"/>
  <xs:enumeration value="dead"/>
  <xs:enumeration value="tree.sp"/>
  <xs:enumeration value="manioc"/>
@@ -245,6 +260,7 @@
  <xs:enumeration value="little"/>
  <xs:enumeration value="some"/>
  <xs:enumeration value="early"/>
+ <xs:enumeration value="early.morning"/>
  <xs:enumeration value="break"/>
  <xs:enumeration value="COP.C"/>
  <xs:enumeration value="CAP.C"/>
@@ -265,11 +281,12 @@
  <xs:enumeration value="listen"/>
  <xs:enumeration value="hear"/>
  <xs:enumeration value="come"/>
+ <xs:enumeration value="green"/>
  <xs:enumeration value="sting"/>
  <xs:enumeration value="carry"/>
  <xs:enumeration value="think"/>
- <xs:enumeration value="old"/>
  <xs:enumeration value="be.old"/>
+ <xs:enumeration value="old"/>
  <xs:enumeration value="pierce.with.arrows"/>
  <xs:enumeration value="shoot.arrows"/>
  <xs:enumeration value="be.similar"/>
@@ -277,13 +294,13 @@
  <xs:enumeration value="seem"/>
  <xs:enumeration value="be.joyous"/>
  <xs:enumeration value="be.happy"/>
+ <xs:enumeration value="be.glad"/>
  <xs:enumeration value="tale"/>
  <xs:enumeration value="patridge.sp"/>
  <xs:enumeration value="get.soiled"/>
  <xs:enumeration value="mud"/>
  <xs:enumeration value="ground"/>
  <xs:enumeration value="earth"/>
- <xs:enumeration value="money"/>
  <xs:enumeration value="down.river"/>
  <xs:enumeration value="downriver"/>
  <xs:enumeration value="weave"/>
@@ -340,6 +357,7 @@
  <xs:enumeration value="bear"/>
  <xs:enumeration value="forget"/>
  <xs:enumeration value="macaque"/>
+ <xs:enumeration value="rest"/>
  <xs:enumeration value="owl"/>
  <xs:enumeration value="fish.sp."/>
  <xs:enumeration value="hide"/>
@@ -399,6 +417,7 @@
  <xs:enumeration value="study"/>
  <xs:enumeration value="instruct"/>
  <xs:enumeration value="play"/>
+ <xs:enumeration value="see.DIR"/>
  <xs:enumeration value="annoy"/>
  <xs:enumeration value="so.that"/>
  <xs:enumeration value="in.order"/>
@@ -439,11 +458,11 @@
  <xs:enumeration value="new"/>
  <xs:enumeration value="plot.of.land"/>
  <xs:enumeration value="food"/>
- <xs:enumeration value="follow"/>
  <xs:enumeration value="pot"/>
  <xs:enumeration value="her.food"/>
  <xs:enumeration value="give"/>
  <xs:enumeration value="house"/>
+ <xs:enumeration value="thank.you"/>
  <xs:enumeration value="pumpkin"/>
  <xs:enumeration value="be.called"/>
  <xs:enumeration value="before"/>
@@ -469,12 +488,14 @@
  <xs:enumeration value="transform"/>
  <xs:enumeration value="lose"/>
  <xs:enumeration value="convert"/>
+ <xs:enumeration value="obey"/>
  <xs:enumeration value="drown"/>
  <xs:enumeration value="sell"/>
  <xs:enumeration value="pay"/>
  <xs:enumeration value="decide"/>
  <xs:enumeration value="2S.cry"/>
  <xs:enumeration value="animal"/>
+ <xs:enumeration value="ball"/>
  <xs:enumeration value="sweep"/>
  <xs:enumeration value="canoe"/>
  <xs:enumeration value="clay"/>
@@ -516,9 +537,11 @@
  <xs:enumeration value="grow.big"/>
  <xs:enumeration value="Saturday"/>
  <xs:enumeration value="wear.a.cap.on.the.head"/>
+ <xs:enumeration value="reed"/>
  <xs:enumeration value="namesake"/>
  <xs:enumeration value="fellowman"/>
  <xs:enumeration value="agouti"/>
+ <xs:enumeration value="be.day"/>
  <xs:enumeration value="shaman"/>
  <xs:enumeration value="clean"/>
  <xs:enumeration value="fingernail"/>
@@ -557,11 +580,13 @@
  <xs:enumeration value="seven"/>
  <xs:enumeration value="wide.open.eye"/>
  <xs:enumeration value="Peruvian.currency"/>
+ <xs:enumeration value="soles"/>
  <xs:enumeration value="police"/>
  <xs:enumeration value="soldier"/>
  <xs:enumeration value="burn"/>
  <xs:enumeration value="be.noon"/>
  <xs:enumeration value="wind"/>
+ <xs:enumeration value="bread"/>
  <xs:enumeration value="NEG.W"/>
  <xs:enumeration value="W.NEG"/>
  <xs:enumeration value="find"/>
@@ -574,11 +599,12 @@
  <xs:enumeration value="power"/>
  <xs:enumeration value="NEG.REAL"/>
  <xs:enumeration value="NEG"/>
- <xs:enumeration value="NEG.EXIST"/>
  <xs:enumeration value="none"/>
  <xs:enumeration value="not.yet"/>
  <xs:enumeration value="yet"/>
- <xs:enumeration value="maybe"/>
+ <xs:enumeration value="although"/>
+ <xs:enumeration value="since"/>
+ <xs:enumeration value="may.be"/>
  <xs:enumeration value="be.heavy"/>
  <xs:enumeration value="weigh"/>
  <xs:enumeration value="be.heavy.ADJ"/>
@@ -603,12 +629,13 @@
  <xs:enumeration value="where"/>
  <xs:enumeration value="what"/>
  <xs:enumeration value="pepper"/>
+ <xs:enumeration value="kick"/>
  <xs:enumeration value="wood"/>
  <xs:enumeration value="bird"/>
  <xs:enumeration value="be.together"/>
  <xs:enumeration value="join"/>
- <xs:enumeration value="leaf"/>
  <xs:enumeration value="accompany"/>
+ <xs:enumeration value="leaf"/>
  <xs:enumeration value="attach"/>
  <xs:enumeration value="get.dark"/>
  <xs:enumeration value="at.night"/>
@@ -653,7 +680,9 @@
  <xs:enumeration value="be.warrior"/>
  <xs:enumeration value="EXCL"/>
  <xs:enumeration value="fade"/>
+ <xs:enumeration value="twenty"/>
  <xs:enumeration value="fix"/>
+ <xs:enumeration value="come.near"/>
  <xs:enumeration value="outsider"/>
  <xs:enumeration value="greet"/>
  <xs:enumeration value="grow.hair"/>
@@ -665,6 +694,7 @@
  <xs:enumeration value="learn"/>
  <xs:enumeration value="that"/>
  <xs:enumeration value="DEM.m"/>
+ <xs:enumeration value="wood.rail"/>
 </xs:restriction>
 </xs:simpleType>
 </xs:schema>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" vc:minVersion="1.1">
-    <xs:include schemaLocation="full.lexicon.schema.xsd"></xs:include>
-    <xs:include schemaLocation="full.root.affix.schema.xsd"></xs:include>
-
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified"
+    vc:minVersion="1.1">
+    <xs:include schemaLocation="full.lexicon.schema.xsd"/>
+    <xs:include schemaLocation="full.root.affix.schema.xsd"/>
     <xs:simpleType name="identifier">
         <xs:restriction base="xs:token">
-            <xs:pattern value="[a-zA-Z\d]{0,3}.[a-zA-Z\d]{0,3}.([a-zA-Z\d]{0,30}.)"/>
+            <xs:pattern value="[a-zA-Z\d]{0,3}[.][a-zA-Z\d]{0,3}([.])?([a-zA-Z\d]{0,30}[.])?"/>
         </xs:restriction>
     </xs:simpleType>
-    
     <xs:simpleType name="nonEmptyString">
         <xs:restriction base="xs:string">
-            <xs:pattern value="(\s*[^\s]\s*)+"></xs:pattern>
+            <xs:pattern value="(\s*[^\s]\s*)+"/>
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="author">
@@ -33,157 +33,524 @@
         <xs:restriction base="xs:string">
             <xs:enumeration value="none"/>
             <xs:enumeration value="hyphen"/>
-            <xs:enumeration value="equal"/>
+            <xs:enumeration value="equal">
+                <xs:annotation>
+                    <xs:documentation>Clitics are represented by the equation sign =</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
             <xs:enumeration value="tilde"/>
             <xs:enumeration value="none;isroot:yes"/>
             <xs:enumeration value="hyphen;isroot:yes"/>
-            <xs:enumeration value="equal;isroot:yes"/>
+            <xs:enumeration value="equal;isroot:yes">
+                <xs:annotation>
+                    <xs:documentation>Clitics are represented by the equation sign =</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
             <xs:enumeration value="tilde;isroot:yes"/>
         </xs:restriction>
     </xs:simpleType>
-    <xs:simpleType name="suffixtype">
+    <xs:simpleType name="morphemetype">
         <xs:restriction base="xs:string">
             <xs:enumeration value="noun"/>
             <xs:enumeration value="adjective"/>
+            <xs:enumeration value="derivational">
+                <xs:annotation>
+                    <xs:documentation>
+                        Derivational suffix
+                        These are very productive suffixes
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="inflectional">
+                <xs:annotation>
+                    <xs:documentation>
+                        Inflectional suffix
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="wordclass">
+        <xs:annotation>
+            <xs:documentation>
+                
+            </xs:documentation>
+        </xs:annotation>
         <xs:restriction base="xs:string">
             <xs:enumeration value="verb"/>
             <xs:enumeration value="noun"/>
             <xs:enumeration value="adjective"/>
+            <xs:enumeration value="pronoun"/>
             <xs:enumeration value="other"/>
         </xs:restriction>
-    </xs:simpleType>    
+    </xs:simpleType>
     <xs:simpleType name="language">
         <xs:restriction base="xs:string">
             <xs:enumeration value="en"/>
             <xs:enumeration value="es"/>
             <xs:enumeration value="pt"/>
         </xs:restriction>
-    </xs:simpleType> 
+    </xs:simpleType>
     <xs:simpleType name="tag">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="ABS"/> <!-- absolutive -->
-            <xs:enumeration value="ADJ"/> <!-- adjectivizer -->
-            <xs:enumeration value="ADV"/> <!-- adverbial -->
-            <xs:enumeration value="ADV.P"/> <!-- adverbial past -->
-            <xs:enumeration value="APPL"/> <!-- generalized applicative -->
-            <xs:enumeration value="APPL.BEN"/> <!-- applicative benefactive -->
-            <xs:enumeration value="APPL.INST"/> <!-- applicative instrumental -->
-            <xs:enumeration value="APPL.INT"/> <!-- applicative of intent -->
-            <xs:enumeration value="APPL.PRES"/> <!-- applicative of intent -->
-            <xs:enumeration value="APPL.REAS"/> <!-- presential applicative -->
-            <xs:enumeration value="APPR"/> <!-- apprehensive -->
-            <xs:enumeration value="AUG"/> <!-- augmentative -->
-            <xs:enumeration value="CAUS"/> <!-- causative -->
-            <xs:enumeration value="CAUS.AGT"/> <!-- causative agentive -->
+            <xs:enumeration value="ABS">
+                <xs:annotation>
+                    <xs:documentation>absolutive</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="ADJ">
+                <xs:annotation>
+                    <xs:documentation>adjectivizer</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="ADV">
+                <xs:annotation>
+                    <xs:documentation>adverbial</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="ADV.P">
+                <xs:annotation>
+                    <xs:documentation>adverbial past</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="APPL">
+                <xs:annotation>
+                    <xs:documentation>generalized applicative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="APPL.BEN">
+                <xs:annotation>
+                    <xs:documentation>applicative benefactive</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="APPL.INST">
+                <xs:annotation>
+                    <xs:documentation>applicative instrumental</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="APPL.INT">
+                <xs:annotation>
+                    <xs:documentation>applicative of intent</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="APPL.PRES">
+                <xs:annotation>
+                    <xs:documentation>applicative of intent</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="APPL.REAS">
+                <xs:annotation>
+                    <xs:documentation>presential applicative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="APPR">
+                <xs:annotation>
+                    <xs:documentation>apprehensive</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="AUG">
+                <xs:annotation>
+                    <xs:documentation>augmentative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CAUS">
+                <xs:annotation>
+                    <xs:documentation>causative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CAUS.AGT">
+                <xs:annotation>
+                    <xs:documentation>causative agentive</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CAUS.SOC">
+                <xs:annotation>
+                    <xs:documentation>causative sociative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CC">
+                <xs:annotation>
+                    <xs:documentation>coordinate clause</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CL">
+                <xs:annotation>
+                    <xs:documentation>classifier</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CNT.F">
+                <xs:annotation>
+                    <xs:documentation>counterfactual (abbreviation misspelling: CT.F )</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="COM">
+                <xs:annotation>
+                    <xs:documentation>comitative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CONN">
+                <xs:annotation>
+                    <xs:documentation>connective</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="COND">
+                <xs:annotation>
+                    <xs:documentation>conditional</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="COP.C">
+                <xs:annotation>
+                    <xs:documentation>copula of capacity</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CUST">
+                <xs:annotation>
+                    <xs:documentation>customary aspect</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="DE">
+                <xs:annotation>
+                    <xs:documentation>dependent event</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="DEM">
+                <xs:annotation>
+                    <xs:documentation>demonstrative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="DIM">
+                <xs:annotation>
+                    <xs:documentation>diminutive</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="DIR">
+                <xs:annotation>
+                    <xs:documentation>directional</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="DIST">
+                <xs:annotation>
+                    <xs:documentation>distributive</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="DUB">
+                <xs:annotation>
+                    <xs:documentation>dubitative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="DUR">
+                <xs:annotation>
+                    <xs:documentation>durative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="EMPH">
+                <xs:annotation>
+                    <xs:documentation>emphatic</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="EP">
+                <xs:annotation>
+                    <xs:documentation>epenthetic</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="EXCL">
+                <xs:annotation>
+                    <xs:documentation>exclamative (general focus)</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="EXIST">
+                <xs:annotation>
+                    <xs:documentation>existential</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="FOC">
+                <xs:annotation>
+                    <xs:documentation>focus</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="FOC.O">
+                <xs:annotation>
+                    <xs:documentation>focused object</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="FRUS">
+                <xs:annotation>
+                    <xs:documentation>frustrative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="HAB">
+                <xs:annotation>
+                    <xs:documentation>habitual</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
 
-            <xs:enumeration value="CAUS.SOC"/> <!-- causative sociative -->
-            <xs:enumeration value="CC"/> <!-- coordinate clause -->
-            <xs:enumeration value="CL"/> <!-- classifier -->
-            <xs:enumeration value="CNT.F"/> <!-- counterfactual -->
-            <xs:enumeration value="COM"/> <!-- comitative -->
-            <xs:enumeration value="CONN"/> <!-- connective -->
-            <xs:enumeration value="COND"/> <!-- conditional -->
-            <xs:enumeration value="COP.C"/> <!-- copula of capacity -->
-            <xs:enumeration value="CUST"/> <!-- customary aspect -->
-            <xs:enumeration value="DE"/> <!-- dependent event -->
-            <xs:enumeration value="DEM"/> <!-- demonstrative -->
+            <xs:enumeration value="ICPL">
+                <xs:annotation>
+                    <xs:documentation>incompletive</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="IDEO">
+                <xs:annotation>
+                    <xs:documentation>ideophone</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="IMP.P">
+                <xs:annotation>
+                    <xs:documentation>impersonal passive</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="INCH">
+                <xs:annotation>
+                    <xs:documentation>inchoative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="INST">
+                <xs:annotation>
+                    <xs:documentation>instrumental</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="IRR">
+                <xs:annotation>
+                    <xs:documentation>
+                        irrealis
+                        reflexive/future
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="IRR.REFL">
+                <xs:annotation>
+                    <xs:documentation>irrealis reflexive</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="LOC">
+                <xs:annotation>
+                    <xs:documentation>locative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="MC">
+                <xs:annotation>
+                    <xs:documentation>main clause</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="M.CAUS">
+                <xs:annotation>
+                    <xs:documentation>malefactive causative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="N.C.FOC">
+                <xs:annotation>
+                    <xs:documentation>non-contradictory focus</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="NEG">
+                <xs:annotation>
+                    <xs:documentation>negative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="NEG.EXIST">
+                <xs:annotation>
+                    <xs:documentation>negative existential</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="NEG.IRR">
+                <xs:annotation>
+                    <xs:documentation>negative irrealis</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="NEG.P">
+                <xs:annotation>
+                    <xs:documentation>negative polarity</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="NEG.REAL">
+                <xs:annotation>
+                    <xs:documentation>negative realis</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="NMZ">
+                <xs:annotation>
+                    <xs:documentation>nominalizer</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="NP">
+                <xs:annotation>
+                    <xs:documentation>noun phrase</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="OPT">
+                <xs:annotation>
+                    <xs:documentation>optative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="PL">
+                <xs:annotation>
+                    <xs:documentation>plural</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="PP">
+                <xs:annotation>
+                    <xs:documentation>positive polarity</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="PRF">
+                <xs:annotation>
+                    <xs:documentation>perfective</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="PROG">
+                <xs:annotation>
+                    <xs:documentation>progressive</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="Q">
+                <xs:annotation>
+                    <xs:documentation>interrogative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="RC">
+                <xs:annotation>
+                    <xs:documentation>relative clause</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="RCP">
+                <xs:annotation>
+                    <xs:documentation>reciprocal</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="REGR">
+                <xs:annotation>
+                    <xs:documentation>regressive</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="REL">
+                <xs:annotation>
+                    <xs:documentation>relativizer</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="REP">
+                <xs:annotation>
+                    <xs:documentation>repetitive</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="REV">
+                <xs:annotation>
+                    <xs:documentation>reversative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="SG">
+                <xs:annotation>
+                    <xs:documentation>singular</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="SEP">
+                <xs:annotation>
+                    <xs:documentation>separative applicative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="STAT">
+                <xs:annotation>
+                    <xs:documentation>stative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="STAT.T">
+                <xs:annotation>
+                    <xs:documentation>temporal stativity</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="VP">
+                <xs:annotation>
+                    <xs:documentation>verb phrase</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="WH">
+                <xs:annotation>
+                    <xs:documentation>content interrogative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
 
-            <xs:enumeration value="DIM"/> <!-- diminutive -->
-            <xs:enumeration value="DIR"/> <!-- directional -->
-            <xs:enumeration value="DIST"/> <!-- distributive -->
-            <xs:enumeration value="DUB"/> <!-- dubitative -->
-            <xs:enumeration value="DUR"/> <!-- durative -->
-            <xs:enumeration value="EMPH"/> <!-- emphatic -->
-            <xs:enumeration value="EP"/> <!-- epenthetic -->
-            <xs:enumeration value="EXCL"/> <!-- exclamative (general focus) -->
-            <xs:enumeration value="EXIST"/> <!-- existential -->
-            <xs:enumeration value="FOC"/> <!-- focus -->
-            <xs:enumeration value="FOC.O"/> <!-- focused object -->
-            <xs:enumeration value="FRUS"/> <!-- frustrative -->
-            <xs:enumeration value="HAB"/> <!-- habitual -->
-            
-            <xs:enumeration value="ICPL"/> <!-- incompletive -->
-            <xs:enumeration value="IDEO"/> <!-- ideophone -->
-            <xs:enumeration value="IMP.P"/> <!-- impersonal passive -->
-            <xs:enumeration value="INCH"/> <!-- inchoative -->
-            <xs:enumeration value="INST"/> <!-- instrumental -->
-            <xs:enumeration value="IRR"/> <!-- irrealis -->
-            <xs:enumeration value="IRR.REFL"/> <!-- irrealis reflexive -->
-            <xs:enumeration value="LOC"/> <!-- locative -->
-            <xs:enumeration value="MC"/> <!-- main clause -->
-            <xs:enumeration value="M.CAUS"/> <!-- malefactive causative -->
-            <xs:enumeration value="N.C.FOC"/> <!-- non-contradictory focus -->
-            <xs:enumeration value="NEG"/> <!-- negative -->
-            <xs:enumeration value="NEG.EXIST"/> <!-- negative existential -->
-            <xs:enumeration value="NEG.IRR"/> <!-- negative irrealis -->
-            <xs:enumeration value="NEG.P"/> <!-- negative polarity -->
-            <xs:enumeration value="NEG.REAL"/> <!-- negative realis -->
-            <xs:enumeration value="NMZ"/> <!-- nominalizer -->
-            <xs:enumeration value="NP"/> <!-- noun phrase -->
-            <xs:enumeration value="OPT"/> <!-- optative -->
-            <xs:enumeration value="PL"/> <!-- plural -->
-            <xs:enumeration value="PP"/> <!-- positive polarity -->
-            <xs:enumeration value="PRF"/> <!-- perfective -->
-            <xs:enumeration value="PROG"/> <!-- progressive -->
-            <xs:enumeration value="Q"/> <!-- interrogative -->
-            <xs:enumeration value="RC"/> <!-- relative clause -->
-            <xs:enumeration value="RCP"/> <!-- reciprocal -->
-            <xs:enumeration value="REGR"/> <!-- regressive -->
-            <xs:enumeration value="REL"/> <!-- relativizer -->
-            <xs:enumeration value="REP"/> <!-- repetitive -->
-            <xs:enumeration value="REV"/> <!-- reversative -->
-            <xs:enumeration value="SG"/> <!-- singular -->
-            <xs:enumeration value="SEP"/> <!-- separative applicative -->
-            <xs:enumeration value="STAT"/> <!-- stative -->
-            <xs:enumeration value="STAT.T"/> <!-- temporal stativity -->
-            <xs:enumeration value="VP"/> <!-- verb phrase -->
-            <xs:enumeration value="WH"/> <!-- content interrogative -->
-            
             <!-- Abreviations not included in source  -->
+            <xs:enumeration value="APPL.SEP">
+                <xs:annotation>
+                    <xs:documentation>separative applicative</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="REAL"/>
+            <!-- realis  -->
+            <xs:enumeration value="BEN"/>
+            <!-- realis  -->
+            <xs:enumeration value="CNTR"/>
+            <!-- realis  -->
+            <xs:enumeration value="REC"/>
+            <!-- realis  -->
+            <xs:enumeration value="INS"/>
+            <!-- realis  -->
+            <xs:enumeration value="G.FOC"/>
+            <!-- realis  -->
+            <xs:enumeration value="O.FOC"/>
+            <!-- realis  -->
+            <xs:enumeration value="CAUS.COM"/>
+            <!-- realis  -->
+            <xs:enumeration value="DEGR"/>
+            <!-- realis  -->
             
-            <xs:enumeration value="CT.F"/> <!-- realis  -->
-            <xs:enumeration value="REAL"/> <!-- realis  -->
-            <xs:enumeration value="BEN"/> <!-- realis  -->
-            <xs:enumeration value="CNTR"/> <!-- realis  -->
-            <xs:enumeration value="REC"/> <!-- realis  -->
-            <xs:enumeration value="INS"/> <!-- realis  -->
-            <xs:enumeration value="G.FOC"/> <!-- realis  -->
-            <xs:enumeration value="O.FOC"/> <!-- realis  -->
-            <xs:enumeration value="CAUS.COM"/> <!-- realis  -->
-            <xs:enumeration value="DEGR"/> <!-- realis  -->
-            <xs:enumeration value="APPL.SEP"/> <!-- realis  -->
-            <xs:enumeration value="REAL.EMPH"/> <!-- realis  -->
-            <xs:enumeration value="ADJ.m."/> <!-- realis  -->
-            <xs:enumeration value="ADJ.n.m."/> <!-- realis  -->
-            <xs:enumeration value="APPL.SOC"/> <!-- realis  -->
-            <xs:enumeration value="NOM"/> <!-- realis  -->
-            <xs:enumeration value="CL:quantity"/> <!-- realis  -->
-            <xs:enumeration value="DIST.REL"/> <!-- realis  -->
-            <xs:enumeration value="DIM.DEGR"/> <!-- realis  -->
-            <xs:enumeration value="ADV.T"/> <!-- realis  -->
-            <xs:enumeration value="REAL.RFL"/> <!-- realis  -->
-            <xs:enumeration value="noun"/> <!-- realis  -->
-            <xs:enumeration value="deceased"/> <!-- realis  -->
-            <xs:enumeration value="once"/> <!-- realis  -->
-            <xs:enumeration value="wide"/> <!-- realis  -->
-            <xs:enumeration value="almost"/> <!-- realis  -->
-            <xs:enumeration value="flat"/> <!-- realis  -->
-            <xs:enumeration value="disheveled.head"/> <!-- realis  -->
-            <xs:enumeration value="CL:small.round"/> <!-- realis  -->
-            <xs:enumeration value="CL:small.flexible"/> <!-- realis  -->
-            <xs:enumeration value="CL:small.thin.flexible"/> <!-- realis  -->
-            <xs:enumeration value="CL:small.flat"/> <!-- realis  -->
-            <xs:enumeration value="CL:social.insect"/> <!-- realis  -->
-            <xs:enumeration value="small.part.DIM"/> <!-- realis  -->
-            <xs:enumeration value="small.part"/> <!-- realis  -->
-            <xs:enumeration value="for.a.while"/> <!-- realis  -->
+            <xs:enumeration value="REAL.EMPH"/>
+            <!-- realis  -->
+            <xs:enumeration value="ADJ.m."/>
+            <!-- realis  -->
+            <xs:enumeration value="ADJ.n.m."/>
+            <!-- realis  -->
+            <xs:enumeration value="APPL.SOC"/>
+            <!-- realis  -->
+            <xs:enumeration value="NOM"/>
+            <!-- realis  -->
+            <xs:enumeration value="CL:quantity"/>
+            <!-- realis  -->
+            <xs:enumeration value="DIST.REL"/>
+            <!-- realis  -->
+            <xs:enumeration value="DIM.DEGR"/>
+            <!-- realis  -->
+            <xs:enumeration value="ADV.T"/>
+            <!-- realis  -->
+            <xs:enumeration value="REAL.RFL"/>
+            <!-- realis  -->
+            <xs:enumeration value="noun"/>
+            <!-- realis  -->
+            <xs:enumeration value="deceased"/>
+            <!-- realis  -->
+            <xs:enumeration value="once"/>
+            <!-- realis  -->
+            <xs:enumeration value="wide"/>
+            <!-- realis  -->
+            <xs:enumeration value="almost"/>
+            <!-- realis  -->
+            <xs:enumeration value="flat"/>
+            <!-- realis  -->
+            <xs:enumeration value="disheveled.head"/>
+            <!-- realis  -->
+            <xs:enumeration value="CL:small.round"/>
+            <!-- realis  -->
+            <xs:enumeration value="CL:small.flexible"/>
+            <!-- realis  -->
+            <xs:enumeration value="CL:small.thin.flexible"/>
+            <!-- realis  -->
+            <xs:enumeration value="CL:small.thin.flat"/>
+            <!-- realis  -->
+            <xs:enumeration value="CL:small.flat"/>
+            <!-- realis  -->
+            <xs:enumeration value="CL:social.insect"/>
+            <!-- realis  -->
+            <xs:enumeration value="small.part.DIM"/>
+            <!-- realis  -->
+            <xs:enumeration value="small.part"/>
+            <!-- realis  -->
+            <xs:enumeration value="for.a.while"/>
+            <!-- realis  -->
 
             <!-- New abbreviations added by rcastro -->
-            <xs:enumeration value="NPOSS"/> <!--  -->
-            
+            <xs:enumeration value="NPOSS"/>
+            <!--  -->
+
+
             <!-- Verb prefix slot 1
             Where:
             1   first person 
@@ -197,33 +564,34 @@
             SG  singular
             PL  plural
             -->
-            <xs:enumeration value="1SG.S"/>
-            <xs:enumeration value="2SG.S"/>
-            <xs:enumeration value="3SGm.S"/>
-            <xs:enumeration value="3SGnm.S"/>
-            <xs:enumeration value="1PL.S"/>
-            <xs:enumeration value="1SG.A"/>
-            <xs:enumeration value="2SG.A"/>
-            <xs:enumeration value="3SGm.A"/>
-            <xs:enumeration value="3SGnm.A"/>
-            <xs:enumeration value="1PL.A"/>
-            <xs:enumeration value="3m.O"/>
-            <xs:enumeration value="3nm.O"/>
+
+            <xs:enumeration value="1SG.S"/> <!-- found in source -->
+            <xs:enumeration value="2SG.S"/> <!-- found in source -->
+            <xs:enumeration value="3SGm.S"/> <!-- not found in source -->
+            <xs:enumeration value="3SGnm.S"/> <!-- not found in source -->
+            <xs:enumeration value="1PL.S"/> <!-- found in source -->
+            <xs:enumeration value="1SG.A"/> <!-- found in source -->
+            <xs:enumeration value="2SG.A"/> <!-- not found in source --> 
+            <xs:enumeration value="3SGm.A"/> <!-- not found in source -->
+            <xs:enumeration value="3SGnm.A"/> <!-- not found in source -->
+            <xs:enumeration value="1PL.A"/> <!-- found in source -->
+            <xs:enumeration value="3m.O"/> <!-- found in source -->
 
             <!-- Observed -->
-            <xs:enumeration value="3n.m.S"/>
-            <xs:enumeration value="3n.m.A"/>
-            <xs:enumeration value="3m.S"/>
-            <xs:enumeration value="1SG.O"/>
+            <xs:enumeration value="3n.m.S"/> <!-- found in source -->
+            <xs:enumeration value="3m.S"/> <!-- found in source -->
+            <xs:enumeration value="2S"/> <!-- found in source -->
+            <xs:enumeration value="3n.m.A"/> <!-- found in source -->
+            <xs:enumeration value="3m.A"/> <!-- found in source -->
+            <xs:enumeration value="2A"/> <!-- found in source -->
+            <xs:enumeration value="1SG.O"/> <!-- found in source -->
             <xs:enumeration value="3O"/>
             <xs:enumeration value="2O"/>
-            <xs:enumeration value="3SGnm.O"/>
-            <xs:enumeration value="1PL.O"/>
-            <xs:enumeration value="2S"/>
-            <xs:enumeration value="3SG.m.IRR"/> <!-- found in source -->
             <xs:enumeration value="3n.m.O"/> <!-- found in source -->
-            <xs:enumeration value="3m.A"/> <!-- found in source -->
-            <xs:enumeration value="1SGS"/> <!-- found in source -->
+            <xs:enumeration value="1PL.O"/> <!-- found in source -->
+            <xs:enumeration value="3SG.m.IRR"/> <!-- found in source -->
+            <xs:enumeration value="3n.m."/> <!-- found in source -->
+            <xs:enumeration value="1PL"/> <!-- found in source -->
             
             <!-- Noun prefix slot 1 
             Where:
@@ -236,27 +604,39 @@
             SG  singular
             PL  plural            
             -->
-            <xs:enumeration value="1SG.poss"/> <!-- found in source -->
-            <!-- <xs:enumeration value="2SG.poss"/> --> <!-- not found in source -->
-            <xs:enumeration value="2poss"/> <!-- found in source -->
-            <!-- <xs:enumeration value="3SGm.poss"/> --> <!-- not found in source -->
-            <xs:enumeration value="3m.poss"/> <!-- found in source -->
-            <xs:enumeration value="3n.m.poss"/> <!-- found in source -->
-            <xs:enumeration value="3SGnm.poss"/> <!-- not found in source -->
-            <xs:enumeration value="1PL.poss"/> <!-- found in source -->
+            <xs:enumeration value="1SG.poss"/>
+            <!-- found in source -->
+            <!-- <xs:enumeration value="2SG.poss"/> -->
+            <!-- not found in source -->
+            <xs:enumeration value="2poss"/>
+            <!-- found in source -->
+            <!-- <xs:enumeration value="3SGm.poss"/> -->
+            <!-- not found in source -->
+            <xs:enumeration value="3m.poss"/>
+            <!-- found in source -->
+            <xs:enumeration value="3n.m.poss"/>
+            <!-- found in source -->
+            <xs:enumeration value="3SGnm.poss"/>
+            <!-- not found in source -->
+            <xs:enumeration value="1PL.poss"/>
+            <!-- found in source -->
             <!-- Observed -->
-            <xs:enumeration value="poss"/> <!-- found in source -->
-            <xs:enumeration value="1SGposs"/> <!-- found in source -->
-            <xs:enumeration value="3SG.poss"/> <!-- not found in source -->
-            <xs:enumeration value="3poss"/> <!-- found in source -->
-                       
+            <xs:enumeration value="poss"/>
+            <!-- found in source -->
+            <xs:enumeration value="1SGposs"/>
+            <!-- found in source -->
+            <xs:enumeration value="3SG.poss"/>
+            <!-- not found in source -->
+            <xs:enumeration value="3poss"/>
+            <!-- found in source -->
+
         </xs:restriction>
-    </xs:simpleType>    
-    
+    </xs:simpleType>
+
     <xs:simpleType name="LexiconOrTag">
         <xs:union memberTypes="tag lexicon"/>
     </xs:simpleType>
-    
+
     <xs:element name="annotated_sentences">
         <xs:complexType>
             <xs:sequence>
@@ -300,65 +680,86 @@
                             <xs:element name="sentence" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="annotation_source" minOccurs="0" maxOccurs="2" type="nonEmptyString"/>
+                                        <xs:element name="annotation_source" minOccurs="0"
+                                            maxOccurs="2" type="nonEmptyString"/>
                                         <xs:element name="normal">
                                             <xs:complexType>
                                                 <xs:simpleContent>
-                                                    <xs:extension base="nonEmptyString">
-                                                        <xs:attribute type="isstandard" name="istandard" use="required"/>
-                                                    </xs:extension>
+                                                  <xs:extension base="nonEmptyString">
+                                                  <xs:attribute type="isstandard" name="istandard"
+                                                  use="required"/>
+                                                  </xs:extension>
                                                 </xs:simpleContent>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="nonstandard_annotation_first_level" type="nonEmptyString" minOccurs="0" maxOccurs="unbounded"/>
-                                        <xs:element name="annotation_first_level" type="nonEmptyString"/>
-                                        <xs:element name="annotation_second_level" type="nonEmptyString"/>
-                                        <xs:element name="translation" minOccurs="1" maxOccurs="unbounded">
+                                        <xs:element name="nonstandard_annotation_first_level"
+                                            type="nonEmptyString" minOccurs="0"
+                                            maxOccurs="unbounded"/>
+                                        <xs:element name="annotation_first_level"
+                                            type="nonEmptyString"/>
+                                        <xs:element name="annotation_second_level"
+                                            type="nonEmptyString"/>
+                                        <xs:element name="translation" minOccurs="1"
+                                            maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:simpleContent>
-                                                    <xs:extension base="nonEmptyString">
-                                                        <xs:attribute type="language" name="lang" use="required"/>
-                                                    </xs:extension>
+                                                  <xs:extension base="nonEmptyString">
+                                                  <xs:attribute type="language" name="lang"
+                                                  use="required"/>
+                                                  </xs:extension>
                                                 </xs:simpleContent>
                                             </xs:complexType>
                                         </xs:element>
                                         <xs:element name="words">
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                    <xs:element name="word" maxOccurs="unbounded">
-                                                        <xs:complexType>
-                                                            <xs:sequence>
-                                                                <xs:element type="xs:string" name="n"/>
-                                                                <xs:element type="xs:string" name="afl"/>
-                                                                <xs:element type="xs:string" name="asl"/>
-                                                                <xs:element name="elements">
-                                                                    <xs:complexType>
-                                                                        <xs:sequence>
-                                                                            <xs:element name="element" maxOccurs="unbounded" minOccurs="1">
-                                                                                <xs:complexType>
-                                                                                    <xs:sequence>
-                                                                                        <xs:element type="xs:string" name="n" minOccurs="0" maxOccurs="1"/>
-                                                                                        <xs:element type="AffixAndRoot" name="e_afl"/>
-                                                                                        <xs:element type="LexiconOrTag" name="e_asl"/>
-                                                                                    </xs:sequence>
-                                                                                    <xs:attribute type="sign" name="sign" use="required"/>
-                                                                                    <xs:attribute type="suffixtype" name="type" use="optional"/>
-                                                                                    <xs:attribute type="xs:string" name="reduplication" use="optional"/>
-                                                                                </xs:complexType>
-                                                                            </xs:element>
-                                                                        </xs:sequence>
-                                                                        <xs:assert test="count(element) lt 12"/> <!-- if it has more than 12 is a mistake -->
-                                                                        <xs:assert test="(count(element[@sign='none;isroot:yes']) le 1)"/>
-                                                                        <xs:assert test="(count(element[@sign='hyphen;isroot:yes']) le 1)"/>
-                                                                        <xs:assert test="(count(element[@sign='equal;isroot:yes']) le 1)"/>
-                                                                        <xs:assert test="(count(element[@sign='tilde;isroot:yes']) le 1)"/>
-                                                                    </xs:complexType>
-                                                                </xs:element>
-                                                            </xs:sequence>
-                                                            <xs:attribute type="wordclass" name="type"/>
-                                                            <xs:assert test="count(elements/element[matches(@sign,'isroot:yes$')]) = 1"/>
-                                                        </xs:complexType>
-                                                    </xs:element>
+                                                  <xs:element name="word" maxOccurs="unbounded">
+                                                  <xs:complexType>
+                                                  <xs:sequence>
+                                                  <xs:element type="xs:string" name="n"/>
+                                                  <xs:element type="xs:string" name="afl"/>
+                                                  <xs:element type="xs:string" name="asl"/>
+                                                  <xs:element name="elements">
+                                                  <xs:complexType>
+                                                  <xs:sequence>
+                                                  <xs:element name="element" maxOccurs="unbounded"
+                                                  minOccurs="1">
+                                                  <xs:complexType>
+                                                  <xs:sequence>
+                                                  <xs:element type="xs:string" name="n"
+                                                  minOccurs="0" maxOccurs="1"/>
+                                                  <xs:element type="AffixAndRoot" name="e_afl"/>
+                                                  <xs:element type="LexiconOrTag" name="e_asl"/>
+                                                  </xs:sequence>
+                                                  <xs:attribute type="sign" name="sign"
+                                                  use="required"/>
+                                                      <xs:attribute type="morphemetype" name="type"
+                                                  use="optional"/>
+                                                  <xs:attribute type="xs:string"
+                                                  name="reduplication" use="optional"/>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  </xs:sequence>
+                                                  <xs:assert test="count(element) lt 12"/>
+                                                  <!-- if it has more than 12 is a mistake -->
+                                                  <xs:assert
+                                                  test="(count(element[@sign='none;isroot:yes']) le 1)"/>
+                                                  <xs:assert
+                                                  test="(count(element[@sign='hyphen;isroot:yes']) le 1)"/>
+                                                  <xs:assert
+                                                  test="(count(element[@sign='equal;isroot:yes']) le 1)"/>
+                                                  <xs:assert
+                                                  test="(count(element[@sign='tilde;isroot:yes']) le 1)"
+                                                  />
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  </xs:sequence>
+                                                  <xs:attribute type="wordclass" name="type"/>
+                                                  <xs:assert
+                                                  test="count(elements/element[matches(@sign,'isroot:yes$')]) = 1"
+                                                  />
+                                                  </xs:complexType>
+                                                  </xs:element>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>

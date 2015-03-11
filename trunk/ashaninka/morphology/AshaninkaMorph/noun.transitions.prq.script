@@ -7,24 +7,25 @@ define N [
  (N=S=LOC) | 
  (N=S=poss) (N=S=PL) | 
  (N=S=poss) (N=S=LOC) | 
- (N=S=river) (N=S=LOC) | 
  (N=S=1SGposs) (N=S=poss) | 
  (N=S=CL) (N=S=poss) (N=S=smallpartDIM) | 
  (N=S=LOC) (N=S=smallpartDIM) | 
  (N=S=CL) (N=S=LOC) | 
- (N=S=DIM) | 
+ (N=S=noun) (N=S=DEM) | 
+ (N=S=noun) (N=S=noun) (N=S=DIM) | 
+ (N=S=noun) | 
  (N=S=LOC) (N=S=ADV) (N=S=EXCL) | 
  (N=S=ADVP) | 
- (N=S=2poss) (N=S=poss) | 
+ (N=S=2poss) (N=S=noun) (N=S=poss) | 
  (N=S=2poss) | 
  (N=S=2poss) (N=S=DEM) | 
- (N=S=ABS) (N=S=AUG) | 
+ (N=S=ABS) (N=S=noun) (N=S=AUG) | 
  (N=S=ABS) (N=S=DEM) | 
  (N=S=LOC) (N=S=PL) | 
- (N=S=monkey) | 
  (N=S=deceased) | 
  (N=S=LOC) (N=S=DEM) | 
  (N=S=leaf) | 
+ (N=S=DIM) | 
  (N=S=NOM) (N=S=DEM) | 
  (N=S=LOC) (N=S=ADV) | 
  (N=S=ADV) | 
@@ -33,6 +34,7 @@ define N [
  (N=S=EMPH) | 
  (N=S=EMPH) (N=S=EMPH) | 
  (N=S=DIM) (N=S=smallpart) (N=S=DIM) | 
+ (N=S=2poss) (N=S=poss) | 
  (N=S=2poss) (N=S=LOC) | 
  (N=S=Q) | 
  (N=S=DISTREL) | 
@@ -48,9 +50,18 @@ define N [
  (N=S=EXCL) | 
  (N=S=3poss) | 
  (N=S=CL) | 
+ (N=S=CNTR) | 
  (N=S=leaf) (N=S=smallpart) (N=S=DIM) | 
+ (N=S=noun) (N=S=LOC) | 
  (N=S=wide) (N=S=AUG) | 
  (N=S=NMZ) (N=S=NMZ) | 
  (N=S=poss) (N=S=LOC) (N=S=DEM) | 
+ (N=S=LOC) (N=S=ADVP) | 
+ (N=S=LOC) (N=S=DEM) (N=S=EMPH) | 
+ (N=S=PL) (N=S=DEM) | 
+ (N=S=DUB) (N=S=EMPH) | 
+ (N=S=CL) (N=S=poss) (N=S=LOC) | 
+ (N=S=AUG) (N=S=NMZ) | 
+ (N=S=PROG) (N=S=REAL) | 
  (N=S=NPOSS)  
 ];

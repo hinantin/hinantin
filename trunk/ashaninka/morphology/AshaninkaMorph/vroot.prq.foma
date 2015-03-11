@@ -65,7 +65,7 @@ define VRootPRQin [
 | "[VRoot][=begin][=int]" : {int}
 | "[VRoot][=cry][=ir]" : {ir}
 | "[VRoot][=drink][=ir]" : {ir}
-| "[VRoot][=cry][=ira]" : {ira}
+| "[VRoot][=cry][=ira]" : [{ira}|{irag}|{irah}]
 | "[VRoot][=identify.as.a.witch][=itamatzi]" : {itamatzi}
 | "[VRoot][=pour][=kaa]" : {kaa}
 | "[VRoot][=bathe][=kaa]" : {kaa}
@@ -330,6 +330,7 @@ define VRootPRQin [
 | "[VRoot][=fell][=tov]" : {tov}
 | "[VRoot][=cut][=tov]" : {tov}
 | "[VRoot][=cut][=tova]" : {tova}
+| "[VRoot][=tie][=tsa]" : {tsa}
 | "[VRoot][=dye][=tsak]" : {tsak}
 | "[VRoot][=cut.grass][=tsamai]" : {tsamai}
 | "[VRoot][=come.on][=tsame]" : {tsame}
@@ -339,6 +340,7 @@ define VRootPRQin [
 | "[VRoot][=fear][=tsarov]" : {tsarov}
 | "[VRoot][=be.afraid][=tsarov]" : {tsarov}
 | "[VRoot][=behead][=tsatsink]" : {tsatsink}
+| "[VRoot][=lie][=tsay]" : {tsay}
 | "[VRoot][=pepper][=tsikana]" : {tsikana}
 | "[VRoot][=urinate][=tsint]" : {tsint}
 | "[VRoot][=be.together][=tsipa]" : {tsipa}
