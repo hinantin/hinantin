@@ -183,7 +183,7 @@ define NRootPRQin [
 | "[NRoot][=cliff][=otaapiki]" : {otaapiki}
 | "[NRoot][=chin,jaw][=otapinoma]" : {otapinoma}
 | "[NRoot][=rocky.place][=otenkanaki]" : {otenkanaki}
-| "[NRoot][=dog][=otsitzi]" : {otsitzi}
+| "[NRoot][=dog][=otsitzi]" : [{otsitzi}|{otsiti}]
 | "[NRoot][=hill][=otzishi]" : {otzishi}
 | "[NRoot][=plot.of.land][=ovantsi]" : {ovantsi}
 | "[NRoot][=guerrilla][=ovayeri]" : {ovayeri}
@@ -293,6 +293,7 @@ define NRootPRQin [
 | "[NRoot][=bird][=tsimiri]" : {tsimiri}
 | "[NRoot][=female,woman][=tsinani]" : [{tsinani}|{tsinane}]
 | "[NRoot][=leaf][=tsipana]" : {tsipana}
+| "[NRoot][=bird.species][=tsiroti]" : {tsiroti}
 | "[NRoot][=night][=tsiteniri]" : {tsiteniri}
 | "[NRoot][=firewood][=tsitsi]" : {tsitsi}
 | "[NRoot][=cricket][=tsitsiri]" : {tsitsiri}

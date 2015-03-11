@@ -15,7 +15,7 @@
       ];
       
       define V=S=DIST [
-       "[--][+DIST]" : "@EP"[{ye}|{t}]
+       "[--][+DIST]" : "@EP"[{ye}|{t}|{yi}]
       ];
       
       define V=S=DIR [
@@ -125,7 +125,7 @@
       ];
       
       define V=S=noun [
-       "[--][+noun]" : "@EP"[{vatsa}|{pori}|{ani}|{atziri}]
+       "[--][+noun]" : "@EP"[{vatsa}|{pori}|{ani}|{atziri}|{poroki}]
       ];
       
       define V=S=COND [
@@ -212,10 +212,6 @@
        "[--][+APPL.PRES]" : "@EP"[{imo}]
       ];
       
-      define V=S=one [
-       "[--][+one]" : "@EP"[{aparoni}]
-      ];
-      
       define V=S=APPLSEP [
        "[--][+APPL.SEP]" : "@EP"[{pitsa}]
       ];
@@ -241,7 +237,7 @@
       ];
       
       define V=S=DUB [
-       "[--][+DUB]" : "@EP"[{ma}]
+       "[--][+DUB]" : "@EP"[{ma}|{taima}]
       ];
       
       define V=S=before [
@@ -268,16 +264,12 @@
        "[--][+small]" : "@EP"[{kapichi}]
       ];
       
-      define V=S=only [
-       "[--][+only]" : "@EP"[{intaani}]
-      ];
-      
       define V=S=HAB [
        "[--][+HAB]" : "@EP"[{apint}]
       ];
       
       define V=S=1SGposs [
-       "[--][+1SG.poss]" : "@EP"[{no}]
+       "[--][+1SG.poss]" : "@EP"[{no}|{n}]
       ];
       
       define V=S=3SGmIRR [
@@ -316,10 +308,6 @@
        "[--][+for.a.while]" : "@EP"[{apaint}]
       ];
       
-      define V=S=notyet [
-       "[--][+not.yet]" : "@EP"[{tekira}]
-      ];
-      
       define V=S=INS [
        "[--][+INS]" : "@EP"[{ant}]
       ];
@@ -333,10 +321,46 @@
       ];
       
       define V=S=2S [
-       "[--][+2S]" : "@EP"[{pi}]
+       "[--][+2S]" : "@EP"[{pi}|{p}]
       ];
       
       define V=S=ABS [
        "[--][+ABS]" : "@EP"[{tsi}]
+      ];
+      
+      define V=S=3nmposs [
+       "[--][+3n.m.poss]" : "@EP"[{o}]
+      ];
+      
+      define V=S=1SGS [
+       "[--][+1SGS]" : "@EP"[{no}]
+      ];
+      
+      define V=S=CTF [
+       "[--][+CT.F]" : "@EP"[{mi}]
+      ];
+      
+      define V=S=2A [
+       "[--][+2A]" : "@EP"[{p}|{pi}]
+      ];
+      
+      define V=S=IRRREFL [
+       "[--][+IRR.REFL]" : "@EP"[{ia}|{eya}]
+      ];
+      
+      define V=S=1PLposs [
+       "[--][+1PL.poss]" : "@EP"[{a}]
+      ];
+      
+      define V=S=1PL [
+       "[--][+1PL]" : "@EP"[{a}]
+      ];
+      
+      define V=S=3nm [
+       "[--][+3n.m.]" : "@EP"[{ro}]
+      ];
+      
+      define V=S=almost [
+       "[--][+almost]" : "@EP"[{tya}]
       ];
       
