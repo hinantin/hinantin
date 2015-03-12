@@ -16,11 +16,110 @@
     </xs:simpleType>
     <xs:simpleType name="author">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="A0001"/>
-            <xs:enumeration value="A0002"/>
-            <xs:enumeration value="A0003"/>
-            <xs:enumeration value="A0004"/>
-            <xs:enumeration value="A0005"/>
+            <xs:enumeration value="A0001">
+                <xs:annotation>
+                    <xs:documentation>
+                        <source source_id="A0001">
+                            <name>Elena Mihas</name>
+                            <title>Essentials of Ashéninka Perené Grammar</title>
+                            <year>2010</year>
+                            <url>http://etnolinguistica.wdfiles.com/local--files/tese:mihas-2010/mihas_2010.pdf</url>
+                            <email>linguistphd@gmail.com</email>
+                            <note>
+                                <![CDATA[
+      The sentences here were extracted with the author's permission (consult e-mail - Permission to use text corpora from PhD Thesis : lunes, 24 de marzo de 2014 05:02:04 p.m.).
+      ]]>
+                            </note>
+                        </source>
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="A0002">
+                <xs:annotation>
+                    <xs:documentation>
+                        <source source_id="A0002">
+                            <name>Rubén Cushimariano Romano, Richer C. Sebastián Q. </name>
+                            <title>ÑAANTSIPETA ASHÁNINKAKI BIRAKOCHAKI</title>
+                            <year>2008</year>
+                            <url>http://www.lengamer.org/publicaciones/diccionarios/Dic_Prelim_Ashaninka.pdf</url>
+                            <email></email>
+                            <note>
+                                <![CDATA[
+      Permission pending
+      ]]>
+                            </note>
+                        </source>
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="A0003">
+                <xs:annotation>
+                    <xs:documentation>
+                        <source source_id="A0003">
+                            <name>Maria Inês Smiljanic, José Pimenta, Stephen Grant Baines</name>
+                            <title>Faces da Indianidade</title>
+                            <year>2009</year>
+                            <url>https://www.academia.edu/224306/Faces_da_Indianidade</url>
+                            <email></email>
+                            <note>
+                                <![CDATA[
+      Permission pending
+      ]]>
+                            </note>
+                        </source>
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="A0004">
+                <xs:annotation>
+                    <xs:documentation>
+                        <source source_id="A0004">
+                            <name>Liliana Clotilde Fernández Fabián</name>
+                            <title>Conectores discursivos en asháninka</title>
+                            <year>2011</year>
+                            <url>http://sisbib.unmsm.edu.pe/bibVirtualData/Tesis%20para%20marcaci%C3%B3n3%20(para%20Inform%C3%A1tica)/2011/fernandez_fl/fernandez_fl.pdf</url>
+                            <email>imatlife@hotmail.com</email>
+                            <note>
+                                <![CDATA[
+      Permission pending
+      ]]>
+                            </note>
+                        </source>
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="A0005">
+                <xs:annotation>
+                    <xs:documentation>
+                        <source source_id="A0005">
+                            <name>David L. Payne</name>
+                            <title>The phonology and morphology of Axininca Campa</title>
+                            <year>1981</year>
+                            <url>www-01.sil.org/acpub/repository/16298.pdf</url>
+                            <email></email>
+                            <note>
+                                <![CDATA[
+      Permission pending
+      ]]>
+                            </note>
+                        </source>
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="A0006">
+                <xs:annotation>
+                    <xs:documentation>
+                        <source source_id="A0006">
+                            <name>Elena Mihas</name>
+                            <title>Spatial deixis in Ashéninka Perené (Arawak): Semantics, pragmatics, and syntax of the demonstrative markers=ka,  =ra, and  =nta</title>
+                            <year>2012</year>
+                            <url></url>
+                            <email></email>
+                            <note></note>
+                        </source>
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="isstandard">
@@ -632,10 +731,10 @@
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="sources">
+                <xs:element name="sources" minOccurs="0" maxOccurs="1">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="source" maxOccurs="unbounded">
+                            <xs:element name="source" minOccurs="0" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="name" type="xs:string"/>
