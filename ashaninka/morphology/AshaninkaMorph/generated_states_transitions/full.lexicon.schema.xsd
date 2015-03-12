@@ -153,7 +153,7 @@
  <xs:enumeration value="eighteen"/>
  <xs:enumeration value="child"/>
  <xs:enumeration value="be.a.child"/>
- <xs:enumeration value="3SGnm.poss.child"/>
+ <xs:enumeration value="3n.m.poss.child"/>
  <xs:enumeration value="yes"/>
  <xs:enumeration value="exercise"/>
  <xs:enumeration value="school"/>
