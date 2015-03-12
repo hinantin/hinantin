@@ -10,68 +10,6 @@ empty set=Ø
   <email>rcastro@hinantin.com</email>
   </maintainer>
 </maintainers>
-<sources>
-  <source source_id="A0001">
-    <name>Elena Mihas</name>
-    <title>Essentials of Ashéninka Perené Grammar</title>
-    <year>2010</year>
-    <url>http://etnolinguistica.wdfiles.com/local--files/tese:mihas-2010/mihas_2010.pdf</url>
-    <email>linguistphd@gmail.com</email>
-    <note>
-      <![CDATA[
-      The sentences here were extracted with the author's permission (consult e-mail - Permission to use text corpora from PhD Thesis : lunes, 24 de marzo de 2014 05:02:04 p.m.).
-      ]]>
-    </note>
-  </source>
-  <source source_id="A0002">
-    <name>Rubén Cushimariano Romano, Richer C. Sebastián Q. </name>
-    <title>ÑAANTSIPETA ASHÁNINKAKI BIRAKOCHAKI</title>
-    <year>2008</year>
-    <url>http://www.lengamer.org/publicaciones/diccionarios/Dic_Prelim_Ashaninka.pdf</url>
-    <email></email>
-    <note>
-      <![CDATA[
-      Permission pending
-      ]]>
-    </note>
-  </source>
-  <source source_id="A0003">
-    <name>Maria Inês Smiljanic, José Pimenta, Stephen Grant Baines</name>
-    <title>Faces da Indianidade</title>
-    <year>2009</year>
-    <url>https://www.academia.edu/224306/Faces_da_Indianidade</url>
-    <email></email>
-    <note>
-      <![CDATA[
-      Permission pending
-      ]]>
-    </note>
-  </source>
-  <source source_id="A0004">
-    <name>Liliana Clotilde Fernández Fabián</name>
-    <title>Conectores discursivos en asháninka</title>
-    <year>2011</year>
-    <url>http://sisbib.unmsm.edu.pe/bibVirtualData/Tesis%20para%20marcaci%C3%B3n3%20(para%20Inform%C3%A1tica)/2011/fernandez_fl/fernandez_fl.pdf</url>
-    <email>imatlife@hotmail.com</email>
-    <note>
-      <![CDATA[
-      Permission pending
-      ]]>
-    </note>
-  </source>
-<source source_id="A0005">
-  <name>David L. Payne</name>
-  <title>The phonology and morphology of Axininca Campa</title>
-  <year>1981</year>
-  <url>www-01.sil.org/acpub/repository/16298.pdf</url>
-  <email></email>
-  <note>
-    <![CDATA[
-      Permission pending
-      ]]>
-  </note>
-</source>
-</sources>
 <sentences>
   <sentence source_id="A0001" id="1.1.">
     <normal istandard="yes">Nosaitatyero nihaa.</normal>
@@ -28243,6 +28181,327 @@ iri=piy-aNt-an-ah-ia=ri
       </word>
     </words>
   </sentence>
+
+  <sentence source_id="A0006" id="MIH.1.3.">
+    <annotation_source>
+      <![CDATA[
+3.
+katonko
+katonko
+upstream
+upstream
+]]>
+    </annotation_source>
+    <normal istandard="yes">katonko</normal>
+    <annotation_first_level>katonko</annotation_first_level>
+    <annotation_second_level>upstream</annotation_second_level>
+    <translation lang="en">upstream</translation>
+    <words>
+      <word type="other"><n>katonko</n><afl>katonko</afl><asl>upstream</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>katonko</e_afl><e_asl>upstream</e_asl></element>
+        </elements>
+      </word>
+    </words>
+  </sentence>
+  
+  <sentence source_id="A0006" id="MIH.1.5.">
+    <annotation_source>
+      <![CDATA[
+5.
+kirinka
+kirinka
+downstream
+downstream
+]]>
+    </annotation_source>
+    <normal istandard="yes">kirinka</normal>
+    <annotation_first_level>kirinka</annotation_first_level>
+    <annotation_second_level>downstream</annotation_second_level>
+    <translation lang="en">downstream</translation>
+    <words>
+      <word type="other"><n>kirinka</n><afl>kirinka</afl><asl>downstream</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>kirinka</e_afl><e_asl>downstream</e_asl></element>
+        </elements>
+      </word>
+    </words>
+  </sentence>
+  
+  <sentence source_id="A0006" id="MIH.1.6.">
+    <annotation_source>
+      <![CDATA[
+6.
+intatzikironta
+intatzikironta
+the.far.bank.of.the.river
+‘the far bank of the river’
+]]>
+    </annotation_source>
+    <normal istandard="yes">intatzikironta</normal>
+    <annotation_first_level>intatzikironta</annotation_first_level>
+    <annotation_second_level>the.far.bank.of.the.river</annotation_second_level>
+    <translation lang="en">‘the far bank of the river’</translation>
+    <words>
+      <word type="other"><n>intatzikironta</n><afl>intatzikironta</afl><asl>the.far.bank.of.the.river</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>intatzikironta</e_afl><e_asl>the.far.bank.of.the.river</e_asl></element>
+        </elements>
+      </word>
+    </words>
+  </sentence>
+
+  <sentence source_id="A0006" id="MIH.1.7.">
+    <annotation_source>
+      <![CDATA[
+7.
+tonkariki
+tonkariki
+top.of.the.hill
+'top of the hill'
+]]>
+    </annotation_source>
+    <normal istandard="yes">tonkariki</normal>
+    <annotation_first_level>tonkariki</annotation_first_level>
+    <annotation_second_level>top.of.the.hill</annotation_second_level>
+    <translation lang="en">'top of the hill'</translation>
+    <words>
+      <word type="other"><n>tonkariki</n><afl>tonkariki</afl><asl>top.of.the.hill</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>tonkariki</e_afl><e_asl>top.of.the.hill</e_asl></element>
+        </elements>
+      </word>
+    </words>
+  </sentence>
+
+  <sentence source_id="A0006" id="MIH.1.8.">
+    <annotation_source>
+      <![CDATA[
+8.
+otapiki
+otapiki
+bottom.of.the.hill
+'bottom of the hill'
+]]>
+    </annotation_source>
+    <normal istandard="yes">otapiki</normal>
+    <annotation_first_level>otapiki</annotation_first_level>
+    <annotation_second_level>bottom.of.the.hill</annotation_second_level>
+    <translation lang="en">'bottom of the hill'</translation>
+    <words>
+      <word type="other"><n>otapiki</n><afl>otapiki</afl><asl>bottom.of.the.hill</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>otapiki</e_afl><e_asl>bottom.of.the.hill</e_asl></element>
+        </elements>
+      </word>
+    </words>
+  </sentence>
+
+  <sentence source_id="A0006" id="MIH.1.9.">
+    <annotation_source>
+      <![CDATA[
+9.
+niyanki
+niyanki
+'the.center.of.the.jungle'
+'the center of the jungle'
+]]>
+    </annotation_source>
+    <normal istandard="yes">niyanki</normal>
+    <annotation_first_level>niyanki</annotation_first_level>
+    <annotation_second_level>'the.center.of.the.jungle'</annotation_second_level>
+    <translation lang="en">'the center of the jungle'</translation>
+    <words>
+      <word type="other"><n>niyanki</n><afl>niyanki</afl><asl>'the.center.of.the.jungle'</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>niyanki</e_afl><e_asl>the.center.of.the.jungle</e_asl></element>
+        </elements>
+      </word>
+    </words>
+  </sentence>
+
+  <sentence source_id="A0006" id="MIH.1.10.">
+    <annotation_source>
+      <![CDATA[
+10.
+intsompoiki tasonki
+intsompoi-ki tason-ki
+inside-LOC bowl-LOC
+'inside the bowl'
+]]>
+    </annotation_source>
+    <normal istandard="yes">intsompoiki tasonki</normal>
+    <annotation_first_level>intsompoi-ki tason-ki</annotation_first_level>
+    <annotation_second_level>inside-LOC bowl-LOC</annotation_second_level>
+    <translation lang="en">'inside the bowl'</translation>
+    <words>
+      <word type="noun"><n>intsompoiki</n><afl>intsompoi-ki</afl><asl>inside-LOC</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>intsompoi</e_afl><e_asl>inside</e_asl></element>
+          <element sign="hyphen"><e_afl>ki</e_afl><e_asl>LOC</e_asl></element>
+        </elements>
+      </word>
+      <word type="noun"><n>tasonki</n><afl>tason-ki</afl><asl>bowl-LOC</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>tason</e_afl><e_asl>bowl</e_asl></element>
+          <element sign="hyphen"><e_afl>ki</e_afl><e_asl>LOC</e_asl></element>
+        </elements>
+      </word>
+    </words>
+  </sentence>
+
+  <sentence source_id="A0006" id="MIH.1.11.">
+    <annotation_source>
+      <![CDATA[
+11.
+hinokini mesaki
+hinoki-ni mesa-ki
+above-DIM table-LOC
+above the table
+]]>
+    </annotation_source>
+    <normal istandard="yes">hinokini mesaki</normal>
+    <annotation_first_level>hinoki-ni mesa-ki</annotation_first_level>
+    <annotation_second_level>above-DIM table-LOC</annotation_second_level>
+    <translation lang="en">above the table</translation>
+    <words>
+      <word type="other"><n>hinokini</n><afl>hinoki-ni</afl><asl>above-DIM</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>hinoki</e_afl><e_asl>above</e_asl></element>
+          <element sign="hyphen"><e_afl>ni</e_afl><e_asl>DIM</e_asl></element>
+        </elements>
+      </word>
+      <word type="noun"><n>mesaki</n><afl>mesa-ki</afl><asl>table-LOC</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>mesa</e_afl><e_asl>table</e_asl></element>
+          <element sign="hyphen"><e_afl>ki</e_afl><e_asl>LOC</e_asl></element>
+        </elements>
+      </word>
+    </words>
+  </sentence>
+
+  <sentence source_id="A0006" id="MIH.1.12.">
+    <annotation_source>
+      <![CDATA[
+12.
+yoka tyaapaka
+yoka tyaapa=ka
+DEM.M chicken=DEM
+'this chicken'
+]]>
+    </annotation_source>
+    <normal istandard="yes">yoka tyaapaka</normal>
+    <annotation_first_level>yoka tyaapa=ka</annotation_first_level>
+    <annotation_second_level>DEM.M chicken=DEM</annotation_second_level>
+    <translation lang="en">'this chicken'</translation>
+    <words>
+      <word type="other"><n>yoka</n><afl>yoka</afl><asl>DEM.M</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>yoka</e_afl><e_asl>DEM.M</e_asl></element>
+        </elements>
+      </word>
+      <word type="noun"><n>tyaapaka</n><afl>tyaapa=ka</afl><asl>chicken=DEM</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>tyaapa</e_afl><e_asl>chicken</e_asl></element>
+          <element sign="equal"><e_afl>ka</e_afl><e_asl>DEM</e_asl></element>
+        </elements>
+      </word>
+    </words>
+  </sentence>
+
+
+
+  <sentence source_id="A0001" id="MIH.1.1.">
+    <annotation_source>
+      <![CDATA[
+(1)
+Akishitatzi paryantzi aka, oipitsokiro.
+akishi-t-atz-i paryantzi aka oi-pitsok-i-ro
+roast-EP-PROG-REAL plantain DEM.ADV CAUS-turn.around-REAL-3N.M.O
+'She roasted a plantain in the fire like this, she was turning it over.'
+]]>
+    </annotation_source>
+    <normal istandard="yes">Akishitatzi paryantzi aka, oipitsokiro.</normal>
+    <annotation_first_level>akishi-t-atz-i paryantzi aka oi-pitsok-i-ro</annotation_first_level>
+    <annotation_second_level>roast-EP-PROG-REAL plantain DEM.ADV CAUS-turn.around-REAL-3N.M.O</annotation_second_level>
+    <translation lang="en">'She roasted a plantain in the fire like this, she was turning it over.'</translation>
+    <words>
+      <word type="verb"><n>Akishitatzi</n><afl>akishi-t-atz-i</afl><asl>roast-EP-PROG-REAL</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>akishi</e_afl><e_asl>roast</e_asl></element>
+          <element sign="hyphen"><e_afl>t</e_afl><e_asl>EP</e_asl></element>
+          <element sign="hyphen"><e_afl>atz</e_afl><e_asl>PROG</e_asl></element>
+          <element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
+        </elements>
+      </word>
+      <word type="noun"><n>paryantzi</n><afl>paryantzi</afl><asl>plantain</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>paryantzi</e_afl><e_asl>plantain</e_asl></element>
+        </elements>
+      </word>
+      <word type="verb"><n>aka</n><afl>aka</afl><asl>DEM.ADV</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>aka</e_afl><e_asl>DEM.ADV</e_asl></element>
+        </elements>
+      </word>
+      <word type="verb"><n>oipitsokiro</n><afl>oi-pitsok-i-ro</afl><asl>CAUS-turn.around-REAL-3N.M.O</asl>
+        <elements>
+          <element sign="none"><e_afl>oi</e_afl><e_asl>CAUS</e_asl></element>
+          <element sign="hyphen;isroot:yes"><e_afl>pitsok</e_afl><e_asl>turn.around</e_asl></element>
+          <element sign="hyphen"><e_afl>i</e_afl><e_asl>REAL</e_asl></element>
+          <element sign="hyphen"><e_afl>ro</e_afl><e_asl>3n.m.O</e_asl></element>
+        </elements>
+      </word>
+    </words>
+  </sentence>
+
+  <sentence source_id="A0001" id="MIH.1.2.">
+    <annotation_source>
+      <![CDATA[
+(2)
+Ookotavakanaka, "Hiroka, hirika shirampari."
+ooko-t-av-ak-an-ak-a hiro=ka hiri=ka shirampari
+identify-EP-DIR-CAUS-DIR-PFV-REAL DEM.ID.N.M=DEM DEM.ID.M=DEM man
+'Together with those who accompanied her, she identified them [villagers] as witches: "Here she is, here is the man."'
+]]>
+    </annotation_source>
+    <normal istandard="yes">Ookotavakanaka, "Hiroka, hirika shirampari."</normal>
+    <annotation_first_level>ooko-t-av-ak-an-ak-a hiro=ka hiri=ka shirampari</annotation_first_level>
+    <annotation_second_level>identify-EP-DIR-CAUS-DIR-PFV-REAL DEM.ID.N.M=DEM DEM.ID.M=DEM man</annotation_second_level>
+    <translation lang="en">'Together with those who accompanied her, she identified them [villagers] as witches: "Here she is, here is the man."'</translation>
+    <words>
+      <word type="verb"><n>Ookotavakanaka</n><afl>ooko-t-av-ak-an-ak-a</afl><asl>identify-EP-DIR-CAUS-DIR-PFV-REAL</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>ooko</e_afl><e_asl>identify</e_asl></element>
+          <element sign="hyphen"><e_afl>t</e_afl><e_asl>EP</e_asl></element>
+          <element sign="hyphen"><e_afl>av</e_afl><e_asl>DIR</e_asl></element>
+          <element sign="hyphen"><e_afl>ak</e_afl><e_asl>CAUS</e_asl></element>
+          <element sign="hyphen"><e_afl>an</e_afl><e_asl>DIR</e_asl></element>
+          <element sign="hyphen"><e_afl>ak</e_afl><e_asl>PRF</e_asl></element>
+          <element sign="hyphen"><e_afl>a</e_afl><e_asl>REAL</e_asl></element>
+        </elements>
+      </word>
+      <word type="other"><n>"Hiroka</n><afl>hiro=ka</afl><asl>DEM.ID.N.M=DEM</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>hiro</e_afl><e_asl>DEM.ID.N.M</e_asl></element>
+          <element sign="equal"><e_afl>ka</e_afl><e_asl>DEM</e_asl></element>
+        </elements>
+      </word>
+      <word type="other"><n>hirika</n><afl>hiri=ka</afl><asl>DEM.ID.M=DEM</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>hiri</e_afl><e_asl>DEM.ID.M</e_asl></element>
+          <element sign="equal"><e_afl>ka</e_afl><e_asl>DEM</e_asl></element>
+        </elements>
+      </word>
+      <word type="noun"><n>shirampari"</n><afl>shirampari</afl><asl>man</asl>
+        <elements>
+          <element sign="none;isroot:yes"><e_afl>shirampari</e_afl><e_asl>man</e_asl></element>
+        </elements>
+      </word>
+    </words>
+  </sentence>
+
+
 
 </sentences>
 </annotated_sentences>
