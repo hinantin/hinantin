@@ -567,31 +567,26 @@
 
             <xs:enumeration value="1SG.S"/> <!-- found in source -->
             <xs:enumeration value="2SG.S"/> <!-- found in source -->
-            <xs:enumeration value="3SGm.S"/> <!-- not found in source -->
-            <xs:enumeration value="3SGnm.S"/> <!-- not found in source -->
+            <xs:enumeration value="2S"/> <!-- found in source -->
+            <xs:enumeration value="3m.S"/> <!-- found in source -->
+            <xs:enumeration value="3n.m.S"/> <!-- found in source -->
             <xs:enumeration value="1PL.S"/> <!-- found in source -->
             <xs:enumeration value="1SG.A"/> <!-- found in source -->
-            <xs:enumeration value="2SG.A"/> <!-- not found in source --> 
-            <xs:enumeration value="3SGm.A"/> <!-- not found in source -->
-            <xs:enumeration value="3SGnm.A"/> <!-- not found in source -->
-            <xs:enumeration value="1PL.A"/> <!-- found in source -->
-            <xs:enumeration value="3m.O"/> <!-- found in source -->
-
-            <!-- Observed -->
-            <xs:enumeration value="3n.m.S"/> <!-- found in source -->
-            <xs:enumeration value="3m.S"/> <!-- found in source -->
-            <xs:enumeration value="2S"/> <!-- found in source -->
-            <xs:enumeration value="3n.m.A"/> <!-- found in source -->
-            <xs:enumeration value="3m.A"/> <!-- found in source -->
             <xs:enumeration value="2A"/> <!-- found in source -->
+            <xs:enumeration value="3m.A"/> <!-- found in source -->
+            <xs:enumeration value="3n.m.A"/> <!-- found in source -->
+            <xs:enumeration value="1PL.A"/> <!-- found in source -->
+
+            <!-- penultimate or last verbal slot -->
+            <xs:enumeration value="3O"/> <!-- found in source -->
             <xs:enumeration value="1SG.O"/> <!-- found in source -->
-            <xs:enumeration value="3O"/>
-            <xs:enumeration value="2O"/>
+            <xs:enumeration value="3m.O"/> <!-- found in source -->
             <xs:enumeration value="3n.m.O"/> <!-- found in source -->
             <xs:enumeration value="1PL.O"/> <!-- found in source -->
+            <xs:enumeration value="2O"/> <!-- found in source -->
+
+            <!-- Observed -->
             <xs:enumeration value="3SG.m.IRR"/> <!-- found in source -->
-            <xs:enumeration value="3n.m."/> <!-- found in source -->
-            <xs:enumeration value="1PL"/> <!-- found in source -->
             
             <!-- Noun prefix slot 1 
             Where:
@@ -604,31 +599,13 @@
             SG  singular
             PL  plural            
             -->
-            <xs:enumeration value="1SG.poss"/>
-            <!-- found in source -->
-            <!-- <xs:enumeration value="2SG.poss"/> -->
-            <!-- not found in source -->
-            <xs:enumeration value="2poss"/>
-            <!-- found in source -->
-            <!-- <xs:enumeration value="3SGm.poss"/> -->
-            <!-- not found in source -->
-            <xs:enumeration value="3m.poss"/>
-            <!-- found in source -->
-            <xs:enumeration value="3n.m.poss"/>
-            <!-- found in source -->
-            <xs:enumeration value="3SGnm.poss"/>
-            <!-- not found in source -->
-            <xs:enumeration value="1PL.poss"/>
-            <!-- found in source -->
-            <!-- Observed -->
-            <xs:enumeration value="poss"/>
-            <!-- found in source -->
-            <xs:enumeration value="1SGposs"/>
-            <!-- found in source -->
-            <xs:enumeration value="3SG.poss"/>
-            <!-- not found in source -->
-            <xs:enumeration value="3poss"/>
-            <!-- found in source -->
+            <xs:enumeration value="1SG.poss"/> <!-- found in source -->
+            <xs:enumeration value="2poss"/> <!-- found in source -->
+            <xs:enumeration value="3m.poss"/> <!-- found in source -->
+            <xs:enumeration value="3n.m.poss"/> <!-- found in source -->
+            <xs:enumeration value="1PL.poss"/> <!-- found in source -->
+            <!-- Noun suffix slot -->
+            <xs:enumeration value="poss"/> <!-- found in source -->
 
         </xs:restriction>
     </xs:simpleType>

@@ -242,6 +242,7 @@
  <xs:enumeration value="iraa"/>
  <xs:enumeration value="irashi"/>
  <xs:enumeration value="iri"/>
+ <xs:enumeration value="iri@N.REALIZED.AS.RI@"/>
  <xs:enumeration value="irichi"/>
  <xs:enumeration value="iriiki"/>
  <xs:enumeration value="irika"/>
